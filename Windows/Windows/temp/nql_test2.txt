@@ -1,0 +1,2 @@
+query SELECT p FROM PRIME WHERE p BETWEEN 1 AND 50
+exit
