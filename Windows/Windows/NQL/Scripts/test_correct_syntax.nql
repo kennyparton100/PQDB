@@ -1,0 +1,11 @@
+PRINT 'Test correct syntax'
+LET x = 'start'
+
+ASSUME false THEN LET x = 'first' OTHERWISE ASSUME true THEN LET x = 'second' END ASSUME
+
+PRINT 'Result:', x
+
+LET y = 'start2'
+ASSUME false THEN LET y = 'first2' OTHERWISE LET y = 'fallback2' END ASSUME
+
+PRINT 'Result2:', y

@@ -1,0 +1,57 @@
+-- Phase 3 Test: SNAPSHOT / RESTORE
+-- Tests state capture and rollback functionality
+
+-- Test 1: Basic scalar snapshot/restore
+LET x = 10
+PRINT 'Initial x:', x
+SNAPSHOT s1
+LET x = 20
+PRINT 'After mutation x:', x
+RESTORE s1
+PRINT 'After restore x:', x
+
+-- Test 2: Array snapshot with alias preservation
+LET a = ARRAY(1, 2, 3)
+LET b = a  -- alias
+PRINT 'Initial a:', a
+PRINT 'Initial b (alias):', b
+SNAPSHOT s2
+LET a = ARRAY_APPEND(a, 4)  -- new array for a
+PRINT 'After ARRAY_APPEND a:', a
+PRINT 'After ARRAY_APPEND b:', b  -- should still be [1, 2, 3]
+RESTORE s2
+PRINT 'After restore a:', a
+PRINT 'After restore b:', b
+
+-- Test 3: Instance (class) snapshot
+CLASS Point
+    x : INT
+    y : INT
+END CLASS
+
+LET p = NEW Point()
+LET p.x = 5
+LET p.y = 10
+PRINT 'Initial p:', p.x, p.y
+SNAPSHOT s3
+LET p.x = 100
+LET p.y = 200
+PRINT 'After mutation p:', p.x, p.y
+RESTORE s3
+PRINT 'After restore p:', p.x, p.y
+
+-- Test 4: Nested snapshots
+LET counter = 1
+PRINT 'Initial counter:', counter
+SNAPSHOT outer
+LET counter = 2
+PRINT 'After outer snapshot counter:', counter
+SNAPSHOT inner
+LET counter = 3
+PRINT 'After inner snapshot counter:', counter
+RESTORE inner
+PRINT 'After restore inner counter:', counter
+RESTORE outer
+PRINT 'After restore outer counter:', counter
+
+PRINT 'Phase 3 tests complete'

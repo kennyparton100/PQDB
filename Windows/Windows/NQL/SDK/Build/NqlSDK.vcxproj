@@ -1,0 +1,445 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+
+  <!-- ============================================================ -->
+  <!-- Configuration matrix: x64 Debug / Release only               -->
+  <!-- ============================================================ -->
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+
+  <!-- ============================================================ -->
+  <!-- Globals                                                      -->
+  <!-- ============================================================ -->
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>17.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}</ProjectGuid>
+    <RootNamespace>NqlSDK</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>NqlSDK</ProjectName>
+  </PropertyGroup>
+
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+
+  <!-- ============================================================ -->
+  <!-- Configuration properties                                     -->
+  <!-- ============================================================ -->
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props"
+            Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')"
+            Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props"
+            Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')"
+            Label="LocalAppDataPlatform" />
+  </ImportGroup>
+
+  <!-- ============================================================ -->
+  <!-- Output directories                                           -->
+  <!-- ============================================================ -->
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <OutDir>$(SolutionDir)..\x64\Debug\</OutDir>
+    <IntDir>$(SolutionDir)..\x64\Debug\Intermediate\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <OutDir>$(SolutionDir)..\x64\Release\</OutDir>
+    <IntDir>$(SolutionDir)..\x64\Release\Intermediate\</IntDir>
+  </PropertyGroup>
+
+  <!-- ============================================================ -->
+  <!-- Compiler + Linker: Debug x64                                 -->
+  <!-- ============================================================ -->
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_WINDOWS;NQLSDK_BUILD;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <AdditionalIncludeDirectories>$(ProjectDir)..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>d3d12.lib;dxgi.lib;d3dcompiler.lib;dxguid.lib;windowscodecs.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <!-- Copy shaders to output directory -->
+    <PostBuildEvent>
+      <Command>
+        if not exist "$(OutDir)Shaders" mkdir "$(OutDir)Shaders"
+        xcopy /Y /D "$(ProjectDir)..\Shaders\*.hlsl" "$(OutDir)Shaders\"
+        if exist "$(ProjectDir)..\TexturePacks" xcopy /Y /D /E /I "$(ProjectDir)..\TexturePacks" "$(OutDir)TexturePacks\"
+      </Command>
+      <Message>Copying HLSL shaders to output directory...</Message>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+
+  <!-- ============================================================ -->
+  <!-- Compiler + Linker: Release x64                               -->
+  <!-- ============================================================ -->
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_WINDOWS;NQLSDK_BUILD;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <AdditionalIncludeDirectories>$(ProjectDir)..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>d3d12.lib;dxgi.lib;d3dcompiler.lib;dxguid.lib;windowscodecs.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <PostBuildEvent>
+      <Command>
+        if not exist "$(OutDir)Shaders" mkdir "$(OutDir)Shaders"
+        xcopy /Y /D "$(ProjectDir)..\Shaders\*.hlsl" "$(OutDir)Shaders\"
+        if exist "$(ProjectDir)..\TexturePacks" xcopy /Y /D /E /I "$(ProjectDir)..\TexturePacks" "$(OutDir)TexturePacks\"
+      </Command>
+      <Message>Copying HLSL shaders to output directory...</Message>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+
+  <!-- ============================================================ -->
+  <!-- Source files                                                  -->
+  <!-- ============================================================ -->
+  <ItemGroup>
+    <!-- C files (compiled as C) -->
+    <ClCompile Include="..\Core\API\sdk_api.c">
+      <CompileAs>CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="..\Core\Automation\sdk_automation.c">
+      <CompileAs>CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="..\Core\Server\sdk_server_runtime.c">
+      <CompileAs>CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="..\Core\API\Frontend\sdk_api_frontend.c">
+      <CompileAs>CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="..\Core\Frontend\sdk_frontend_assets.c">
+      <CompileAs>CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="..\Core\Frontend\sdk_frontend_worlds.c">
+      <CompileAs>CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="..\Core\Frontend\sdk_frontend_async.c">
+      <CompileAs>CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="..\Core\Frontend\sdk_frontend_worldgen.c">
+      <CompileAs>CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="..\Core\Frontend\sdk_frontend_online.c">
+      <CompileAs>CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="..\Core\Frontend\sdk_frontend_menu.c">
+      <CompileAs>CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="..\Core\API\Session\sdk_api_session.c">
+      <CompileAs>CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="..\Core\API\Interactions\sdk_api_interaction.c">
+      <CompileAs>CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="..\Core\API\Player\sdk_api_player.c">
+      <CompileAs>CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="..\Core\API\Crafting\sdk_api_crafting.c">
+      <CompileAs>CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="..\Core\Crafting\sdk_station_runtime.c">
+      <CompileAs>CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="..\Core\Crafting\sdk_crafting_ui.c">
+      <CompileAs>CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="..\Core\CreativeModeInventory\sdk_creative_inventory.c">
+      <CompileAs>CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="..\Core\PauseMenu\sdk_pause_menu.c">
+      <CompileAs>CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="..\Core\SkillMenu\sdk_skills_menu.c">
+      <CompileAs>CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="..\Core\Map\sdk_map_input.c">
+      <CompileAs>CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="..\Core\Benchmark\sdk_benchmark.c">
+      <CompileAs>CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="..\Core\Profiler\sdk_profiler.c">
+      <CompileAs>CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="..\Core\Runtime\sdk_runtime_host.c">
+      <CompileAs>CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="..\Core\LZ4\lz4.c">
+      <CompileAs>CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="..\Core\World\Worldgen\TileCache\sdk_worldgen_tile_cache.c">
+      <CompileAs>CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="..\Core\World\Worldgen\SharedCache\sdk_worldgen_shared_cache.c">
+      <CompileAs>CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="..\Core\World\Worldgen\Scheduler\sdk_worldgen_scheduler.c">
+      <CompileAs>CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="..\Core\World\Settlements\Persistence\sdk_settlement_persistence.c">
+      <CompileAs>CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="..\Core\Math\sdk_math.c">
+      <CompileAs>CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="..\Core\Camera\sdk_camera.c">
+      <CompileAs>CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="..\Core\Scene\sdk_scene.c">
+      <CompileAs>CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="..\Core\World\Blocks\sdk_block.c">
+      <CompileAs>CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="..\Core\World\Chunks\sdk_chunk.c">
+      <CompileAs>CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="..\Core\World\Chunks\ChunkCompression\chunk_compress.c">
+      <CompileAs>CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="..\Core\World\Chunks\ChunkCompression\chunk_compress_impl.c">
+      <CompileAs>CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="..\Core\World\Chunks\ChunkCompression\rle_decoder.c">
+      <CompileAs>CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="..\Core\World\Chunks\ChunkCompression\sdk_chunk_codec.c">
+      <CompileAs>CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="..\Core\World\Simulation\sdk_simulation.c">
+      <CompileAs>CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="..\Core\World\Chunks\ChunkManager\sdk_chunk_manager.c">
+      <CompileAs>CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="..\Core\World\Chunks\ChunkStreamer\sdk_chunk_streamer.c">
+      <CompileAs>CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="..\Core\World\Persistence\sdk_persistence.c">
+      <CompileAs>CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="..\Core\World\Persistence\sdk_world_tooling.c">
+      <CompileAs>CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="..\Core\World\Persistence\sdk_chunk_save_json.c">
+      <CompileAs>CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="..\Core\Settings\sdk_settings.c">
+      <CompileAs>CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="..\Core\Input\sdk_input.c">
+      <CompileAs>CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="..\Core\World\Worldgen\sdk_worldgen.c">
+      <CompileAs>CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="..\Core\World\Worldgen\Macro\sdk_worldgen_macro.c">
+      <CompileAs>CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="..\Core\World\Worldgen\Continental\sdk_worldgen_continental.c">
+      <CompileAs>CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="..\Core\World\Worldgen\Hydro\sdk_worldgen_hydro.c">
+      <CompileAs>CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="..\Core\World\Worldgen\Column\sdk_worldgen_column.c">
+      <CompileAs>CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="..\Core\World\Worldgen\Column\sdk_worldgen_column_region.c">
+      <CompileAs>CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="..\Core\World\Worldgen\Column\sdk_worldgen_column_geology.c">
+      <CompileAs>CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="..\Core\World\Worldgen\Column\sdk_worldgen_column_surface.c">
+      <CompileAs>CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="..\Core\World\Worldgen\Column\sdk_worldgen_column_debug.c">
+      <CompileAs>CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="..\Core\World\Worldgen\DebugReport\sdk_worldgen_debug_report.c">
+      <CompileAs>CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="..\Core\World\Worldgen\ConstructionCells\sdk_worldgen_construction_cells.c">
+      <CompileAs>CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="..\Core\World\Worldgen\ConstructionCells\sdk_worldgen_terrain_edge_cells.c">
+      <CompileAs>CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="..\Core\World\Worldgen\ConstructionCells\EdgeConfigResolver\sdk_worldgen_construction_cells_edge_config_resolver.c">
+      <CompileAs>CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="..\Core\World\Chunks\Topology\sdk_chunk_topology.c">
+      <CompileAs>CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="..\Core\World\Superchunks\Config\sdk_superchunk_config.c">
+      <CompileAs>CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="..\Core\World\Config\sdk_world_config.c">
+      <CompileAs>CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="..\Core\World\Walls\Config\sdk_world_walls_config.c">
+      <CompileAs>CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="..\Core\World\Terrain\sdk_terrain.c">
+      <CompileAs>CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="..\Core\MeshBuilder\sdk_mesh_builder.c">
+      <CompileAs>CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="..\Core\Entities\sdk_entity.c">
+      <CompileAs>CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="..\Core\World\ConstructionCells\sdk_construction_cells.c">
+      <CompileAs>CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="..\Core\World\Buildings\sdk_building_family.c">
+      <CompileAs>CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="..\Core\RoleAssets\sdk_role_assets.c">
+      <CompileAs>CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="..\Core\World\Settlements\sdk_settlement.c">
+      <CompileAs>CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="..\Core\World\Settlements\Placement\sdk_settlement_placement.c">
+      <CompileAs>CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="..\Core\World\Settlements\Layout\sdk_settlement_layout.c">
+      <CompileAs>CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="..\Core\World\Settlements\Roads\sdk_settlement_roads.c">
+      <CompileAs>CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="..\Core\World\Settlements\Building\sdk_settlement_building.c">
+      <CompileAs>CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="..\Core\World\Settlements\Runtime\sdk_settlement_runtime.c">
+      <CompileAs>CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="..\Core\World\Settlements\Foundation\sdk_settlement_foundation.c">
+      <CompileAs>CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="..\Core\World\Settlements\Terrain\sdk_settlement_terrain.c">
+      <CompileAs>CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="..\Platform\Win32\sdk_window.c">
+      <CompileAs>CompileAsC</CompileAs>
+    </ClCompile>
+    <!-- C++ files -->
+    <ClCompile Include="..\Renderer\d3d12_renderer.cpp" />
+    <ClCompile Include="..\Renderer\d3d12_renderer_resources.cpp" />
+    <ClCompile Include="..\Renderer\d3d12_renderer_textures.cpp" />
+    <ClCompile Include="..\Renderer\d3d12_renderer_frame.cpp" />
+    <ClCompile Include="..\Renderer\d3d12_renderer_screenshot.cpp" />
+    <ClCompile Include="..\Renderer\d3d12_renderer_chunks.cpp" />
+    <ClCompile Include="..\Renderer\d3d12_renderer_chunks_unified.cpp" />
+    <ClCompile Include="..\Renderer\d3d12_renderer_hud.cpp" />
+    <ClCompile Include="..\Renderer\d3d12_pipeline.cpp" />
+    <ClCompile Include="..\App\main.cpp" />
+  </ItemGroup>
+
+  <!-- ============================================================ -->
+  <!-- Header files                                                  -->
+  <!-- ============================================================ -->
+  <ItemGroup>
+    <ClInclude Include="..\Core\sdk_types.h" />
+    <ClInclude Include="..\Core\API\sdk_api.h" />
+    <ClInclude Include="..\Core\API\sdk_api_internal.h" />
+    <ClInclude Include="..\Core\Runtime\sdk_runtime_internal.h" />
+    <ClInclude Include="..\Core\Server\sdk_session_internal.h" />
+    <ClInclude Include="..\Core\Frontend\sdk_frontend_internal.h" />
+    <ClInclude Include="..\Core\Map\sdk_map_internal.h" />
+    <ClInclude Include="..\Core\Crafting\sdk_station_internal.h" />
+    <ClInclude Include="..\Core\Math\sdk_math.h" />
+    <ClInclude Include="..\Core\Camera\sdk_camera.h" />
+    <ClInclude Include="..\Core\World\Chunks\sdk_chunk.h" />
+    <ClInclude Include="..\Core\World\Simulation\sdk_simulation.h" />
+    <ClInclude Include="..\Core\World\Chunks\ChunkManager\sdk_chunk_manager.h" />
+    <ClInclude Include="..\Core\World\Chunks\ChunkStreamer\sdk_chunk_streamer.h" />
+    <ClInclude Include="..\Core\World\Persistence\sdk_persistence.h" />
+    <ClInclude Include="..\Core\Settings\sdk_settings.h" />
+    <ClInclude Include="..\Core\Input\sdk_input.h" />
+    <ClInclude Include="..\Core\World\Worldgen\Types\sdk_worldgen_types.h" />
+    <ClInclude Include="..\Core\World\Worldgen\sdk_worldgen.h" />
+    <ClInclude Include="..\Core\World\Worldgen\Internal\sdk_worldgen_internal.h" />
+    <ClInclude Include="..\Core\World\Worldgen\TileCache\sdk_worldgen_tile_cache.h" />
+    <ClInclude Include="..\Core\World\Worldgen\SharedCache\sdk_worldgen_shared_cache.h" />
+    <ClInclude Include="..\Core\LZ4\lz4.h" />
+    <ClInclude Include="..\Core\World\Worldgen\Column\sdk_worldgen_column_internal.h" />
+    <ClInclude Include="..\Core\World\Worldgen\Column\sdk_worldgen_column_shared.h" />
+    <ClInclude Include="..\Core\World\Worldgen\ConstructionCells\sdk_worldgen_construction_cells.h" />
+    <ClInclude Include="..\Core\World\Superchunks\Geometry\sdk_superchunk_geometry.h" />
+    <ClInclude Include="..\Core\World\Superchunks\Geometry\sdk_superchunk_config.h" />
+    <ClInclude Include="..\Core\World\Terrain\sdk_terrain.h" />
+    <ClInclude Include="..\Core\MeshBuilder\sdk_mesh_builder.h" />
+    <ClInclude Include="..\Core\Entities\sdk_entity.h" />
+    <ClInclude Include="..\Core\World\ConstructionCells\sdk_construction_cells.h" />
+    <ClInclude Include="..\Core\World\Buildings\sdk_building_family.h" />
+    <ClInclude Include="..\Core\RoleAssets\sdk_role_assets.h" />
+    <ClInclude Include="..\Core\World\Settlements\Types\sdk_settlement_types.h" />
+    <ClInclude Include="..\Core\World\Settlements\sdk_settlement.h" />
+    <ClInclude Include="..\Core\World\Settlements\Roads\sdk_settlement_roads.h" />
+    <ClInclude Include="..\Core\World\Settlements\Runtime\sdk_settlement_runtime.h" />
+    <ClInclude Include="..\Platform\Win32\sdk_window.h" />
+    <ClInclude Include="..\Renderer\d3d12_helpers.h" />
+    <ClInclude Include="..\Renderer\d3d12_renderer.h" />
+    <ClInclude Include="..\Renderer\d3d12_renderer_internal.h" />
+    <ClInclude Include="..\Renderer\sdk_renderer_hud_internal.h" />
+    <ClInclude Include="..\Renderer\d3d12_pipeline.h" />
+  </ItemGroup>
+
+  <!-- ============================================================ -->
+  <!-- Shader files (not compiled by MSVC — copied via post-build)  -->
+  <!-- ============================================================ -->
+  <ItemGroup>
+    <None Include="..\Shaders\triangle_vs.hlsl" />
+    <None Include="..\Shaders\triangle_ps.hlsl" />
+  </ItemGroup>
+
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+</Project>

@@ -1,0 +1,1360 @@
+'NqlSDK.exe' (Win32): Loaded 'C:\GitHub\CPSS\PrimeNumberTools\Viewers\C\Windows\Windows\NQL\SDK\x64\Debug\NqlSDK.exe'. Symbols loaded.
+'NqlSDK.exe' (Win32): Loaded 'C:\Windows\System32\ntdll.dll'. Symbol loading disabled by Include/Exclude setting.
+'NqlSDK.exe' (Win32): Loaded 'C:\Windows\System32\kernel32.dll'. Symbol loading disabled by Include/Exclude setting.
+'NqlSDK.exe' (Win32): Loaded 'C:\Windows\System32\KernelBase.dll'. Symbol loading disabled by Include/Exclude setting.
+'NqlSDK.exe' (Win32): Loaded 'C:\Windows\System32\user32.dll'. Symbol loading disabled by Include/Exclude setting.
+'NqlSDK.exe' (Win32): Loaded 'C:\Windows\System32\win32u.dll'. Symbol loading disabled by Include/Exclude setting.
+'NqlSDK.exe' (Win32): Loaded 'C:\Windows\System32\dxgi.dll'. Symbol loading disabled by Include/Exclude setting.
+'NqlSDK.exe' (Win32): Loaded 'C:\Windows\System32\D3D12.dll'. Symbol loading disabled by Include/Exclude setting.
+'NqlSDK.exe' (Win32): Loaded 'C:\Windows\System32\gdi32.dll'. Symbol loading disabled by Include/Exclude setting.
+'NqlSDK.exe' (Win32): Loaded 'C:\Windows\System32\msvcp_win.dll'. Symbol loading disabled by Include/Exclude setting.
+'NqlSDK.exe' (Win32): Loaded 'C:\Windows\System32\gdi32full.dll'. Symbol loading disabled by Include/Exclude setting.
+'NqlSDK.exe' (Win32): Loaded 'C:\Windows\System32\ucrtbase.dll'. Symbol loading disabled by Include/Exclude setting.
+'NqlSDK.exe' (Win32): Loaded 'C:\Windows\System32\ole32.dll'. Symbol loading disabled by Include/Exclude setting.
+'NqlSDK.exe' (Win32): Loaded 'C:\Windows\System32\D3DCompiler_47.dll'. Symbol loading disabled by Include/Exclude setting.
+'NqlSDK.exe' (Win32): Loaded 'C:\Windows\System32\rpcrt4.dll'. Symbol loading disabled by Include/Exclude setting.
+'NqlSDK.exe' (Win32): Loaded 'C:\Windows\System32\combase.dll'. Symbol loading disabled by Include/Exclude setting.
+'NqlSDK.exe' (Win32): Loaded 'C:\Windows\System32\powrprof.dll'. Symbol loading disabled by Include/Exclude setting.
+'NqlSDK.exe' (Win32): Loaded 'C:\Windows\System32\msvcp140d.dll'. Symbol loading disabled by Include/Exclude setting.
+'NqlSDK.exe' (Win32): Loaded 'C:\Windows\System32\vcruntime140d.dll'. Symbol loading disabled by Include/Exclude setting.
+'NqlSDK.exe' (Win32): Loaded 'C:\Windows\System32\ucrtbased.dll'. Symbol loading disabled by Include/Exclude setting.
+'NqlSDK.exe' (Win32): Loaded 'C:\Windows\System32\vcruntime140_1d.dll'. Symbol loading disabled by Include/Exclude setting.
+'NqlSDK.exe' (Win32): Loaded 'C:\Windows\System32\cryptsp.dll'. Symbol loading disabled by Include/Exclude setting.
+'NqlSDK.exe' (Win32): Loaded 'C:\Windows\System32\umpdc.dll'. Symbol loading disabled by Include/Exclude setting.
+'NqlSDK.exe' (Win32): Loaded 'C:\Windows\System32\imm32.dll'. Symbol loading disabled by Include/Exclude setting.
+[SHARED_CACHE] Initialized global worldgen cache
+'NqlSDK.exe' (Win32): Loaded 'C:\Windows\System32\uxtheme.dll'. Symbol loading disabled by Include/Exclude setting.
+'NqlSDK.exe' (Win32): Loaded 'C:\Windows\System32\msctf.dll'. Symbol loading disabled by Include/Exclude setting.
+'NqlSDK.exe' (Win32): Loaded 'C:\Windows\System32\msvcrt.dll'. Symbol loading disabled by Include/Exclude setting.
+'NqlSDK.exe' (Win32): Loaded 'C:\Windows\System32\kernel.appcore.dll'. Symbol loading disabled by Include/Exclude setting.
+'NqlSDK.exe' (Win32): Loaded 'C:\Windows\System32\bcryptprimitives.dll'. Symbol loading disabled by Include/Exclude setting.
+'NqlSDK.exe' (Win32): Loaded 'C:\Windows\System32\oleaut32.dll'. Symbol loading disabled by Include/Exclude setting.
+'NqlSDK.exe' (Win32): Loaded 'C:\Windows\System32\sechost.dll'. Symbol loading disabled by Include/Exclude setting.
+'NqlSDK.exe' (Win32): Loaded 'C:\Windows\System32\TextInputFramework.dll'. Symbol loading disabled by Include/Exclude setting.
+'NqlSDK.exe' (Win32): Loaded 'C:\Windows\System32\CoreMessaging.dll'. Symbol loading disabled by Include/Exclude setting.
+'NqlSDK.exe' (Win32): Loaded 'C:\Windows\System32\CoreUIComponents.dll'. Symbol loading disabled by Include/Exclude setting.
+'NqlSDK.exe' (Win32): Loaded 'C:\Windows\System32\WinTypes.dll'. Symbol loading disabled by Include/Exclude setting.
+'NqlSDK.exe' (Win32): Loaded 'C:\Windows\System32\advapi32.dll'. Symbol loading disabled by Include/Exclude setting.
+'NqlSDK.exe' (Win32): Loaded 'C:\Windows\System32\cryptbase.dll'. Symbol loading disabled by Include/Exclude setting.
+'NqlSDK.exe' (Win32): Loaded 'C:\Windows\System32\oleacc.dll'. Symbol loading disabled by Include/Exclude setting.
+The thread 'ShellHandwriting Delegate Thread' (43572) has exited with code 0 (0x0).
+'NqlSDK.exe' (Win32): Loaded 'C:\Windows\System32\D3D12Core.dll'. Symbol loading disabled by Include/Exclude setting.
+'NqlSDK.exe' (Win32): Loaded 'C:\Windows\System32\DXGIDebug.dll'. Symbol loading disabled by Include/Exclude setting.
+'NqlSDK.exe' (Win32): Loaded 'C:\Windows\System32\d3d12SDKLayers.dll'. Symbol loading disabled by Include/Exclude setting.
+'NqlSDK.exe' (Win32): Unloaded 'C:\Windows\System32\DXGIDebug.dll'
+'NqlSDK.exe' (Win32): Unloaded 'C:\Windows\System32\d3d12SDKLayers.dll'
+'NqlSDK.exe' (Win32): Loaded 'C:\Windows\System32\DXGIDebug.dll'. Symbol loading disabled by Include/Exclude setting.
+'NqlSDK.exe' (Win32): Loaded 'C:\Windows\System32\DXCore.dll'. Symbol loading disabled by Include/Exclude setting.
+'NqlSDK.exe' (Win32): Loaded 'C:\Windows\System32\ResourcePolicyClient.dll'. Symbol loading disabled by Include/Exclude setting.
+'NqlSDK.exe' (Win32): Unloaded 'C:\Windows\System32\ResourcePolicyClient.dll'
+'NqlSDK.exe' (Win32): Loaded 'C:\Windows\System32\directxdatabasehelper.dll'. Symbol loading disabled by Include/Exclude setting.
+'NqlSDK.exe' (Win32): Loaded 'C:\Windows\System32\cfgmgr32.dll'. Symbol loading disabled by Include/Exclude setting.
+'NqlSDK.exe' (Win32): Loaded 'C:\Windows\System32\DriverStore\FileRepository\nvamsi.inf_amd64_82cd5f0af3386fea\nvdlistx.dll'. Symbol loading disabled by Include/Exclude setting.
+'NqlSDK.exe' (Win32): Loaded 'C:\Windows\System32\version.dll'. Symbol loading disabled by Include/Exclude setting.
+'NqlSDK.exe' (Win32): Unloaded 'C:\Windows\System32\version.dll'
+'NqlSDK.exe' (Win32): Unloaded 'C:\Windows\System32\DriverStore\FileRepository\nvamsi.inf_amd64_82cd5f0af3386fea\nvdlistx.dll'
+'NqlSDK.exe' (Win32): Loaded 'C:\Windows\System32\DriverStore\FileRepository\nvamsi.inf_amd64_82cd5f0af3386fea\nvdlistx.dll'. Symbol loading disabled by Include/Exclude setting.
+'NqlSDK.exe' (Win32): Loaded 'C:\Windows\System32\version.dll'. Symbol loading disabled by Include/Exclude setting.
+'NqlSDK.exe' (Win32): Loaded 'C:\Windows\System32\DriverStore\FileRepository\u0414671.inf_amd64_d35a7e787428e027\B414600\amdxc64.dll'. Symbol loading disabled by Include/Exclude setting.
+'NqlSDK.exe' (Win32): Loaded 'C:\Windows\System32\winmm.dll'. Symbol loading disabled by Include/Exclude setting.
+'NqlSDK.exe' (Win32): Loaded 'C:\Windows\System32\shell32.dll'. Symbol loading disabled by Include/Exclude setting.
+'NqlSDK.exe' (Win32): Unloaded 'C:\Windows\System32\DriverStore\FileRepository\nvamsi.inf_amd64_82cd5f0af3386fea\nvdlistx.dll'
+'NqlSDK.exe' (Win32): Loaded 'C:\Windows\System32\windows.storage.dll'. Symbol loading disabled by Include/Exclude setting.
+The thread 36104 has exited with code 0 (0x0).
+'NqlSDK.exe' (Win32): Loaded 'C:\Windows\System32\SHCore.dll'. Symbol loading disabled by Include/Exclude setting.
+'NqlSDK.exe' (Win32): Loaded 'C:\Windows\System32\shlwapi.dll'. Symbol loading disabled by Include/Exclude setting.
+'NqlSDK.exe' (Win32): Loaded 'C:\Windows\System32\bcrypt.dll'. Symbol loading disabled by Include/Exclude setting.
+'NqlSDK.exe' (Win32): Loaded 'C:\Windows\System32\DriverStore\FileRepository\u0414671.inf_amd64_d35a7e787428e027\B414600\amdihk64.dll'. Module was built without symbols.
+'NqlSDK.exe' (Win32): Loaded 'C:\Windows\System32\d3d12SDKLayers.dll'. Symbol loading disabled by Include/Exclude setting.
+'NqlSDK.exe' (Win32): Unloaded 'C:\Windows\System32\d3d12SDKLayers.dll'
+'NqlSDK.exe' (Win32): Unloaded 'C:\Windows\System32\DriverStore\FileRepository\u0414671.inf_amd64_d35a7e787428e027\B414600\amdihk64.dll'
+'NqlSDK.exe' (Win32): Unloaded 'C:\Windows\System32\winmm.dll'
+'NqlSDK.exe' (Win32): Unloaded 'C:\Windows\System32\version.dll'
+'NqlSDK.exe' (Win32): Unloaded 'C:\Windows\System32\DriverStore\FileRepository\u0414671.inf_amd64_d35a7e787428e027\B414600\amdxc64.dll'
+'NqlSDK.exe' (Win32): Loaded 'C:\Windows\System32\DriverStore\FileRepository\u0414671.inf_amd64_d35a7e787428e027\B414600\amdxc64.dll'. Symbol loading disabled by Include/Exclude setting.
+'NqlSDK.exe' (Win32): Loaded 'C:\Windows\System32\winmm.dll'. Symbol loading disabled by Include/Exclude setting.
+'NqlSDK.exe' (Win32): Loaded 'C:\Windows\System32\version.dll'. Symbol loading disabled by Include/Exclude setting.
+'NqlSDK.exe' (Win32): Loaded 'C:\Windows\System32\DriverStore\FileRepository\u0414671.inf_amd64_d35a7e787428e027\B414600\amdihk64.dll'. Module was built without symbols.
+'NqlSDK.exe' (Win32): Loaded 'C:\Windows\System32\d3d12SDKLayers.dll'. Symbol loading disabled by Include/Exclude setting.
+'NqlSDK.exe' (Win32): Loaded 'C:\Windows\System32\D3DSCache.dll'. Symbol loading disabled by Include/Exclude setting.
+'NqlSDK.exe' (Win32): Loaded 'C:\Windows\System32\userenv.dll'. Symbol loading disabled by Include/Exclude setting.
+'NqlSDK.exe' (Win32): Loaded 'C:\Windows\System32\dxilconv.dll'. Symbol loading disabled by Include/Exclude setting.
+'NqlSDK.exe' (Win32): Unloaded 'C:\Windows\System32\dxilconv.dll'
+'NqlSDK.exe' (Win32): Loaded 'C:\Windows\System32\dcomp.dll'. Symbol loading disabled by Include/Exclude setting.
+'NqlSDK.exe' (Win32): Loaded 'C:\Windows\System32\Microsoft.Internal.WarpPal.dll'. Symbol loading disabled by Include/Exclude setting.
+'NqlSDK.exe' (Win32): Loaded 'C:\Windows\System32\dwmapi.dll'. Symbol loading disabled by Include/Exclude setting.
+'NqlSDK.exe' (Win32): Loaded 'C:\Windows\System32\rsaenh.dll'. Symbol loading disabled by Include/Exclude setting.
+'NqlSDK.exe' (Win32): Loaded 'C:\Windows\System32\dxilconv.dll'. Symbol loading disabled by Include/Exclude setting.
+'NqlSDK.exe' (Win32): Loaded 'C:\Windows\System32\clbcatq.dll'. Symbol loading disabled by Include/Exclude setting.
+'NqlSDK.exe' (Win32): Loaded 'C:\Windows\System32\WindowsCodecs.dll'. Symbol loading disabled by Include/Exclude setting.
+'NqlSDK.exe' (Win32): Loaded 'C:\Windows\System32\TextShaping.dll'. Symbol loading disabled by Include/Exclude setting.
+[NQL SDK] Camera init: pos(0.00,200.00,0.00) tgt(0.00,180.00,64.00)
+'NqlSDK.exe' (Win32): Loaded 'C:\Windows\System32\ApplicationTargetedFeatureDatabase.dll'. Symbol loading disabled by Include/Exclude setting.
+'NqlSDK.exe' (Win32): Loaded 'C:\Windows\System32\twinapi.appcore.dll'. Symbol loading disabled by Include/Exclude setting.
+The thread 'ShellHandwriting Delegate Thread' (11424) has exited with code 0 (0x0).
+[GEN_STAGE] begin idx=0/16 name="Opening world save"
+[GEN_STAGE] end idx=0 name="Opening world save" duration=16ms chunks=0 data_kb=0
+[GEN_STAGE] begin idx=1/16 name="Initializing world generator"
+[GEN_STAGE] end idx=1 name="Initializing world generator" duration=16ms chunks=0 data_kb=0
+[GEN_STAGE] begin idx=2/16 name="Preparing world systems"
+[GEN_STAGE] end idx=2 name="Preparing world systems" duration=46ms chunks=0 data_kb=0
+[GEN_STAGE] begin idx=3/16 name="Loading station state"
+[GEN_STAGE] end idx=3 name="Loading station state" duration=0ms chunks=0 data_kb=0
+[GEN_STAGE] begin idx=4/16 name="Preparing chunk systems"
+[STREAMER] Initializing with 16 worker threads
+[GEN_STAGE] end idx=4 name="Preparing chunk systems" duration=32ms chunks=0 data_kb=0
+[GEN_STAGE] begin idx=5/16 name="Initializing entities"
+[GEN_STAGE] end idx=5 name="Initializing entities" duration=0ms chunks=0 data_kb=0
+[GEN_STAGE] begin idx=6/16 name="Restoring world state"
+[SPAWN] Random spawn at (-204,169) top=215 surface=213 water=0 province=10 moisture=3 relief=0 score=0
+[GEN_STAGE] end idx=6 name="Restoring world state" duration=562ms chunks=0 data_kb=0
+[GEN_STAGE] begin idx=7/16 name="Planning visible chunks"
+[GEN_STAGE] end idx=7 name="Planning visible chunks" duration=0ms chunks=0 data_kb=0
+[GEN_STAGE] begin idx=8/16 name="Loading nearby chunks"
+[BOOTSTRAP] sync_target_total=9 safety_radius=1
+[WORKER] Processing job cx=-4 cz=2 gen=2 type=GENERATE
+[READINESS] desired=9 resident=0 gpu_ready=0 | skips: not_primary=144 outside_radius=247 no_chunk=9 no_blocks=0 | pending: jobs=24 results=0
+[WORKER] Processing job cx=-3 cz=2 gen=2 type=GENERATE
+[WORKER] Processing job cx=-4 cz=3 gen=2 type=GENERATE
+[WORKER] Processing job cx=-4 cz=1 gen=2 type=GENERATE
+[WORKER] Processing job cx=-5 cz=2 gen=2 type=GENERATE
+[WORKER] Processing job cx=-5 cz=1 gen=2 type=GENERATE
+[WORKER] Processing job cx=-5 cz=3 gen=2 type=GENERATE
+[WORKER] Processing job cx=-4 cz=4 gen=2 type=GENERATE
+[WORKER] Processing job cx=-3 cz=3 gen=2 type=GENERATE
+[WORKER] Processing job cx=-4 cz=0 gen=2 type=GENERATE
+[WORKER] Processing job cx=-6 cz=2 gen=2 type=GENERATE
+[WORKER] Processing job cx=-2 cz=1 gen=2 type=GENERATE
+[WORKER] Processing job cx=-3 cz=0 gen=2 type=GENERATE
+[WORKER] Processing job cx=-3 cz=1 gen=2 type=GENERATE
+[WORKER] Processing job cx=-5 cz=4 gen=2 type=GENERATE
+[WORKER] Processing job cx=-2 cz=2 gen=2 type=GENERATE
+[WORKER] Meshing cx=-3 cz=0 (persisted=0)
+[WORKER] Meshing cx=-4 cz=0 (persisted=0)
+[READINESS] desired=9 resident=0 gpu_ready=0 | skips: not_primary=144 outside_radius=247 no_chunk=9 no_blocks=0 | pending: jobs=9 results=0
+[WORKER] Meshing cx=-2 cz=1 (persisted=0)
+[WORKER] Meshing cx=-3 cz=1 (persisted=0)
+[WORKER] Meshing cx=-4 cz=1 (persisted=0)
+[READINESS] desired=9 resident=0 gpu_ready=0 | skips: not_primary=144 outside_radius=247 no_chunk=9 no_blocks=0 | pending: jobs=9 results=0
+[WORKER] Meshing cx=-2 cz=2 (persisted=0)
+[WORKER] Meshing cx=-3 cz=2 (persisted=0)
+[WORKER] Meshing cx=-4 cz=4 (persisted=0)
+[WORKER] Meshing cx=-3 cz=3 (persisted=0)
+[WORKER] Meshing cx=-4 cz=3 (persisted=0)
+[WORKER] Meshing cx=-4 cz=2 (persisted=0)
+[WORKER] Mesh complete cx=-2 cz=1 built=0000024499BB5D00
+[WORKER] Queuing result cx=-2 cz=1 gen=2 built=0000024499BB5D00 results=0/768
+[WORKER] Processing job cx=-6 cz=1 gen=2 type=GENERATE
+[WORKER] Mesh complete cx=-3 cz=1 built=0000024499BB7320
+[WORKER] Queuing result cx=-3 cz=1 gen=2 built=0000024499BB7320 results=1/768
+[WORKER] Processing job cx=-3 cz=4 gen=2 type=GENERATE
+[PROCESS] Popped result cx=-2 cz=1 gen=2 type=GENERATE built=0000024499BB5D00
+[ADOPT] Adopting chunk (-2,1) gen=2 role=1
+[ADOPT] SUCCESS chunk (-2,1) now resident. loaded_from_persist=0
+[PROCESS] Adoption result: adopted=1 for cx=-2 cz=1
+[PROCESS] Popped result cx=-3 cz=1 gen=2 type=GENERATE built=0000024499BB7320
+[ADOPT] Adopting chunk (-3,1) gen=2 role=1
+[ADOPT] SUCCESS chunk (-3,1) now resident. loaded_from_persist=0
+[PROCESS] Adoption result: adopted=1 for cx=-3 cz=1
+[WORKER] Meshing cx=-5 cz=1 (persisted=0)
+[WORKER] Meshing cx=-6 cz=2 (persisted=0)
+[WORKER] Meshing cx=-5 cz=2 (persisted=0)
+[WORKER] Meshing cx=-5 cz=3 (persisted=0)
+[WORKER] Meshing cx=-5 cz=4 (persisted=0)
+[READINESS] desired=9 resident=1 gpu_ready=0 | skips: not_primary=144 outside_radius=247 no_chunk=8 no_blocks=0 | pending: jobs=7 results=0
+[WORKER] Mesh complete cx=-3 cz=0 built=0000024499BB51F0
+[WORKER] Queuing result cx=-3 cz=0 gen=2 built=0000024499BB51F0 results=0/768
+[WORKER] Processing job cx=-2 cz=3 gen=2 type=GENERATE
+[WORKER] Mesh complete cx=-2 cz=2 built=0000024499BB8940
+[WORKER] Queuing result cx=-2 cz=2 gen=2 built=0000024499BB8940 results=1/768
+[WORKER] Processing job cx=-6 cz=3 gen=2 type=GENERATE
+[PROCESS] Popped result cx=-3 cz=0 gen=2 type=GENERATE built=0000024499BB51F0
+[ADOPT] Adopting chunk (-3,0) gen=2 role=2
+[ADOPT] SUCCESS chunk (-3,0) now resident. loaded_from_persist=0
+[PROCESS] Adoption result: adopted=1 for cx=-3 cz=0
+[WORKER] Mesh complete cx=-4 cz=1 built=0000024499BB9F60
+[WORKER] Queuing result cx=-4 cz=1 gen=2 built=0000024499BB9F60 results=1/768
+[WORKER] Processing job cx=-5 cz=0 gen=2 type=GENERATE
+[PROCESS] Popped result cx=-2 cz=2 gen=2 type=GENERATE built=0000024499BB8940
+[ADOPT] Adopting chunk (-2,2) gen=2 role=1
+[ADOPT] SUCCESS chunk (-2,2) now resident. loaded_from_persist=0
+[PROCESS] Adoption result: adopted=1 for cx=-2 cz=2
+[PROCESS] Popped result cx=-4 cz=1 gen=2 type=GENERATE built=0000024499BB9F60
+[ADOPT] Adopting chunk (-4,1) gen=2 role=1
+[ADOPT] SUCCESS chunk (-4,1) now resident. loaded_from_persist=0
+[PROCESS] Adoption result: adopted=1 for cx=-4 cz=1
+[WORKER] Mesh complete cx=-4 cz=0 built=0000024499BBB580
+[WORKER] Queuing result cx=-4 cz=0 gen=2 built=0000024499BBB580 results=0/768
+[WORKER] Processing job cx=-2 cz=4 gen=2 type=GENERATE
+[PROCESS] Popped result cx=-4 cz=0 gen=2 type=GENERATE built=0000024499BBB580
+[ADOPT] Adopting chunk (-4,0) gen=2 role=2
+[ADOPT] SUCCESS chunk (-4,0) now resident. loaded_from_persist=0
+[PROCESS] Adoption result: adopted=1 for cx=-4 cz=0
+[WORKER] Mesh complete cx=-3 cz=3 built=00000244A1D54500
+[WORKER] Queuing result cx=-3 cz=3 gen=2 built=00000244A1D54500 results=0/768
+[WORKER] Processing job cx=-6 cz=4 gen=2 type=GENERATE
+[WORKER] Mesh complete cx=-3 cz=2 built=00000244A1D539F0
+[WORKER] Queuing result cx=-3 cz=2 gen=2 built=00000244A1D539F0 results=1/768
+[WORKER] Processing job cx=-2 cz=0 gen=2 type=GENERATE
+[PROCESS] Popped result cx=-3 cz=3 gen=2 type=GENERATE built=00000244A1D54500
+[ADOPT] Adopting chunk (-3,3) gen=2 role=1
+[ADOPT] SUCCESS chunk (-3,3) now resident. loaded_from_persist=0
+[PROCESS] Adoption result: adopted=1 for cx=-3 cz=3
+[PROCESS] Popped result cx=-3 cz=2 gen=2 type=GENERATE built=00000244A1D539F0
+[ADOPT] Adopting chunk (-3,2) gen=2 role=1
+[ADOPT] SUCCESS chunk (-3,2) now resident. loaded_from_persist=0
+[PROCESS] Adoption result: adopted=1 for cx=-3 cz=2
+[WORKER] Mesh complete cx=-4 cz=4 built=00000244A1D59270
+[WORKER] Queuing result cx=-4 cz=4 gen=2 built=00000244A1D59270 results=0/768
+[WORKER] Processing job cx=-6 cz=0 gen=2 type=GENERATE
+[PROCESS] Popped result cx=-4 cz=4 gen=2 type=GENERATE built=00000244A1D59270
+[ADOPT] Adopting chunk (-4,4) gen=2 role=1
+[ADOPT] SUCCESS chunk (-4,4) now resident. loaded_from_persist=0
+[PROCESS] Adoption result: adopted=1 for cx=-4 cz=4
+[WORKER] Meshing cx=-5 cz=0 (persisted=0)
+[WORKER] Mesh complete cx=-4 cz=3 built=00000244A1D58760
+[WORKER] Queuing result cx=-4 cz=3 gen=2 built=00000244A1D58760 results=0/768
+[PROCESS] Popped result cx=-4 cz=3 gen=2 type=GENERATE built=00000244A1D58760
+[ADOPT] Adopting chunk (-4,3) gen=2 role=1
+[ADOPT] SUCCESS chunk (-4,3) now resident. loaded_from_persist=0
+[PROCESS] Adoption result: adopted=1 for cx=-4 cz=3
+[WORKER] Mesh complete cx=-4 cz=2 built=00000244A1D56630
+[WORKER] Queuing result cx=-4 cz=2 gen=2 built=00000244A1D56630 results=0/768
+[PROCESS] Popped result cx=-4 cz=2 gen=2 type=GENERATE built=00000244A1D56630
+[ADOPT] Adopting chunk (-4,2) gen=2 role=1
+[ADOPT] SUCCESS chunk (-4,2) now resident. loaded_from_persist=0
+[PROCESS] Adoption result: adopted=1 for cx=-4 cz=2
+[WORKER] Mesh complete cx=-5 cz=3 built=00000244A1D59D80
+[WORKER] Queuing result cx=-5 cz=3 gen=2 built=00000244A1D59D80 results=0/768
+[WORKER] Mesh complete cx=-5 cz=2 built=00000244A1D57140
+[WORKER] Queuing result cx=-5 cz=2 gen=2 built=00000244A1D57140 results=1/768
+[PROCESS] Popped result cx=-5 cz=3 gen=2 type=GENERATE built=00000244A1D59D80
+[ADOPT] Adopting chunk (-5,3) gen=2 role=1
+[ADOPT] SUCCESS chunk (-5,3) now resident. loaded_from_persist=0
+[PROCESS] Adoption result: adopted=1 for cx=-5 cz=3
+[PROCESS] Popped result cx=-5 cz=2 gen=2 type=GENERATE built=00000244A1D57140
+[ADOPT] Adopting chunk (-5,2) gen=2 role=1
+[ADOPT] SUCCESS chunk (-5,2) now resident. loaded_from_persist=0
+[PROCESS] Adoption result: adopted=1 for cx=-5 cz=2
+[WORKER] Meshing cx=-2 cz=0 (persisted=0)
+[WORKER] Meshing cx=-6 cz=0 (persisted=0)
+[WORKER] Mesh complete cx=-5 cz=1 built=00000244A1D52EE0
+[WORKER] Queuing result cx=-5 cz=1 gen=2 built=00000244A1D52EE0 results=0/768
+[PROCESS] Popped result cx=-5 cz=1 gen=2 type=GENERATE built=00000244A1D52EE0
+[ADOPT] Adopting chunk (-5,1) gen=2 role=1
+[ADOPT] SUCCESS chunk (-5,1) now resident. loaded_from_persist=0
+[PROCESS] Adoption result: adopted=1 for cx=-5 cz=1
+[WORKER] Mesh complete cx=-6 cz=2 built=00000244A1D5A890
+[WORKER] Queuing result cx=-6 cz=2 gen=2 built=00000244A1D5A890 results=0/768
+[WORKER] Mesh complete cx=-5 cz=4 built=00000244A1D57C50
+[WORKER] Queuing result cx=-5 cz=4 gen=2 built=00000244A1D57C50 results=1/768
+[WORKER] Meshing cx=-3 cz=4 (persisted=0)
+[WORKER] Meshing cx=-6 cz=1 (persisted=0)
+[WORKER] Meshing cx=-2 cz=3 (persisted=0)
+[WORKER] Meshing cx=-2 cz=4 (persisted=0)
+[WORKER] Meshing cx=-6 cz=3 (persisted=0)
+[WORKER] Mesh complete cx=-3 cz=4 built=00000244A1D55B20
+[WORKER] Queuing result cx=-3 cz=4 gen=2 built=00000244A1D55B20 results=2/768
+[WORKER] Mesh complete cx=-5 cz=0 built=00000244A1D5D4D0
+[WORKER] Queuing result cx=-5 cz=0 gen=2 built=00000244A1D5D4D0 results=3/768
+[WORKER] Mesh complete cx=-6 cz=0 built=00000244A1D5C9C0
+[WORKER] Queuing result cx=-6 cz=0 gen=2 built=00000244A1D5C9C0 results=4/768
+[WORKER] Mesh complete cx=-6 cz=1 built=00000244A1D5BEB0
+[WORKER] Queuing result cx=-6 cz=1 gen=2 built=00000244A1D5BEB0 results=5/768
+[WORKER] Mesh complete cx=-2 cz=0 built=00000244A1D5DFE0
+[WORKER] Queuing result cx=-2 cz=0 gen=2 built=00000244A1D5DFE0 results=6/768
+[WORKER] Mesh complete cx=-2 cz=4 built=00000244A1D5B3A0
+[WORKER] Queuing result cx=-2 cz=4 gen=2 built=00000244A1D5B3A0 results=7/768
+[WORKER] Meshing cx=-6 cz=4 (persisted=0)
+[WORKER] Mesh complete cx=-2 cz=3 built=00000244A1D55010
+[WORKER] Queuing result cx=-2 cz=3 gen=2 built=00000244A1D55010 results=8/768
+[WORKER] Mesh complete cx=-6 cz=3 built=00000244A1D61730
+[WORKER] Queuing result cx=-6 cz=3 gen=2 built=00000244A1D61730 results=9/768
+[WORKER] Mesh complete cx=-6 cz=4 built=00000244A1D5F600
+[WORKER] Queuing result cx=-6 cz=4 gen=2 built=00000244A1D5F600 results=10/768
+[READINESS] desired=9 resident=9 gpu_ready=9 | skips: not_primary=144 outside_radius=247 no_chunk=0 no_blocks=0 | pending: jobs=0 results=11
+[PROCESS] Popped result cx=-6 cz=2 gen=2 type=GENERATE built=00000244A1D5A890
+[ADOPT] Adopting chunk (-6,2) gen=2 role=1
+[ADOPT] SUCCESS chunk (-6,2) now resident. loaded_from_persist=0
+[PROCESS] Adoption result: adopted=1 for cx=-6 cz=2
+[PROCESS] Popped result cx=-5 cz=4 gen=2 type=GENERATE built=00000244A1D57C50
+[ADOPT] Adopting chunk (-5,4) gen=2 role=1
+[ADOPT] SUCCESS chunk (-5,4) now resident. loaded_from_persist=0
+[PROCESS] Adoption result: adopted=1 for cx=-5 cz=4
+[GEN_STAGE] end idx=8 name="Loading nearby chunks" duration=16203ms chunks=16 data_kb=0
+[READINESS] desired=9 resident=9 gpu_ready=5 | skips: not_primary=144 outside_radius=247 no_chunk=0 no_blocks=0 | pending: jobs=0 results=9
+[PROCESS] Popped result cx=-3 cz=4 gen=2 type=GENERATE built=00000244A1D55B20
+[ADOPT] Adopting chunk (-3,4) gen=2 role=1
+[ADOPT] SUCCESS chunk (-3,4) now resident. loaded_from_persist=0
+[PROCESS] Adoption result: adopted=1 for cx=-3 cz=4
+[PROCESS] Popped result cx=-5 cz=0 gen=2 type=GENERATE built=00000244A1D5D4D0
+[ADOPT] Adopting chunk (-5,0) gen=2 role=2
+[ADOPT] SUCCESS chunk (-5,0) now resident. loaded_from_persist=0
+[PROCESS] Adoption result: adopted=1 for cx=-5 cz=0
+[STARTUP] terrain desired=9 resident=9 ready=3 jobs=0 results=7 no_cpu=6 upload=0 stale=0 far_only=0 other=0
+[PROCESS] Popped result cx=-6 cz=0 gen=2 type=GENERATE built=00000244A1D5C9C0
+[ADOPT] Adopting chunk (-6,0) gen=2 role=2
+[ADOPT] SUCCESS chunk (-6,0) now resident. loaded_from_persist=0
+[PROCESS] Adoption result: adopted=1 for cx=-6 cz=0
+[PROCESS] Popped result cx=-6 cz=1 gen=2 type=GENERATE built=00000244A1D5BEB0
+[ADOPT] Adopting chunk (-6,1) gen=2 role=1
+[ADOPT] SUCCESS chunk (-6,1) now resident. loaded_from_persist=0
+[PROCESS] Adoption result: adopted=1 for cx=-6 cz=1
+[PROCESS] Popped result cx=-2 cz=0 gen=2 type=GENERATE built=00000244A1D5DFE0
+[ADOPT] Adopting chunk (-2,0) gen=2 role=2
+[ADOPT] SUCCESS chunk (-2,0) now resident. loaded_from_persist=0
+[PROCESS] Adoption result: adopted=1 for cx=-2 cz=0
+[PROCESS] Popped result cx=-2 cz=4 gen=2 type=GENERATE built=00000244A1D5B3A0
+[ADOPT] Adopting chunk (-2,4) gen=2 role=1
+[ADOPT] SUCCESS chunk (-2,4) now resident. loaded_from_persist=0
+[PROCESS] Adoption result: adopted=1 for cx=-2 cz=4
+[PROCESS] Popped result cx=-2 cz=3 gen=2 type=GENERATE built=00000244A1D55010
+[ADOPT] Adopting chunk (-2,3) gen=2 role=1
+[ADOPT] SUCCESS chunk (-2,3) now resident. loaded_from_persist=0
+[PROCESS] Adoption result: adopted=1 for cx=-2 cz=3
+[PROCESS] Popped result cx=-6 cz=3 gen=2 type=GENERATE built=00000244A1D61730
+[ADOPT] Adopting chunk (-6,3) gen=2 role=1
+[ADOPT] SUCCESS chunk (-6,3) now resident. loaded_from_persist=0
+[PROCESS] Adoption result: adopted=1 for cx=-6 cz=3
+[PROCESS] Popped result cx=-6 cz=4 gen=2 type=GENERATE built=00000244A1D5F600
+[ADOPT] Adopting chunk (-6,4) gen=2 role=1
+[ADOPT] SUCCESS chunk (-6,4) now resident. loaded_from_persist=0
+[PROCESS] Adoption result: adopted=1 for cx=-6 cz=4
+[RESIDENCY] STALL mode=superchunk desired=400(P256/F140/T4) resident=25(P20/F5/T0/E0) jobs=0 results=0 primary=(-1,0) desired_sc=(-1,0) transition=0
+[RESIDENCY] missing desired chunks primary=236 ring=135 transition=4 desired=400 active=25
+[READINESS] desired=9 resident=9 gpu_ready=1 | skips: not_primary=144 outside_radius=247 no_chunk=0 no_blocks=0 | pending: jobs=0 results=0
+[STARTUP] terrain desired=9 resident=9 ready=1 jobs=0 results=0 no_cpu=8 upload=0 stale=0 far_only=0 other=0
+[RESIDENCY] STALL mode=superchunk desired=400(P256/F140/T4) resident=25(P20/F5/T0/E0) jobs=0 results=0 primary=(-1,0) desired_sc=(-1,0) transition=0
+[RESIDENCY] missing desired chunks primary=236 ring=135 transition=4 desired=400 active=25
+[READINESS] desired=9 resident=9 gpu_ready=1 | skips: not_primary=144 outside_radius=247 no_chunk=0 no_blocks=0 | pending: jobs=0 results=0
+[STARTUP] terrain desired=9 resident=9 ready=1 jobs=0 results=0 no_cpu=8 upload=0 stale=0 far_only=0 other=0
+[RESIDENCY] STALL mode=superchunk desired=400(P256/F140/T4) resident=25(P20/F5/T0/E0) jobs=0 results=0 primary=(-1,0) desired_sc=(-1,0) transition=0
+[RESIDENCY] missing desired chunks primary=236 ring=135 transition=4 desired=400 active=25
+[WORKER] Processing job cx=-7 cz=2 gen=2 type=GENERATE
+[WALL] HEALTH W=16/0/0 N=16/5/0 E=16/0/0 S=16/0/0 (desired/resident/ready)
+[WORKER] Processing job cx=-4 cz=5 gen=2 type=GENERATE
+[WORKER] Processing job cx=-1 cz=1 gen=2 type=GENERATE
+[WORKER] Processing job cx=-1 cz=3 gen=2 type=GENERATE
+[WORKER] Processing job cx=-7 cz=3 gen=2 type=GENERATE
+[WORKER] Processing job cx=-5 cz=5 gen=2 type=GENERATE
+[WORKER] Processing job cx=-3 cz=5 gen=2 type=GENERATE
+[WORKER] Processing job cx=-7 cz=4 gen=2 type=GENERATE
+[WORKER] Processing job cx=-6 cz=5 gen=2 type=GENERATE
+[WORKER] Processing job cx=-2 cz=5 gen=2 type=GENERATE
+[WORKER] Processing job cx=-8 cz=2 gen=2 type=GENERATE
+[WORKER] Processing job cx=-8 cz=1 gen=2 type=GENERATE
+[WORKER] Processing job cx=-7 cz=1 gen=2 type=GENERATE
+[WORKER] Processing job cx=-1 cz=4 gen=2 type=GENERATE
+[WORKER] Processing job cx=-1 cz=2 gen=2 type=GENERATE
+[WORKER] Processing job cx=-4 cz=6 gen=2 type=GENERATE
+[READINESS] desired=9 resident=9 gpu_ready=1 | skips: not_primary=144 outside_radius=247 no_chunk=0 no_blocks=0 | pending: jobs=359 results=0
+[READINESS] desired=9 resident=9 gpu_ready=1 | skips: not_primary=144 outside_radius=247 no_chunk=0 no_blocks=0 | pending: jobs=359 results=0
+[WORKER] Meshing cx=-1 cz=1 (persisted=0)
+[WORKER] Meshing cx=-1 cz=2 (persisted=0)
+[WORKER] Meshing cx=-1 cz=3 (persisted=0)
+[WORKER] Meshing cx=-1 cz=4 (persisted=0)
+[READINESS] desired=9 resident=9 gpu_ready=1 | skips: not_primary=144 outside_radius=247 no_chunk=0 no_blocks=0 | pending: jobs=359 results=0
+[WORKER] Meshing cx=-2 cz=5 (persisted=0)
+[WORKER] Meshing cx=-3 cz=5 (persisted=0)
+[WORKER] Mesh complete cx=-1 cz=1 built=00000244FDE2AFA0
+[WORKER] Queuing result cx=-1 cz=1 gen=2 built=00000244FDE2AFA0 results=0/768
+[WORKER] Processing job cx=-5 cz=6 gen=2 type=GENERATE
+[PROCESS] Popped result cx=-1 cz=1 gen=2 type=GENERATE built=00000244FDE2AFA0
+[ADOPT] Adopting chunk (-1,1) gen=2 role=1
+[ADOPT] SUCCESS chunk (-1,1) now resident. loaded_from_persist=0
+[PROCESS] Adoption result: adopted=1 for cx=-1 cz=1
+[WORKER] Meshing cx=-7 cz=1 (persisted=0)
+[WORKER] Meshing cx=-4 cz=6 (persisted=0)
+[WORKER] Meshing cx=-5 cz=5 (persisted=0)
+[WORKER] Meshing cx=-8 cz=1 (persisted=0)
+[WORKER] Meshing cx=-4 cz=5 (persisted=0)
+[WORKER] Meshing cx=-6 cz=5 (persisted=0)
+[WORKER] Meshing cx=-7 cz=2 (persisted=0)
+[WORKER] Mesh complete cx=-1 cz=2 built=00000244FDE28360
+[WORKER] Queuing result cx=-1 cz=2 gen=2 built=00000244FDE28360 results=0/768
+[WORKER] Processing job cx=-3 cz=6 gen=2 type=GENERATE
+[PROCESS] Popped result cx=-1 cz=2 gen=2 type=GENERATE built=00000244FDE28360
+[ADOPT] Adopting chunk (-1,2) gen=2 role=1
+[ADOPT] SUCCESS chunk (-1,2) now resident. loaded_from_persist=0
+[PROCESS] Adoption result: adopted=1 for cx=-1 cz=2
+[WORKER] Meshing cx=-8 cz=2 (persisted=0)
+[READINESS] desired=9 resident=9 gpu_ready=1 | skips: not_primary=144 outside_radius=247 no_chunk=0 no_blocks=0 | pending: jobs=357 results=0
+[WORKER] Mesh complete cx=-1 cz=3 built=00000244FDE2C5C0
+[WORKER] Queuing result cx=-1 cz=3 gen=2 built=00000244FDE2C5C0 results=0/768
+[WORKER] Processing job cx=-8 cz=3 gen=2 type=GENERATE
+[PROCESS] Popped result cx=-1 cz=3 gen=2 type=GENERATE built=00000244FDE2C5C0
+[ADOPT] Adopting chunk (-1,3) gen=2 role=1
+[ADOPT] SUCCESS chunk (-1,3) now resident. loaded_from_persist=0
+[PROCESS] Adoption result: adopted=1 for cx=-1 cz=3
+[WORKER] Mesh complete cx=-1 cz=4 built=00000244FDE2F200
+[WORKER] Queuing result cx=-1 cz=4 gen=2 built=00000244FDE2F200 results=0/768
+[WORKER] Processing job cx=-7 cz=5 gen=2 type=GENERATE
+[PROCESS] Popped result cx=-1 cz=4 gen=2 type=GENERATE built=00000244FDE2F200
+[ADOPT] Adopting chunk (-1,4) gen=2 role=1
+[ADOPT] SUCCESS chunk (-1,4) now resident. loaded_from_persist=0
+[PROCESS] Adoption result: adopted=1 for cx=-1 cz=4
+[WORKER] Mesh complete cx=-3 cz=5 built=00000244FDE2DBE0
+[WORKER] Queuing result cx=-3 cz=5 gen=2 built=00000244FDE2DBE0 results=0/768
+[WORKER] Processing job cx=-1 cz=5 gen=2 type=GENERATE
+[PROCESS] Popped result cx=-3 cz=5 gen=2 type=GENERATE built=00000244FDE2DBE0
+[ADOPT] Adopting chunk (-3,5) gen=2 role=1
+[ADOPT] SUCCESS chunk (-3,5) now resident. loaded_from_persist=0
+[PROCESS] Adoption result: adopted=1 for cx=-3 cz=5
+[WORKER] Mesh complete cx=-2 cz=5 built=00000244FDE31E40
+[WORKER] Queuing result cx=-2 cz=5 gen=2 built=00000244FDE31E40 results=0/768
+[WORKER] Processing job cx=-6 cz=6 gen=2 type=GENERATE
+[PROCESS] Popped result cx=-2 cz=5 gen=2 type=GENERATE built=00000244FDE31E40
+[ADOPT] Adopting chunk (-2,5) gen=2 role=1
+[ADOPT] SUCCESS chunk (-2,5) now resident. loaded_from_persist=0
+[PROCESS] Adoption result: adopted=1 for cx=-2 cz=5
+[WORKER] Mesh complete cx=-5 cz=5 built=00000244FDE33460
+[WORKER] Queuing result cx=-5 cz=5 gen=2 built=00000244FDE33460 results=0/768
+[WORKER] Processing job cx=-2 cz=6 gen=2 type=GENERATE
+[PROCESS] Popped result cx=-5 cz=5 gen=2 type=GENERATE built=00000244FDE33460
+[ADOPT] Adopting chunk (-5,5) gen=2 role=1
+[ADOPT] SUCCESS chunk (-5,5) now resident. loaded_from_persist=0
+[PROCESS] Adoption result: adopted=1 for cx=-5 cz=5
+[WORKER] Meshing cx=-7 cz=3 (persisted=0)
+[WORKER] Mesh complete cx=-4 cz=6 built=00000244FDE2BAB0
+[WORKER] Queuing result cx=-4 cz=6 gen=2 built=00000244FDE2BAB0 results=0/768
+[WORKER] Processing job cx=-8 cz=4 gen=2 type=GENERATE
+[PROCESS] Popped result cx=-4 cz=6 gen=2 type=GENERATE built=00000244FDE2BAB0
+[ADOPT] Adopting chunk (-4,6) gen=2 role=1
+[ADOPT] SUCCESS chunk (-4,6) now resident. loaded_from_persist=0
+[PROCESS] Adoption result: adopted=1 for cx=-4 cz=6
+[WORKER] Mesh complete cx=-7 cz=1 built=00000244FDE360A0
+[WORKER] Queuing result cx=-7 cz=1 gen=2 built=00000244FDE360A0 results=0/768
+[WORKER] Processing job cx=-7 cz=6 gen=2 type=GENERATE
+[PROCESS] Popped result cx=-7 cz=1 gen=2 type=GENERATE built=00000244FDE360A0
+[ADOPT] Adopting chunk (-7,1) gen=2 role=1
+[ADOPT] SUCCESS chunk (-7,1) now resident. loaded_from_persist=0
+[PROCESS] Adoption result: adopted=1 for cx=-7 cz=1
+[WORKER] Mesh complete cx=-4 cz=5 built=00000244FDE36BB0
+[WORKER] Queuing result cx=-4 cz=5 gen=2 built=00000244FDE36BB0 results=0/768
+[WORKER] Processing job cx=-4 cz=7 gen=2 type=GENERATE
+[PROCESS] Popped result cx=-4 cz=5 gen=2 type=GENERATE built=00000244FDE36BB0
+[ADOPT] Adopting chunk (-4,5) gen=2 role=1
+[ADOPT] SUCCESS chunk (-4,5) now resident. loaded_from_persist=0
+[PROCESS] Adoption result: adopted=1 for cx=-4 cz=5
+[WORKER] Mesh complete cx=-8 cz=1 built=00000244FDE35590
+[WORKER] Queuing result cx=-8 cz=1 gen=2 built=00000244FDE35590 results=0/768
+[WORKER] Processing job cx=-1 cz=6 gen=2 type=GENERATE
+[PROCESS] Popped result cx=-8 cz=1 gen=2 type=GENERATE built=00000244FDE35590
+[ADOPT] Adopting chunk (-8,1) gen=2 role=1
+[ADOPT] SUCCESS chunk (-8,1) now resident. loaded_from_persist=0
+[PROCESS] Adoption result: adopted=1 for cx=-8 cz=1
+[PLAYER] Test flight enabled (double SPACE, testing only)
+[WORKER] Mesh complete cx=-6 cz=5 built=00000244C6C066B0
+[WORKER] Queuing result cx=-6 cz=5 gen=2 built=00000244C6C066B0 results=0/768
+[WORKER] Processing job cx=-9 cz=2 gen=2 type=GENERATE
+[PROCESS] Popped result cx=-6 cz=5 gen=2 type=GENERATE built=00000244C6C066B0
+[ADOPT] Adopting chunk (-6,5) gen=2 role=1
+[ADOPT] SUCCESS chunk (-6,5) now resident. loaded_from_persist=0
+[PROCESS] Adoption result: adopted=1 for cx=-6 cz=5
+[WORKER] Mesh complete cx=-7 cz=2 built=00000244C6C087E0
+[WORKER] Queuing result cx=-7 cz=2 gen=2 built=00000244C6C087E0 results=0/768
+[WORKER] Processing job cx=-8 cz=5 gen=2 type=GENERATE
+[PROCESS] Popped result cx=-7 cz=2 gen=2 type=GENERATE built=00000244C6C087E0
+[ADOPT] Adopting chunk (-7,2) gen=2 role=1
+[ADOPT] SUCCESS chunk (-7,2) now resident. loaded_from_persist=0
+[PROCESS] Adoption result: adopted=1 for cx=-7 cz=2
+[READINESS] desired=9 resident=9 gpu_ready=1 | skips: not_primary=144 outside_radius=247 no_chunk=0 no_blocks=0 | pending: jobs=346 results=0
+[WORKER] Mesh complete cx=-8 cz=2 built=00000244C6C092F0
+[WORKER] Queuing result cx=-8 cz=2 gen=2 built=00000244C6C092F0 results=0/768
+[WORKER] Processing job cx=-9 cz=3 gen=2 type=GENERATE
+[PROCESS] Popped result cx=-8 cz=2 gen=2 type=GENERATE built=00000244C6C092F0
+[ADOPT] Adopting chunk (-8,2) gen=2 role=1
+[ADOPT] SUCCESS chunk (-8,2) now resident. loaded_from_persist=0
+[PROCESS] Adoption result: adopted=1 for cx=-8 cz=2
+[WORKER] Meshing cx=-5 cz=6 (persisted=0)
+[WORKER] Mesh complete cx=-7 cz=3 built=00000244C6C071C0
+[WORKER] Queuing result cx=-7 cz=3 gen=2 built=00000244C6C071C0 results=0/768
+[WORKER] Processing job cx=-5 cz=7 gen=2 type=GENERATE
+[PROCESS] Popped result cx=-7 cz=3 gen=2 type=GENERATE built=00000244C6C071C0
+[ADOPT] Adopting chunk (-7,3) gen=2 role=1
+[ADOPT] SUCCESS chunk (-7,3) now resident. loaded_from_persist=0
+[PROCESS] Adoption result: adopted=1 for cx=-7 cz=3
+[WALL] HEALTH W=16/0/0 N=16/5/0 E=16/0/0 S=16/0/0 (desired/resident/ready)
+[READINESS] desired=9 resident=9 gpu_ready=1 | skips: not_primary=144 outside_radius=247 no_chunk=0 no_blocks=0 | pending: jobs=344 results=0
+[WORKER] Meshing cx=-3 cz=6 (persisted=0)
+[WORKER] Meshing cx=-1 cz=5 (persisted=0)
+[WORKER] Meshing cx=-7 cz=4 (persisted=0)
+[WORKER] Meshing cx=-2 cz=6 (persisted=0)
+[WORKER] Meshing cx=-1 cz=6 (persisted=0)
+[WORKER] Meshing cx=-6 cz=6 (persisted=0)
+[WORKER] Meshing cx=-4 cz=7 (persisted=0)
+[WORKER] Mesh complete cx=-5 cz=6 built=00000244C6C0A910
+[WORKER] Queuing result cx=-5 cz=6 gen=2 built=00000244C6C0A910 results=0/768
+[WORKER] Processing job cx=-9 cz=1 gen=2 type=GENERATE
+[PROCESS] Popped result cx=-5 cz=6 gen=2 type=GENERATE built=00000244C6C0A910
+[ADOPT] Adopting chunk (-5,6) gen=2 role=1
+[ADOPT] SUCCESS chunk (-5,6) now resident. loaded_from_persist=0
+[PROCESS] Adoption result: adopted=1 for cx=-5 cz=6
+[READINESS] desired=9 resident=9 gpu_ready=1 | skips: not_primary=144 outside_radius=247 no_chunk=0 no_blocks=0 | pending: jobs=343 results=0
+[WORKER] Meshing cx=-7 cz=6 (persisted=0)
+[WORKER] Meshing cx=-9 cz=2 (persisted=0)
+[WORKER] Meshing cx=-7 cz=5 (persisted=0)
+[WORKER] Mesh complete cx=-3 cz=6 built=00000244C6C05090
+[WORKER] Queuing result cx=-3 cz=6 gen=2 built=00000244C6C05090 results=0/768
+[WORKER] Processing job cx=-3 cz=7 gen=2 type=GENERATE
+[PROCESS] Popped result cx=-3 cz=6 gen=2 type=GENERATE built=00000244C6C05090
+[ADOPT] Adopting chunk (-3,6) gen=2 role=1
+[ADOPT] SUCCESS chunk (-3,6) now resident. loaded_from_persist=0
+[PROCESS] Adoption result: adopted=1 for cx=-3 cz=6
+[WORKER] Mesh complete cx=-1 cz=5 built=00000244C6C0BF30
+[WORKER] Queuing result cx=-1 cz=5 gen=2 built=00000244C6C0BF30 results=0/768
+[WORKER] Processing job cx=-6 cz=7 gen=2 type=GENERATE
+[PROCESS] Popped result cx=-1 cz=5 gen=2 type=GENERATE built=00000244C6C0BF30
+[ADOPT] Adopting chunk (-1,5) gen=2 role=1
+[ADOPT] SUCCESS chunk (-1,5) now resident. loaded_from_persist=0
+[PROCESS] Adoption result: adopted=1 for cx=-1 cz=5
+[WORKER] Mesh complete cx=-7 cz=4 built=00000244C6C0EB70
+[WORKER] Queuing result cx=-7 cz=4 gen=2 built=00000244C6C0EB70 results=0/768
+[WORKER] Processing job cx=-9 cz=4 gen=2 type=GENERATE
+[PROCESS] Popped result cx=-7 cz=4 gen=2 type=GENERATE built=00000244C6C0EB70
+[ADOPT] Adopting chunk (-7,4) gen=2 role=1
+[ADOPT] SUCCESS chunk (-7,4) now resident. loaded_from_persist=0
+[PROCESS] Adoption result: adopted=1 for cx=-7 cz=4
+[WORKER] Mesh complete cx=-2 cz=6 built=00000244C6C10190
+[WORKER] Queuing result cx=-2 cz=6 gen=2 built=00000244C6C10190 results=0/768
+[WORKER] Processing job cx=-2 cz=7 gen=2 type=GENERATE
+[PROCESS] Popped result cx=-2 cz=6 gen=2 type=GENERATE built=00000244C6C10190
+[ADOPT] Adopting chunk (-2,6) gen=2 role=1
+[ADOPT] SUCCESS chunk (-2,6) now resident. loaded_from_persist=0
+[PROCESS] Adoption result: adopted=1 for cx=-2 cz=6
+[WORKER] Meshing cx=-9 cz=3 (persisted=0)
+[WORKER] Meshing cx=-8 cz=5 (persisted=0)
+[WORKER] Mesh complete cx=-1 cz=6 built=00000244C6C05BA0
+[WORKER] Queuing result cx=-1 cz=6 gen=2 built=00000244C6C05BA0 results=0/768
+[WORKER] Processing job cx=-8 cz=6 gen=2 type=GENERATE
+[PROCESS] Popped result cx=-1 cz=6 gen=2 type=GENERATE built=00000244C6C05BA0
+[ADOPT] Adopting chunk (-1,6) gen=2 role=1
+[ADOPT] SUCCESS chunk (-1,6) now resident. loaded_from_persist=0
+[PROCESS] Adoption result: adopted=1 for cx=-1 cz=6
+[READINESS] desired=9 resident=9 gpu_ready=1 | skips: not_primary=144 outside_radius=247 no_chunk=0 no_blocks=0 | pending: jobs=338 results=0
+[WORKER] Mesh complete cx=-6 cz=6 built=00000244C6C138E0
+[WORKER] Queuing result cx=-6 cz=6 gen=2 built=00000244C6C138E0 results=0/768
+[WORKER] Processing job cx=-9 cz=5 gen=2 type=GENERATE
+[PROCESS] Popped result cx=-6 cz=6 gen=2 type=GENERATE built=00000244C6C138E0
+[ADOPT] Adopting chunk (-6,6) gen=2 role=1
+[ADOPT] SUCCESS chunk (-6,6) now resident. loaded_from_persist=0
+[PROCESS] Adoption result: adopted=1 for cx=-6 cz=6
+[WORKER] Meshing cx=-5 cz=7 (persisted=0)
+[WORKER] Mesh complete cx=-7 cz=6 built=00000244C6C0B420
+[WORKER] Queuing result cx=-7 cz=6 gen=2 built=00000244C6C0B420 results=0/768
+[WORKER] Processing job cx=-1 cz=7 gen=2 type=GENERATE
+[PROCESS] Popped result cx=-7 cz=6 gen=2 type=GENERATE built=00000244C6C0B420
+[ADOPT] Adopting chunk (-7,6) gen=2 role=1
+[ADOPT] SUCCESS chunk (-7,6) now resident. loaded_from_persist=0
+[PROCESS] Adoption result: adopted=1 for cx=-7 cz=6
+[WORKER] Mesh complete cx=-4 cz=7 built=00000244C6C12DD0
+[WORKER] Queuing result cx=-4 cz=7 gen=2 built=00000244C6C12DD0 results=0/768
+[WORKER] Processing job cx=-7 cz=7 gen=2 type=GENERATE
+[PROCESS] Popped result cx=-4 cz=7 gen=2 type=GENERATE built=00000244C6C12DD0
+[ADOPT] Adopting chunk (-4,7) gen=2 role=1
+[ADOPT] SUCCESS chunk (-4,7) now resident. loaded_from_persist=0
+[PROCESS] Adoption result: adopted=1 for cx=-4 cz=7
+[WORKER] Mesh complete cx=-9 cz=2 built=00000244C6C117B0
+[WORKER] Queuing result cx=-9 cz=2 gen=2 built=00000244C6C117B0 results=0/768
+[WORKER] Processing job cx=-4 cz=8 gen=2 type=GENERATE
+[PROCESS] Popped result cx=-9 cz=2 gen=2 type=GENERATE built=00000244C6C117B0
+[ADOPT] Adopting chunk (-9,2) gen=2 role=1
+[ADOPT] SUCCESS chunk (-9,2) now resident. loaded_from_persist=0
+[PROCESS] Adoption result: adopted=1 for cx=-9 cz=2
+[WORKER] Mesh complete cx=-7 cz=5 built=00000244FDE2A490
+[WORKER] Queuing result cx=-7 cz=5 gen=2 built=00000244FDE2A490 results=0/768
+[WORKER] Processing job cx=-10 cz=2 gen=2 type=GENERATE
+[PROCESS] Popped result cx=-7 cz=5 gen=2 type=GENERATE built=00000244FDE2A490
+[ADOPT] Adopting chunk (-7,5) gen=2 role=1
+[ADOPT] SUCCESS chunk (-7,5) now resident. loaded_from_persist=0
+[PROCESS] Adoption result: adopted=1 for cx=-7 cz=5
+[WORKER] Meshing cx=-8 cz=3 (persisted=0)
+[READINESS] desired=9 resident=9 gpu_ready=1 | skips: not_primary=144 outside_radius=247 no_chunk=0 no_blocks=0 | pending: jobs=333 results=0
+[WORKER] Mesh complete cx=-9 cz=3 built=00000244FDE29980
+[WORKER] Queuing result cx=-9 cz=3 gen=2 built=00000244FDE29980 results=0/768
+[WORKER] Processing job cx=-10 cz=3 gen=2 type=GENERATE
+[PROCESS] Popped result cx=-9 cz=3 gen=2 type=GENERATE built=00000244FDE29980
+[ADOPT] Adopting chunk (-9,3) gen=2 role=1
+[ADOPT] SUCCESS chunk (-9,3) now resident. loaded_from_persist=0
+[PROCESS] Adoption result: adopted=1 for cx=-9 cz=3
+[WORKER] Meshing cx=-8 cz=4 (persisted=0)
+[WORKER] Mesh complete cx=-8 cz=5 built=00000244FDE31330
+[WORKER] Queuing result cx=-8 cz=5 gen=2 built=00000244FDE31330 results=0/768
+[WORKER] Processing job cx=-10 cz=1 gen=2 type=GENERATE
+[PROCESS] Popped result cx=-8 cz=5 gen=2 type=GENERATE built=00000244FDE31330
+[ADOPT] Adopting chunk (-8,5) gen=2 role=1
+[ADOPT] SUCCESS chunk (-8,5) now resident. loaded_from_persist=0
+[PROCESS] Adoption result: adopted=1 for cx=-8 cz=5
+[WORKER] Meshing cx=-9 cz=1 (persisted=0)
+[WORKER] Meshing cx=-3 cz=7 (persisted=0)
+[WORKER] Mesh complete cx=-5 cz=7 built=00000244FDE33F70
+[WORKER] Queuing result cx=-5 cz=7 gen=2 built=00000244FDE33F70 results=0/768
+[WORKER] Processing job cx=-5 cz=8 gen=2 type=GENERATE
+[PROCESS] Popped result cx=-5 cz=7 gen=2 type=GENERATE built=00000244FDE33F70
+[ADOPT] Adopting chunk (-5,7) gen=2 role=1
+[ADOPT] SUCCESS chunk (-5,7) now resident. loaded_from_persist=0
+[PROCESS] Adoption result: adopted=1 for cx=-5 cz=7
+[WORKER] Meshing cx=-2 cz=7 (persisted=0)
+[WORKER] Meshing cx=-6 cz=7 (persisted=0)
+[READINESS] desired=9 resident=9 gpu_ready=1 | skips: not_primary=144 outside_radius=247 no_chunk=0 no_blocks=0 | pending: jobs=330 results=0
+[WORKER] Mesh complete cx=-8 cz=3 built=00000244FDE34A80
+[WORKER] Queuing result cx=-8 cz=3 gen=2 built=00000244FDE34A80 results=0/768
+[WORKER] Processing job cx=-3 cz=8 gen=2 type=GENERATE
+[PROCESS] Popped result cx=-8 cz=3 gen=2 type=GENERATE built=00000244FDE34A80
+[ADOPT] Adopting chunk (-8,3) gen=2 role=1
+[ADOPT] SUCCESS chunk (-8,3) now resident. loaded_from_persist=0
+[PROCESS] Adoption result: adopted=1 for cx=-8 cz=3
+[WORKER] Meshing cx=-1 cz=7 (persisted=0)
+[WORKER] Meshing cx=-8 cz=6 (persisted=0)
+[WORKER] Mesh complete cx=-8 cz=4 built=00000244C6C09E00
+[WORKER] Queuing result cx=-8 cz=4 gen=2 built=00000244C6C09E00 results=0/768
+[WORKER] Processing job cx=-10 cz=4 gen=2 type=GENERATE
+[WORKER] Mesh complete cx=-3 cz=7 built=00000244C6C0F680
+[WORKER] Queuing result cx=-3 cz=7 gen=2 built=00000244C6C0F680 results=1/768
+[WORKER] Processing job cx=-2 cz=8 gen=2 type=GENERATE
+[PROCESS] Popped result cx=-8 cz=4 gen=2 type=GENERATE built=00000244C6C09E00
+[ADOPT] Adopting chunk (-8,4) gen=2 role=1
+[ADOPT] SUCCESS chunk (-8,4) now resident. loaded_from_persist=0
+[PROCESS] Adoption result: adopted=1 for cx=-8 cz=4
+[PROCESS] Popped result cx=-3 cz=7 gen=2 type=GENERATE built=00000244C6C0F680
+[ADOPT] Adopting chunk (-3,7) gen=2 role=1
+[ADOPT] SUCCESS chunk (-3,7) now resident. loaded_from_persist=0
+[PROCESS] Adoption result: adopted=1 for cx=-3 cz=7
+[WORKER] Mesh complete cx=-9 cz=1 built=00000244C6C0D550
+[WORKER] Queuing result cx=-9 cz=1 gen=2 built=00000244C6C0D550 results=0/768
+[WORKER] Processing job cx=-6 cz=8 gen=2 type=GENERATE
+[PROCESS] Popped result cx=-9 cz=1 gen=2 type=GENERATE built=00000244C6C0D550
+[ADOPT] Adopting chunk (-9,1) gen=2 role=1
+[ADOPT] SUCCESS chunk (-9,1) now resident. loaded_from_persist=0
+[PROCESS] Adoption result: adopted=1 for cx=-9 cz=1
+[WORKER] Meshing cx=-4 cz=8 (persisted=0)
+[WORKER] Meshing cx=-10 cz=2 (persisted=0)
+[WORKER] Mesh complete cx=-2 cz=7 built=0000024499BB6810
+[WORKER] Queuing result cx=-2 cz=7 gen=2 built=0000024499BB6810 results=0/768
+[WORKER] Processing job cx=-9 cz=6 gen=2 type=GENERATE
+[PROCESS] Popped result cx=-2 cz=7 gen=2 type=GENERATE built=0000024499BB6810
+[ADOPT] Adopting chunk (-2,7) gen=2 role=1
+[WORKER] Meshing cx=-9 cz=5 (persisted=0)
+[ADOPT] SUCCESS chunk (-2,7) now resident. loaded_from_persist=0
+[PROCESS] Adoption result: adopted=1 for cx=-2 cz=7
+[WALL] HEALTH W=16/0/0 N=16/5/0 E=16/0/0 S=16/0/0 (desired/resident/ready)
+[READINESS] desired=9 resident=9 gpu_ready=1 | skips: not_primary=144 outside_radius=247 no_chunk=0 no_blocks=0 | pending: jobs=325 results=0
+[WORKER] Meshing cx=-7 cz=7 (persisted=0)
+[WORKER] Mesh complete cx=-6 cz=7 built=0000024499BBAA70
+[WORKER] Queuing result cx=-6 cz=7 gen=2 built=0000024499BBAA70 results=0/768
+[WORKER] Processing job cx=-8 cz=7 gen=2 type=GENERATE
+[PROCESS] Popped result cx=-6 cz=7 gen=2 type=GENERATE built=0000024499BBAA70
+[ADOPT] Adopting chunk (-6,7) gen=2 role=1
+[ADOPT] SUCCESS chunk (-6,7) now resident. loaded_from_persist=0
+[PROCESS] Adoption result: adopted=1 for cx=-6 cz=7
+[WORKER] Meshing cx=-10 cz=1 (persisted=0)
+[WORKER] Meshing cx=-10 cz=3 (persisted=0)
+[WORKER] Mesh complete cx=-1 cz=7 built=0000024499BB7E30
+[WORKER] Queuing result cx=-1 cz=7 gen=2 built=0000024499BB7E30 results=0/768
+[WORKER] Processing job cx=-7 cz=8 gen=2 type=GENERATE
+[PROCESS] Popped result cx=-1 cz=7 gen=2 type=GENERATE built=0000024499BB7E30
+[ADOPT] Adopting chunk (-1,7) gen=2 role=1
+[ADOPT] SUCCESS chunk (-1,7) now resident. loaded_from_persist=0
+[PROCESS] Adoption result: adopted=1 for cx=-1 cz=7
+[WORKER] Mesh complete cx=-8 cz=6 built=00000244FDE1A480
+[WORKER] Queuing result cx=-8 cz=6 gen=2 built=00000244FDE1A480 results=0/768
+[WORKER] Processing job cx=-1 cz=8 gen=2 type=GENERATE
+[PROCESS] Popped result cx=-8 cz=6 gen=2 type=GENERATE built=00000244FDE1A480
+[ADOPT] Adopting chunk (-8,6) gen=2 role=1
+[ADOPT] SUCCESS chunk (-8,6) now resident. loaded_from_persist=0
+[PROCESS] Adoption result: adopted=1 for cx=-8 cz=6
+[WORKER] Meshing cx=-9 cz=4 (persisted=0)
+[WORKER] Mesh complete cx=-4 cz=8 built=00000244FDE18E60
+[WORKER] Queuing result cx=-4 cz=8 gen=2 built=00000244FDE18E60 results=0/768
+[WORKER] Processing job cx=-10 cz=5 gen=2 type=GENERATE
+[WORKER] Meshing cx=-5 cz=8 (persisted=0)
+[PROCESS] Popped result cx=-4 cz=8 gen=2 type=GENERATE built=00000244FDE18E60
+[ADOPT] Adopting chunk (-4,8) gen=2 role=1
+[ADOPT] SUCCESS chunk (-4,8) now resident. loaded_from_persist=0
+[PROCESS] Adoption result: adopted=1 for cx=-4 cz=8
+[READINESS] desired=9 resident=9 gpu_ready=1 | skips: not_primary=144 outside_radius=247 no_chunk=0 no_blocks=0 | pending: jobs=321 results=0
+[WORKER] Mesh complete cx=-10 cz=2 built=00000244FDE2FD10
+[WORKER] Queuing result cx=-10 cz=2 gen=2 built=00000244FDE2FD10 results=0/768
+[WORKER] Processing job cx=-11 cz=2 gen=2 type=GENERATE
+[PROCESS] Popped result cx=-10 cz=2 gen=2 type=GENERATE built=00000244FDE2FD10
+[ADOPT] Adopting chunk (-10,2) gen=2 role=1
+[ADOPT] SUCCESS chunk (-10,2) now resident. loaded_from_persist=0
+[PROCESS] Adoption result: adopted=1 for cx=-10 cz=2
+[WORKER] Meshing cx=-3 cz=8 (persisted=0)
+[WORKER] Mesh complete cx=-9 cz=5 built=00000244FDE2E6F0
+[WORKER] Queuing result cx=-9 cz=5 gen=2 built=00000244FDE2E6F0 results=0/768
+[WORKER] Processing job cx=-4 cz=9 gen=2 type=GENERATE
+[PROCESS] Popped result cx=-9 cz=5 gen=2 type=GENERATE built=00000244FDE2E6F0
+[ADOPT] Adopting chunk (-9,5) gen=2 role=1
+[ADOPT] SUCCESS chunk (-9,5) now resident. loaded_from_persist=0
+[PROCESS] Adoption result: adopted=1 for cx=-9 cz=5
+[WORKER] Mesh complete cx=-7 cz=7 built=00000244FDE32950
+[WORKER] Queuing result cx=-7 cz=7 gen=2 built=00000244FDE32950 results=0/768
+[WORKER] Processing job cx=-5 cz=9 gen=2 type=GENERATE
+[PROCESS] Popped result cx=-7 cz=7 gen=2 type=GENERATE built=00000244FDE32950
+[ADOPT] Adopting chunk (-7,7) gen=2 role=1
+[ADOPT] SUCCESS chunk (-7,7) now resident. loaded_from_persist=0
+[PROCESS] Adoption result: adopted=1 for cx=-7 cz=7
+[WORKER] Meshing cx=-2 cz=8 (persisted=0)
+[WORKER] Meshing cx=-10 cz=4 (persisted=0)
+[WORKER] Mesh complete cx=-10 cz=3 built=00000244C6C07CD0
+[WORKER] Queuing result cx=-10 cz=3 gen=2 built=00000244C6C07CD0 results=0/768
+[WORKER] Processing job cx=-11 cz=1 gen=2 type=GENERATE
+[PROCESS] Popped result cx=-10 cz=3 gen=2 type=GENERATE built=00000244C6C07CD0
+[ADOPT] Adopting chunk (-10,3) gen=2 role=1
+[ADOPT] SUCCESS chunk (-10,3) now resident. loaded_from_persist=0
+[PROCESS] Adoption result: adopted=1 for cx=-10 cz=3
+[WORKER] Mesh complete cx=-10 cz=1 built=00000244C6C0CA40
+[WORKER] Queuing result cx=-10 cz=1 gen=2 built=00000244C6C0CA40 results=0/768
+[WORKER] Processing job cx=-11 cz=3 gen=2 type=GENERATE
+[PROCESS] Popped result cx=-10 cz=1 gen=2 type=GENERATE built=00000244C6C0CA40
+[ADOPT] Adopting chunk (-10,1) gen=2 role=1
+[ADOPT] SUCCESS chunk (-10,1) now resident. loaded_from_persist=0
+[PROCESS] Adoption result: adopted=1 for cx=-10 cz=1
+[READINESS] desired=9 resident=9 gpu_ready=1 | skips: not_primary=144 outside_radius=247 no_chunk=0 no_blocks=0 | pending: jobs=316 results=0
+[WORKER] Meshing cx=-6 cz=8 (persisted=0)
+[WORKER] Mesh complete cx=-5 cz=8 built=00000244C6C10CA0
+[WORKER] Queuing result cx=-5 cz=8 gen=2 built=00000244C6C10CA0 results=0/768
+[WORKER] Processing job cx=-9 cz=7 gen=2 type=GENERATE
+[PROCESS] Popped result cx=-5 cz=8 gen=2 type=GENERATE built=00000244C6C10CA0
+[ADOPT] Adopting chunk (-5,8) gen=2 role=1
+[ADOPT] SUCCESS chunk (-5,8) now resident. loaded_from_persist=0
+[PROCESS] Adoption result: adopted=1 for cx=-5 cz=8
+[WORKER] Mesh complete cx=-9 cz=4 built=00000244A1D60110
+[WORKER] Queuing result cx=-9 cz=4 gen=2 built=00000244A1D60110 results=0/768
+[WORKER] Processing job cx=-3 cz=9 gen=2 type=GENERATE
+[PROCESS] Popped result cx=-9 cz=4 gen=2 type=GENERATE built=00000244A1D60110
+[ADOPT] Adopting chunk (-9,4) gen=2 role=1
+[ADOPT] SUCCESS chunk (-9,4) now resident. loaded_from_persist=0
+[PROCESS] Adoption result: adopted=1 for cx=-9 cz=4
+[WORKER] Mesh complete cx=-3 cz=8 built=00000244A1D5EAF0
+[WORKER] Queuing result cx=-3 cz=8 gen=2 built=00000244A1D5EAF0 results=0/768
+[WORKER] Processing job cx=-10 cz=6 gen=2 type=GENERATE
+[PROCESS] Popped result cx=-3 cz=8 gen=2 type=GENERATE built=00000244A1D5EAF0
+[ADOPT] Adopting chunk (-3,8) gen=2 role=1
+[ADOPT] SUCCESS chunk (-3,8) now resident. loaded_from_persist=0
+[PROCESS] Adoption result: adopted=1 for cx=-3 cz=8
+[WORKER] Meshing cx=-9 cz=6 (persisted=0)
+[WORKER] Mesh complete cx=-2 cz=8 built=0000024499BB46E0
+[WORKER] Queuing result cx=-2 cz=8 gen=2 built=0000024499BB46E0 results=0/768
+[WORKER] Processing job cx=-8 cz=8 gen=2 type=GENERATE
+[PROCESS] Popped result cx=-2 cz=8 gen=2 type=GENERATE built=0000024499BB46E0
+[ADOPT] Adopting chunk (-2,8) gen=2 role=1
+[ADOPT] SUCCESS chunk (-2,8) now resident. loaded_from_persist=0
+[PROCESS] Adoption result: adopted=1 for cx=-2 cz=8
+[WORKER] Meshing cx=-8 cz=7 (persisted=0)
+[WORKER] Meshing cx=-1 cz=8 (persisted=0)
+[READINESS] desired=9 resident=9 gpu_ready=1 | skips: not_primary=144 outside_radius=247 no_chunk=0 no_blocks=0 | pending: jobs=312 results=0
+[WORKER] Mesh complete cx=-10 cz=4 built=00000244CC44E0D0
+[WORKER] Queuing result cx=-10 cz=4 gen=2 built=00000244CC44E0D0 results=0/768
+[WORKER] Processing job cx=-2 cz=9 gen=2 type=GENERATE
+[PROCESS] Popped result cx=-10 cz=4 gen=2 type=GENERATE built=00000244CC44E0D0
+[ADOPT] Adopting chunk (-10,4) gen=2 role=1
+[ADOPT] SUCCESS chunk (-10,4) now resident. loaded_from_persist=0
+[PROCESS] Adoption result: adopted=1 for cx=-10 cz=4
+[WORKER] Meshing cx=-10 cz=5 (persisted=0)
+[WORKER] Meshing cx=-7 cz=8 (persisted=0)
+[WORKER] Mesh complete cx=-6 cz=8 built=00000244CC44EBE0
+[WORKER] Queuing result cx=-6 cz=8 gen=2 built=00000244CC44EBE0 results=0/768
+[WORKER] Processing job cx=-6 cz=9 gen=2 type=GENERATE
+[PROCESS] Popped result cx=-6 cz=8 gen=2 type=GENERATE built=00000244CC44EBE0
+[ADOPT] Adopting chunk (-6,8) gen=2 role=1
+[ADOPT] SUCCESS chunk (-6,8) now resident. loaded_from_persist=0
+[PROCESS] Adoption result: adopted=1 for cx=-6 cz=8
+[WORKER] Meshing cx=-11 cz=2 (persisted=0)
+[WORKER] Meshing cx=-4 cz=9 (persisted=0)
+[WORKER] Mesh complete cx=-9 cz=6 built=00000244CC450D10
+[WORKER] Queuing result cx=-9 cz=6 gen=2 built=00000244CC450D10 results=0/768
+[WORKER] Processing job cx=-11 cz=4 gen=2 type=GENERATE
+[PROCESS] Popped result cx=-9 cz=6 gen=2 type=GENERATE built=00000244CC450D10
+[ADOPT] Adopting chunk (-9,6) gen=2 role=1
+[ADOPT] SUCCESS chunk (-9,6) now resident. loaded_from_persist=0
+[PROCESS] Adoption result: adopted=1 for cx=-9 cz=6
+[READINESS] desired=9 resident=9 gpu_ready=1 | skips: not_primary=144 outside_radius=247 no_chunk=0 no_blocks=0 | pending: jobs=309 results=0
+[WORKER] Mesh complete cx=-1 cz=8 built=00000244CC454F70
+[WORKER] Queuing result cx=-1 cz=8 gen=2 built=00000244CC454F70 results=0/768
+[WORKER] Processing job cx=-11 cz=5 gen=2 type=GENERATE
+[PROCESS] Popped result cx=-1 cz=8 gen=2 type=GENERATE built=00000244CC454F70
+[ADOPT] Adopting chunk (-1,8) gen=2 role=1
+[ADOPT] SUCCESS chunk (-1,8) now resident. loaded_from_persist=0
+[PROCESS] Adoption result: adopted=1 for cx=-1 cz=8
+[WORKER] Mesh complete cx=-8 cz=7 built=00000244CC452330
+[WORKER] Queuing result cx=-8 cz=7 gen=2 built=00000244CC452330 results=0/768
+[WORKER] Processing job cx=-1 cz=9 gen=2 type=GENERATE
+[PROCESS] Popped result cx=-8 cz=7 gen=2 type=GENERATE built=00000244CC452330
+[ADOPT] Adopting chunk (-8,7) gen=2 role=1
+[ADOPT] SUCCESS chunk (-8,7) now resident. loaded_from_persist=0
+[PROCESS] Adoption result: adopted=1 for cx=-8 cz=7
+[WORKER] Meshing cx=-5 cz=9 (persisted=0)
+[WORKER] Meshing cx=-11 cz=1 (persisted=0)
+[WORKER] Meshing cx=-11 cz=3 (persisted=0)
+[WORKER] Meshing cx=-3 cz=9 (persisted=0)
+[WORKER] Mesh complete cx=-10 cz=5 built=00000244CC456590
+[WORKER] Queuing result cx=-10 cz=5 gen=2 built=00000244CC456590 results=0/768
+[WORKER] Processing job cx=-7 cz=9 gen=2 type=GENERATE
+[PROCESS] Popped result cx=-10 cz=5 gen=2 type=GENERATE built=00000244CC456590
+[ADOPT] Adopting chunk (-10,5) gen=2 role=1
+[ADOPT] SUCCESS chunk (-10,5) now resident. loaded_from_persist=0
+[PROCESS] Adoption result: adopted=1 for cx=-10 cz=5
+[WORKER] Meshing cx=-9 cz=7 (persisted=0)
+[WORKER] Mesh complete cx=-7 cz=8 built=00000244CC457BB0
+[WORKER] Queuing result cx=-7 cz=8 gen=2 built=00000244CC457BB0 results=0/768
+[WORKER] Processing job cx=-9 cz=8 gen=2 type=GENERATE
+[PROCESS] Popped result cx=-7 cz=8 gen=2 type=GENERATE built=00000244CC457BB0
+[ADOPT] Adopting chunk (-7,8) gen=2 role=1
+[ADOPT] SUCCESS chunk (-7,8) now resident. loaded_from_persist=0
+[PROCESS] Adoption result: adopted=1 for cx=-7 cz=8
+[WORKER] Mesh complete cx=-11 cz=2 built=00000244CC455A80
+[WORKER] Queuing result cx=-11 cz=2 gen=2 built=00000244CC455A80 results=0/768
+[WORKER] Processing job cx=-10 cz=7 gen=2 type=GENERATE
+[PROCESS] Popped result cx=-11 cz=2 gen=2 type=GENERATE built=00000244CC455A80
+[ADOPT] Adopting chunk (-11,2) gen=2 role=1
+[ADOPT] SUCCESS chunk (-11,2) now resident. loaded_from_persist=0
+[PROCESS] Adoption result: adopted=1 for cx=-11 cz=2
+[WORKER] Mesh complete cx=-4 cz=9 built=00000244CC4591D0
+[WORKER] Queuing result cx=-4 cz=9 gen=2 built=00000244CC4591D0 results=0/768
+[WORKER] Processing job cx=-12 cz=2 gen=2 type=GENERATE
+[PROCESS] Popped result cx=-4 cz=9 gen=2 type=GENERATE built=00000244CC4591D0
+[ADOPT] Adopting chunk (-4,9) gen=2 role=1
+[ADOPT] SUCCESS chunk (-4,9) now resident. loaded_from_persist=0
+[PROCESS] Adoption result: adopted=1 for cx=-4 cz=9
+[WORKER] Meshing cx=-10 cz=6 (persisted=0)
+[WALL] HEALTH W=16/0/0 N=16/5/0 E=16/0/0 S=16/0/0 (desired/resident/ready)
+[READINESS] desired=9 resident=9 gpu_ready=1 | skips: not_primary=144 outside_radius=247 no_chunk=0 no_blocks=0 | pending: jobs=303 results=0
+[WORKER] Meshing cx=-8 cz=8 (persisted=0)
+[WORKER] Meshing cx=-2 cz=9 (persisted=0)
+[WORKER] Mesh complete cx=-11 cz=1 built=00000244CC44F6F0
+[WORKER] Queuing result cx=-11 cz=1 gen=2 built=00000244CC44F6F0 results=0/768
+[WORKER] Processing job cx=-4 cz=10 gen=2 type=GENERATE
+[PROCESS] Popped result cx=-11 cz=1 gen=2 type=GENERATE built=00000244CC44F6F0
+[ADOPT] Adopting chunk (-11,1) gen=2 role=1
+[ADOPT] SUCCESS chunk (-11,1) now resident. loaded_from_persist=0
+[PROCESS] Adoption result: adopted=1 for cx=-11 cz=1
+[WORKER] Mesh complete cx=-5 cz=9 built=00000244CC459CE0
+[WORKER] Queuing result cx=-5 cz=9 gen=2 built=00000244CC459CE0 results=0/768
+[WORKER] Processing job cx=-12 cz=3 gen=2 type=GENERATE
+[PROCESS] Popped result cx=-5 cz=9 gen=2 type=GENERATE built=00000244CC459CE0
+[ADOPT] Adopting chunk (-5,9) gen=2 role=1
+[ADOPT] SUCCESS chunk (-5,9) now resident. loaded_from_persist=0
+[PROCESS] Adoption result: adopted=1 for cx=-5 cz=9
+[WORKER] Mesh complete cx=-11 cz=3 built=00000244CC45A7F0
+[WORKER] Queuing result cx=-11 cz=3 gen=2 built=00000244CC45A7F0 results=0/768
+[WORKER] Processing job cx=-11 cz=6 gen=2 type=GENERATE
+[PROCESS] Popped result cx=-11 cz=3 gen=2 type=GENERATE built=00000244CC45A7F0
+[ADOPT] Adopting chunk (-11,3) gen=2 role=1
+[ADOPT] SUCCESS chunk (-11,3) now resident. loaded_from_persist=0
+[PROCESS] Adoption result: adopted=1 for cx=-11 cz=3
+[WORKER] Mesh complete cx=-3 cz=9 built=00000244FDE1AF90
+[WORKER] Queuing result cx=-3 cz=9 gen=2 built=00000244FDE1AF90 results=0/768
+[WORKER] Processing job cx=-5 cz=10 gen=2 type=GENERATE
+[PROCESS] Popped result cx=-3 cz=9 gen=2 type=GENERATE built=00000244FDE1AF90
+[ADOPT] Adopting chunk (-3,9) gen=2 role=1
+[ADOPT] SUCCESS chunk (-3,9) now resident. loaded_from_persist=0
+[PROCESS] Adoption result: adopted=1 for cx=-3 cz=9
+[WORKER] Mesh complete cx=-9 cz=7 built=00000244FDE19970
+[WORKER] Queuing result cx=-9 cz=7 gen=2 built=00000244FDE19970 results=0/768
+[WORKER] Processing job cx=-3 cz=10 gen=2 type=GENERATE
+[PROCESS] Popped result cx=-9 cz=7 gen=2 type=GENERATE built=00000244FDE19970
+[ADOPT] Adopting chunk (-9,7) gen=2 role=1
+[ADOPT] SUCCESS chunk (-9,7) now resident. loaded_from_persist=0
+[PROCESS] Adoption result: adopted=1 for cx=-9 cz=7
+[WORKER] Meshing cx=-6 cz=9 (persisted=0)
+[READINESS] desired=9 resident=9 gpu_ready=1 | skips: not_primary=144 outside_radius=247 no_chunk=0 no_blocks=0 | pending: jobs=298 results=0
+[WORKER] Meshing cx=-11 cz=4 (persisted=0)
+[WORKER] Meshing cx=-1 cz=9 (persisted=0)
+[WORKER] Mesh complete cx=-10 cz=6 built=00000244FDE30820
+[WORKER] Queuing result cx=-10 cz=6 gen=2 built=00000244FDE30820 results=0/768
+[WORKER] Processing job cx=-12 cz=1 gen=2 type=GENERATE
+[PROCESS] Popped result cx=-10 cz=6 gen=2 type=GENERATE built=00000244FDE30820
+[ADOPT] Adopting chunk (-10,6) gen=2 role=1
+[ADOPT] SUCCESS chunk (-10,6) now resident. loaded_from_persist=0
+[PROCESS] Adoption result: adopted=1 for cx=-10 cz=6
+[WORKER] Mesh complete cx=-2 cz=9 built=00000244CC454460
+[WORKER] Queuing result cx=-2 cz=9 gen=2 built=00000244CC454460 results=0/768
+[WORKER] Processing job cx=-8 cz=9 gen=2 type=GENERATE
+[PROCESS] Popped result cx=-2 cz=9 gen=2 type=GENERATE built=00000244CC454460
+[ADOPT] Adopting chunk (-2,9) gen=2 role=1
+[ADOPT] SUCCESS chunk (-2,9) now resident. loaded_from_persist=0
+[PROCESS] Adoption result: adopted=1 for cx=-2 cz=9
+[WORKER] Mesh complete cx=-8 cz=8 built=00000244CC453950
+[WORKER] Queuing result cx=-8 cz=8 gen=2 built=00000244CC453950 results=0/768
+[WORKER] Processing job cx=-12 cz=4 gen=2 type=GENERATE
+[PROCESS] Popped result cx=-8 cz=8 gen=2 type=GENERATE built=00000244CC453950
+[ADOPT] Adopting chunk (-8,8) gen=2 role=1
+[ADOPT] SUCCESS chunk (-8,8) now resident. loaded_from_persist=0
+[PROCESS] Adoption result: adopted=1 for cx=-8 cz=8
+[WORKER] Meshing cx=-11 cz=5 (persisted=0)
+[READINESS] desired=9 resident=9 gpu_ready=1 | skips: not_primary=144 outside_radius=247 no_chunk=0 no_blocks=0 | pending: jobs=295 results=0
+[WORKER] Meshing cx=-7 cz=9 (persisted=0)
+[WORKER] Meshing cx=-12 cz=2 (persisted=0)
+[WORKER] Meshing cx=-9 cz=8 (persisted=0)
+[WORKER] Meshing cx=-10 cz=7 (persisted=0)
+[WORKER] Mesh complete cx=-6 cz=9 built=00000244C6C143F0
+[WORKER] Queuing result cx=-6 cz=9 gen=2 built=00000244C6C143F0 results=0/768
+[WORKER] Processing job cx=-2 cz=10 gen=2 type=GENERATE
+[PROCESS] Popped result cx=-6 cz=9 gen=2 type=GENERATE built=00000244C6C143F0
+[ADOPT] Adopting chunk (-6,9) gen=2 role=1
+[ADOPT] SUCCESS chunk (-6,9) now resident. loaded_from_persist=0
+[PROCESS] Adoption result: adopted=1 for cx=-6 cz=9
+[WORKER] Mesh complete cx=-11 cz=4 built=00000244CC452E40
+[WORKER] Queuing result cx=-11 cz=4 gen=2 built=00000244CC452E40 results=0/768
+[WORKER] Processing job cx=-6 cz=10 gen=2 type=GENERATE
+[PROCESS] Popped result cx=-11 cz=4 gen=2 type=GENERATE built=00000244CC452E40
+[ADOPT] Adopting chunk (-11,4) gen=2 role=1
+[ADOPT] SUCCESS chunk (-11,4) now resident. loaded_from_persist=0
+[PROCESS] Adoption result: adopted=1 for cx=-11 cz=4
+[WORKER] Mesh complete cx=-1 cz=9 built=00000244CC4586C0
+[WORKER] Queuing result cx=-1 cz=9 gen=2 built=00000244CC4586C0 results=0/768
+[WORKER] Processing job cx=-10 cz=8 gen=2 type=GENERATE
+[PROCESS] Popped result cx=-1 cz=9 gen=2 type=GENERATE built=00000244CC4586C0
+[ADOPT] Adopting chunk (-1,9) gen=2 role=1
+[ADOPT] SUCCESS chunk (-1,9) now resident. loaded_from_persist=0
+[PROCESS] Adoption result: adopted=1 for cx=-1 cz=9
+[WORKER] Mesh complete cx=-11 cz=5 built=00000244CC45C920
+[WORKER] Queuing result cx=-11 cz=5 gen=2 built=00000244CC45C920 results=0/768
+[WORKER] Processing job cx=-12 cz=5 gen=2 type=GENERATE
+[PROCESS] Popped result cx=-11 cz=5 gen=2 type=GENERATE built=00000244CC45C920
+[ADOPT] Adopting chunk (-11,5) gen=2 role=1
+[ADOPT] SUCCESS chunk (-11,5) now resident. loaded_from_persist=0
+[PROCESS] Adoption result: adopted=1 for cx=-11 cz=5
+[READINESS] desired=9 resident=9 gpu_ready=1 | skips: not_primary=144 outside_radius=247 no_chunk=0 no_blocks=0 | pending: jobs=291 results=0
+[WORKER] Meshing cx=-3 cz=10 (persisted=0)
+[WORKER] Meshing cx=-12 cz=3 (persisted=0)
+[WORKER] Mesh complete cx=-7 cz=9 built=00000244A1D60C20
+[WORKER] Queuing result cx=-7 cz=9 gen=2 built=00000244A1D60C20 results=0/768
+[WORKER] Processing job cx=-7 cz=10 gen=2 type=GENERATE
+[PROCESS] Popped result cx=-7 cz=9 gen=2 type=GENERATE built=00000244A1D60C20
+[ADOPT] Adopting chunk (-7,9) gen=2 role=1
+[ADOPT] SUCCESS chunk (-7,9) now resident. loaded_from_persist=0
+[PROCESS] Adoption result: adopted=1 for cx=-7 cz=9
+[WORKER] Mesh complete cx=-12 cz=2 built=00000244FDE2D0D0
+[WORKER] Queuing result cx=-12 cz=2 gen=2 built=00000244FDE2D0D0 results=0/768
+[WORKER] Processing job cx=-1 cz=10 gen=2 type=GENERATE
+[PROCESS] Popped result cx=-12 cz=2 gen=2 type=GENERATE built=00000244FDE2D0D0
+[ADOPT] Adopting chunk (-12,2) gen=2 role=1
+[ADOPT] SUCCESS chunk (-12,2) now resident. loaded_from_persist=0
+[PROCESS] Adoption result: adopted=1 for cx=-12 cz=2
+[WORKER] Meshing cx=-12 cz=1 (persisted=0)
+[WORKER] Mesh complete cx=-9 cz=8 built=00000244FDE376C0
+[WORKER] Queuing result cx=-9 cz=8 gen=2 built=00000244FDE376C0 results=0/768
+[WORKER] Processing job cx=-11 cz=7 gen=2 type=GENERATE
+[PROCESS] Popped result cx=-9 cz=8 gen=2 type=GENERATE built=00000244FDE376C0
+[ADOPT] Adopting chunk (-9,8) gen=2 role=1
+[ADOPT] SUCCESS chunk (-9,8) now resident. loaded_from_persist=0
+[PROCESS] Adoption result: adopted=1 for cx=-9 cz=8
+[WORKER] Meshing cx=-11 cz=6 (persisted=0)
+[WORKER] Meshing cx=-4 cz=10 (persisted=0)
+[WORKER] Mesh complete cx=-10 cz=7 built=00000244CE6D60D0
+[WORKER] Queuing result cx=-10 cz=7 gen=2 built=00000244CE6D60D0 results=0/768
+[WORKER] Processing job cx=-9 cz=9 gen=2 type=GENERATE
+[PROCESS] Popped result cx=-10 cz=7 gen=2 type=GENERATE built=00000244CE6D60D0
+[ADOPT] Adopting chunk (-10,7) gen=2 role=1
+[ADOPT] SUCCESS chunk (-10,7) now resident. loaded_from_persist=0
+[PROCESS] Adoption result: adopted=1 for cx=-10 cz=7
+[WORKER] Meshing cx=-8 cz=9 (persisted=0)
+[WORKER] Meshing cx=-12 cz=4 (persisted=0)
+[READINESS] desired=9 resident=9 gpu_ready=1 | skips: not_primary=144 outside_radius=247 no_chunk=0 no_blocks=0 | pending: jobs=287 results=0
+[WORKER] Mesh complete cx=-3 cz=10 built=00000244CE6D8200
+[WORKER] Queuing result cx=-3 cz=10 gen=2 built=00000244CE6D8200 results=0/768
+[WORKER] Processing job cx=-12 cz=6 gen=2 type=GENERATE
+[PROCESS] Popped result cx=-3 cz=10 gen=2 type=GENERATE built=00000244CE6D8200
+[ADOPT] Adopting chunk (-3,10) gen=2 role=1
+[ADOPT] SUCCESS chunk (-3,10) now resident. loaded_from_persist=0
+[PROCESS] Adoption result: adopted=1 for cx=-3 cz=10
+[WORKER] Mesh complete cx=-12 cz=3 built=00000244CE6D6BE0
+[WORKER] Queuing result cx=-12 cz=3 gen=2 built=00000244CE6D6BE0 results=0/768
+[WORKER] Processing job cx=-8 cz=10 gen=2 type=GENERATE
+[WORKER] Meshing cx=-2 cz=10 (persisted=0)
+[PROCESS] Popped result cx=-12 cz=3 gen=2 type=GENERATE built=00000244CE6D6BE0
+[ADOPT] Adopting chunk (-12,3) gen=2 role=1
+[ADOPT] SUCCESS chunk (-12,3) now resident. loaded_from_persist=0
+[PROCESS] Adoption result: adopted=1 for cx=-12 cz=3
+[WORKER] Mesh complete cx=-12 cz=1 built=00000244CE6DAE40
+[WORKER] Queuing result cx=-12 cz=1 gen=2 built=00000244CE6DAE40 results=0/768
+[WORKER] Processing job cx=-4 cz=11 gen=2 type=GENERATE
+[PROCESS] Popped result cx=-12 cz=1 gen=2 type=GENERATE built=00000244CE6DAE40
+[ADOPT] Adopting chunk (-12,1) gen=2 role=1
+[ADOPT] SUCCESS chunk (-12,1) now resident. loaded_from_persist=0
+[PROCESS] Adoption result: adopted=1 for cx=-12 cz=1
+[WORKER] Mesh complete cx=-11 cz=6 built=00000244CE6DCF70
+[WORKER] Queuing result cx=-11 cz=6 gen=2 built=00000244CE6DCF70 results=0/768
+[WORKER] Processing job cx=-13 cz=2 gen=2 type=GENERATE
+[PROCESS] Popped result cx=-11 cz=6 gen=2 type=GENERATE built=00000244CE6DCF70
+[WORKER] Mesh complete cx=-4 cz=10 built=00000244CE6DFBB0
+[ADOPT] Adopting chunk (-11,6) gen=2 role=1
+[WORKER] Queuing result cx=-4 cz=10 gen=2 built=00000244CE6DFBB0 results=0/768
+[WORKER] Processing job cx=-5 cz=11 gen=2 type=GENERATE
+[ADOPT] SUCCESS chunk (-11,6) now resident. loaded_from_persist=0
+[PROCESS] Adoption result: adopted=1 for cx=-11 cz=6
+[PROCESS] Popped result cx=-4 cz=10 gen=2 type=GENERATE built=00000244CE6DFBB0
+[ADOPT] Adopting chunk (-4,10) gen=2 role=1
+[ADOPT] SUCCESS chunk (-4,10) now resident. loaded_from_persist=0
+[PROCESS] Adoption result: adopted=1 for cx=-4 cz=10
+[WORKER] Meshing cx=-6 cz=10 (persisted=0)
+[WORKER] Meshing cx=-10 cz=8 (persisted=0)
+[WALL] HEALTH W=16/0/0 N=16/5/0 E=16/0/0 S=16/0/0 (desired/resident/ready)
+[READINESS] desired=9 resident=9 gpu_ready=1 | skips: not_primary=144 outside_radius=247 no_chunk=0 no_blocks=0 | pending: jobs=282 results=0
+[WORKER] Meshing cx=-5 cz=10 (persisted=0)
+[WORKER] Mesh complete cx=-8 cz=9 built=00000244CE6DF0A0
+[WORKER] Queuing result cx=-8 cz=9 gen=2 built=00000244CE6DF0A0 results=0/768
+[WORKER] Processing job cx=-13 cz=3 gen=2 type=GENERATE
+[PROCESS] Popped result cx=-8 cz=9 gen=2 type=GENERATE built=00000244CE6DF0A0
+[ADOPT] Adopting chunk (-8,9) gen=2 role=1
+[ADOPT] SUCCESS chunk (-8,9) now resident. loaded_from_persist=0
+[PROCESS] Adoption result: adopted=1 for cx=-8 cz=9
+[WORKER] Mesh complete cx=-12 cz=4 built=00000244CE6DDA80
+[WORKER] Queuing result cx=-12 cz=4 gen=2 built=00000244CE6DDA80 results=0/768
+[WORKER] Processing job cx=-3 cz=11 gen=2 type=GENERATE
+[PROCESS] Popped result cx=-12 cz=4 gen=2 type=GENERATE built=00000244CE6DDA80
+[ADOPT] Adopting chunk (-12,4) gen=2 role=1
+[ADOPT] SUCCESS chunk (-12,4) now resident. loaded_from_persist=0
+[PROCESS] Adoption result: adopted=1 for cx=-12 cz=4
+[WORKER] Meshing cx=-12 cz=5 (persisted=0)
+[WORKER] Meshing cx=-1 cz=10 (persisted=0)
+[WORKER] Mesh complete cx=-2 cz=10 built=00000244CE6E1CE0
+[WORKER] Queuing result cx=-2 cz=10 gen=2 built=00000244CE6E1CE0 results=0/768
+[WORKER] Processing job cx=-13 cz=1 gen=2 type=GENERATE
+[PROCESS] Popped result cx=-2 cz=10 gen=2 type=GENERATE built=00000244CE6E1CE0
+[ADOPT] Adopting chunk (-2,10) gen=2 role=1
+[ADOPT] SUCCESS chunk (-2,10) now resident. loaded_from_persist=0
+[PROCESS] Adoption result: adopted=1 for cx=-2 cz=10
+[WORKER] Meshing cx=-7 cz=10 (persisted=0)
+[READINESS] desired=9 resident=9 gpu_ready=1 | skips: not_primary=144 outside_radius=247 no_chunk=0 no_blocks=0 | pending: jobs=279 results=0
+[WORKER] Meshing cx=-11 cz=7 (persisted=0)
+[WORKER] Meshing cx=-9 cz=9 (persisted=0)
+[WORKER] Mesh complete cx=-6 cz=10 built=00000244CE6D76F0
+[WORKER] Queuing result cx=-6 cz=10 gen=2 built=00000244CE6D76F0 results=0/768
+[WORKER] Processing job cx=-10 cz=9 gen=2 type=GENERATE
+[PROCESS] Popped result cx=-6 cz=10 gen=2 type=GENERATE built=00000244CE6D76F0
+[ADOPT] Adopting chunk (-6,10) gen=2 role=1
+[ADOPT] SUCCESS chunk (-6,10) now resident. loaded_from_persist=0
+[PROCESS] Adoption result: adopted=1 for cx=-6 cz=10
+[WORKER] Mesh complete cx=-5 cz=10 built=00000244CE6E3E10
+[WORKER] Queuing result cx=-5 cz=10 gen=2 built=00000244CE6E3E10 results=0/768
+[WORKER] Processing job cx=-11 cz=8 gen=2 type=GENERATE
+[WORKER] Mesh complete cx=-10 cz=8 built=00000244CE6E4920
+[WORKER] Queuing result cx=-10 cz=8 gen=2 built=00000244CE6E4920 results=1/768
+[WORKER] Processing job cx=-6 cz=11 gen=2 type=GENERATE
+[PROCESS] Popped result cx=-5 cz=10 gen=2 type=GENERATE built=00000244CE6E3E10
+[ADOPT] Adopting chunk (-5,10) gen=2 role=1
+[ADOPT] SUCCESS chunk (-5,10) now resident. loaded_from_persist=0
+[PROCESS] Adoption result: adopted=1 for cx=-5 cz=10
+[PROCESS] Popped result cx=-10 cz=8 gen=2 type=GENERATE built=00000244CE6E4920
+[ADOPT] Adopting chunk (-10,8) gen=2 role=1
+[ADOPT] SUCCESS chunk (-10,8) now resident. loaded_from_persist=0
+[PROCESS] Adoption result: adopted=1 for cx=-10 cz=8
+[WORKER] Mesh complete cx=-1 cz=10 built=00000244CC450200
+[WORKER] Queuing result cx=-1 cz=10 gen=2 built=00000244CC450200 results=0/768
+[WORKER] Processing job cx=-2 cz=11 gen=2 type=GENERATE
+[PROCESS] Popped result cx=-1 cz=10 gen=2 type=GENERATE built=00000244CC450200
+[ADOPT] Adopting chunk (-1,10) gen=2 role=1
+[ADOPT] SUCCESS chunk (-1,10) now resident. loaded_from_persist=0
+[PROCESS] Adoption result: adopted=1 for cx=-1 cz=10
+[WORKER] Mesh complete cx=-12 cz=5 built=00000244CC4570A0
+[WORKER] Queuing result cx=-12 cz=5 gen=2 built=00000244CC4570A0 results=0/768
+[WORKER] Processing job cx=-13 cz=4 gen=2 type=GENERATE
+[PROCESS] Popped result cx=-12 cz=5 gen=2 type=GENERATE built=00000244CC4570A0
+[ADOPT] Adopting chunk (-12,5) gen=2 role=1
+[ADOPT] SUCCESS chunk (-12,5) now resident. loaded_from_persist=0
+[PROCESS] Adoption result: adopted=1 for cx=-12 cz=5
+[WORKER] Meshing cx=-12 cz=6 (persisted=0)
+[READINESS] desired=9 resident=9 gpu_ready=1 | skips: not_primary=144 outside_radius=247 no_chunk=0 no_blocks=0 | pending: jobs=274 results=0
+[WORKER] Meshing cx=-8 cz=10 (persisted=0)
+[WORKER] Mesh complete cx=-7 cz=10 built=00000244CC45B300
+[WORKER] Queuing result cx=-7 cz=10 gen=2 built=00000244CC45B300 results=0/768
+[WORKER] Processing job cx=-9 cz=10 gen=2 type=GENERATE
+[PROCESS] Popped result cx=-7 cz=10 gen=2 type=GENERATE built=00000244CC45B300
+[ADOPT] Adopting chunk (-7,10) gen=2 role=1
+[ADOPT] SUCCESS chunk (-7,10) now resident. loaded_from_persist=0
+[PROCESS] Adoption result: adopted=1 for cx=-7 cz=10
+[WORKER] Meshing cx=-13 cz=2 (persisted=0)
+[WORKER] Mesh complete cx=-11 cz=7 built=00000244CE6DA330
+[WORKER] Queuing result cx=-11 cz=7 gen=2 built=00000244CE6DA330 results=0/768
+[WORKER] Processing job cx=-12 cz=7 gen=2 type=GENERATE
+[PROCESS] Popped result cx=-11 cz=7 gen=2 type=GENERATE built=00000244CE6DA330
+[ADOPT] Adopting chunk (-11,7) gen=2 role=1
+[ADOPT] SUCCESS chunk (-11,7) now resident. loaded_from_persist=0
+[PROCESS] Adoption result: adopted=1 for cx=-11 cz=7
+[WORKER] Mesh complete cx=-9 cz=9 built=00000244CE6D9820
+[WORKER] Queuing result cx=-9 cz=9 gen=2 built=00000244CE6D9820 results=0/768
+[WORKER] Processing job cx=-13 cz=5 gen=2 type=GENERATE
+[PROCESS] Popped result cx=-9 cz=9 gen=2 type=GENERATE built=00000244CE6D9820
+[ADOPT] Adopting chunk (-9,9) gen=2 role=1
+[ADOPT] SUCCESS chunk (-9,9) now resident. loaded_from_persist=0
+[PROCESS] Adoption result: adopted=1 for cx=-9 cz=9
+[WORKER] Meshing cx=-3 cz=11 (persisted=0)
+[WORKER] Meshing cx=-13 cz=3 (persisted=0)
+[WORKER] Meshing cx=-13 cz=1 (persisted=0)
+[READINESS] desired=9 resident=9 gpu_ready=1 | skips: not_primary=144 outside_radius=247 no_chunk=0 no_blocks=0 | pending: jobs=271 results=0
+[WORKER] Mesh complete cx=-12 cz=6 built=00000244C6C122C0
+[WORKER] Queuing result cx=-12 cz=6 gen=2 built=00000244C6C122C0 results=0/768
+[WORKER] Processing job cx=-7 cz=11 gen=2 type=GENERATE
+[PROCESS] Popped result cx=-12 cz=6 gen=2 type=GENERATE built=00000244C6C122C0
+[ADOPT] Adopting chunk (-12,6) gen=2 role=1
+[ADOPT] SUCCESS chunk (-12,6) now resident. loaded_from_persist=0
+[PROCESS] Adoption result: adopted=1 for cx=-12 cz=6
+[WORKER] Mesh complete cx=-8 cz=10 built=00000244CE6E06C0
+[WORKER] Queuing result cx=-8 cz=10 gen=2 built=00000244CE6E06C0 results=0/768
+[WORKER] Processing job cx=-1 cz=11 gen=2 type=GENERATE
+[PROCESS] Popped result cx=-8 cz=10 gen=2 type=GENERATE built=00000244CE6E06C0
+[ADOPT] Adopting chunk (-8,10) gen=2 role=1
+[ADOPT] SUCCESS chunk (-8,10) now resident. loaded_from_persist=0
+[PROCESS] Adoption result: adopted=1 for cx=-8 cz=10
+[WORKER] Mesh complete cx=-13 cz=2 built=00000244FDE18350
+[WORKER] Queuing result cx=-13 cz=2 gen=2 built=00000244FDE18350 results=0/768
+[WORKER] Processing job cx=-13 cz=6 gen=2 type=GENERATE
+[PROCESS] Popped result cx=-13 cz=2 gen=2 type=GENERATE built=00000244FDE18350
+[ADOPT] Adopting chunk (-13,2) gen=2 role=1
+[ADOPT] SUCCESS chunk (-13,2) now resident. loaded_from_persist=0
+[PROCESS] Adoption result: adopted=1 for cx=-13 cz=2
+[WORKER] Meshing cx=-10 cz=9 (persisted=0)
+[WORKER] Meshing cx=-2 cz=11 (persisted=0)
+[WORKER] Mesh complete cx=-3 cz=11 built=00000244CE6D8D10
+[WORKER] Queuing result cx=-3 cz=11 gen=2 built=00000244CE6D8D10 results=0/768
+[WORKER] Processing job cx=-8 cz=11 gen=2 type=GENERATE
+[READINESS] desired=9 resident=9 gpu_ready=1 | skips: not_primary=144 outside_radius=247 no_chunk=0 no_blocks=0 | pending: jobs=267 results=1
+[PROCESS] Popped result cx=-3 cz=11 gen=2 type=GENERATE built=00000244CE6D8D10
+[ADOPT] Adopting chunk (-3,11) gen=2 role=1
+[ADOPT] SUCCESS chunk (-3,11) now resident. loaded_from_persist=0
+[PROCESS] Adoption result: adopted=1 for cx=-3 cz=11
+[WORKER] Meshing cx=-11 cz=8 (persisted=0)
+[WORKER] Mesh complete cx=-13 cz=3 built=00000244CE6E11D0
+[WORKER] Queuing result cx=-13 cz=3 gen=2 built=00000244CE6E11D0 results=0/768
+[WORKER] Processing job cx=-11 cz=9 gen=2 type=GENERATE
+[PROCESS] Popped result cx=-13 cz=3 gen=2 type=GENERATE built=00000244CE6E11D0
+[ADOPT] Adopting chunk (-13,3) gen=2 role=1
+[ADOPT] SUCCESS chunk (-13,3) now resident. loaded_from_persist=0
+[PROCESS] Adoption result: adopted=1 for cx=-13 cz=3
+[WORKER] Meshing cx=-4 cz=11 (persisted=0)
+[WORKER] Mesh complete cx=-13 cz=1 built=00000244CE6DC460
+[WORKER] Queuing result cx=-13 cz=1 gen=2 built=00000244CE6DC460 results=0/768
+[WORKER] Processing job cx=-10 cz=10 gen=2 type=GENERATE
+[PROCESS] Popped result cx=-13 cz=1 gen=2 type=GENERATE built=00000244CE6DC460
+[ADOPT] Adopting chunk (-13,1) gen=2 role=1
+[ADOPT] SUCCESS chunk (-13,1) now resident. loaded_from_persist=0
+[PROCESS] Adoption result: adopted=1 for cx=-13 cz=1
+[WORKER] Meshing cx=-13 cz=4 (persisted=0)
+[WORKER] Meshing cx=-6 cz=11 (persisted=0)
+[WORKER] Meshing cx=-9 cz=10 (persisted=0)
+[WALL] HEALTH W=16/0/0 N=16/5/0 E=16/0/0 S=16/0/0 (desired/resident/ready)
+[WORKER] Meshing cx=-5 cz=11 (persisted=0)
+[READINESS] desired=9 resident=9 gpu_ready=1 | skips: not_primary=144 outside_radius=247 no_chunk=0 no_blocks=0 | pending: jobs=265 results=0
+[WORKER] Mesh complete cx=-2 cz=11 built=00000244C75DD3D0
+[WORKER] Queuing result cx=-2 cz=11 gen=2 built=00000244C75DD3D0 results=0/768
+[WORKER] Processing job cx=-12 cz=8 gen=2 type=GENERATE
+[PROCESS] Popped result cx=-2 cz=11 gen=2 type=GENERATE built=00000244C75DD3D0
+[ADOPT] Adopting chunk (-2,11) gen=2 role=1
+[ADOPT] SUCCESS chunk (-2,11) now resident. loaded_from_persist=0
+[PROCESS] Adoption result: adopted=1 for cx=-2 cz=11
+[WORKER] Mesh complete cx=-10 cz=9 built=00000244C75DC8C0
+[WORKER] Queuing result cx=-10 cz=9 gen=2 built=00000244C75DC8C0 results=0/768
+[WORKER] Processing job cx=-14 cz=2 gen=2 type=GENERATE
+[PROCESS] Popped result cx=-10 cz=9 gen=2 type=GENERATE built=00000244C75DC8C0
+[ADOPT] Adopting chunk (-10,9) gen=2 role=1
+[ADOPT] SUCCESS chunk (-10,9) now resident. loaded_from_persist=0
+[PROCESS] Adoption result: adopted=1 for cx=-10 cz=9
+[WORKER] Meshing cx=-12 cz=7 (persisted=0)
+[WORKER] Mesh complete cx=-4 cz=11 built=00000244C75DE9F0
+[WORKER] Queuing result cx=-4 cz=11 gen=2 built=00000244C75DE9F0 results=0/768
+[WORKER] Processing job cx=-4 cz=12 gen=2 type=GENERATE
+[WORKER] Meshing cx=-13 cz=5 (persisted=0)
+[PROCESS] Popped result cx=-4 cz=11 gen=2 type=GENERATE built=00000244C75DE9F0
+[ADOPT] Adopting chunk (-4,11) gen=2 role=1
+[ADOPT] SUCCESS chunk (-4,11) now resident. loaded_from_persist=0
+[PROCESS] Adoption result: adopted=1 for cx=-4 cz=11
+[WORKER] Mesh complete cx=-11 cz=8 built=00000244C75DDEE0
+[WORKER] Queuing result cx=-11 cz=8 gen=2 built=00000244C75DDEE0 results=0/768
+[WORKER] Processing job cx=-5 cz=12 gen=2 type=GENERATE
+[PROCESS] Popped result cx=-11 cz=8 gen=2 type=GENERATE built=00000244C75DDEE0
+[ADOPT] Adopting chunk (-11,8) gen=2 role=1
+[ADOPT] SUCCESS chunk (-11,8) now resident. loaded_from_persist=0
+[PROCESS] Adoption result: adopted=1 for cx=-11 cz=8
+[WORKER] Meshing cx=-1 cz=11 (persisted=0)
+[WORKER] Mesh complete cx=-13 cz=4 built=00000244C75E2C50
+[WORKER] Queuing result cx=-13 cz=4 gen=2 built=00000244C75E2C50 results=0/768
+[WORKER] Processing job cx=-14 cz=3 gen=2 type=GENERATE
+[PROCESS] Popped result cx=-13 cz=4 gen=2 type=GENERATE built=00000244C75E2C50
+[ADOPT] Adopting chunk (-13,4) gen=2 role=1
+[ADOPT] SUCCESS chunk (-13,4) now resident. loaded_from_persist=0
+[PROCESS] Adoption result: adopted=1 for cx=-13 cz=4
+[WORKER] Mesh complete cx=-6 cz=11 built=00000244C75E3760
+[WORKER] Queuing result cx=-6 cz=11 gen=2 built=00000244C75E3760 results=0/768
+[WORKER] Processing job cx=-3 cz=12 gen=2 type=GENERATE
+[PROCESS] Popped result cx=-6 cz=11 gen=2 type=GENERATE built=00000244C75E3760
+[ADOPT] Adopting chunk (-6,11) gen=2 role=1
+[ADOPT] SUCCESS chunk (-6,11) now resident. loaded_from_persist=0
+[PROCESS] Adoption result: adopted=1 for cx=-6 cz=11
+[WORKER] Meshing cx=-7 cz=11 (persisted=0)
+[WORKER] Mesh complete cx=-9 cz=10 built=00000244C75E4D80
+[WORKER] Queuing result cx=-9 cz=10 gen=2 built=00000244C75E4D80 results=0/768
+[WORKER] Processing job cx=-14 cz=1 gen=2 type=GENERATE
+[PROCESS] Popped result cx=-9 cz=10 gen=2 type=GENERATE built=00000244C75E4D80
+[ADOPT] Adopting chunk (-9,10) gen=2 role=1
+[ADOPT] SUCCESS chunk (-9,10) now resident. loaded_from_persist=0
+[PROCESS] Adoption result: adopted=1 for cx=-9 cz=10
+[READINESS] desired=9 resident=9 gpu_ready=1 | skips: not_primary=144 outside_radius=247 no_chunk=0 no_blocks=0 | pending: jobs=258 results=0
+[WORKER] Mesh complete cx=-5 cz=11 built=00000244C75E63A0
+[WORKER] Queuing result cx=-5 cz=11 gen=2 built=00000244C75E63A0 results=0/768
+[WORKER] Processing job cx=-6 cz=12 gen=2 type=GENERATE
+[PROCESS] Popped result cx=-5 cz=11 gen=2 type=GENERATE built=00000244C75E63A0
+[ADOPT] Adopting chunk (-5,11) gen=2 role=1
+[ADOPT] SUCCESS chunk (-5,11) now resident. loaded_from_persist=0
+[PROCESS] Adoption result: adopted=1 for cx=-5 cz=11
+[WORKER] Meshing cx=-13 cz=6 (persisted=0)
+[WORKER] Meshing cx=-8 cz=11 (persisted=0)
+[WORKER] Meshing cx=-10 cz=10 (persisted=0)
+[WORKER] Mesh complete cx=-12 cz=7 built=00000244C75DB2A0
+[WORKER] Queuing result cx=-12 cz=7 gen=2 built=00000244C75DB2A0 results=0/768
+[WORKER] Processing job cx=-2 cz=12 gen=2 type=GENERATE
+[PROCESS] Popped result cx=-12 cz=7 gen=2 type=GENERATE built=00000244C75DB2A0
+[ADOPT] Adopting chunk (-12,7) gen=2 role=1
+[ADOPT] SUCCESS chunk (-12,7) now resident. loaded_from_persist=0
+[PROCESS] Adoption result: adopted=1 for cx=-12 cz=7
+[WORKER] Meshing cx=-11 cz=9 (persisted=0)
+[WORKER] Mesh complete cx=-13 cz=5 built=00000244C75E79C0
+[WORKER] Queuing result cx=-13 cz=5 gen=2 built=00000244C75E79C0 results=0/768
+[WORKER] Processing job cx=-14 cz=4 gen=2 type=GENERATE
+[PROCESS] Popped result cx=-13 cz=5 gen=2 type=GENERATE built=00000244C75E79C0
+[ADOPT] Adopting chunk (-13,5) gen=2 role=1
+[ADOPT] SUCCESS chunk (-13,5) now resident. loaded_from_persist=0
+[PROCESS] Adoption result: adopted=1 for cx=-13 cz=5
+[WORKER] Mesh complete cx=-1 cz=11 built=00000244C75E8FE0
+[WORKER] Queuing result cx=-1 cz=11 gen=2 built=00000244C75E8FE0 results=0/768
+[WORKER] Processing job cx=-9 cz=11 gen=2 type=GENERATE
+[PROCESS] Popped result cx=-1 cz=11 gen=2 type=GENERATE built=00000244C75E8FE0
+[ADOPT] Adopting chunk (-1,11) gen=2 role=1
+[ADOPT] SUCCESS chunk (-1,11) now resident. loaded_from_persist=0
+[PROCESS] Adoption result: adopted=1 for cx=-1 cz=11
+[READINESS] desired=9 resident=9 gpu_ready=1 | skips: not_primary=144 outside_radius=247 no_chunk=0 no_blocks=0 | pending: jobs=254 results=0
+[WORKER] Mesh complete cx=-7 cz=11 built=00000244C75E9AF0
+[WORKER] Queuing result cx=-7 cz=11 gen=2 built=00000244C75E9AF0 results=0/768
+[WORKER] Processing job cx=-13 cz=7 gen=2 type=GENERATE
+[PROCESS] Popped result cx=-7 cz=11 gen=2 type=GENERATE built=00000244C75E9AF0
+[ADOPT] Adopting chunk (-7,11) gen=2 role=1
+[ADOPT] SUCCESS chunk (-7,11) now resident. loaded_from_persist=0
+[PROCESS] Adoption result: adopted=1 for cx=-7 cz=11
+[WORKER] Meshing cx=-14 cz=2 (persisted=0)
+[WORKER] Mesh complete cx=-8 cz=11 built=00000244CE6DB950
+[WORKER] Queuing result cx=-8 cz=11 gen=2 built=00000244CE6DB950 results=0/768
+[WORKER] Processing job cx=-1 cz=12 gen=2 type=GENERATE
+[PROCESS] Popped result cx=-8 cz=11 gen=2 type=GENERATE built=00000244CE6DB950
+[ADOPT] Adopting chunk (-8,11) gen=2 role=1
+[WORKER] Meshing cx=-12 cz=8 (persisted=0)
+[ADOPT] SUCCESS chunk (-8,11) now resident. loaded_from_persist=0
+[PROCESS] Adoption result: adopted=1 for cx=-8 cz=11
+[WORKER] Mesh complete cx=-10 cz=10 built=00000244CE6E27F0
+[WORKER] Queuing result cx=-10 cz=10 gen=2 built=00000244CE6E27F0 results=0/768
+[WORKER] Processing job cx=-14 cz=5 gen=2 type=GENERATE
+[PROCESS] Popped result cx=-10 cz=10 gen=2 type=GENERATE built=00000244CE6E27F0
+[ADOPT] Adopting chunk (-10,10) gen=2 role=1
+[ADOPT] SUCCESS chunk (-10,10) now resident. loaded_from_persist=0
+[PROCESS] Adoption result: adopted=1 for cx=-10 cz=10
+[WORKER] Mesh complete cx=-13 cz=6 built=00000244CC451820
+[WORKER] Queuing result cx=-13 cz=6 gen=2 built=00000244CC451820 results=0/768
+[WORKER] Processing job cx=-7 cz=12 gen=2 type=GENERATE
+[PROCESS] Popped result cx=-13 cz=6 gen=2 type=GENERATE built=00000244CC451820
+[ADOPT] Adopting chunk (-13,6) gen=2 role=1
+[ADOPT] SUCCESS chunk (-13,6) now resident. loaded_from_persist=0
+[PROCESS] Adoption result: adopted=1 for cx=-13 cz=6
+[READINESS] desired=9 resident=9 gpu_ready=1 | skips: not_primary=144 outside_radius=247 no_chunk=0 no_blocks=0 | pending: jobs=250 results=0
+[WORKER] Mesh complete cx=-11 cz=9 built=00000244CC45BE10
+[WORKER] Queuing result cx=-11 cz=9 gen=2 built=00000244CC45BE10 results=0/768
+[WORKER] Processing job cx=-11 cz=10 gen=2 type=GENERATE
+[PROCESS] Popped result cx=-11 cz=9 gen=2 type=GENERATE built=00000244CC45BE10
+[ADOPT] Adopting chunk (-11,9) gen=2 role=1
+[ADOPT] SUCCESS chunk (-11,9) now resident. loaded_from_persist=0
+[PROCESS] Adoption result: adopted=1 for cx=-11 cz=9
+[WORKER] Meshing cx=-14 cz=3 (persisted=0)
+[WORKER] Meshing cx=-14 cz=1 (persisted=0)
+[WORKER] Meshing cx=-3 cz=12 (persisted=0)
+The thread 17832 has exited with code 0 (0x0).
+The thread 26764 has exited with code 0 (0x0).
+The thread 13372 has exited with code 0 (0x0).
+The thread 43548 has exited with code 0 (0x0).
+The thread 5284 has exited with code 0 (0x0).
+The thread 17816 has exited with code 0 (0x0).
+The thread 31056 has exited with code 0 (0x0).
+The thread 39704 has exited with code 0 (0x0).
+The thread 46072 has exited with code 0 (0x0).
+The thread 32440 has exited with code 0 (0x0).
+The thread 16852 has exited with code 0 (0x0).
+The thread 39032 has exited with code 0 (0x0).
+The thread 3884 has exited with code 0 (0x0).
+The thread 13756 has exited with code 0 (0x0).
+The thread 30880 has exited with code 0 (0x0).
+The thread 7428 has exited with code 0 (0x0).
+[WORKER] Mesh complete cx=-14 cz=2 built=00000244C75E2140
+[WORKER] Queuing result cx=-14 cz=2 gen=2 built=00000244C75E2140 results=0/768
+The thread 36016 has exited with code 0 (0x0).
+[WORKER] Meshing cx=-2 cz=12 (persisted=0)
+[WORKER] Meshing cx=-5 cz=12 (persisted=0)
+[WORKER] Meshing cx=-4 cz=12 (persisted=0)
+[WORKER] Mesh complete cx=-12 cz=8 built=00000244C75E1630
+[WORKER] Queuing result cx=-12 cz=8 gen=2 built=00000244C75E1630 results=1/768
+The thread 2948 has exited with code 0 (0x0).
+[WORKER] Meshing cx=-9 cz=11 (persisted=0)
+[WORKER] Mesh complete cx=-14 cz=3 built=00000244C75DF500
+[WORKER] Queuing result cx=-14 cz=3 gen=2 built=00000244C75DF500 results=2/768
+The thread 27308 has exited with code 0 (0x0).
+[WORKER] Meshing cx=-14 cz=4 (persisted=0)
+[WORKER] Mesh complete cx=-3 cz=12 built=00000244C75E0010
+[WORKER] Queuing result cx=-3 cz=12 gen=2 built=00000244C75E0010 results=3/768
+The thread 41176 has exited with code 0 (0x0).
+[WORKER] Meshing cx=-13 cz=7 (persisted=0)
+[WORKER] Mesh complete cx=-14 cz=1 built=00000244C75E0B20
+[WORKER] Queuing result cx=-14 cz=1 gen=2 built=00000244C75E0B20 results=4/768
+The thread 18164 has exited with code 0 (0x0).
+[WORKER] Meshing cx=-6 cz=12 (persisted=0)
+[WORKER] Mesh complete cx=-2 cz=12 built=00000244C75E6EB0
+[WORKER] Queuing result cx=-2 cz=12 gen=2 built=00000244C75E6EB0 results=5/768
+The thread 26512 has exited with code 0 (0x0).
+[WORKER] Meshing cx=-1 cz=12 (persisted=0)
+[WORKER] Mesh complete cx=-5 cz=12 built=00000244C75E5890
+[WORKER] Queuing result cx=-5 cz=12 gen=2 built=00000244C75E5890 results=6/768
+The thread 10640 has exited with code 0 (0x0).
+[WORKER] Meshing cx=-7 cz=12 (persisted=0)
+[WORKER] Mesh complete cx=-4 cz=12 built=00000244C75E4270
+[WORKER] Queuing result cx=-4 cz=12 gen=2 built=00000244C75E4270 results=7/768
+The thread 16636 has exited with code 0 (0x0).
+[WORKER] Meshing cx=-11 cz=10 (persisted=0)
+[WORKER] Meshing cx=-14 cz=5 (persisted=0)
+[WORKER] Mesh complete cx=-9 cz=11 built=00000244C75DBDB0
+[WORKER] Queuing result cx=-9 cz=11 gen=2 built=00000244C75DBDB0 results=8/768
+The thread 42156 has exited with code 0 (0x0).
+[WORKER] Mesh complete cx=-14 cz=4 built=00000244C75EA600
+[WORKER] Queuing result cx=-14 cz=4 gen=2 built=00000244C75EA600 results=9/768
+The thread 6584 has exited with code 0 (0x0).
+[STREAM] waiting for worker shutdown elapsed=2000ms pending_jobs=0 pending_results=10
+[WORKER] Mesh complete cx=-6 cz=12 built=00000244C75E84D0
+[WORKER] Queuing result cx=-6 cz=12 gen=2 built=00000244C75E84D0 results=10/768
+The thread 28752 has exited with code 0 (0x0).
+[WORKER] Mesh complete cx=-13 cz=7 built=00000244FDE1E6E0
+[WORKER] Queuing result cx=-13 cz=7 gen=2 built=00000244FDE1E6E0 results=11/768
+The thread 25968 has exited with code 0 (0x0).
+[WORKER] Mesh complete cx=-1 cz=12 built=00000244FDE1DBD0
+[WORKER] Queuing result cx=-1 cz=12 gen=2 built=00000244FDE1DBD0 results=12/768
+The thread 17960 has exited with code 0 (0x0).
+[WORKER] Mesh complete cx=-7 cz=12 built=00000244FDE1D0C0
+[WORKER] Queuing result cx=-7 cz=12 gen=2 built=00000244FDE1D0C0 results=13/768
+The thread 26936 has exited with code 0 (0x0).
+[WORKER] Mesh complete cx=-11 cz=10 built=00000244FDE1BAA0
+[WORKER] Queuing result cx=-11 cz=10 gen=2 built=00000244FDE1BAA0 results=14/768
+The thread 36092 has exited with code 0 (0x0).
+[WORKER] Mesh complete cx=-14 cz=5 built=00000244FDE1F1F0
+[WORKER] Queuing result cx=-14 cz=5 gen=2 built=00000244FDE1F1F0 results=15/768
+The thread 21132 has exited with code 0 (0x0).
+The thread 44580 has exited with code 0 (0x0).
+The thread 19612 has exited with code 0 (0x0).
+The thread 40696 has exited with code 0 (0x0).
+The thread 3508 has exited with code 0 (0x0).
+The thread 'D3D Background Thread 0' (13472) has exited with code 0 (0x0).
+The thread 'Internal D3D12 Sync Thread' (38272) has exited with code 0 (0x0).
+The thread 'D3D Background Thread 1' (36588) has exited with code 0 (0x0).
+The thread 'Internal D3D12 Sync Thread' (47040) has exited with code 0 (0x0).
+The thread 19896 has exited with code 0 (0x0).
+The thread 44192 has exited with code 0 (0x0).
+The thread 38524 has exited with code 0 (0x0).
+The thread 'Internal D3D12 Sync Thread' (7320) has exited with code 0 (0x0).
+The thread 'D3D Background Thread 2' (42732) has exited with code 0 (0x0).
+The thread 31100 has exited with code 0 (0x0).
+The program '[34456] NqlSDK.exe' has exited with code 0 (0x0).

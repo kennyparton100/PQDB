@@ -1,0 +1,36 @@
+LET N = 1000000016000000063
+LET poly = GNFS_BASE_M_POLY(N, 3)
+LET f = ARRAY_GET(poly, 0)
+LET m = ARRAY_GET(poly, 2)
+LET gnfs_fb = GNFS_FB_BUILD(N, f, m, 20000, 20000, 200)
+LET rfc = GNFS_FB_RAT_COUNT(gnfs_fb)
+LET afc = GNFS_FB_ALG_COUNT(gnfs_fb)
+PRINT 'FB: rat=', rfc, ' alg=', afc
+LET rels = GNFS_RELATION_CREATE(rfc, afc, 100000)
+LET sieve = GNFS_SIEVE_REGION_CREATE(2000, 2000)
+FOR q FROM 101 TO 2000 DO
+    IF IS_PRIME(q) THEN
+        LET roots = POLY_ROOTS_MOD(f, q)
+        IF ARRAY_LENGTH(roots) > 0 THEN
+            FOR EACH r IN roots DO
+                LET sieve = GNFS_SIEVE_SET_SPECIAL_Q(sieve, q, r)
+                LET sieve = GNFS_SIEVE_INIT_NORMS(sieve, f, ARRAY_GET(poly, 1), m)
+                LET added = GNFS_SIEVE_AND_COLLECT(sieve, gnfs_fb, rels, 30.0, 30.0)
+            END FOR
+        END IF
+    END IF
+    IF GNFS_RELATION_COUNT(rels) >= rfc + afc + 500 THEN
+        BREAK
+    END IF
+END FOR
+PRINT 'Rels: ', GNFS_RELATION_COUNT(rels)
+LET rat_p = GNFS_FB_RAT_PRIMES(gnfs_fb)
+LET alg_p = GNFS_FB_ALG_PRIMES(gnfs_fb)
+LET x = GNFS_EXTRACT_RATIONAL_SQRT(ARRAY(0, 1, 2), rels, rat_p, N)
+LET y = GNFS_ALGEBRAIC_SQRT(ARRAY(0, 1, 2), rels, rat_p, alg_p, N)
+PRINT 'x_rat(0,1,2) = ', x
+PRINT 'y_alg(0,1,2) = ', y
+PRINT 'GCD(x-y,N) = ', GCD(x - y, N)
+PRINT 'GCD(x+y,N) = ', GCD(x + y, N)
+PRINT 'GCD(x,N) = ', GCD(x, N)
+PRINT 'GCD(y,N) = ', GCD(y, N)

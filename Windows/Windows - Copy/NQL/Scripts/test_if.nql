@@ -1,0 +1,7 @@
+LET x = 42
+IF x > 10 THEN
+    PRINT 'x is big: ', x
+    LET y = x * 2
+    PRINT 'y = ', y
+END IF
+PRINT 'done'

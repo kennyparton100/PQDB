@@ -1,0 +1,121 @@
+=== NQL SDK Session Debug Log ===
+started_local=2026-04-11 18:02:11.176
+world_id=world_030
+world_dir=WorldSaves\world_030
+trace_jsonl=DebugRuns\live_world_creation_20260411_180211.jsonl
+---
+[TRACE] ms=0 event=trace_reset detail=world_create_menu_activate frontend=18 session=0 worldgen_active=0 stage=0
+[TRACE] ms=0 event=world_create_enter_pressed detail=world create menu activate frontend=18 session=0 worldgen_active=0 stage=0
+[TRACE] ms=0 event=bind_world frontend=18 session=0 worldgen_active=0 stage=0
+[TRACE] ms=0 event=world_create_meta_written detail=WorldSaves\world_030\meta.txt frontend=18 session=0 worldgen_active=0 stage=0
+[TRACE] ms=0 event=bind_world frontend=18 session=0 worldgen_active=0 stage=0
+[TRACE] ms=0 event=world_create_menu_success detail=world_030 frontend=18 session=0 worldgen_active=0 stage=0
+[TRACE] ms=0 event=bind_world frontend=18 session=0 worldgen_active=0 stage=0
+[TRACE] ms=0 event=begin_async_world_session_load detail=world_030 frontend=18 session=0 worldgen_active=0 stage=0
+[TRACE] ms=0 event=async_world_session_load_ready detail=Starting world session... frontend=20 session=0 worldgen_active=1 stage=2
+[TRACE] ms=0 event=update_async_world_generation_stage detail=Starting world session... frontend=20 session=0 worldgen_active=1 stage=2
+[TRACE] ms=0 event=start_world_session_begin detail=world_030 frontend=20 session=0 worldgen_active=1 stage=2
+[TRACE] ms=0 event=bind_world frontend=20 session=0 worldgen_active=1 stage=2
+[TRACE] ms=0 event=start_world_session_enter detail=world_030 frontend=20 session=0 worldgen_active=1 stage=2
+[TRACE] ms=16 event=gen_stage_begin detail=Opening world save frontend=20 session=0 worldgen_active=1 stage=2
+[TRACE] ms=16 event=world_generation_session_step detail=Opening world save... frontend=20 session=0 worldgen_active=1 stage=2
+[TRACE] ms=16 event=gen_stage_end detail=Opening world save frontend=20 session=0 worldgen_active=1 stage=2
+[TRACE] ms=16 event=gen_stage_begin detail=Initializing world generator frontend=20 session=0 worldgen_active=1 stage=2
+[TRACE] ms=16 event=world_generation_session_step detail=Initializing world generator... frontend=20 session=0 worldgen_active=1 stage=2
+[TRACE] ms=32 event=gen_stage_end detail=Initializing world generator frontend=20 session=0 worldgen_active=1 stage=2
+[TRACE] ms=32 event=gen_stage_begin detail=Preparing world systems frontend=20 session=0 worldgen_active=1 stage=2
+[TRACE] ms=32 event=world_generation_session_step detail=Preparing world systems... frontend=20 session=0 worldgen_active=1 stage=2
+[TRACE] ms=78 event=gen_stage_end detail=Preparing world systems frontend=20 session=0 worldgen_active=1 stage=2
+[TRACE] ms=78 event=gen_stage_begin detail=Loading station state frontend=20 session=0 worldgen_active=1 stage=2
+[TRACE] ms=78 event=world_generation_session_step detail=Loading station state... frontend=20 session=0 worldgen_active=1 stage=2
+[TRACE] ms=78 event=gen_stage_end detail=Loading station state frontend=20 session=0 worldgen_active=1 stage=2
+[TRACE] ms=78 event=gen_stage_begin detail=Preparing chunk systems frontend=20 session=0 worldgen_active=1 stage=2
+[TRACE] ms=78 event=world_generation_session_step detail=Preparing chunk systems... frontend=20 session=0 worldgen_active=1 stage=2
+[STREAMER] Initializing with 16 worker threads
+[TRACE] ms=110 event=gen_stage_end detail=Preparing chunk systems frontend=20 session=0 worldgen_active=1 stage=2
+[TRACE] ms=110 event=gen_stage_begin detail=Initializing entities frontend=20 session=0 worldgen_active=1 stage=2
+[TRACE] ms=110 event=world_generation_session_step detail=Initializing entities... frontend=20 session=0 worldgen_active=1 stage=2
+[TRACE] ms=110 event=gen_stage_end detail=Initializing entities frontend=20 session=0 worldgen_active=1 stage=2
+[TRACE] ms=110 event=gen_stage_begin detail=Restoring world state frontend=20 session=0 worldgen_active=1 stage=2
+[TRACE] ms=110 event=world_generation_session_step detail=Restoring world state... frontend=20 session=0 worldgen_active=1 stage=2
+[TRACE] ms=110 event=world_generation_session_step detail=Choosing random spawn... frontend=20 session=0 worldgen_active=1 stage=2
+[TRACE] ms=688 event=gen_stage_end detail=Restoring world state frontend=20 session=0 worldgen_active=1 stage=2
+[TRACE] ms=688 event=gen_stage_begin detail=Planning visible chunks frontend=20 session=0 worldgen_active=1 stage=2
+[TRACE] ms=688 event=world_generation_session_step detail=Planning visible chunks... frontend=20 session=0 worldgen_active=1 stage=2
+[TRACE] ms=688 event=gen_stage_end detail=Planning visible chunks frontend=20 session=0 worldgen_active=1 stage=2
+[TRACE] ms=688 event=gen_stage_begin detail=Loading nearby chunks frontend=20 session=0 worldgen_active=1 stage=2
+[TRACE] ms=688 event=world_generation_session_step detail=Loading nearby chunks... frontend=20 session=0 worldgen_active=1 stage=2
+[BOOTSTRAP] sync_target_total=9 safety_radius=1
+[TRACE] ms=688 event=world_generation_session_step detail=Loading nearby terrain 9/0/0 frontend=20 session=0 worldgen_active=1 stage=2
+[WORKER] Processing job cx=0 cz=-5 gen=2 space=wall_grid type=GENERATE
+[WORKER] Processing job cx=1 cz=-5 gen=2 space=superchunk_terrain type=[WORKER] Processing job cx=1 cz=-4 gen=2 space=superchunk_terrain type=GENERATE
+[WORKER] Processing job cx=1 cz=-6 gen=2 space=superchunk_terrain type=GENERATE
+
+[TRACE] ms=688 event=world_generation_session_step detail=Loading nearby terrain 9/0/0 W0 frontend=20 session=0 worldgen_active=1 stage=2
+[TRACE] ms=703 event=world_generation_session_step detail=Loading nearby terrain 9/0/0 W11 frontend=20 session=0 worldgen_active=1 stage=2
+[WORKER] Meshing cx=0 cz=-6 (persisted=0)
+[WORKER] Meshing cx=0 cz=-5 (persisted=0)
+[WORKER] Meshing cx=0 cz=-4 (persisted=0)
+[WORKER] Mesh complete cx=0 cz=-6 built=00000274FB0629C0
+[WORKER] Queuing result cx=0 cz=-6 gen=2 space=wall_grid built=00000274FB0629C0 results=0/768
+[ADOPT] Adopting chunk (0,-6) gen=2 role=2
+[ADOPT] SUCCESS chunk (0,-6) now resident. loaded_from_persist=0
+[TRACE] ms=19250 event=world_generation_session_step detail=Loading nearby terrain 9/1/0 W10 frontend=20 session=0 worldgen_active=1 stage=2
+[WORKER] Mesh complete cx=0 cz=-5 built=00000274FAEE1380
+[WORKER] Queuing result cx=0 cz=-5 gen=2 space=wall_grid built=00000274FAEE1380 results=0/768
+[ADOPT] Adopting chunk (0,-5) gen=2 role=2
+[ADOPT] SUCCESS chunk (0,-5) now resident. loaded_from_persist=0
+[TRACE] ms=19407 event=world_generation_session_step detail=Loading nearby terrain 9/2/0 W9 frontend=20 session=0 worldgen_active=1 stage=2
+[WORKER] Mesh complete cx=0 cz=-4 built=00000274FAF61E80
+[WORKER] Queuing result cx=0 cz=-4 gen=2 space=wall_grid built=00000274FAF61E80 results=0/768
+[ADOPT] Adopting chunk (0,-4) gen=2 role=2
+[ADOPT] SUCCESS chunk (0,-4) now resident. loaded_from_persist=0
+[TRACE] ms=20266 event=world_generation_session_step detail=Loading nearby terrain 9/3/0 W8 frontend=20 session=0 worldgen_active=1 stage=2
+[WORKER] Meshing cx=-1 cz=-5 (persisted=0)
+[WORKER] Mesh complete cx=-1 cz=-5 built=00000274FB163FC0
+[WORKER] Queuing result cx=-1 cz=-5 gen=2 space=superchunk_terrain built=00000274FB163FC0 results=0/768
+[ADOPT] Adopting chunk (-1,-5) gen=2 role=2
+[ADOPT] SUCCESS chunk (-1,-5) now resident. loaded_from_persist=0
+[TRACE] ms=88157 event=world_generation_session_step detail=Loading nearby terrain 9/3/0 W7 frontend=20 session=0 worldgen_active=1 stage=2
+[WORKER] Meshing cx=3 cz=-5 (persisted=0)
+[WORKER] Mesh complete cx=3 cz=-5 built=00000274EF264890
+[WORKER] Queuing result cx=3 cz=-5 gen=2 space=superchunk_terrain built=00000274EF264890 results=0/768
+[ADOPT] Adopting chunk (3,-5) gen=2 role=1
+[ADOPT] SUCCESS chunk (3,-5) now resident. loaded_from_persist=0
+[TRACE] ms=120110 event=world_generation_session_step detail=Loading nearby terrain 9/3/0 W6 frontend=20 session=0 worldgen_active=1 stage=2
+[WORKER] Meshing cx=2 cz=-5 (persisted=0)
+[WORKER] Meshing cx=2 cz=-6 (persisted=0)
+[WORKER] Mesh complete cx=2 cz=-5 built=00000274EF262850
+[WORKER] Queuing result cx=2 cz=-5 gen=2 space=superchunk_terrain built=00000274EF262850 results=0/768
+[ADOPT] Adopting chunk (2,-5) gen=2 role=1
+[ADOPT] SUCCESS chunk (2,-5) now resident. loaded_from_persist=0
+[TRACE] ms=129172 event=world_generation_session_step detail=Loading nearby terrain 9/4/0 W5 frontend=20 session=0 worldgen_active=1 stage=2
+[WORKER] Mesh complete cx=2 cz=-6 built=00000274FB49B530
+[WORKER] Queuing result cx=2 cz=-6 gen=2 space=superchunk_terrain built=00000274FB49B530 results=0/768
+[ADOPT] Adopting chunk (2,-6) gen=2 role=1
+[ADOPT] SUCCESS chunk (2,-6) now resident. loaded_from_persist=0
+[TRACE] ms=129625 event=world_generation_session_step detail=Loading nearby terrain 9/5/0 W4 frontend=20 session=0 worldgen_active=1 stage=2
+[WORKER] Meshing cx=2 cz=-4 (persisted=0)
+[WORKER] Mesh complete cx=2 cz=-4 built=00000274EF2BB790
+[WORKER] Queuing result cx=2 cz=-4 gen=2 space=superchunk_terrain built=00000274EF2BB790 results=0/768
+[ADOPT] Adopting chunk (2,-4) gen=2 role=1
+[ADOPT] SUCCESS chunk (2,-4) now resident. loaded_from_persist=0
+[TRACE] ms=133032 event=world_generation_session_step detail=Loading nearby terrain 9/6/0 W3 frontend=20 session=0 worldgen_active=1 stage=2
+[WORKER] Meshing cx=1 cz=-6 (persisted=0)
+[WORKER] Meshing cx=1 cz=-5 (persisted=0)
+[WORKER] Meshing cx=1 cz=-4 (persisted=0)
+[WORKER] Mesh complete cx=1 cz=-6 built=00000274FB0E34C0
+[WORKER] Queuing result cx=1 cz=-6 gen=2 space=superchunk_terrain built=00000274FB0E34C0 results=0/768
+[ADOPT] Adopting chunk (1,-6) gen=2 role=1
+[ADOPT] SUCCESS chunk (1,-6) now resident. loaded_from_persist=0
+[TRACE] ms=184610 event=world_generation_session_step detail=Loading nearby terrain 9/7/0 W2 frontend=20 session=0 worldgen_active=1 stage=2
+[WORKER] Mesh complete cx=1 cz=-5 built=0000027482B0D0C0
+[WORKER] Queuing result cx=1 cz=-5 gen=2 space=superchunk_terrain built=0000027482B0D0C0 results=0/768
+[ADOPT] Adopting chunk (1,-5) gen=2 role=1
+[ADOPT] SUCCESS chunk (1,-5) now resident. loaded_from_persist=0
+[TRACE] ms=186532 event=world_generation_session_step detail=Loading nearby terrain 9/8/0 W1 frontend=20 session=0 worldgen_active=1 stage=2
+[WORKER] Mesh complete cx=1 cz=-4 built=00000274EF26C240
+[WORKER] Queuing result cx=1 cz=-4 gen=2 space=superchunk_terrain built=00000274EF26C240 results=0/768
+[ADOPT] Adopting chunk (1,-4) gen=2 role=1
+[ADOPT] SUCCESS chunk (1,-4) now resident. loaded_from_persist=0
+[TRACE] ms=187828 event=world_generation_session_step detail=Loading nearby terrain 9/9/0 W0 frontend=20 session=0 worldgen_active=1 stage=2

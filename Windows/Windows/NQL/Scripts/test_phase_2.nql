@@ -1,0 +1,13 @@
+CLASS Point WITH x: INT, y: INT END CLASS
+TRAIT Movable REQUIRES dx: INT, dy: INT END TRAIT
+MAP TRAIT Movable TO Point AS PointMover WITH dx -> x, dy -> y END MAP
+CREATE FUNCTION __trait_PointMover_move(self, dx, dy)
+    LET self.x = self.x + dx
+    LET self.y = self.y + dy
+    RETURN self.x + self.y
+END FUNCTION
+LET p = NEW Point()
+LET p.x = 10
+LET p.y = 20
+PointMover.move(p, 5, 10)
+PRINT p.x, p.y

@@ -1,0 +1,5 @@
+PRINT 'Testing simple class'
+CLASS TestClass
+    name : STRING
+END CLASS
+PRINT 'Class created successfully'

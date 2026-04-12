@@ -1,0 +1,186 @@
+-- quadratic_sieve.nql — NQL-orchestrated Quadratic Sieve
+-- Usage: Set N before running, e.g.:
+--   query LET N = 5959; ...paste this script...
+--
+-- Architecture: NQL orchestration + native C kernels.
+-- Every hot path is a single native call. NQL handles flow control only.
+
+-- ═══════════════════════════════════════════════════════════
+-- Configuration
+-- ═══════════════════════════════════════════════════════════
+
+LET N = 5959
+LET fb_bound = 100
+LET sieve_half = 4096
+LET max_polys = 32
+LET lp_mult = 64
+
+PRINT '══════════════════════════════════════════'
+PRINT 'NQL Quadratic Sieve'
+PRINT 'N = ', N
+PRINT '══════════════════════════════════════════'
+
+-- ═══════════════════════════════════════════════════════════
+-- Step 0: Precheck — trial small factor
+-- ═══════════════════════════════════════════════════════════
+
+LET trivial = TRIAL_SMALL_FACTOR(N, fb_bound)
+IF trivial != NULL THEN
+    PRINT 'Trivial factor found: ', trivial, ' x ', N / trivial
+END IF
+
+-- ═══════════════════════════════════════════════════════════
+-- Step 1: Build factor base
+-- ═══════════════════════════════════════════════════════════
+
+IF trivial = NULL THEN
+
+LET fb = FACTOR_BASE_BUILD(N, fb_bound, lp_mult)
+IF fb = NULL THEN
+    PRINT 'ERROR: Factor base construction failed'
+END IF
+
+IF fb != NULL THEN
+
+PRINT 'Factor base: ', FACTOR_BASE_SIZE(fb), ' primes'
+PRINT 'Largest FB prime: ', FACTOR_BASE_LARGEST(fb)
+PRINT 'LP bound: ', FACTOR_BASE_LP_BOUND(fb)
+
+-- ═══════════════════════════════════════════════════════════
+-- Step 2: Create relation store and sieve
+-- ═══════════════════════════════════════════════════════════
+
+LET rels = RELATION_SET_CREATE(FACTOR_BASE_SIZE(fb))
+LET sieve = QS_SIEVE_CREATE(sieve_half)
+LET s = INT_SQRT(N) + 1
+LET threshold = LOG2(FACTOR_BASE_LP_BOUND(fb)) + 1.0
+
+PRINT 'Sieve half-width: ', sieve_half
+PRINT 'Threshold: ', threshold
+PRINT 'Starting sieve at: ', s
+
+-- ═══════════════════════════════════════════════════════════
+-- Step 3: Sieve and collect relations
+-- ═══════════════════════════════════════════════════════════
+
+LET factor_found = 0
+LET target_rels = FACTOR_BASE_SIZE(fb) + 20
+
+FOR poly FROM 0 TO max_polys - 1 DO
+    LET center = s + poly * sieve_half
+
+    -- Initialise sieve with log2(Q(x))
+    LET sieve = QS_SIEVE_INIT(sieve, N, center)
+
+    -- Run sieve: subtract log(p) at roots
+    LET sieve = QS_SIEVE_RUN(sieve, fb, center)
+
+    -- Scan for smooth candidates
+    LET cands = QS_SIEVE_CANDIDATES(sieve, threshold)
+
+    -- Trial factor each candidate
+    FOR EACH xi IN cands DO
+        LET x_offset = xi - sieve_half
+        LET xc = x_offset + center
+        IF xc > 0 THEN
+            LET xc_sq = xc * xc
+            IF xc_sq > N THEN
+                LET Qx = xc_sq - N
+                IF Qx > 0 THEN
+                    -- Check for direct factor (Q(x) = 0 means xc^2 = N)
+                    LET g = GCD(xc, N)
+                    IF g > 1 AND g < N THEN
+                        PRINT 'Direct factor from sieve: ', g, ' x ', N / g
+                        LET factor_found = g
+                        BREAK
+                    END IF
+
+                    -- Determine sign (SP: always non-negative when xc > sqrt(N))
+                    LET tr = TRIAL_FACTOR_CANDIDATE(Qx, fb, xc, 0)
+                    IF tr != NULL THEN
+                        IF TRIAL_RESULT_IS_SMOOTH(tr) OR TRIAL_RESULT_IS_PARTIAL(tr) THEN
+                            LET rels = RELATION_SET_ADD(rels, tr)
+                        END IF
+                    END IF
+                END IF
+            END IF
+        END IF
+    END FOR
+
+    IF factor_found > 1 THEN BREAK END IF
+    IF RELATION_SET_COUNT(rels) >= target_rels THEN BREAK END IF
+END FOR
+
+IF factor_found <= 1 THEN
+
+PRINT 'Relations collected: ', RELATION_SET_COUNT(rels)
+
+-- ═══════════════════════════════════════════════════════════
+-- Step 4: Prune singleton large primes
+-- ═══════════════════════════════════════════════════════════
+
+LET rels = RELATION_SET_PRUNE_SINGLETONS(rels)
+PRINT 'Relations after pruning: ', RELATION_SET_COUNT(rels)
+
+-- ═══════════════════════════════════════════════════════════
+-- Step 5: Build GF(2) matrix and solve
+-- ═══════════════════════════════════════════════════════════
+
+LET matrix = GF2_MATRIX_BUILD(rels)
+IF matrix != NULL THEN
+    PRINT 'Matrix built: ', GF2_RANK(matrix), ' rank (before elimination)'
+    LET matrix = GF2_ELIMINATE(matrix)
+    LET ns_count = GF2_NULLSPACE_COUNT(matrix)
+    PRINT 'Rank after elimination: ', GF2_RANK(matrix)
+    PRINT 'Null-space dimension: ', ns_count
+
+    -- ═══════════════════════════════════════════════════════
+    -- Step 6: Try dependencies
+    -- ═══════════════════════════════════════════════════════
+
+    FOR i FROM 0 TO ns_count - 1 DO
+        LET dep = GF2_NULLSPACE_VECTOR(matrix, i)
+        IF dep != NULL THEN
+            LET g = DEPENDENCY_EXTRACT(dep, rels, fb, N)
+            IF g != NULL AND g > 1 AND g < N THEN
+                PRINT 'Factor found (single vector): ', g, ' x ', N / g
+                LET factor_found = g
+                BREAK
+            END IF
+        END IF
+    END FOR
+
+    -- Step 7: Try pairwise combinations if singles failed
+    IF factor_found <= 1 AND ns_count >= 2 THEN
+        FOR i FROM 0 TO ns_count - 2 DO
+            FOR j FROM i + 1 TO ns_count - 1 DO
+                LET d1 = GF2_NULLSPACE_VECTOR(matrix, i)
+                LET d2 = GF2_NULLSPACE_VECTOR(matrix, j)
+                IF d1 != NULL AND d2 != NULL THEN
+                    LET dep = DEPENDENCY_COMBINE(d1, d2)
+                    LET g = DEPENDENCY_EXTRACT(dep, rels, fb, N)
+                    IF g != NULL AND g > 1 AND g < N THEN
+                        PRINT 'Factor found (pairwise): ', g, ' x ', N / g
+                        LET factor_found = g
+                        BREAK
+                    END IF
+                END IF
+            END FOR
+            IF factor_found > 1 THEN BREAK END IF
+        END FOR
+    END IF
+
+    IF factor_found <= 1 THEN
+        PRINT 'No non-trivial factor found. Try larger parameters.'
+    END IF
+ELSE
+    PRINT 'ERROR: Matrix build failed (not enough relations?)'
+END IF
+
+END IF
+END IF
+END IF
+
+PRINT '══════════════════════════════════════════'
+PRINT 'NQL Quadratic Sieve complete'
+PRINT '══════════════════════════════════════════'

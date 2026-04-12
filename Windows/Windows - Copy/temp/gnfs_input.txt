@@ -1,0 +1,2 @@
+factor-gnfs 1000036000099 --diag
+exit

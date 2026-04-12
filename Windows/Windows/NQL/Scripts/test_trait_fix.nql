@@ -1,0 +1,21 @@
+PRINT 'Testing TRAIT parsing fix'
+
+CLASS Person
+    name : STRING
+    age : INT
+    height : FLOAT
+END CLASS
+
+TRAIT Movable
+REQUIRES
+    x_pos : FLOAT WRITE
+    y_pos : FLOAT WRITE
+END REQUIRES
+CREATE FUNCTION move(self, dx, dy)
+    LET self.x_pos = self.x_pos + dx
+    LET self.y_pos = self.y_pos + dy
+    RETURN true
+END FUNCTION
+END TRAIT
+
+PRINT 'TRAIT parsed successfully'

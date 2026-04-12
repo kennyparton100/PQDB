@@ -1,0 +1,8 @@
+PRINT 'Test fix'
+LET x = 1
+PRINT 'Before ASSUME'
+ASSUME x = 1 THEN
+LET x = 2
+PRINT 'Inside'
+END ASSUME
+PRINT 'After:', x

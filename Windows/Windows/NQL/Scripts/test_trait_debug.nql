@@ -1,0 +1,9 @@
+PRINT 'Testing TRAIT parsing step by step'
+
+TRAIT TestTrait
+REQUIRES
+    test_field : INT
+END REQUIRES
+END TRAIT
+
+PRINT 'TRAIT parsed successfully'

@@ -1,0 +1,4 @@
+PRINT 'Test ASSUME'
+LET x = 1
+ASSUME x = 1 THEN LET x = 2 PRINT 'Inside' END ASSUME
+PRINT 'After:', x

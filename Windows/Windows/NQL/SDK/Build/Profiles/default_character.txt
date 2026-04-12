@@ -1,0 +1,4 @@
+name=RANGER
+skin_tone=1
+hair_style=0
+outfit=0

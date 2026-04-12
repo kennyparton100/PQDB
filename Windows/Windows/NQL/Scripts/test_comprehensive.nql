@@ -1,0 +1,37 @@
+PRINT '=== Comprehensive ASSUME Test ==='
+
+-- Test 1: Basic chained ASSUME
+PRINT 'Test 1: Chained ASSUME'
+LET result1 = 'start'
+ASSUME false THEN LET result1 = 'first' OTHERWISE ASSUME true THEN LET result1 = 'second' END ASSUME
+PRINT 'Result1:', result1
+PRINT ''
+
+-- Test 2: Multiple chained ASSUME
+PRINT 'Test 2: Multiple chained'
+LET result2 = 'start'
+ASSUME false THEN LET result2 = 'first' OTHERWISE ASSUME false THEN LET result2 = 'second' OTHERWISE ASSUME true THEN LET result2 = 'third' END ASSUME
+PRINT 'Result2:', result2
+PRINT ''
+
+-- Test 3: Bare OTHERWISE
+PRINT 'Test 3: Bare OTHERWISE'
+LET result3 = 'start'
+ASSUME false THEN LET result3 = 'first' OTHERWISE LET result3 = 'fallback' END ASSUME
+PRINT 'Result3:', result3
+PRINT ''
+
+-- Test 4: Multi-line format
+PRINT 'Test 4: Multi-line'
+LET result4 = 'start'
+ASSUME false THEN
+    LET result4 = 'first'
+    PRINT 'Should not execute'
+OTHERWISE ASSUME true THEN
+    LET result4 = 'second'
+    PRINT 'Second ASSUME succeeded'
+END ASSUME
+PRINT 'Result4:', result4
+PRINT ''
+
+PRINT '=== Comprehensive tests complete ==='

@@ -1,0 +1,8 @@
+CREATE FUNCTION simple_test(x)
+    LET result = x * 2
+    RETURN result
+END FUNCTION
+
+PRINT 'Function created'
+LET test_val = simple_test(5)
+PRINT 'Result:', test_val

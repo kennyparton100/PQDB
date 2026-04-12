@@ -1,0 +1,119 @@
+LET N = 1000000016000000063
+LET t0 = TIMER_START()
+PRINT 'GNFS factoring N = ', N
+
+LET tf = TRIAL_SMALL_FACTOR(N, 200000)
+IF tf != NULL THEN
+    PRINT 'Trivial factor: ', tf, ' x ', N / tf
+    PRINT 'Time: ', TIMER_ELAPSED(t0), 's'
+END IF
+
+IF tf = NULL THEN
+    LET r = GNFS_BASE_M_POLY(N, 5)
+    IF r != NULL THEN
+        LET f = ARRAY_GET(r, 0)
+        LET g = ARRAY_GET(r, 1)
+        LET m = ARRAY_GET(r, 2)
+        PRINT 'f = ', f
+        PRINT 'm = ', m
+        PRINT 'alpha = ', GNFS_POLY_ALPHA(f, 100)
+
+        LET fb = FACTOR_BASE_BUILD(N, 5000, 64)
+        IF fb != NULL THEN
+            PRINT 'QS FB: ', FACTOR_BASE_SIZE(fb), ' primes'
+
+            LET sieve = QS_SIEVE_CREATE(8192)
+            LET rels = RELATION_SET_CREATE(FACTOR_BASE_SIZE(fb))
+            LET s = INT_SQRT(N) + 1
+            LET threshold = LOG2(FACTOR_BASE_LP_BOUND(fb)) + 1.0
+            LET found = 0
+
+            FOR poly FROM 0 TO 64 DO
+                LET center = s + poly * 8192
+                LET sieve = QS_SIEVE_INIT(sieve, N, center)
+                LET sieve = QS_SIEVE_RUN(sieve, fb, center)
+                LET cands = QS_SIEVE_CANDIDATES(sieve, threshold)
+                FOR EACH xi IN cands DO
+                    LET xoff = xi - 8192
+                    LET xc = xoff + center
+                    IF xc > 0 THEN
+                        LET xc_sq = xc * xc
+                        IF xc_sq > N THEN
+                            LET Qx = xc_sq - N
+                            IF Qx > 0 THEN
+                                LET tr = TRIAL_FACTOR_CANDIDATE(Qx, fb, xc, 0)
+                                IF tr != NULL THEN
+                                    IF TRIAL_RESULT_IS_SMOOTH(tr) OR TRIAL_RESULT_IS_PARTIAL(tr) THEN
+                                        LET rels = RELATION_SET_ADD(rels, tr)
+                                    END IF
+                                END IF
+                            END IF
+                        END IF
+                    END IF
+                END FOR
+                IF RELATION_SET_COUNT(rels) > FACTOR_BASE_SIZE(fb) + 20 THEN
+                    BREAK
+                END IF
+            END FOR
+
+            PRINT 'Relations: ', RELATION_SET_COUNT(rels)
+            LET rels = RELATION_SET_PRUNE_SINGLETONS(rels)
+            PRINT 'After pruning: ', RELATION_SET_COUNT(rels)
+
+            IF RELATION_SET_COUNT(rels) > FACTOR_BASE_SIZE(fb) THEN
+                LET matrix = GF2_MATRIX_BUILD(rels)
+                IF matrix != NULL THEN
+                    LET matrix = GF2_ELIMINATE(matrix)
+                    LET ns = GF2_NULLSPACE_COUNT(matrix)
+                    PRINT 'Nullspace: ', ns
+
+                    FOR i FROM 0 TO ns - 1 DO
+                        LET dep = GF2_NULLSPACE_VECTOR(matrix, i)
+                        IF dep != NULL THEN
+                            LET g = DEPENDENCY_EXTRACT(dep, rels, fb, N)
+                            IF g != NULL THEN
+                                IF g > 1 THEN
+                                    IF g < N THEN
+                                        PRINT 'FACTOR: ', g, ' x ', N / g
+                                        LET found = g
+                                        BREAK
+                                    END IF
+                                END IF
+                            END IF
+                        END IF
+                    END FOR
+
+                    IF found <= 1 THEN
+                        PRINT 'No factor from single vectors, trying pairs...'
+                        FOR i FROM 0 TO ns - 2 DO
+                            FOR j FROM i + 1 TO ns - 1 DO
+                                LET d1 = GF2_NULLSPACE_VECTOR(matrix, i)
+                                LET d2 = GF2_NULLSPACE_VECTOR(matrix, j)
+                                IF d1 != NULL THEN
+                                    IF d2 != NULL THEN
+                                        LET dep = DEPENDENCY_COMBINE(d1, d2)
+                                        LET g = DEPENDENCY_EXTRACT(dep, rels, fb, N)
+                                        IF g != NULL THEN
+                                            IF g > 1 THEN
+                                                IF g < N THEN
+                                                    PRINT 'FACTOR: ', g, ' x ', N / g
+                                                    LET found = g
+                                                    BREAK
+                                                END IF
+                                            END IF
+                                        END IF
+                                    END IF
+                                END IF
+                            END FOR
+                            IF found > 1 THEN BREAK END IF
+                        END FOR
+                    END IF
+                END IF
+            ELSE
+                PRINT 'Not enough relations'
+            END IF
+        END IF
+    END IF
+END IF
+
+PRINT 'Time: ', TIMER_ELAPSED(t0), 's'

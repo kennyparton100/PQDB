@@ -1,0 +1,640 @@
+PRINT '=== NQL Object System MVP Comprehensive Test Suite ==='
+PRINT ''
+
+-- ============================================================================
+-- PHASE 1: Classes and Instances
+-- ============================================================================
+
+PRINT '-- Phase 1: Classes and Instances --'
+
+-- Test 1.1: Create class, instantiate, set/get all field types
+PRINT 'Test 1.1: Class creation and field access'
+CLASS Person
+    name : STRING
+    age : INT
+    height : FLOAT
+END CLASS
+
+LET p = NEW Person()
+LET p.name = 'Alice'
+LET p.age = 30
+LET p.height = 5.6
+PRINT 'name:', p.name, 'age:', p.age, 'height:', p.height
+PRINT 'EXPECT: name: Alice age: 30 height: 5.6'
+PRINT ''
+
+-- Test 1.2: Default values are zero/false/empty for each type
+PRINT 'Test 1.2: Default field values'
+CLASS Defaults
+    int_field : INT
+    float_field : FLOAT
+    bool_field : BOOL
+    string_field : STRING
+END CLASS
+
+LET d = NEW Defaults()
+PRINT 'INT:', d.int_field, 'FLOAT:', d.float_field, 'BOOL:', d.bool_field, 'STRING:', d.string_field
+PRINT 'EXPECT: INT: 0 FLOAT: 0 BOOL: false STRING:'
+
+LET d.int_field = 42
+LET d.float_field = 3.14159
+LET d.bool_field = true
+LET d.string_field = 'test'
+PRINT 'After set - INT:', d.int_field, 'FLOAT:', d.float_field, 'BOOL:', d.bool_field, 'STRING:', d.string_field
+PRINT 'EXPECT: After set - INT: 42 FLOAT: 3.14159 BOOL: true STRING: test'
+PRINT ''
+
+-- Test 1.3: Two variables pointing to the same instance share state
+PRINT 'Test 1.3: Reference semantics (shared instance)'
+LET ref1 = NEW Person()
+LET ref1.name = 'Bob'
+LET ref2 = ref1
+LET ref2.name = 'Charlie'
+PRINT 'ref1.name:', ref1.name
+PRINT 'EXPECT: ref1.name: Charlie (ref2 mutated the shared instance)'
+PRINT ''
+
+-- Test 1.4: 32 fields (max capacity)
+PRINT 'Test 1.4: Maximum field capacity (32 fields)'
+CLASS MaxFields
+    f1 : INT
+    f2 : INT
+    f3 : INT
+    f4 : INT
+    f5 : INT
+    f6 : INT
+    f7 : INT
+    f8 : INT
+    f9 : INT
+    f10 : INT
+    f11 : INT
+    f12 : INT
+    f13 : INT
+    f14 : INT
+    f15 : INT
+    f16 : INT
+    f17 : INT
+    f18 : INT
+    f19 : INT
+    f20 : INT
+    f21 : INT
+    f22 : INT
+    f23 : INT
+    f24 : INT
+    f25 : INT
+    f26 : INT
+    f27 : INT
+    f28 : INT
+    f29 : INT
+    f30 : INT
+    f31 : INT
+    f32 : INT
+END CLASS
+
+LET max_test = NEW MaxFields()
+LET max_test.f32 = 999
+PRINT 'f32:', max_test.f32
+PRINT 'EXPECT: f32: 999'
+PRINT ''
+
+-- ============================================================================
+-- PHASE 2: Traits and Mapped Functions
+-- ============================================================================
+
+PRINT '-- Phase 2: Traits and Mapped Functions --'
+
+-- Test 2.1: Single trait function, verify slot-to-field remapping
+PRINT 'Test 2.1: Trait function with slot remapping'
+CLASS Point
+    x : FLOAT
+    y : FLOAT
+END CLASS
+
+TRAIT Translatable
+REQUIRES
+    tx : FLOAT WRITE
+    ty : FLOAT WRITE
+END REQUIRES
+
+CREATE FUNCTION translate(self, dx, dy)
+    LET self.tx = self.tx + dx
+    LET self.ty = self.ty + dy
+    RETURN true
+END FUNCTION
+END TRAIT
+
+MAP TRAIT Translatable TO Point AS PointOps
+WITH
+    tx -> x,
+    ty -> y
+END MAP
+
+LET pt = NEW Point()
+LET pt.x = 10.0
+LET pt.y = 20.0
+PRINT 'Before: x:', pt.x, 'y:', pt.y
+LET move_ok = PointOps.translate(pt, 5.0, 3.0)
+PRINT 'After:  x:', pt.x, 'y:', pt.y, 'returned:', move_ok
+PRINT 'EXPECT: After:  x: 15 y: 23 returned: true'
+PRINT ''
+
+-- Test 2.2: Two trait functions called sequentially, verify each step independently
+PRINT 'Test 2.2: Multiple trait functions (step-by-step)'
+TRAIT Calculable
+REQUIRES
+    value : FLOAT WRITE
+    result : FLOAT WRITE
+END REQUIRES
+
+CREATE FUNCTION double_it(self)
+    LET self.value = self.value * 2
+    RETURN self.value
+END FUNCTION
+
+CREATE FUNCTION square_it(self)
+    LET self.value = self.value * self.value
+    LET self.result = self.value
+    RETURN self.result
+END FUNCTION
+END TRAIT
+
+CLASS Calculator
+    input : FLOAT
+    output : FLOAT
+END CLASS
+
+MAP TRAIT Calculable TO Calculator AS CalcOps
+WITH
+    value -> input,
+    result -> output
+END MAP
+
+LET calc = NEW Calculator()
+LET calc.input = 5.0
+PRINT 'Initial input:', calc.input
+PRINT 'EXPECT: Initial input: 5'
+
+LET doubled = CalcOps.double_it(calc)
+PRINT 'After double_it: input:', calc.input, 'returned:', doubled
+PRINT 'EXPECT: After double_it: input: 10 returned: 10'
+
+LET squared = CalcOps.square_it(calc)
+PRINT 'After square_it: input:', calc.input, 'output:', calc.output, 'returned:', squared
+PRINT 'EXPECT: After square_it: input: 100 output: 100 returned: 100'
+PRINT ''
+
+-- ============================================================================
+-- PHASE 3: SNAPSHOT/RESTORE
+-- ============================================================================
+
+PRINT '-- Phase 3: SNAPSHOT/RESTORE --'
+
+-- Test 3.1: Snapshot captures state, restore reverts it
+PRINT 'Test 3.1: Basic snapshot and restore'
+LET snap_var = 100
+LET snap_obj = NEW Person()
+LET snap_obj.name = 'Original'
+LET snap_obj.age = 25
+
+PRINT 'Before snapshot - var:', snap_var, 'name:', snap_obj.name
+PRINT 'EXPECT: Before snapshot - var: 100 name: Original'
+
+SNAPSHOT test_checkpoint
+
+LET snap_var = 200
+LET snap_obj.name = 'Modified'
+LET snap_obj.age = 35
+
+PRINT 'After modify - var:', snap_var, 'name:', snap_obj.name
+PRINT 'EXPECT: After modify - var: 200 name: Modified'
+
+RESTORE test_checkpoint
+
+PRINT 'After restore - var:', snap_var, 'name:', snap_obj.name, 'age:', snap_obj.age
+PRINT 'EXPECT: After restore - var: 100 name: Original age: 25'
+PRINT ''
+
+-- Test 3.2: Aliased references both revert on restore
+PRINT 'Test 3.2: Alias preservation across snapshot/restore'
+LET alias1 = NEW Person()
+LET alias1.name = 'Shared'
+LET alias2 = alias1
+LET alias1.age = 40
+
+SNAPSHOT alias_checkpoint
+
+LET alias1.name = 'Changed'
+LET alias1.age = 50
+PRINT 'After modify - alias2.name:', alias2.name, 'alias2.age:', alias2.age
+PRINT 'EXPECT: After modify - alias2.name: Changed alias2.age: 50'
+
+RESTORE alias_checkpoint
+
+PRINT 'After restore - alias1.name:', alias1.name, 'alias1.age:', alias1.age
+PRINT 'After restore - alias2.name:', alias2.name, 'alias2.age:', alias2.age
+PRINT 'EXPECT: Both revert to name: Shared age: 40'
+PRINT ''
+
+-- ============================================================================
+-- PHASE 4: ASSUME/OTHERWISE (No Auto-Snapshot)
+-- ============================================================================
+
+PRINT '-- Phase 4: ASSUME/OTHERWISE --'
+
+-- Test 4.1: True condition executes THEN body
+PRINT 'Test 4.1: ASSUME true -> executes body'
+LET a41 = 10
+ASSUME a41 = 10 THEN
+    LET a41 = 20
+END ASSUME
+PRINT 'a41:', a41
+PRINT 'EXPECT: a41: 20'
+PRINT ''
+
+-- Test 4.2: False condition skips to OTHERWISE
+PRINT 'Test 4.2: ASSUME false -> executes OTHERWISE'
+LET a42 = 5
+ASSUME a42 = 999 THEN
+    LET a42 = 100
+OTHERWISE
+    LET a42 = 50
+END ASSUME
+PRINT 'a42:', a42
+PRINT 'EXPECT: a42: 50'
+PRINT ''
+
+-- Test 4.3: Chained OTHERWISE ASSUME (else-if chain)
+PRINT 'Test 4.3: Chained OTHERWISE ASSUME'
+LET a43 = 'start'
+ASSUME false THEN
+    LET a43 = 'first'
+OTHERWISE ASSUME false THEN
+    LET a43 = 'second'
+OTHERWISE ASSUME true THEN
+    LET a43 = 'third'
+END ASSUME
+PRINT 'a43:', a43
+PRINT 'EXPECT: a43: third'
+PRINT ''
+
+-- Test 4.4: ASSUMPTION_FAILED triggers OTHERWISE without auto-rollback
+PRINT 'Test 4.4: ASSUMPTION_FAILED (no auto-rollback)'
+LET a44 = 15
+ASSUME true THEN
+    LET a44 = 25
+    ASSUMPTION_FAILED
+OTHERWISE
+    PRINT 'In OTHERWISE - a44:', a44
+    PRINT 'EXPECT: In OTHERWISE - a44: 25 (mutation persists, no rollback)'
+END ASSUME
+PRINT ''
+
+-- Test 4.5: Nested ASSUME blocks
+PRINT 'Test 4.5: Nested ASSUME blocks'
+LET outer = 'A'
+LET inner = 'B'
+ASSUME outer = 'A' THEN
+    LET outer = 'A2'
+    ASSUME inner = 'B' THEN
+        LET inner = 'B2'
+    END ASSUME
+END ASSUME
+PRINT 'outer:', outer, 'inner:', inner
+PRINT 'EXPECT: outer: A2 inner: B2'
+PRINT ''
+
+-- Test 4.6: ACTIVE_ASSUMPTIONS() returns descriptions of live assumptions
+PRINT 'Test 4.6: ACTIVE_ASSUMPTIONS() introspection'
+LET a46 = 1
+ASSUME a46 = 1 THEN
+    ASSUME true THEN
+        LET assumptions = ACTIVE_ASSUMPTIONS()
+        PRINT 'Active count:', LENGTH(assumptions)
+        PRINT 'EXPECT: Active count: 2'
+    END ASSUME
+END ASSUME
+PRINT ''
+
+-- ============================================================================
+-- PHASE 5: Multi-Statement Functions
+-- ============================================================================
+
+PRINT '-- Phase 5: Multi-Statement Functions --'
+
+-- Test 5.1: IF/ELSE branching inside a function
+PRINT 'Test 5.1: Function with IF/ELSE'
+CREATE FUNCTION complex_calc(x, y, z)
+    LET result = x + y
+    IF result > 10 THEN
+        LET result = result * z
+    ELSE
+        LET result = result + z
+    END IF
+    RETURN result
+END FUNCTION
+
+LET r51 = complex_calc(5, 8, 3)
+PRINT 'complex_calc(5,8,3):', r51
+PRINT 'EXPECT: 39 (5+8=13 > 10, so 13*3=39)'
+PRINT ''
+
+-- Test 5.2: FOR loop with array indexing and early RETURN
+PRINT 'Test 5.2: Function with FOR loop and early RETURN'
+CREATE FUNCTION find_first(arr, target)
+    FOR i FROM 0 TO LENGTH(arr) - 1
+        IF arr[i] = target THEN
+            RETURN i
+        END IF
+    END FOR
+    RETURN -1
+END FUNCTION
+
+LET arr52 = [10, 20, 30, 40, 50]
+LET found = find_first(arr52, 30)
+LET miss = find_first(arr52, 99)
+PRINT 'find_first([10..50], 30):', found
+PRINT 'find_first([10..50], 99):', miss
+PRINT 'EXPECT: 2 and -1'
+PRINT ''
+
+-- ============================================================================
+-- PHASE 6: Edge Cases
+-- ============================================================================
+
+PRINT '-- Phase 6: Edge Cases --'
+
+-- Test 6.1: Accessing a nonexistent field returns NULL
+PRINT 'Test 6.1: Invalid field access returns NULL'
+LET e61 = NEW Person()
+LET bad = e61.nonexistent_field
+PRINT 'nonexistent_field:', bad
+PRINT 'EXPECT: nonexistent_field: NULL'
+PRINT ''
+
+-- Test 6.2: Fields accept any type (duck typing, intentional for MVP)
+PRINT 'Test 6.2: Type flexibility (duck typing)'
+LET e62 = NEW Person()
+LET e62.name = 123
+LET e62.age = 'string_age'
+LET e62.height = true
+PRINT 'name:', e62.name, 'age:', e62.age, 'height:', e62.height
+PRINT 'EXPECT: name: 123 age: string_age height: true (no type enforcement)'
+PRINT ''
+
+-- Test 6.3: Empty class is allowed (conscious design choice)
+PRINT 'Test 6.3: Empty class instantiation'
+CLASS EmptyClass
+END CLASS
+
+LET e63 = NEW EmptyClass()
+PRINT 'Created empty class instance:', e63
+PRINT 'EXPECT: <EmptyClass:0 fields>'
+PRINT ''
+
+-- Test 6.4: Nested FOR + snapshot/restore stress test
+PRINT 'Test 6.4: Deep nesting with snapshots'
+LET deep = 0
+SNAPSHOT deep_checkpoint
+
+FOR i FROM 1 TO 5
+    LET deep = deep + i
+    IF i = 3 THEN
+        SNAPSHOT inner_checkpoint
+        LET deep = 100
+        PRINT 'Set deep=100, now restoring inner'
+        RESTORE inner_checkpoint
+        PRINT 'After inner restore - deep:', deep
+        PRINT 'EXPECT: After inner restore - deep: 6 (restored to pre-100 state)'
+    END IF
+END FOR
+
+RESTORE deep_checkpoint
+PRINT 'After final restore - deep:', deep
+PRINT 'EXPECT: After final restore - deep: 0'
+PRINT ''
+
+-- ============================================================================
+-- PHASE 7: Stress Tests
+-- ============================================================================
+
+PRINT '-- Phase 7: Stress Tests --'
+
+-- Test 7.1: Store instances in an array, retrieve by index
+PRINT 'Test 7.1: Array of instances'
+LET instances = []
+FOR i FROM 0 TO 9
+    LET temp = NEW Person()
+    LET temp.name = 'Person' + i
+    LET temp.age = i * 10
+    LET instances[i] = temp
+END FOR
+
+PRINT 'instances[5].name:', instances[5].name, 'instances[5].age:', instances[5].age
+PRINT 'EXPECT: instances[5].name: Person5 instances[5].age: 50'
+PRINT ''
+
+-- Test 7.2: Chain multiple trait calls, verify state after each
+PRINT 'Test 7.2: Trait operation chain'
+LET c72 = NEW Calculator()
+LET c72.input = 2.0
+LET s1 = CalcOps.double_it(c72)
+PRINT 'Step 1 (double 2): input:', c72.input, 'returned:', s1
+PRINT 'EXPECT: input: 4 returned: 4'
+LET s2 = CalcOps.double_it(c72)
+PRINT 'Step 2 (double 4): input:', c72.input, 'returned:', s2
+PRINT 'EXPECT: input: 8 returned: 8'
+LET s3 = CalcOps.square_it(c72)
+PRINT 'Step 3 (square 8): input:', c72.input, 'output:', c72.output, 'returned:', s3
+PRINT 'EXPECT: input: 64 output: 64 returned: 64'
+PRINT ''
+
+-- ============================================================================
+-- PHASE 8: Robustness Edge Cases
+-- ============================================================================
+
+PRINT '-- Phase 8: Robustness Edge Cases --'
+
+-- Test 8.1: Snapshot an array containing the same instance twice
+PRINT 'Test 8.1: Snapshot array with aliased instance'
+LET shared = NEW Person()
+LET shared.name = 'Shared'
+LET shared.age = 1
+LET dup_arr = [shared, shared]
+SNAPSHOT dup_snap
+
+LET shared.name = 'Mutated'
+LET shared.age = 99
+PRINT 'Before restore - dup_arr[0].name:', dup_arr[0].name, 'dup_arr[1].name:', dup_arr[1].name
+PRINT 'EXPECT: Before restore - dup_arr[0].name: Mutated dup_arr[1].name: Mutated'
+
+RESTORE dup_snap
+PRINT 'After restore - dup_arr[0].name:', dup_arr[0].name, 'dup_arr[1].age:', dup_arr[1].age
+PRINT 'EXPECT: After restore - dup_arr[0].name: Shared dup_arr[1].age: 1'
+PRINT ''
+
+-- Test 8.2: Nested snapshots restored in different order (inner first, outer second)
+PRINT 'Test 8.2: Nested snapshots, inner restored before outer'
+LET nest_v = 0
+SNAPSHOT outer_snap
+LET nest_v = 10
+SNAPSHOT inner_snap
+LET nest_v = 20
+
+PRINT 'Before any restore - nest_v:', nest_v
+PRINT 'EXPECT: Before any restore - nest_v: 20'
+
+RESTORE inner_snap
+PRINT 'After inner restore - nest_v:', nest_v
+PRINT 'EXPECT: After inner restore - nest_v: 10'
+
+RESTORE outer_snap
+PRINT 'After outer restore - nest_v:', nest_v
+PRINT 'EXPECT: After outer restore - nest_v: 0'
+PRINT ''
+
+-- Test 8.3: ASSUMPTION_FAILED propagates up through nested function calls
+PRINT 'Test 8.3: ASSUMPTION_FAILED deep in call stack'
+LET deep_af = 'start'
+
+CREATE FUNCTION inner_fail()
+    ASSUMPTION_FAILED
+    RETURN 'should_not_reach'
+END FUNCTION
+
+CREATE FUNCTION middle_call()
+    LET x = inner_fail()
+    RETURN x
+END FUNCTION
+
+ASSUME true THEN
+    LET deep_af = 'in_assume'
+    LET r83 = middle_call()
+OTHERWISE
+    PRINT 'OTHERWISE reached - deep_af:', deep_af
+    PRINT 'EXPECT: OTHERWISE reached - deep_af: in_assume'
+END ASSUME
+PRINT ''
+
+-- Test 8.4: Two different traits mapped to the same host field
+PRINT 'Test 8.4: Overlapping trait field mappings'
+CLASS Gauge
+    reading : FLOAT
+END CLASS
+
+TRAIT Scalable
+REQUIRES
+    scale_val : FLOAT WRITE
+END REQUIRES
+CREATE FUNCTION scale(self, factor)
+    LET self.scale_val = self.scale_val * factor
+    RETURN self.scale_val
+END FUNCTION
+END TRAIT
+
+TRAIT Offsetable
+REQUIRES
+    off_val : FLOAT WRITE
+END REQUIRES
+CREATE FUNCTION offset(self, delta)
+    LET self.off_val = self.off_val + delta
+    RETURN self.off_val
+END FUNCTION
+END TRAIT
+
+MAP TRAIT Scalable TO Gauge AS GaugeScale
+WITH
+    scale_val -> reading
+END MAP
+
+MAP TRAIT Offsetable TO Gauge AS GaugeOffset
+WITH
+    off_val -> reading
+END MAP
+
+LET g = NEW Gauge()
+LET g.reading = 10.0
+LET r84a = GaugeScale.scale(g, 3.0)
+PRINT 'After scale(3): reading:', g.reading, 'returned:', r84a
+PRINT 'EXPECT: After scale(3): reading: 30 returned: 30'
+LET r84b = GaugeOffset.offset(g, 5.0)
+PRINT 'After offset(5): reading:', g.reading, 'returned:', r84b
+PRINT 'EXPECT: After offset(5): reading: 35 returned: 35'
+PRINT ''
+
+-- Test 8.5: Restore after object mutation through an alias
+PRINT 'Test 8.5: Restore reverts alias-visible mutations'
+LET orig85 = NEW Person()
+LET orig85.name = 'Original'
+LET orig85.age = 10
+LET alias85 = orig85
+
+SNAPSHOT alias_mut_snap
+
+LET alias85.name = 'AliasChanged'
+LET alias85.age = 99
+PRINT 'After alias mutation - orig85.name:', orig85.name, 'orig85.age:', orig85.age
+PRINT 'EXPECT: After alias mutation - orig85.name: AliasChanged orig85.age: 99'
+
+RESTORE alias_mut_snap
+PRINT 'After restore - orig85.name:', orig85.name, 'orig85.age:', orig85.age
+PRINT 'EXPECT: After restore - orig85.name: Original orig85.age: 10'
+PRINT ''
+
+-- Test 8.6: Snapshot + assume + restore inside OTHERWISE
+PRINT 'Test 8.6: Snapshot/restore inside OTHERWISE'
+LET v86 = 'init'
+
+ASSUME false THEN
+    LET v86 = 'should_not_run'
+OTHERWISE
+    SNAPSHOT ow_snap
+    LET v86 = 'in_otherwise'
+    PRINT 'In OTHERWISE before restore - v86:', v86
+    PRINT 'EXPECT: In OTHERWISE before restore - v86: in_otherwise'
+    RESTORE ow_snap
+    PRINT 'In OTHERWISE after restore - v86:', v86
+    PRINT 'EXPECT: In OTHERWISE after restore - v86: init'
+END ASSUME
+PRINT ''
+
+-- Test 8.7: Assume chain where ALL conditions fail
+PRINT 'Test 8.7: All-fail assume chain'
+LET v87 = 'untouched'
+ASSUME false THEN
+    LET v87 = 'first'
+OTHERWISE ASSUME false THEN
+    LET v87 = 'second'
+OTHERWISE ASSUME false THEN
+    LET v87 = 'third'
+OTHERWISE
+    LET v87 = 'final_otherwise'
+END ASSUME
+PRINT 'v87:', v87
+PRINT 'EXPECT: v87: final_otherwise'
+PRINT ''
+
+-- Test 8.8: Snapshot preserves scalar and array state together
+PRINT 'Test 8.8: Snapshot with mixed scalars, arrays, and instances'
+LET s_int = 42
+LET s_str = 'hello'
+LET s_arr = [1, 2, 3]
+LET s_obj = NEW Person()
+LET s_obj.name = 'SnapMix'
+
+SNAPSHOT mix_snap
+
+LET s_int = 999
+LET s_str = 'changed'
+LET s_arr = [9, 9, 9, 9]
+LET s_obj.name = 'Mutated'
+
+PRINT 'After mutation - int:', s_int, 'str:', s_str, 'arr len:', LENGTH(s_arr), 'obj:', s_obj.name
+PRINT 'EXPECT: After mutation - int: 999 str: changed arr len: 4 obj: Mutated'
+
+RESTORE mix_snap
+
+PRINT 'After restore - int:', s_int, 'str:', s_str, 'arr len:', LENGTH(s_arr), 'obj:', s_obj.name
+PRINT 'EXPECT: After restore - int: 42 str: hello arr len: 3 obj: SnapMix'
+PRINT ''
+
+PRINT '=== MVP Comprehensive Test Suite Complete ==='

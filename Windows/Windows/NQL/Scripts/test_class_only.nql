@@ -1,0 +1,4 @@
+CLASS Person
+    name : STRING
+    age : INT
+END CLASS

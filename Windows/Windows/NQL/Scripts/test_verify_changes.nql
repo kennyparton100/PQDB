@@ -1,0 +1,23 @@
+PRINT '=== Verify No-Snapshot Changes ==='
+
+-- Test 1: Verify basic ASSUME still works
+LET test1 = 'start'
+ASSUME true THEN LET test1 = 'success' END ASSUME
+PRINT 'Test1 basic:', test1
+
+-- Test 2: Verify chained ASSUME still works  
+LET test2 = 'start'
+ASSUME false THEN LET test2 = 'first' OTHERWISE ASSUME true THEN LET test2 = 'second' END ASSUME
+PRINT 'Test2 chained:', test2
+
+-- Test 3: Verify bare OTHERWISE still works
+LET test3 = 'start'
+ASSUME false THEN LET test3 = 'first' OTHERWISE LET test3 = 'fallback' END ASSUME
+PRINT 'Test3 bare:', test3
+
+-- Test 4: Verify ASSUMPTION_FAILED without auto-rollback
+LET test4 = 10
+ASSUME true THEN LET test4 = 20 ASSUMPTION_FAILED OTHERWISE LET test4 = 'otherwise' END ASSUME
+PRINT 'Test4 no-rollback:', test4
+
+PRINT '=== Verification complete ==='

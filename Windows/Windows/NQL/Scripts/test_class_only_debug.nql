@@ -1,0 +1,7 @@
+CLASS Person
+    name : STRING
+    age : INT
+    height : FLOAT
+END CLASS
+
+PRINT 'Class created successfully'

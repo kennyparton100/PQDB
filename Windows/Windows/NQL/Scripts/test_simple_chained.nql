@@ -1,0 +1,10 @@
+PRINT 'Test chained'
+LET x = 'start'
+
+ASSUME false THEN
+    LET x = 'first'
+OTHERWISE
+    LET x = 'fallback'
+END ASSUME
+
+PRINT 'Result:', x

@@ -1,0 +1,9 @@
+PRINT 'Start'
+LET a = 1
+PRINT 'Before ASSUME'
+ASSUME a = 1 THEN
+LET a = 2
+PRINT 'Inside'
+END ASSUME
+PRINT 'After'
+PRINT a

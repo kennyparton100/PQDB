@@ -1,0 +1,21 @@
+PRINT 'Testing simple TRAIT syntax'
+
+TRAIT SimpleTrait REQUIRES field1 : INT, field2 : STRING END TRAIT
+
+CLASS SimpleClass
+    value1 : INT
+    value2 : STRING
+END CLASS
+
+MAP TRAIT SimpleTrait TO SimpleClass AS SimpleMapping
+WITH
+    field1 -> value1,
+    field2 -> value2
+END MAP
+
+LET obj = NEW SimpleClass()
+LET obj.value1 = 42
+LET obj.value2 = 'test'
+
+PRINT 'Object values:', obj.value1, obj.value2
+PRINT 'Trait mapping test complete'

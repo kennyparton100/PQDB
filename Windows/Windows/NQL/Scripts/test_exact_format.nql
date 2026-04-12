@@ -1,0 +1,50 @@
+PRINT '=== Exact Format Test ==='
+
+-- Test the exact format you specified
+LET test_var = 'start'
+
+ASSUME false THEN
+    LET test_var = 'first_attempt'
+    PRINT 'Should not execute'
+OTHERWISE ASSUME false THEN
+    LET test_var = 'second_attempt'
+    PRINT 'Should not execute'
+OTHERWISE ASSUME true THEN
+    LET test_var = 'third_success'
+    PRINT 'Third ASSUME succeeded'
+OTHERWISE THEN
+    LET test_var = 'final_fallback'
+    PRINT 'Final OTHERWISE'
+END ASSUME
+
+PRINT 'Final result:', test_var
+
+-- Test nested version
+LET nested_test = 'outer_start'
+
+ASSUME true THEN
+    LET nested_test = 'outer_assume'
+    PRINT 'Outer ASSUME entered'
+    
+    LET inner_var = 'inner_start'
+    ASSUME false THEN
+        LET inner_var = 'inner_first'
+        PRINT 'Inner first - should not execute'
+    OTHERWISE ASSUME true THEN
+        LET inner_var = 'inner_second'
+        PRINT 'Inner second ASSUME succeeded'
+    OTHERWISE THEN
+        LET inner_var = 'inner_fallback'
+        PRINT 'Inner fallback'
+    END ASSUME
+    
+    PRINT 'Inner result:', inner_var
+OTHERWISE THEN
+    LET nested_test = 'outer_fallback'
+    PRINT 'Outer fallback'
+END ASSUME
+
+PRINT 'Nested result:', nested_test
+PRINT ''
+
+PRINT '=== Exact format tests complete ==='

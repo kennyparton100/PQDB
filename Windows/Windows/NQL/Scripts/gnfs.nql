@@ -1,0 +1,312 @@
+-- gnfs.nql — NQL-orchestrated General Number Field Sieve
+--
+-- Architecture: NQL orchestration + native C kernels.
+-- Every hot path (sieve, trial factor, matrix solve) is a single native call.
+-- NQL handles flow control, parameter selection, and output.
+--
+-- Usage: Set N before running. Example for a 60-digit semiprime:
+--   LET N = 123456789012345678901234567890123456789012345678901234567891
+
+-- ═══════════════════════════════════════════════════════════
+-- CONFIGURATION
+-- ═══════════════════════════════════════════════════════════
+
+LET N = 5959
+LET degree = 5
+LET rat_bound = 50000
+LET alg_bound = 50000
+LET lp_mult = 64
+LET sieve_width = 1000
+LET sieve_height = 1000
+LET max_special_qs = 100
+LET target_rels = 10000
+
+LET t0 = TIMER_START()
+
+PRINT '══════════════════════════════════════════'
+PRINT 'NQL General Number Field Sieve'
+PRINT 'N = ', N
+PRINT 'Degree = ', degree
+PRINT '══════════════════════════════════════════'
+
+-- ═══════════════════════════════════════════════════════════
+-- STEP 0: Trivial factor check
+-- ═══════════════════════════════════════════════════════════
+
+LET trivial = TRIAL_SMALL_FACTOR(N, rat_bound)
+IF trivial != NULL THEN
+    PRINT 'Trivial factor: ', trivial, ' x ', N / trivial
+    PRINT 'Time: ', TIMER_ELAPSED(t0), 's'
+END IF
+
+IF trivial = NULL THEN
+
+-- ═══════════════════════════════════════════════════════════
+-- STEP 1: Polynomial selection
+-- ═══════════════════════════════════════════════════════════
+
+PRINT ''
+PRINT '--- Step 1: Polynomial Selection ---'
+LET t1 = TIMER_START()
+
+LET m = GNFS_BASE_M_SELECT(N, degree)
+PRINT 'm = floor(N^(1/', degree, ')) = ', m
+
+LET poly_result = GNFS_BASE_M_POLY(N, degree)
+IF poly_result = NULL THEN
+    PRINT 'ERROR: Polynomial generation failed'
+END IF
+
+IF poly_result != NULL THEN
+
+LET f = ARRAY_GET(poly_result, 0)
+LET g = ARRAY_GET(poly_result, 1)
+LET m_actual = ARRAY_GET(poly_result, 2)
+
+PRINT 'f(x) = ', f
+PRINT 'g(x) = ', g
+PRINT 'Degree: ', POLY_DEGREE(f)
+
+LET alpha = GNFS_POLY_ALPHA(f, 200)
+PRINT 'Alpha value: ', alpha
+
+LET skew = GNFS_POLY_SKEWNESS(f)
+PRINT 'Skewness: ', skew
+
+-- Try a few rotations to improve alpha
+LET best_f = f
+LET best_alpha = alpha
+FOR j0 FROM -5 TO 5 DO
+    LET rotated = GNFS_POLY_ROTATE(f, g, j0, 0)
+    IF rotated != NULL THEN
+        LET rot_alpha = GNFS_POLY_ALPHA(rotated, 200)
+        IF rot_alpha < best_alpha THEN
+            LET best_f = rotated
+            LET best_alpha = rot_alpha
+        END IF
+    END IF
+END FOR
+
+IF best_alpha < alpha THEN
+    PRINT 'Improved alpha via rotation: ', best_alpha, ' (was ', alpha, ')'
+    LET f = best_f
+END IF
+
+PRINT 'Polynomial selection time: ', TIMER_ELAPSED(t1), 's'
+
+-- ═══════════════════════════════════════════════════════════
+-- STEP 2: Factor base construction
+-- ═══════════════════════════════════════════════════════════
+
+PRINT ''
+PRINT '--- Step 2: Factor Base Construction ---'
+LET t2 = TIMER_START()
+
+-- Build rational factor base: primes up to rat_bound
+-- For now, use a simple array of primes
+LET rat_primes = ARRAY()
+LET rat_roots = ARRAY()
+LET p = 2
+WHILE p <= rat_bound AND ARRAY_LENGTH(rat_primes) < 5000 DO
+    IF IS_PRIME(p) THEN
+        LET rat_primes = ARRAY_APPEND(rat_primes, p)
+        LET rat_roots = ARRAY_APPEND(rat_roots, 0)
+    END IF
+    LET p = p + 1
+END WHILE
+
+PRINT 'Rational FB: ', ARRAY_LENGTH(rat_primes), ' primes'
+
+-- Build algebraic factor base: (p, r) pairs where f(r) ≡ 0 mod p
+LET alg_primes = ARRAY()
+LET alg_roots = ARRAY()
+LET p = 2
+WHILE p <= alg_bound AND ARRAY_LENGTH(alg_primes) < 10000 DO
+    IF IS_PRIME(p) THEN
+        LET roots = POLY_ROOTS_MOD(f, p)
+        IF ARRAY_LENGTH(roots) > 0 THEN
+            FOR EACH r IN roots DO
+                LET alg_primes = ARRAY_APPEND(alg_primes, p)
+                LET alg_roots = ARRAY_APPEND(alg_roots, r)
+            END FOR
+        END IF
+    END IF
+    LET p = p + 1
+END WHILE
+
+PRINT 'Algebraic FB: ', ARRAY_LENGTH(alg_primes), ' (p,r) pairs'
+PRINT 'FB construction time: ', TIMER_ELAPSED(t2), 's'
+
+-- ═══════════════════════════════════════════════════════════
+-- STEP 3: Sieving (special-q lattice sieve)
+-- ═══════════════════════════════════════════════════════════
+
+PRINT ''
+PRINT '--- Step 3: Lattice Sieving ---'
+LET t3 = TIMER_START()
+
+LET rels = GNFS_RELATION_CREATE(ARRAY_LENGTH(rat_primes), ARRAY_LENGTH(alg_primes), target_rels)
+LET sieve = GNFS_SIEVE_REGION_CREATE(sieve_width, sieve_height)
+LET factor_found = 0
+
+-- Choose special-q primes from the algebraic FB (medium-sized primes)
+LET sq_start = ARRAY_LENGTH(alg_primes) / 4
+IF sq_start < 10 THEN LET sq_start = 10 END IF
+
+LET sq_idx = sq_start
+LET sq_count = 0
+
+WHILE sq_count < max_special_qs AND GNFS_RELATION_COUNT(rels) < target_rels AND sq_idx < ARRAY_LENGTH(alg_primes) DO
+    LET q = ARRAY_GET(alg_primes, sq_idx)
+    LET r = ARRAY_GET(alg_roots, sq_idx)
+
+    IF q > 100 THEN
+        -- Set up lattice for this special-q
+        LET sieve = GNFS_SIEVE_SET_SPECIAL_Q(sieve, q, r)
+
+        -- Initialize with log-norm estimates
+        LET sieve = GNFS_SIEVE_INIT_NORMS(sieve, f, g, m_actual)
+
+        -- Sieve rational side
+        LET sieve = GNFS_SIEVE_RUN_SIDE(sieve, rat_primes, rat_roots, 0)
+
+        -- Sieve algebraic side
+        LET sieve = GNFS_SIEVE_RUN_SIDE(sieve, alg_primes, alg_roots, 1)
+
+        -- Collect candidates where both sides are smooth
+        LET rat_thresh = LOG2(rat_bound) + 3.0
+        LET alg_thresh = LOG2(alg_bound) + 3.0
+        LET cands = GNFS_SIEVE_CANDIDATES(sieve, rat_thresh, alg_thresh)
+
+        -- Trial-factor each candidate on BOTH sides
+        FOR EACH pair IN cands DO
+            LET a = ARRAY_GET(pair, 0)
+            LET b = ARRAY_GET(pair, 1)
+            IF b > 0 AND GCD(a, b) = 1 THEN
+                -- Trial-factor rational norm |a - b*m| over rational FB
+                LET rat_result = GNFS_TRIAL_FACTOR_RATIONAL(a, b, m_actual, rat_primes)
+                LET rat_cofactor = ARRAY_LAST(rat_result)
+
+                -- Trial-factor algebraic norm over algebraic FB
+                LET alg_result = GNFS_TRIAL_FACTOR_ALGEBRAIC(a, b, f, alg_primes, alg_roots)
+                LET alg_cofactor = ARRAY_LAST(alg_result)
+
+                -- Accept if both sides are smooth (cofactor=1) or partial (cofactor is small prime)
+                LET rat_lp = rat_cofactor
+                LET alg_lp = alg_cofactor
+                IF rat_lp = 1 OR (IS_PRIME(rat_lp) AND rat_lp < rat_bound * lp_mult) THEN
+                    IF alg_lp = 1 OR (IS_PRIME(alg_lp) AND alg_lp < alg_bound * lp_mult) THEN
+                        -- Strip cofactor from exponent arrays (last element)
+                        LET rat_exps = ARRAY_SLICE(rat_result, 0, ARRAY_LENGTH(rat_result) - 1)
+                        LET alg_exps = ARRAY_SLICE(alg_result, 0, ARRAY_LENGTH(alg_result) - 1)
+                        LET rels = GNFS_RELATION_ADD(rels, a, b, rat_exps, alg_exps, rat_lp, alg_lp)
+                    END IF
+                END IF
+            END IF
+        END FOR
+
+        LET sq_count = sq_count + 1
+        IF sq_count % 10 = 0 THEN
+            PRINT '  Special-q #', sq_count, ': q=', q, ', relations=', GNFS_RELATION_COUNT(rels)
+        END IF
+    END IF
+
+    LET sq_idx = sq_idx + 1
+END WHILE
+
+PRINT 'Sieving complete: ', GNFS_RELATION_COUNT(rels), ' relations from ', sq_count, ' special-qs'
+PRINT 'Sieving time: ', TIMER_ELAPSED(t3), 's'
+
+-- ═══════════════════════════════════════════════════════════
+-- STEP 4: Filtering
+-- ═══════════════════════════════════════════════════════════
+
+PRINT ''
+PRINT '--- Step 4: Filtering ---'
+LET t4 = TIMER_START()
+
+PRINT 'Before filtering: ', GNFS_RELATION_COUNT(rels), ' relations'
+PRINT '  FF=', GNFS_RELATION_COUNT_BY_TYPE(rels, 0), ' FP=', GNFS_RELATION_COUNT_BY_TYPE(rels, 1), ' PF=', GNFS_RELATION_COUNT_BY_TYPE(rels, 2), ' PP=', GNFS_RELATION_COUNT_BY_TYPE(rels, 3)
+
+LET rels = GNFS_FILTER_SINGLETONS(rels)
+
+PRINT 'After filtering: ', GNFS_RELATION_COUNT(rels), ' relations'
+PRINT 'Filtering time: ', TIMER_ELAPSED(t4), 's'
+
+-- Export relations for checkpointing
+LET export_ok = GNFS_RELATION_EXPORT(rels, 'gnfs_relations.txt')
+IF export_ok THEN PRINT 'Relations exported to gnfs_relations.txt' END IF
+
+-- ═══════════════════════════════════════════════════════════
+-- STEP 5: Linear algebra (Block Lanczos)
+-- ═══════════════════════════════════════════════════════════
+
+PRINT ''
+PRINT '--- Step 5: Linear Algebra ---'
+LET t5 = TIMER_START()
+
+LET total_cols = ARRAY_LENGTH(rat_primes) + ARRAY_LENGTH(alg_primes)
+LET parity_rows = GNFS_RELATION_PARITY_ROWS(rels, ARRAY_LENGTH(rat_primes), ARRAY_LENGTH(alg_primes))
+
+LET sparse = GNFS_SPARSE_MATRIX_BUILD(parity_rows, total_cols)
+IF sparse != NULL THEN
+    PRINT 'Sparse matrix: ', GNFS_SPARSE_ROWS(sparse), ' x ', GNFS_SPARSE_COLS(sparse), ', nnz=', GNFS_SPARSE_NNZ(sparse)
+
+    LET nullspace = GNFS_BLOCK_LANCZOS(sparse)
+    IF nullspace != NULL THEN
+        PRINT 'Null-space vectors: ', ARRAY_LENGTH(nullspace)
+
+        -- ═══════════════════════════════════════════════════════
+        -- STEP 6: Square root + factor extraction
+        -- ═══════════════════════════════════════════════════════
+
+        PRINT ''
+        PRINT '--- Step 6: Factor Extraction ---'
+        LET t6 = TIMER_START()
+
+        -- Get a/b value arrays from the relation set for extraction
+        LET a_arr = GNFS_RELATION_A_VALS(rels)
+        LET b_arr = GNFS_RELATION_B_VALS(rels)
+
+        FOR EACH dep IN nullspace DO
+            PRINT '  Trying dependency with ', ARRAY_LENGTH(dep), ' relations...'
+
+            -- Rational side: x = product of (a_i - b_i * m) mod N
+            LET x_rat = GNFS_EXTRACT_RATIONAL_SQRT(dep, a_arr, b_arr, m_actual, N)
+
+            -- Algebraic side: y from stored exponents (sum, halve, product of primes^half mod N)
+            LET y_alg = GNFS_ALGEBRAIC_SQRT(dep, rels, rat_primes, alg_primes, N)
+
+            -- Try GCD(x ± y, N)
+            LET g = GNFS_EXTRACT_TRY_FACTOR(x_rat, y_alg, N)
+            IF g != NULL AND g > 1 AND g < N THEN
+                PRINT 'FACTOR FOUND: ', g, ' x ', N / g
+                LET factor_found = g
+                BREAK
+            END IF
+        END FOR
+
+        PRINT 'Extraction time: ', TIMER_ELAPSED(t6), 's'
+    ELSE
+        PRINT 'Block Lanczos returned no null-space vectors'
+    END IF
+ELSE
+    PRINT 'Sparse matrix construction failed'
+END IF
+
+-- ═══════════════════════════════════════════════════════════
+-- SUMMARY
+-- ═══════════════════════════════════════════════════════════
+
+PRINT ''
+PRINT '══════════════════════════════════════════'
+IF factor_found > 1 THEN
+    PRINT 'GNFS SUCCESS: ', N, ' = ', factor_found, ' x ', N / factor_found
+ELSE
+    PRINT 'GNFS did not find a factor. Try larger parameters.'
+END IF
+PRINT 'Total time: ', TIMER_ELAPSED(t0), 's'
+PRINT '══════════════════════════════════════════'
+
+END IF
+END IF

@@ -1,0 +1,29 @@
+LET N = 1000000016000000063
+LET fb = FACTOR_BASE_BUILD(N, 5000, 64)
+PRINT 'FB: ', FACTOR_BASE_SIZE(fb), ' primes'
+LET sieve = QS_SIEVE_CREATE(16384)
+LET s = INT_SQRT(N) + 1
+PRINT 's = ', s
+LET sieve = QS_SIEVE_INIT(sieve, N, s)
+LET sieve = QS_SIEVE_RUN(sieve, fb, s)
+PRINT 'Checking various thresholds...'
+LET c5 = QS_SIEVE_CANDIDATES(sieve, 5.0)
+PRINT 'threshold 5: ', ARRAY_LENGTH(c5), ' candidates'
+LET c10 = QS_SIEVE_CANDIDATES(sieve, 10.0)
+PRINT 'threshold 10: ', ARRAY_LENGTH(c10), ' candidates'
+LET c15 = QS_SIEVE_CANDIDATES(sieve, 15.0)
+PRINT 'threshold 15: ', ARRAY_LENGTH(c15), ' candidates'
+LET c20 = QS_SIEVE_CANDIDATES(sieve, 20.0)
+PRINT 'threshold 20: ', ARRAY_LENGTH(c20), ' candidates'
+LET c25 = QS_SIEVE_CANDIDATES(sieve, 25.0)
+PRINT 'threshold 25: ', ARRAY_LENGTH(c25), ' candidates'
+IF ARRAY_LENGTH(c10) > 0 THEN
+    LET xi = ARRAY_GET(c10, 0)
+    LET xc = QS_CANDIDATE_XC(sieve, xi)
+    LET Qx = QS_CANDIDATE_QX(sieve, xi)
+    PRINT 'First candidate at xi=', xi, ': xc=', xc, ' Qx=', Qx
+    LET tr = TRIAL_FACTOR_CANDIDATE(Qx, fb, xc, 0)
+    IF tr != NULL THEN
+        PRINT 'smooth=', TRIAL_RESULT_IS_SMOOTH(tr), ' partial=', TRIAL_RESULT_IS_PARTIAL(tr), ' cofactor=', TRIAL_RESULT_COFACTOR(tr)
+    END IF
+END IF

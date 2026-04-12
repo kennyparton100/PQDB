@@ -1,0 +1,85 @@
+=== NQL SDK Session Debug Log ===
+started_local=2026-04-11 03:47:34.412
+world_id=world_debuglog_20260411_f
+world_dir=WorldSaves\world_debuglog_20260411_f
+trace_jsonl=DebugRuns\live_world_creation_20260411_034734.jsonl
+---
+[TRACE] ms=0 event=trace_reset detail=headless_session_start frontend=0 session=0 worldgen_active=0 stage=0
+[TRACE] ms=0 event=headless_session_enter detail=sdk_session_start_headless frontend=0 session=0 worldgen_active=0 stage=0
+[SHARED_CACHE] Initialized global worldgen cache
+[TRACE] ms=32 event=bind_world frontend=0 session=0 worldgen_active=0 stage=0
+[TRACE] ms=32 event=headless_world_created detail=world_debuglog_20260411_f frontend=0 session=0 worldgen_active=0 stage=0
+[TRACE] ms=32 event=bind_world frontend=0 session=0 worldgen_active=0 stage=0
+[TRACE] ms=32 event=headless_meta_loaded detail=world_debuglog_20260411_f frontend=0 session=0 worldgen_active=0 stage=0
+[HEADLESS] begin world=world_debuglog_20260411_f stop_at=gpu_ready safety_radius=1 max_iterations=1 create_if_missing=1
+[HEADLESS] target world_dir=WorldSaves\world_debuglog_20260411_f save_path=WorldSaves\world_debuglog_20260411_f\save.json
+[HEADLESS] meta seed=11223 render_distance=4 spawn_mode=2 settlements=1 construction_cells=0 superchunks=1 walls=1 detached=1 wall_grid=18 offsets=(0,0)
+[STREAMER] Initializing with 16 worker threads
+[HEADLESS] spawn pos=(-6983.500,245.000,3990.500) chunk=(-110,62) persisted_state=0
+[WORKER] Processing job cx=-108 cz=62 gen=2 type=GENERATE
+[WORKER] Processing job cx=-109 cz=62 gen=2 type=GENERATE
+[WORKER] Processing job cx=-111 cz=61 gen=2 type=GENERATE
+[WORKER] Processing job cx=-110 cz=62 gen=2 type=GENERATE
+[WORKER] Processing job cx=-108 cz=61 gen=2 type=GENERATE
+[WORKER] Processing job cx=-112 cz=61 gen=2 type=GENERATE
+[WORKER] Processing job cx=-110 cz=64 gen=2 type=GENERATE
+[WORKER] Processing job cx=-111 cz=63 gen=2 type=GENERATE
+[WORKER] Processing job cx=-110 cz=61 gen=2 type=GENERATE
+[WORKER] Processing job cx=-112 cz=62 gen=2 type=GENERATE
+[WORKER] Processing job cx=-112 cz=63 gen=2 type=GENERATE
+[WORKER] Processing job cx=-111 cz=62 gen=2 type=GENERATE
+=headless bootstrap iteration frontend=0 session=0 worldgen_active=0 stage=0 desired=9 resident=0 gpu_ready=0 jobs=19 results=0 uploads=0
+[WORKER] Processing job cx=-110 cz=63 gen=2 type=GENERATE
+[HEADLESS] result success=0 failure="startup readiness not reached before iteration cap" iterations=1 desired=9 resident=0 gpu_ready=0 jobs=19 results=0 uploads=0 elapsed_ms=10219
+[TRACE] ms=10219 event=headless_session_failure detail=startup readiness not reached before iteration cap frontend=0 session=0 worldgen_active=0 stage=0 desired=9 resident=0 gpu_ready=0 jobs=19 results=0 uploads=0
+[STREAM] waiting for worker shutdown elapsed=2000ms active_workers=16 pending_jobs=0 pending_results=0
+[WORKER] Meshing cx=-110 cz=61 (persisted=0)
+[WORKER] Meshing cx=-109 cz=62 (persisted=0)
+[WORKER] Meshing cx=-111 cz=63 (persisted=0)
+[WORKER] Meshing cx=-111 cz=61 (persisted=0)
+[WORKER] Meshing cx=-110 cz=63 (persisted=0)
+[WORKER] Meshing cx=-110 cz=60 (persisted=0)
+[WORKER] Meshing cx=-109 cz=63 (persisted=0)
+[WORKER] Meshing cx=-112 cz=62 (persisted=0)
+[WORKER] Meshing cx=-112 cz=61 (persisted=0)
+[WORKER] Meshing cx=-110 cz=62 (persisted=0)
+[WORKER] Meshing cx=-108 cz=62 (persisted=0)
+[WORKER] Meshing cx=-111 cz=62 (persisted=0)
+[WORKER] Meshing cx=-112 cz=63 (persisted=0)
+[WORKER] Meshing cx=-110 cz=64 (persisted=0)
+[WORKER] Meshing cx=-109 cz=61 (persisted=0)
+[WORKER] Meshing cx=-108 cz=61 (persisted=0)
+[STREAM] waiting for worker shutdown elapsed=3000ms active_workers=16 pending_jobs=0 pending_results=0
+[WORKER] Mesh complete cx=-109 cz=63 built=0000025294935EC0
+[WORKER] Queuing result cx=-109 cz=63 gen=2 built=0000025294935EC0 results=0/768
+[WORKER] Mesh complete cx=-111 cz=62 built=0000025294DBA740
+[WORKER] Queuing result cx=-111 cz=62 gen=2 built=0000025294DBA740 results=0/768
+[WORKER] Mesh complete cx=-110 cz=63 built=00000252949B7F80
+[WORKER] Queuing result cx=-110 cz=63 gen=2 built=00000252949B7F80 results=1/768
+[WORKER] Mesh complete cx=-112 cz=63 built=0000025294DBA740
+[WORKER] Queuing result cx=-112 cz=63 gen=2 built=0000025294DBA740 results=0/768
+[WORKER] Mesh complete cx=-112 cz=61 built=00000252949B7F80
+[WORKER] Queuing result cx=-112 cz=61 gen=2 built=00000252949B7F80 results=1/768
+[WORKER] Mesh complete cx=-110 cz=64 built=0000025294829100
+[WORKER] Queuing result cx=-110 cz=64 gen=2 built=0000025294829100 results=2/768
+[WORKER] Mesh complete cx=-110 cz=61 built=00000252949B7F80
+[WORKER] Queuing result cx=-110 cz=61 gen=2 built=00000252949B7F80 results=0/768
+[WORKER] Mesh complete cx=-112 cz=62 built=00000252949B7F80
+[WORKER] Queuing result cx=-112 cz=62 gen=2 built=00000252949B7F80 results=0/768
+[WORKER] Mesh complete cx=-109 cz=62 built=0000025294829100
+[WORKER] Queuing result cx=-109 cz=62 gen=2 built=0000025294829100 results=1/768
+[WORKER] Mesh complete cx=-110 cz=60 built=0000025294936D80
+[WORKER] Queuing result cx=-110 cz=60 gen=2 built=0000025294936D80 results=2/768
+[WORKER] Mesh complete cx=-111 cz=61 built=00000252922900B0
+[WORKER] Queuing result cx=-111 cz=61 gen=2 built=00000252922900B0 results=3/768
+[WORKER] Mesh complete cx=-111 cz=63 built=0000025292E66040
+[WORKER] Queuing result cx=-111 cz=63 gen=2 built=0000025292E66040 results=0/768
+[WORKER] Mesh complete cx=-110 cz=62 built=0000025292B92200
+[WORKER] Queuing result cx=-110 cz=62 gen=2 built=0000025292B92200 results=1/768
+[WORKER] Mesh complete cx=-108 cz=62 built=0000025292B92200
+[WORKER] Queuing result cx=-108 cz=62 gen=2 built=0000025292B92200 results=0/768
+[WORKER] Mesh complete cx=-109 cz=61 built=0000025292FE1390
+[WORKER] Queuing result cx=-109 cz=61 gen=2 built=0000025292FE1390 results=0/768
+[WORKER] Mesh complete cx=-108 cz=61 built=0000025292FE1390
+[WORKER] Queuing result cx=-108 cz=61 gen=2 built=0000025292FE1390 results=0/768
+[SHARED_CACHE] Shutdown - Continental hits: 18914528 misses: 16, Macro hits: 754428 misses: 87, Region hits: 1294399 misses: 115

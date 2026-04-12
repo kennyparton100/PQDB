@@ -1,0 +1,6 @@
+PRINT 'Debug single'
+LET x = 'start'
+
+ASSUME true THEN LET x = 'success' END ASSUME
+
+PRINT 'Result:', x

@@ -1,0 +1,11 @@
+{
+  "timestamp": "2026-03-31T01:45:34",
+  "hash_100k_ms": 0.783300,
+  "hash_per_op_us": 0.007833,
+  "chunk_alloc_10_ms": 7.833000,
+  "chunk_alloc_per_chunk_ms": 0.783300,
+  "mesh_build_complex_ms": 82.088600,
+  "simple_alloc_1000_ms": 0.108800,
+  "simple_alloc_per_op_us": 0.108800,
+  "memory_mb": 215
+}

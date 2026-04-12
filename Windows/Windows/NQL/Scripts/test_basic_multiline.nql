@@ -1,0 +1,8 @@
+PRINT 'Basic multi-line test'
+
+LET test = 'start'
+ASSUME true THEN
+    LET test = 'success'
+    PRINT 'Inside ASSUME'
+END ASSUME
+PRINT 'Result:', test

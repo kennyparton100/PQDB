@@ -1,0 +1,67 @@
+LET N = 1000000016000000063
+PRINT 'N = ', N
+LET fb = FACTOR_BASE_BUILD(N, 5000, 64)
+PRINT 'fb = ', fb
+PRINT 'FB size: ', FACTOR_BASE_SIZE(fb)
+PRINT 'Largest: ', FACTOR_BASE_LARGEST(fb)
+LET rels = RELATION_SET_CREATE(FACTOR_BASE_SIZE(fb))
+LET sieve = QS_SIEVE_CREATE(16384)
+LET s = INT_SQRT(N) + 1
+LET threshold = LOG2(FACTOR_BASE_LARGEST(fb)) + 5.0
+LET target_rels = FACTOR_BASE_SIZE(fb) + 30
+PRINT 'sqrt(N)+1 = ', s
+PRINT 'threshold = ', threshold
+PRINT 'target = ', target_rels
+FOR poly FROM 0 TO 200 DO
+    LET center = s + poly * 16384
+    LET sieve = QS_SIEVE_INIT(sieve, N, center)
+    LET sieve = QS_SIEVE_RUN(sieve, fb, center)
+    LET cands = QS_SIEVE_CANDIDATES(sieve, threshold)
+    FOR EACH xi IN cands DO
+        LET xc = QS_CANDIDATE_XC(sieve, xi)
+        LET Qx = QS_CANDIDATE_QX(sieve, xi)
+        IF Qx != NULL THEN
+            IF Qx > 0 THEN
+                LET tr = TRIAL_FACTOR_CANDIDATE(Qx, fb, xc, 0)
+                IF tr != NULL THEN
+                    IF TRIAL_RESULT_IS_SMOOTH(tr) THEN
+                        LET rels = RELATION_SET_ADD(rels, tr)
+                    END IF
+                    IF TRIAL_RESULT_IS_PARTIAL(tr) THEN
+                        LET rels = RELATION_SET_ADD(rels, tr)
+                    END IF
+                END IF
+            END IF
+        END IF
+    END FOR
+    IF RELATION_SET_COUNT(rels) >= target_rels THEN
+        PRINT 'Got enough at poly ', poly, ': ', RELATION_SET_COUNT(rels), ' rels'
+        BREAK
+    END IF
+    IF poly % 50 = 0 THEN
+        PRINT 'poly ', poly, ': ', RELATION_SET_COUNT(rels), ' rels'
+    END IF
+END FOR
+PRINT 'Total: ', RELATION_SET_COUNT(rels), ' relations'
+LET rels = RELATION_SET_PRUNE_SINGLETONS(rels)
+PRINT 'After prune: ', RELATION_SET_COUNT(rels)
+IF RELATION_SET_COUNT(rels) > FACTOR_BASE_SIZE(fb) THEN
+    LET matrix = GF2_MATRIX_BUILD(rels)
+    LET matrix = GF2_ELIMINATE(matrix)
+    LET ns = GF2_NULLSPACE_COUNT(matrix)
+    PRINT 'Nullspace: ', ns
+    FOR i FROM 0 TO ns - 1 DO
+        LET dep = GF2_NULLSPACE_VECTOR(matrix, i)
+        IF dep != NULL THEN
+            LET g = DEPENDENCY_EXTRACT(dep, rels, fb, N)
+            IF g != NULL THEN
+                IF g > 1 THEN
+                    IF g < N THEN
+                        PRINT 'FACTOR FOUND: ', g, ' x ', N / g
+                        BREAK
+                    END IF
+                END IF
+            END IF
+        END IF
+    END FOR
+END IF

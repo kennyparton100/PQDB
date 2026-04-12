@@ -1,0 +1,94 @@
+LET N = 1000000016000000063
+LET t0 = TIMER_START()
+PRINT 'NQL QS Factoring N = ', N
+LET fb = FACTOR_BASE_BUILD(N, 50000, 100)
+PRINT 'FB: ', FACTOR_BASE_SIZE(fb), ' primes, largest=', FACTOR_BASE_LARGEST(fb)
+LET rels = RELATION_SET_CREATE(FACTOR_BASE_SIZE(fb))
+LET sieve = QS_SIEVE_CREATE(32768)
+LET s = INT_SQRT(N) + 1
+LET target_rels = FACTOR_BASE_SIZE(fb) + 50
+LET found = 0
+PRINT 'Sieving...'
+FOR poly FROM 0 TO 500 DO
+    LET center = s + poly * 32768
+    LET sieve = QS_SIEVE_INIT(sieve, N, center)
+    LET sieve = QS_SIEVE_RUN(sieve, fb, center)
+    LET cands = QS_SIEVE_CANDIDATES(sieve, 10.0)
+    FOR EACH xi IN cands DO
+        LET xc = QS_CANDIDATE_XC(sieve, xi)
+        LET Qx = QS_CANDIDATE_QX(sieve, xi)
+        IF Qx != NULL THEN
+            IF Qx > 0 THEN
+                LET tr = TRIAL_FACTOR_CANDIDATE(Qx, fb, xc, 0)
+                IF tr != NULL THEN
+                    IF TRIAL_RESULT_IS_SMOOTH(tr) THEN
+                        LET rels = RELATION_SET_ADD(rels, tr)
+                    END IF
+                    IF TRIAL_RESULT_IS_PARTIAL(tr) THEN
+                        LET rels = RELATION_SET_ADD(rels, tr)
+                    END IF
+                END IF
+            END IF
+        END IF
+    END FOR
+    IF RELATION_SET_COUNT(rels) >= target_rels THEN
+        PRINT 'Enough at poly ', poly, ': ', RELATION_SET_COUNT(rels), ' rels'
+        BREAK
+    END IF
+    IF poly % 100 = 0 THEN
+        PRINT 'poly ', poly, ': ', RELATION_SET_COUNT(rels), ' rels (', TIMER_ELAPSED(t0), 's)'
+    END IF
+END FOR
+PRINT 'Collected: ', RELATION_SET_COUNT(rels), ' in ', TIMER_ELAPSED(t0), 's'
+LET rels = RELATION_SET_PRUNE_SINGLETONS(rels)
+PRINT 'After prune: ', RELATION_SET_COUNT(rels)
+IF RELATION_SET_COUNT(rels) > FACTOR_BASE_SIZE(fb) THEN
+    PRINT 'Building matrix...'
+    LET matrix = GF2_MATRIX_BUILD(rels)
+    LET matrix = GF2_ELIMINATE(matrix)
+    LET ns = GF2_NULLSPACE_COUNT(matrix)
+    PRINT 'Rank=', GF2_RANK(matrix), ' nullspace=', ns
+    FOR i FROM 0 TO ns - 1 DO
+        LET dep = GF2_NULLSPACE_VECTOR(matrix, i)
+        IF dep != NULL THEN
+            LET g = DEPENDENCY_EXTRACT(dep, rels, fb, N)
+            IF g != NULL THEN
+                IF g > 1 THEN
+                    IF g < N THEN
+                        PRINT 'FACTOR: ', g, ' x ', N / g
+                        LET found = g
+                        BREAK
+                    END IF
+                END IF
+            END IF
+        END IF
+    END FOR
+    IF found <= 1 THEN
+        PRINT 'Trying pairwise combinations...'
+        FOR i FROM 0 TO ns - 2 DO
+            FOR j FROM i + 1 TO ns - 1 DO
+                LET d1 = GF2_NULLSPACE_VECTOR(matrix, i)
+                LET d2 = GF2_NULLSPACE_VECTOR(matrix, j)
+                IF d1 != NULL THEN
+                    IF d2 != NULL THEN
+                        LET dep = DEPENDENCY_COMBINE(d1, d2)
+                        LET g = DEPENDENCY_EXTRACT(dep, rels, fb, N)
+                        IF g != NULL THEN
+                            IF g > 1 THEN
+                                IF g < N THEN
+                                    PRINT 'FACTOR: ', g, ' x ', N / g
+                                    LET found = g
+                                    BREAK
+                                END IF
+                            END IF
+                        END IF
+                    END IF
+                END IF
+            END FOR
+            IF found > 1 THEN
+                BREAK
+            END IF
+        END FOR
+    END IF
+END IF
+PRINT 'Total time: ', TIMER_ELAPSED(t0), 's'

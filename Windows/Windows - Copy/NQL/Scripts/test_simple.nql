@@ -1,0 +1,4 @@
+LET N = 42
+PRINT 'N is ', N
+LET x = N + 1
+PRINT 'x is ', x

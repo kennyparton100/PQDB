@@ -1,0 +1,34 @@
+PRINT '=== Phase 4 ASSUME/OTHERWISE Tests (Working Format) ==='
+
+-- Test 1: Basic ASSUME with true condition
+PRINT 'Test 1: ASSUME true condition'
+LET x = 10
+PRINT 'Before ASSUME x:', x
+ASSUME x = 10 THEN LET x = 20 PRINT 'Inside ASSUME x:', x END ASSUME
+PRINT 'After ASSUME x:', x
+PRINT ''
+
+-- Test 2: ASSUME with false condition and OTHERWISE
+PRINT 'Test 2: ASSUME false condition'
+LET y = 5
+PRINT 'Before ASSUME y:', y
+ASSUME y = 10 THEN LET y = 100 PRINT 'Should not execute' OTHERWISE LET y = 50 PRINT 'In OTHERWISE y:', y END ASSUME
+PRINT 'After ASSUME y:', y
+PRINT ''
+
+-- Test 3: ASSUMPTION_FAILED with rollback
+PRINT 'Test 3: ASSUMPTION_FAILED with rollback'
+LET z = 1
+PRINT 'Before ASSUME z:', z
+ASSUME true THEN LET z = 2 PRINT 'Changed z to:', z ASSUMPTION_FAILED OTHERWISE PRINT 'In OTHERWISE after rollback' END ASSUME
+PRINT 'Final z:', z
+PRINT ''
+
+-- Test 4: Chained OTHERWISE ASSUME
+PRINT 'Test 4: Chained OTHERWISE ASSUME'
+LET result = 'initial'
+ASSUME false THEN LET result = 'first' OTHERWISE ASSUME false THEN LET result = 'second' OTHERWISE ASSUME true THEN LET result = 'third' OTHERWISE LET result = 'fallback' END ASSUME
+PRINT 'Result should be "third":', result
+PRINT ''
+
+PRINT '=== Phase 4 Tests Complete ==='

@@ -1,0 +1,7 @@
+PRINT 'Before'
+LET a = 1
+ASSUME a = 1 THEN
+LET a = 2
+END ASSUME
+PRINT 'After'
+PRINT a

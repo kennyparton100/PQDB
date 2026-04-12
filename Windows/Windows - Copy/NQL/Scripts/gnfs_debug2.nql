@@ -1,0 +1,86 @@
+LET N = 1000000016000000063
+LET poly = GNFS_BASE_M_POLY(N, 3)
+LET f = ARRAY_GET(poly, 0)
+LET g = ARRAY_GET(poly, 1)
+LET m = ARRAY_GET(poly, 2)
+LET gnfs_fb = GNFS_FB_BUILD(N, f, m, 20000, 20000, 200)
+LET rfc = GNFS_FB_RAT_COUNT(gnfs_fb)
+LET afc = GNFS_FB_ALG_COUNT(gnfs_fb)
+PRINT 'FB: rat=', rfc, ' alg=', afc
+LET rels = GNFS_RELATION_CREATE(rfc, afc, 100000)
+LET sieve = GNFS_SIEVE_REGION_CREATE(2000, 2000)
+FOR q FROM 101 TO 2000 DO
+    IF IS_PRIME(q) THEN
+        LET roots = POLY_ROOTS_MOD(f, q)
+        IF ARRAY_LENGTH(roots) > 0 THEN
+            FOR EACH r IN roots DO
+                LET sieve = GNFS_SIEVE_SET_SPECIAL_Q(sieve, q, r)
+                LET sieve = GNFS_SIEVE_INIT_NORMS(sieve, f, g, m)
+                LET added = GNFS_SIEVE_AND_COLLECT(sieve, gnfs_fb, rels, 30.0, 30.0)
+            END FOR
+        END IF
+    END IF
+    IF GNFS_RELATION_COUNT(rels) >= rfc + afc + 500 THEN
+        BREAK
+    END IF
+END FOR
+LET nrels = GNFS_RELATION_COUNT(rels)
+PRINT 'Rels: ', nrels
+LET parity = GNFS_RELATION_PARITY_ROWS(rels, rfc, afc)
+LET ncols = rfc + afc
+LET matrix = MATRIX_GF2_CREATE(nrels, ncols)
+FOR ri FROM 0 TO nrels - 1 DO
+    LET row = ARRAY_GET(parity, ri)
+    IF row != NULL THEN
+        FOR EACH col IN row DO
+            LET matrix = MATRIX_GF2_SET_BIT(matrix, ri, col)
+        END FOR
+    END IF
+END FOR
+LET pivots = MATRIX_GF2_ELIMINATE(matrix, nrels, ncols)
+LET ns_vecs = MATRIX_GF2_NULL_SPACE(matrix, pivots, nrels, ncols)
+PRINT 'Null-space: ', ARRAY_LENGTH(ns_vecs)
+LET rat_p = GNFS_FB_RAT_PRIMES(gnfs_fb)
+LET alg_p = GNFS_FB_ALG_PRIMES(gnfs_fb)
+IF ARRAY_LENGTH(ns_vecs) > 0 THEN
+    LET dep = ARRAY_GET(ns_vecs, 0)
+    PRINT 'Dep 0 size: ', ARRAY_LENGTH(dep)
+    PRINT 'Dep 0 first 5: ', ARRAY_SLICE(dep, 0, 5)
+    LET x = GNFS_EXTRACT_RATIONAL_SQRT(dep, rels, rat_p, N)
+    LET y = GNFS_ALGEBRAIC_SQRT(dep, rels, rat_p, alg_p, N)
+    PRINT 'x=', x, ' y=', y
+    LET g1 = GCD(x - y, N)
+    LET g2 = GCD(x + y, N)
+    PRINT 'GCD(x-y,N)=', g1, ' GCD(x+y,N)=', g2
+    IF g1 > 1 THEN
+        IF g1 < N THEN
+            PRINT 'FACTOR: ', g1, ' x ', N / g1
+        END IF
+    END IF
+    IF g2 > 1 THEN
+        IF g2 < N THEN
+            PRINT 'FACTOR: ', g2, ' x ', N / g2
+        END IF
+    END IF
+END IF
+FOR di FROM 0 TO 50 DO
+    IF di < ARRAY_LENGTH(ns_vecs) THEN
+        LET dep = ARRAY_GET(ns_vecs, di)
+        LET x = GNFS_EXTRACT_RATIONAL_SQRT(dep, rels, rat_p, N)
+        LET y = GNFS_ALGEBRAIC_SQRT(dep, rels, rat_p, alg_p, N)
+        LET g1 = GCD(x - y, N)
+        LET g2 = GCD(x + y, N)
+        IF g1 > 1 THEN
+            IF g1 < N THEN
+                PRINT 'FACTOR at dep ', di, ': ', g1, ' x ', N / g1
+                BREAK
+            END IF
+        END IF
+        IF g2 > 1 THEN
+            IF g2 < N THEN
+                PRINT 'FACTOR at dep ', di, ': ', g2, ' x ', N / g2
+                BREAK
+            END IF
+        END IF
+    END IF
+END FOR

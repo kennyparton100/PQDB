@@ -1,0 +1,2238 @@
+=== NQL SDK Session Debug Log ===
+started_local=2026-04-12 03:13:17.962
+world_id=world_039
+world_dir=WorldSaves\world_039
+trace_jsonl=DebugRuns\live_world_creation_20260412_031317.jsonl
+---
+[TRACE] ms=0 event=trace_reset detail=world_create_menu_activate frontend=18 session=0 worldgen_active=0 stage=0
+[TRACE] ms=0 event=world_create_enter_pressed detail=world create menu activate frontend=18 session=0 worldgen_active=0 stage=0
+[TRACE] ms=0 event=bind_world frontend=18 session=0 worldgen_active=0 stage=0
+[TRACE] ms=0 event=world_create_meta_written detail=WorldSaves\world_039\meta.txt frontend=18 session=0 worldgen_active=0 stage=0
+[TRACE] ms=0 event=bind_world frontend=18 session=0 worldgen_active=0 stage=0
+[TRACE] ms=0 event=world_create_menu_success detail=world_039 frontend=18 session=0 worldgen_active=0 stage=0
+[TRACE] ms=15 event=bind_world frontend=18 session=0 worldgen_active=0 stage=0
+[TRACE] ms=15 event=begin_async_world_session_load detail=world_039 frontend=18 session=0 worldgen_active=0 stage=0
+[TRACE] ms=15 event=async_world_session_load_ready detail=Starting world session... frontend=20 session=0 worldgen_active=1 stage=2
+[TRACE] ms=15 event=update_async_world_generation_stage detail=Starting world session... frontend=20 session=0 worldgen_active=1 stage=2
+[TRACE] ms=15 event=start_world_session_begin detail=world_039 frontend=20 session=0 worldgen_active=1 stage=2
+[TRACE] ms=15 event=bind_world frontend=20 session=0 worldgen_active=1 stage=2
+[TRACE] ms=15 event=start_world_session_enter detail=world_039 frontend=20 session=0 worldgen_active=1 stage=2
+[TRACE] ms=15 event=gen_stage_begin detail=Opening world save frontend=20 session=0 worldgen_active=1 stage=2
+[TRACE] ms=15 event=world_generation_session_step detail=Opening world save... frontend=20 session=0 worldgen_active=1 stage=2
+[TRACE] ms=15 event=gen_stage_end detail=Opening world save frontend=20 session=0 worldgen_active=1 stage=2
+[TRACE] ms=15 event=gen_stage_begin detail=Initializing world generator frontend=20 session=0 worldgen_active=1 stage=2
+[TRACE] ms=15 event=world_generation_session_step detail=Initializing world generator... frontend=20 session=0 worldgen_active=1 stage=2
+[TRACE] ms=31 event=gen_stage_end detail=Initializing world generator frontend=20 session=0 worldgen_active=1 stage=2
+[TRACE] ms=31 event=gen_stage_begin detail=Preparing world systems frontend=20 session=0 worldgen_active=1 stage=2
+[TRACE] ms=31 event=world_generation_session_step detail=Preparing world systems... frontend=20 session=0 worldgen_active=1 stage=2
+[TRACE] ms=78 event=gen_stage_end detail=Preparing world systems frontend=20 session=0 worldgen_active=1 stage=2
+[TRACE] ms=78 event=gen_stage_begin detail=Loading station state frontend=20 session=0 worldgen_active=1 stage=2
+[TRACE] ms=78 event=world_generation_session_step detail=Loading station state... frontend=20 session=0 worldgen_active=1 stage=2
+[TRACE] ms=78 event=gen_stage_end detail=Loading station state frontend=20 session=0 worldgen_active=1 stage=2
+[TRACE] ms=78 event=gen_stage_begin detail=Preparing chunk systems frontend=20 session=0 worldgen_active=1 stage=2
+[TRACE] ms=78 event=world_generation_session_step detail=Preparing chunk systems... frontend=20 session=0 worldgen_active=1 stage=2
+[STREAMER] Initializing with 16 worker threads
+[TRACE] ms=109 event=gen_stage_end detail=Preparing chunk systems frontend=20 session=0 worldgen_active=1 stage=2
+[TRACE] ms=109 event=gen_stage_begin detail=Initializing entities frontend=20 session=0 worldgen_active=1 stage=2
+[TRACE] ms=109 event=world_generation_session_step detail=Initializing entities... frontend=20 session=0 worldgen_active=1 stage=2
+[TRACE] ms=109 event=gen_stage_end detail=Initializing entities frontend=20 session=0 worldgen_active=1 stage=2
+[TRACE] ms=109 event=gen_stage_begin detail=Restoring world state frontend=20 session=0 worldgen_active=1 stage=2
+[TRACE] ms=109 event=world_generation_session_step detail=Restoring world state... frontend=20 session=0 worldgen_active=1 stage=2
+[TRACE] ms=125 event=world_generation_session_step detail=Choosing random spawn... frontend=20 session=0 worldgen_active=1 stage=2
+[TRACE] ms=718 event=gen_stage_end detail=Restoring world state frontend=20 session=0 worldgen_active=1 stage=2
+[TRACE] ms=718 event=gen_stage_begin detail=Planning visible chunks frontend=20 session=0 worldgen_active=1 stage=2
+[TRACE] ms=718 event=world_generation_session_step detail=Planning visible chunks... frontend=20 session=0 worldgen_active=1 stage=2
+[TRACE] ms=718 event=gen_stage_end detail=Planning visible chunks frontend=20 session=0 worldgen_active=1 stage=2
+[TRACE] ms=718 event=gen_stage_begin detail=Loading nearby chunks frontend=20 session=0 worldgen_active=1 stage=2
+[TRACE] ms=718 event=world_generation_session_step detail=Loading nearby chunks... frontend=20 session=0 worldgen_active=1 stage=2
+[BOOTSTRAP] sync_target_total=0 safety_radius=1
+[WORKER] Processing job cx=3 cz=-1 gen=2 space=superchunk_terrain type=GENERATE
+[WORKER] Processing job cx=1 cz=-2 gen=2 space=superchunk_terrain type=GENERATE
+[WORKER] Processing job cx=1 cz=-3 gen=2 space=superchunk_terrain type=GENERATE
+[WORKER] Processing job cx=1 cz=-4 gen=2 space=superchunk_terrain type=GENERATE
+[TRACE] ms=718 event=world_generation_session_step detail=Nearby terrain ready. Background streaming continues... frontend=20 session=0 worldgen_active=1 stage=2
+[TRACE] ms=734 event=world_generation_session_step detail=Finalizing world session... frontend=20 session=0 worldgen_active=1 stage=2
+[TRACE] ms=734 event=gen_stage_end detail=Loading nearby chunks frontend=20 session=0 worldgen_active=1 stage=2
+[TRACE] ms=734 event=world_generation_session_step detail=World session ready frontend=20 session=0 worldgen_active=1 stage=2
+[TRACE] ms=750 event=start_world_session_ready detail=world_039 frontend=20 session=1 worldgen_active=1 stage=2
+[TRACE] ms=750 event=start_world_session_success detail=world_039 frontend=20 session=1 worldgen_active=1 stage=2
+[STREAM] job queue capped at (-2,-4) desired=440 jobs=8 results=0 max=8
+[WORKER] Processing job cx=-1 cz=-3 gen=2 space=superchunk_terrain type=GENERATE
+[WORKER] Processing job cx=-1 cz=-4 gen=2 space=superchunk_terrain type=GENERATE
+[WORKER] Processing job cx=-1 cz=-1 gen=2 space=superchunk_terrain type=GENERATE
+[WORKER] Processing job cx=-1 cz=-2 gen=2 space=superchunk_terrain type=GENERATE
+[WORKER] Processing job cx=-1 cz=-5 gen=2 space=superchunk_terrain type=GENERATE
+[RUNTIME] visible desired=440 resident=0 ready=0 startup=0/0/0
+ain type=GENERATE
+[WORKER] Processing job cx=-1 cz=-6 gen=2 space=superchunk_terrain type=GENERATE
+[WORKER] Processing job cx=-2 cz=-3 gen=2 space=superchunk_terrain type=GENERATE
+[BACKLOG] workers=4 jobs=1 results=0
+[RESIDENCY] STALL mode=superchunk desired=440(P256/F180/T4) resident=0(P0/F0/T0/E0) jobs=0 results=0 primary=(0,-1) desired_sc=(0,-1) transition=0
+[RESIDENCY] missing desired chunks primary=256 ring=180 transition=4 desired=440 active=0
+[TRACE] ms=796 event=runtime_grace_mode detail=Background streaming 440/0/0  W12 J0 R0 frontend=20 session=1 worldgen_active=0 stage=0 desired=440 resident=0 gpu_ready=0 jobs=0 results=0 uploads=0
+[WORKER] Processing job cx=-1 cz=-7 gen=2 space=superchunk_terrain type=GENERATE
+[WORKER] Processing job cx=-2 cz=-4 gen=2 space=superchunk_terrain type=GENERATE
+[WORKER] Processing job cx=-2 cz=-1 gen=2 space=superchunk_terrain type=GENERATE
+[WORKER] Processing job cx=-2 cz=-5 gen=2 space=superchunk_terrain type=GENERATE
+[WORKER] Meshing cx=-1 cz=-1 (persisted=0)
+[WORKER] Meshing cx=-1 cz=-2 (persisted=0)
+[WORKER] Meshing cx=-2 cz=-3 (persisted=0)
+[WORKER] Meshing cx=-2 cz=-2 (persisted=0)
+[WORKER] Meshing cx=-1 cz=-4 (persisted=0)
+[WORKER] Meshing cx=-2 cz=-1 (persisted=0)
+[TRACE] ms=1296 event=runtime_grace_mode detail=Background streaming 440/0/0  W16 J32 R0 frontend=20 session=1 worldgen_active=0 stage=0 desired=440 resident=0 gpu_ready=0 jobs=32 results=0 uploads=0
+[WORKER] Mesh complete cx=-1 cz=-1 built=000001CE930D8050
+[WORKER] Queuing result cx=-1 cz=-1 gen=2 space=superchunk_terrain built=000001CE930D8050 results=0/768
+[WORKER] Processing job cx=-2 cz=-6 gen=2 space=superchunk_terrain type=GENERATE
+[ADOPT] Adopting chunk (-1,-1) gen=2 role=1
+[ADOPT] SUCCESS chunk (-1,-1) now resident. loaded_from_persist=0
+[WORKER] Mesh complete cx=-1 cz=-2 built=000001CE930D6A30
+[WORKER] Queuing result cx=-1 cz=-2 gen=2 space=superchunk_terrain built=000001CE930D6A30 results=0/768
+[WORKER] Processing job cx=-3 cz=-3 gen=2 space=superchunk_terrain type=GENERATE
+[WORKER] Mesh complete cx=-2 cz=-2 built=000001CE930DA180
+[WORKER] Queuing result cx=-2 cz=-2 gen=2 space=superchunk_terrain built=000001CE930DA180 results=1/768
+[WORKER] Processing job cx=-3 cz=-4 gen=2 space=superchunk_terrain type=GENERATE
+[WORKER] Mesh complete cx=-1 cz=-4 built=000001CE930DAC90
+[WORKER] Queuing result cx=-1 cz=-4 gen=2 space=superchunk_terrain built=000001CE930DAC90 results=2/768
+[WORKER] Processing job cx=-3 cz=-2 gen=2 space=superchunk_terrain type=GENERATE
+[WORKER] Mesh complete cx=-2 cz=-3 built=000001CE930D8B60
+[WORKER] Queuing result cx=-2 cz=-3 gen=2 space=superchunk_terrain built=000001CE930D8B60 results=3/768
+[WORKER] Processing job cx=-3 cz=-5 gen=2 space=superchunk_terrain type=GENERATE
+[ADOPT] Adopting chunk (-1,-2) gen=2 role=1
+[ADOPT] SUCCESS chunk (-1,-2) now resident. loaded_from_persist=0
+[ADOPT] Adopting chunk (-2,-2) gen=2 role=1
+[ADOPT] SUCCESS chunk (-2,-2) now resident. loaded_from_persist=0
+[ADOPT] Adopting chunk (-1,-4) gen=2 role=1
+[ADOPT] SUCCESS chunk (-1,-4) now resident. loaded_from_persist=0
+[ADOPT] Adopting chunk (-2,-3) gen=2 role=1
+[ADOPT] SUCCESS chunk (-2,-3) now resident. loaded_from_persist=0
+[STREAM] job queue capped at (-3,-10) desired=440 jobs=32 results=0 max=32
+[RUNTIME] visible desired=440 resident=5 ready=2 startup=0/0/0
+[BACKLOG] workers=16 jobs=32 results=0
+[WORKER] Mesh complete cx=-2 cz=-1 built=000001CEA95022E0
+[WORKER] Queuing result cx=-2 cz=-1 gen=2 space=superchunk_terrain built=000001CEA95022E0 results=0/768
+[WORKER] Processing job cx=-3 cz=-1 gen=2 space=superchunk_terrain type=GENERATE
+[ADOPT] Adopting chunk (-2,-1) gen=2 role=1
+[ADOPT] SUCCESS chunk (-2,-1) now resident. loaded_from_persist=0
+[TRACE] ms=1828 event=runtime_grace_mode detail=Background streaming 440/6/3  W16 J32 R0 frontend=20 session=1 worldgen_active=0 stage=0 desired=440 resident=6 gpu_ready=3 jobs=32 results=0 uploads=0
+[TRACE] ms=2312 event=runtime_grace_mode detail=Background streaming 440/6/3  W16 J32 R0 frontend=20 session=1 worldgen_active=0 stage=0 desired=440 resident=6 gpu_ready=3 jobs=32 results=0 uploads=0
+[WORKER] Meshing cx=-1 cz=-5 (persisted=0)
+[STREAM] job queue capped at (-6,-5) desired=440 jobs=32 results=0 max=32
+[RUNTIME] visible desired=440 resident=6 ready=3 startup=0/0/0
+[BACKLOG] workers=16 jobs=32 results=0
+[TRACE] ms=2812 event=runtime_grace_mode detail=Background streaming 440/6/3  W16 J32 R0 frontend=20 session=1 worldgen_active=0 stage=0 desired=440 resident=6 gpu_ready=3 jobs=32 results=0 uploads=0
+[TRACE] ms=3312 event=runtime_grace_mode detail=Background streaming 440/6/3  W16 J32 R0 frontend=20 session=1 worldgen_active=0 stage=0 desired=440 resident=6 gpu_ready=3 jobs=32 results=0 uploads=0
+[WORKER] Meshing cx=-1 cz=-6 (persisted=0)
+[WORKER] Mesh complete cx=-1 cz=-5 built=000001CEA9500CC0
+[WORKER] Queuing result cx=-1 cz=-5 gen=2 space=superchunk_terrain built=000001CEA9500CC0 results=0/768
+[WORKER] Processing job cx=-2 cz=-7 gen=2 space=superchunk_terrain type=GENERATE
+[ADOPT] Adopting chunk (-1,-5) gen=2 role=1
+[ADOPT] SUCCESS chunk (-1,-5) now resident. loaded_from_persist=0
+[STREAM] job queue capped at (-6,-1) desired=440 jobs=32 results=0 max=32
+[RUNTIME] visible desired=440 resident=7 ready=3 startup=0/0/0
+[BACKLOG] workers=16 jobs=32 results=0
+[TRACE] ms=3812 event=runtime_grace_mode detail=Background streaming 440/7/3  W16 J32 R0 frontend=20 session=1 worldgen_active=0 stage=0 desired=440 resident=7 gpu_ready=3 jobs=32 results=0 uploads=0
+[WORKER] Meshing cx=1 cz=-3 (persisted=0)
+[WORKER] Meshing cx=1 cz=-4 (persisted=0)
+[WORKER] Meshing cx=1 cz=-2 (persisted=0)
+[WORKER] Meshing cx=3 cz=-1 (persisted=0)
+[WALL] HEALTH W=17/0/0 N=17/0/0 E=17/0/0 S=17/0/0 (desired/resident/ready)
+[WORKER] Meshing cx=-1 cz=-3 (persisted=0)
+[WORKER] Meshing cx=-1 cz=-7 (persisted=0)
+[WORKER] Meshing cx=-2 cz=-4 (persisted=0)
+[WORKER] Meshing cx=-2 cz=-5 (persisted=0)
+[WORKER] Meshing cx=-3 cz=-3 (persisted=0)
+[WORKER] Meshing cx=-3 cz=-2 (persisted=0)
+[WORKER] Meshing cx=-2 cz=-6 (persisted=0)
+[WORKER] Mesh complete cx=-1 cz=-6 built=000001CEA950DEF0
+[WORKER] Queuing result cx=-1 cz=-6 gen=2 space=superchunk_terrain built=000001CEA950DEF0 results=0/768
+[WORKER] Processing job cx=-1 cz=-8 gen=2 space=superchunk_terrain type=GENERATE
+[WORKER] Meshing cx=-3 cz=-1 (persisted=0)
+[ADOPT] Adopting chunk (-1,-6) gen=2 role=1
+[ADOPT] SUCCESS chunk (-1,-6) now resident. loaded_from_persist=0
+[WORKER] Meshing cx=-3 cz=-4 (persisted=0)
+[WORKER] Meshing cx=-3 cz=-5 (persisted=0)
+[WORKER] Mesh complete cx=1 cz=-2 built=000001CEA9503900
+[WORKER] Queuing result cx=1 cz=-2 gen=2 space=superchunk_terrain built=000001CEA9503900 results=0/768
+[WORKER] Processing job cx=-3 cz=-6 gen=2 space=superchunk_terrain type=GENERATE
+[ADOPT] Adopting chunk (1,-2) gen=2 role=2
+[ADOPT] SUCCESS chunk (1,-2) now resident. loaded_from_persist=0
+[WORKER] Mesh complete cx=1 cz=-3 built=000001CEA950C8D0
+[WORKER] Queuing result cx=1 cz=-3 gen=2 space=superchunk_terrain built=000001CEA950C8D0 results=0/768
+[WORKER] Processing job cx=-4 cz=-3 gen=2 space=superchunk_terrain type=GENERATE
+[WORKER] Mesh complete cx=1 cz=-4 built=000001CE930D4900
+[WORKER] Queuing result cx=1 cz=-4 gen=2 space=superchunk_terrain built=000001CE930D4900 results=1/768
+[WORKER] Processing job cx=-2 cz=-8 gen=2 space=superchunk_terrain type=GENERATE
+[WORKER] Mesh complete cx=-1 cz=-3 built=000001CE930D5410
+[WORKER] Queuing result cx=-1 cz=-3 gen=2 space=superchunk_terrain built=000001CE930D5410 results=2/768
+[WORKER] Processing job cx=-4 cz=-2 gen=2 space=superchunk_terrain type=GENERATE
+[WORKER] Mesh complete cx=3 cz=-1 built=000001CE930D7540
+[WORKER] Queuing result cx=3 cz=-1 gen=2 space=superchunk_terrain built=000001CE930D7540 results=3/768
+[WORKER] Processing job cx=-4 cz=-4 gen=2 space=superchunk_terrain type=GENERATE
+[ADOPT] Adopting chunk (1,-3) gen=2 role=2
+[ADOPT] SUCCESS chunk (1,-3) now resident. loaded_from_persist=0
+[ADOPT] Adopting chunk (1,-4) gen=2 role=2
+[ADOPT] SUCCESS chunk (1,-4) now resident. loaded_from_persist=0
+[WORKER] Mesh complete cx=-2 cz=-4 built=000001CE9C910100
+[WORKER] Queuing result cx=-2 cz=-4 gen=2 space=superchunk_terrain built=000001CE9C910100 results=2/768
+[WORKER] Processing job cx=-3 cz=-7 gen=2 space=superchunk_terrain type=GENERATE
+[ADOPT] Adopting chunk (-1,-3) gen=2 role=1
+[ADOPT] SUCCESS chunk (-1,-3) now resident. loaded_from_persist=0
+[ADOPT] Adopting chunk (3,-1) gen=2 role=2
+[ADOPT] SUCCESS chunk (3,-1) now resident. loaded_from_persist=0
+[ADOPT] Adopting chunk (-2,-4) gen=2 role=1
+[ADOPT] SUCCESS chunk (-2,-4) now resident. loaded_from_persist=0
+[WORKER] Mesh complete cx=-1 cz=-7 built=000001CE9C910C10
+[WORKER] Queuing result cx=-1 cz=-7 gen=2 space=superchunk_terrain built=000001CE9C910C10 results=0/768
+[WORKER] Processing job cx=-1 cz=-9 gen=2 space=superchunk_terrain type=GENERATE
+[ADOPT] Adopting chunk (-1,-7) gen=2 role=1
+[ADOPT] SUCCESS chunk (-1,-7) now resident. loaded_from_persist=0
+[WORKER] Mesh complete cx=-2 cz=-5 built=000001CE9C914360
+[WORKER] Queuing result cx=-2 cz=-5 gen=2 space=superchunk_terrain built=000001CE9C914360 results=0/768
+[WORKER] Processing job cx=-4 cz=-5 gen=2 space=superchunk_terrain type=GENERATE
+[ADOPT] Adopting chunk (-2,-5) gen=2 role=1
+[ADOPT] SUCCESS chunk (-2,-5) now resident. loaded_from_persist=0
+[WORKER] Mesh complete cx=-3 cz=-2 built=000001CE9C911720
+[WORKER] Queuing result cx=-3 cz=-2 gen=2 space=superchunk_terrain built=000001CE9C911720 results=0/768
+[WORKER] Processing job cx=-4 cz=-1 gen=2 space=superchunk_terrain type=GENERATE
+[ADOPT] Adopting chunk (-3,-2) gen=2 role=1
+[ADOPT] SUCCESS chunk (-3,-2) now resident. loaded_from_persist=0
+[WORKER] Mesh complete cx=-3 cz=-3 built=000001CE9C916490
+[WORKER] Queuing result cx=-3 cz=-3 gen=2 space=superchunk_terrain built=000001CE9C916490 results=0/768
+[WORKER] Processing job cx=-4 cz=-6 gen=2 space=superchunk_terrain type=GENERATE
+[ADOPT] Adopting chunk (-3,-3) gen=2 role=1
+[ADOPT] SUCCESS chunk (-3,-3) now resident. loaded_from_persist=0
+[WORKER] Mesh complete cx=-2 cz=-6 built=000001CE9C914E70
+[WORKER] Queuing result cx=-2 cz=-6 gen=2 space=superchunk_terrain built=000001CE9C914E70 results=0/768
+[WORKER] Processing job cx=-3 cz=-8 gen=2 space=superchunk_terrain type=GENERATE
+[ADOPT] Adopting chunk (-2,-6) gen=2 role=1
+[ADOPT] SUCCESS chunk (-2,-6) now resident. loaded_from_persist=0
+[WORKER] Mesh complete cx=-3 cz=-4 built=000001CE9C9190D0
+[WORKER] Queuing result cx=-3 cz=-4 gen=2 space=superchunk_terrain built=000001CE9C9190D0 results=0/768
+[WORKER] Processing job cx=-2 cz=-9 gen=2 space=superchunk_terrain type=GENERATE
+[ADOPT] Adopting chunk (-3,-4) gen=2 role=1
+[ADOPT] SUCCESS chunk (-3,-4) now resident. loaded_from_persist=0
+[WORKER] Mesh complete cx=-3 cz=-1 built=000001CE9C919BE0
+[WORKER] Queuing result cx=-3 cz=-1 gen=2 space=superchunk_terrain built=000001CE9C919BE0 results=0/768
+[WORKER] Processing job cx=-5 cz=-3 gen=2 space=superchunk_terrain type=GENERATE
+[ADOPT] Adopting chunk (-3,-1) gen=2 role=1
+[ADOPT] SUCCESS chunk (-3,-1) now resident. loaded_from_persist=0
+[WORKER] Mesh complete cx=-3 cz=-5 built=000001CE9C91B200
+[WORKER] Queuing result cx=-3 cz=-5 gen=2 space=superchunk_terrain built=000001CE9C91B200 results=0/768
+[WORKER] Processing job cx=-4 cz=-7 gen=2 space=superchunk_terrain type=GENERATE
+[ADOPT] Adopting chunk (-3,-5) gen=2 role=1
+[ADOPT] SUCCESS chunk (-3,-5) now resident. loaded_from_persist=0
+[PLAYER] Test flight enabled (double SPACE, testing only)
+[WORKER] Meshing cx=-2 cz=-7 (persisted=0)
+[WORKER] Meshing cx=-1 cz=-8 (persisted=0)
+[WORKER] Meshing cx=-4 cz=-3 (persisted=0)
+[WORKER] Meshing cx=-4 cz=-2 (persisted=0)
+[WORKER] Mesh complete cx=-2 cz=-7 built=000001CE9C91D330
+[WORKER] Queuing result cx=-2 cz=-7 gen=2 space=superchunk_terrain built=000001CE9C91D330 results=0/768
+[WORKER] Processing job cx=-5 cz=-2 gen=2 space=superchunk_terrain type=GENERATE
+[ADOPT] Adopting chunk (-2,-7) gen=2 role=1
+[ADOPT] SUCCESS chunk (-2,-7) now resident. loaded_from_persist=0
+[WORKER] Meshing cx=-3 cz=-6 (persisted=0)
+[WORKER] Meshing cx=-4 cz=-4 (persisted=0)
+[WORKER] Meshing cx=-2 cz=-8 (persisted=0)
+[WORKER] Meshing cx=-3 cz=-7 (persisted=0)
+[WORKER] Meshing cx=-4 cz=-1 (persisted=0)
+[WORKER] Meshing cx=-4 cz=-5 (persisted=0)
+[WORKER] Meshing cx=-1 cz=-9 (persisted=0)
+[WALL] HEALTH W=17/0/0 N=17/0/0 E=17/0/0 S=17/0/0 (desired/resident/ready)
+[WORKER] Meshing cx=-4 cz=-6 (persisted=0)
+[WORKER] Meshing cx=-5 cz=-3 (persisted=0)
+[WORKER] Mesh complete cx=-1 cz=-8 built=000001CE9C912230
+[WORKER] Queuing result cx=-1 cz=-8 gen=2 space=superchunk_terrain built=000001CE9C912230 results=0/768
+[WORKER] Processing job cx=-5 cz=-4 gen=2 space=superchunk_terrain type=GENERATE
+[ADOPT] Adopting chunk (-1,-8) gen=2 role=1
+[ADOPT] SUCCESS chunk (-1,-8) now resident. loaded_from_persist=0
+[WORKER] Meshing cx=-3 cz=-8 (persisted=0)
+[WORKER] Meshing cx=-2 cz=-9 (persisted=0)
+[WORKER] Meshing cx=-4 cz=-7 (persisted=0)
+[WORKER] Mesh complete cx=-4 cz=-3 built=000001CE9C912D40
+[WORKER] Queuing result cx=-4 cz=-3 gen=2 space=superchunk_terrain built=000001CE9C912D40 results=0/768
+[WORKER] Processing job cx=-1 cz=-10 gen=2 space=superchunk_terrain type=GENERATE
+[ADOPT] Adopting chunk (-4,-3) gen=2 role=1
+[ADOPT] SUCCESS chunk (-4,-3) now resident. loaded_from_persist=0
+[WORKER] Mesh complete cx=-4 cz=-2 built=000001CE9C917AB0
+[WORKER] Queuing result cx=-4 cz=-2 gen=2 space=superchunk_terrain built=000001CE9C917AB0 results=0/768
+[WORKER] Processing job cx=-5 cz=-5 gen=2 space=superchunk_terrain type=GENERATE
+[ADOPT] Adopting chunk (-4,-2) gen=2 role=1
+[ADOPT] SUCCESS chunk (-4,-2) now resident. loaded_from_persist=0
+[WORKER] Mesh complete cx=-3 cz=-6 built=000001CE9C91A6F0
+[WORKER] Queuing result cx=-3 cz=-6 gen=2 space=superchunk_terrain built=000001CE9C91A6F0 results=0/768
+[WORKER] Processing job cx=-5 cz=-1 gen=2 space=superchunk_terrain type=GENERATE
+[WORKER] Mesh complete cx=-4 cz=-4 built=000001CE9C91C820
+[WORKER] Queuing result cx=-4 cz=-4 gen=2 space=superchunk_terrain built=000001CE9C91C820 results=1/768
+[WORKER] Processing job cx=-3 cz=-9 gen=2 space=superchunk_terrain type=GENERATE
+[ADOPT] Adopting chunk (-3,-6) gen=2 role=1
+[ADOPT] SUCCESS chunk (-3,-6) now resident. loaded_from_persist=0
+[ADOPT] Adopting chunk (-4,-4) gen=2 role=1
+[ADOPT] SUCCESS chunk (-4,-4) now resident. loaded_from_persist=0
+[WORKER] Mesh complete cx=-4 cz=-1 built=000001CE9C91F460
+[WORKER] Queuing result cx=-4 cz=-1 gen=2 space=superchunk_terrain built=000001CE9C91F460 results=0/768
+[WORKER] Processing job cx=-5 cz=-6 gen=2 space=superchunk_terrain type=GENERATE
+[ADOPT] Adopting chunk (-4,-1) gen=2 role=1
+[ADOPT] SUCCESS chunk (-4,-1) now resident. loaded_from_persist=0
+[WORKER] Mesh complete cx=-3 cz=-7 built=000001CEA9504410
+[WORKER] Queuing result cx=-3 cz=-7 gen=2 space=superchunk_terrain built=000001CEA9504410 results=0/768
+[WORKER] Processing job cx=-4 cz=-8 gen=2 space=superchunk_terrain type=GENERATE
+[ADOPT] Adopting chunk (-3,-7) gen=2 role=1
+[ADOPT] SUCCESS chunk (-3,-7) now resident. loaded_from_persist=0
+[WORKER] Mesh complete cx=-2 cz=-8 built=000001CEA9510020
+[WORKER] Queuing result cx=-2 cz=-8 gen=2 space=superchunk_terrain built=000001CEA9510020 results=0/768
+[WORKER] Processing job cx=-2 cz=-10 gen=2 space=superchunk_terrain type=GENERATE
+[ADOPT] Adopting chunk (-2,-8) gen=2 role=1
+[ADOPT] SUCCESS chunk (-2,-8) now resident. loaded_from_persist=0
+[WORKER] Mesh complete cx=-4 cz=-5 built=000001CE930D5F20
+[WORKER] Queuing result cx=-4 cz=-5 gen=2 space=superchunk_terrain built=000001CE930D5F20 results=0/768
+[WORKER] Processing job cx=-1 cz=-11 gen=2 space=superchunk_terrain type=GENERATE
+[ADOPT] Adopting chunk (-4,-5) gen=2 role=1
+[ADOPT] SUCCESS chunk (-4,-5) now resident. loaded_from_persist=0
+[WORKER] Mesh complete cx=-1 cz=-9 built=000001CE930DB7A0
+[WORKER] Queuing result cx=-1 cz=-9 gen=2 space=superchunk_terrain built=000001CE930DB7A0 results=0/768
+[WORKER] Processing job cx=-5 cz=-7 gen=2 space=superchunk_terrain type=GENERATE
+[ADOPT] Adopting chunk (-1,-9) gen=2 role=1
+[ADOPT] SUCCESS chunk (-1,-9) now resident. loaded_from_persist=0
+[WORKER] Mesh complete cx=-4 cz=-6 built=000001CEEDEF7510
+[WORKER] Queuing result cx=-4 cz=-6 gen=2 space=superchunk_terrain built=000001CEEDEF7510 results=0/768
+[WORKER] Processing job cx=-6 cz=-3 gen=2 space=superchunk_terrain type=GENERATE
+[ADOPT] Adopting chunk (-4,-6) gen=2 role=1
+[ADOPT] SUCCESS chunk (-4,-6) now resident. loaded_from_persist=0
+[WORKER] Mesh complete cx=-5 cz=-3 built=000001CEEDEF48D0
+[WORKER] Queuing result cx=-5 cz=-3 gen=2 space=superchunk_terrain built=000001CEEDEF48D0 results=0/768
+[WORKER] Processing job cx=-6 cz=-4 gen=2 space=superchunk_terrain type=GENERATE
+[ADOPT] Adopting chunk (-5,-3) gen=2 role=1
+[ADOPT] SUCCESS chunk (-5,-3) now resident. loaded_from_persist=0
+[WORKER] Mesh complete cx=-3 cz=-8 built=000001CEEDEF53E0
+[WORKER] Queuing result cx=-3 cz=-8 gen=2 space=superchunk_terrain built=000001CEEDEF53E0 results=0/768
+[WORKER] Processing job cx=-6 cz=-2 gen=2 space=superchunk_terrain type=GENERATE
+[ADOPT] Adopting chunk (-3,-8) gen=2 role=1
+[ADOPT] SUCCESS chunk (-3,-8) now resident. loaded_from_persist=0
+[WORKER] Mesh complete cx=-2 cz=-9 built=000001CEEDEF8B30
+[WORKER] Queuing result cx=-2 cz=-9 gen=2 space=superchunk_terrain built=000001CEEDEF8B30 results=0/768
+[WORKER] Processing job cx=-4 cz=-9 gen=2 space=superchunk_terrain type=GENERATE
+[WORKER] Mesh complete cx=-4 cz=-7 built=000001CEEDEFA150
+[WORKER] Queuing result cx=-4 cz=-7 gen=2 space=superchunk_terrain built=000001CEEDEFA150 results=1/768
+[WORKER] Processing job cx=-3 cz=-10 gen=2 space=superchunk_terrain type=GENERATE
+[ADOPT] Adopting chunk (-2,-9) gen=2 role=1
+[ADOPT] SUCCESS chunk (-2,-9) now resident. loaded_from_persist=0
+[ADOPT] Adopting chunk (-4,-7) gen=2 role=1
+[ADOPT] SUCCESS chunk (-4,-7) now resident. loaded_from_persist=0
+[WORKER] Meshing cx=-5 cz=-2 (persisted=0)
+[WORKER] Meshing cx=-5 cz=-4 (persisted=0)
+[WORKER] Mesh complete cx=-5 cz=-2 built=000001CEEDEFCD90
+[WORKER] Queuing result cx=-5 cz=-2 gen=2 space=superchunk_terrain built=000001CEEDEFCD90 results=0/768
+[WORKER] Processing job cx=-6 cz=-5 gen=2 space=superchunk_terrain type=GENERATE
+[ADOPT] Adopting chunk (-5,-2) gen=2 role=1
+[ADOPT] SUCCESS chunk (-5,-2) now resident. loaded_from_persist=0
+[WORKER] Meshing cx=-1 cz=-10 (persisted=0)
+[WORKER] Meshing cx=-5 cz=-1 (persisted=0)
+[WORKER] Meshing cx=-5 cz=-5 (persisted=0)
+[WORKER] Meshing cx=-1 cz=-11 (persisted=0)
+[WORKER] Meshing cx=-3 cz=-9 (persisted=0)
+[WORKER] Meshing cx=-5 cz=-6 (persisted=0)
+[WORKER] Meshing cx=-2 cz=-10 (persisted=0)
+[WORKER] Meshing cx=-6 cz=-3 (persisted=0)
+[WORKER] Meshing cx=-4 cz=-8 (persisted=0)
+[WORKER] Meshing cx=-5 cz=-7 (persisted=0)
+[WORKER] Mesh complete cx=-5 cz=-4 built=000001CEEDEF6A00
+[WORKER] Queuing result cx=-5 cz=-4 gen=2 space=superchunk_terrain built=000001CEEDEF6A00 results=0/768
+[WORKER] Processing job cx=-6 cz=-1 gen=2 space=superchunk_terrain type=GENERATE
+[ADOPT] Adopting chunk (-5,-4) gen=2 role=1
+[ADOPT] SUCCESS chunk (-5,-4) now resident. loaded_from_persist=0
+[WORKER] Meshing cx=-6 cz=-4 (persisted=0)
+[WORKER] Meshing cx=-6 cz=-2 (persisted=0)
+[WALL] HEALTH W=17/0/0 N=17/0/0 E=17/0/0 S=17/0/0 (desired/resident/ready)
+[WORKER] Meshing cx=-4 cz=-9 (persisted=0)
+[WORKER] Meshing cx=-3 cz=-10 (persisted=0)
+[WORKER] Mesh complete cx=-5 cz=-1 built=000001CEEDEF9640
+[WORKER] Queuing result cx=-5 cz=-1 gen=2 space=superchunk_terrain built=000001CEEDEF9640 results=0/768
+[WORKER] Processing job cx=-5 cz=-8 gen=2 space=superchunk_terrain type=GENERATE
+[ADOPT] Adopting chunk (-5,-1) gen=2 role=1
+[ADOPT] SUCCESS chunk (-5,-1) now resident. loaded_from_persist=0
+[WORKER] Mesh complete cx=-5 cz=-5 built=000001CEEDEFAC60
+[WORKER] Queuing result cx=-5 cz=-5 gen=2 space=superchunk_terrain built=000001CEEDEFAC60 results=0/768
+[WORKER] Processing job cx=-2 cz=-11 gen=2 space=superchunk_terrain type=GENERATE
+[ADOPT] Adopting chunk (-5,-5) gen=2 role=1
+[ADOPT] SUCCESS chunk (-5,-5) now resident. loaded_from_persist=0
+[WORKER] Mesh complete cx=-1 cz=-10 built=000001CEEDEFB770
+[WORKER] Queuing result cx=-1 cz=-10 gen=2 space=superchunk_terrain built=000001CEEDEFB770 results=0/768
+[WORKER] Processing job cx=-6 cz=-6 gen=2 space=superchunk_terrain type=GENERATE
+[ADOPT] Adopting chunk (-1,-10) gen=2 role=1
+[ADOPT] SUCCESS chunk (-1,-10) now resident. loaded_from_persist=0
+[WORKER] Mesh complete cx=-1 cz=-11 built=000001CEEDEFC280
+[WORKER] Queuing result cx=-1 cz=-11 gen=2 space=superchunk_terrain built=000001CEEDEFC280 results=0/768
+[WORKER] Processing job cx=-6 cz=-7 gen=2 space=superchunk_terrain type=GENERATE
+[ADOPT] Adopting chunk (-1,-11) gen=2 role=1
+[ADOPT] SUCCESS chunk (-1,-11) now resident. loaded_from_persist=0
+[WORKER] Mesh complete cx=-5 cz=-6 built=000001CEEDF00FF0
+[WORKER] Queuing result cx=-5 cz=-6 gen=2 space=superchunk_terrain built=000001CEEDF00FF0 results=0/768
+[WORKER] Processing job cx=-1 cz=-12 gen=2 space=superchunk_terrain type=GENERATE
+[WORKER] Mesh complete cx=-3 cz=-9 built=000001CEEDF01B00
+[WORKER] Queuing result cx=-3 cz=-9 gen=2 space=superchunk_terrain built=000001CEEDF01B00 results=1/768
+[WORKER] Processing job cx=-4 cz=-10 gen=2 space=superchunk_terrain type=GENERATE
+[ADOPT] Adopting chunk (-5,-6) gen=2 role=1
+[ADOPT] SUCCESS chunk (-5,-6) now resident. loaded_from_persist=0
+[ADOPT] Adopting chunk (-3,-9) gen=2 role=1
+[ADOPT] SUCCESS chunk (-3,-9) now resident. loaded_from_persist=0
+[WORKER] Mesh complete cx=-6 cz=-3 built=000001CEEDF004E0
+[WORKER] Queuing result cx=-6 cz=-3 gen=2 space=superchunk_terrain built=000001CEEDF004E0 results=0/768
+[WORKER] Processing job cx=-3 cz=-11 gen=2 space=superchunk_terrain type=GENERATE
+[ADOPT] Adopting chunk (-6,-3) gen=2 role=1
+[ADOPT] SUCCESS chunk (-6,-3) now resident. loaded_from_persist=0
+[WORKER] Mesh complete cx=-2 cz=-10 built=000001CE9C915980
+[WORKER] Queuing result cx=-2 cz=-10 gen=2 space=superchunk_terrain built=000001CE9C915980 results=0/768
+[WORKER] Processing job cx=-7 cz=-3 gen=2 space=superchunk_terrain type=GENERATE
+[WORKER] Mesh complete cx=-5 cz=-7 built=000001CE9C916FA0
+[WORKER] Queuing result cx=-5 cz=-7 gen=2 space=superchunk_terrain built=000001CE9C916FA0 results=1/768
+[WORKER] Processing job cx=-5 cz=-9 gen=2 space=superchunk_terrain type=GENERATE
+[ADOPT] Adopting chunk (-2,-10) gen=2 role=1
+[ADOPT] SUCCESS chunk (-2,-10) now resident. loaded_from_persist=0
+[ADOPT] Adopting chunk (-5,-7) gen=2 role=1
+[ADOPT] SUCCESS chunk (-5,-7) now resident. loaded_from_persist=0
+[WORKER] Mesh complete cx=-4 cz=-8 built=000001CE9C91DE40
+[WORKER] Queuing result cx=-4 cz=-8 gen=2 space=superchunk_terrain built=000001CE9C91DE40 results=0/768
+[WORKER] Processing job cx=-7 cz=-2 gen=2 space=superchunk_terrain type=GENERATE
+[ADOPT] Adopting chunk (-4,-8) gen=2 role=1
+[ADOPT] SUCCESS chunk (-4,-8) now resident. loaded_from_persist=0
+[WORKER] Mesh complete cx=-6 cz=-4 built=000001CE9C91E950
+[WORKER] Queuing result cx=-6 cz=-4 gen=2 space=superchunk_terrain built=000001CE9C91E950 results=0/768
+[WORKER] Processing job cx=-7 cz=-4 gen=2 space=superchunk_terrain type=GENERATE
+[ADOPT] Adopting chunk (-6,-4) gen=2 role=1
+[ADOPT] SUCCESS chunk (-6,-4) now resident. loaded_from_persist=0
+[WORKER] Mesh complete cx=-6 cz=-2 built=000001CEA950EA00
+[WORKER] Queuing result cx=-6 cz=-2 gen=2 space=superchunk_terrain built=000001CEA950EA00 results=0/768
+[WORKER] Processing job cx=-7 cz=-1 gen=2 space=superchunk_terrain type=GENERATE
+[ADOPT] Adopting chunk (-6,-2) gen=2 role=1
+[ADOPT] SUCCESS chunk (-6,-2) now resident. loaded_from_persist=0
+[WORKER] Mesh complete cx=-4 cz=-9 built=000001CEEDA662C0
+[WORKER] Queuing result cx=-4 cz=-9 gen=2 space=superchunk_terrain built=000001CEEDA662C0 results=0/768
+[WORKER] Processing job cx=-7 cz=-5 gen=2 space=superchunk_terrain type=GENERATE
+[ADOPT] Adopting chunk (-4,-9) gen=2 role=1
+[ADOPT] SUCCESS chunk (-4,-9) now resident. loaded_from_persist=0
+[WORKER] Mesh complete cx=-3 cz=-10 built=000001CEEDA64CA0
+[WORKER] Queuing result cx=-3 cz=-10 gen=2 space=superchunk_terrain built=000001CEEDA64CA0 results=0/768
+[WORKER] Processing job cx=-6 cz=-8 gen=2 space=superchunk_terrain type=GENERATE
+[ADOPT] Adopting chunk (-3,-10) gen=2 role=1
+[ADOPT] SUCCESS chunk (-3,-10) now resident. loaded_from_persist=0
+[WORKER] Meshing cx=-6 cz=-5 (persisted=0)
+[WORKER] Meshing cx=-6 cz=-1 (persisted=0)
+[WORKER] Meshing cx=-2 cz=-11 (persisted=0)
+[WORKER] Mesh complete cx=-6 cz=-5 built=000001CEEDA683F0
+[WORKER] Queuing result cx=-6 cz=-5 gen=2 space=superchunk_terrain built=000001CEEDA683F0 results=0/768
+[WORKER] Processing job cx=-2 cz=-12 gen=2 space=superchunk_terrain type=GENERATE
+[ADOPT] Adopting chunk (-6,-5) gen=2 role=1
+[ADOPT] SUCCESS chunk (-6,-5) now resident. loaded_from_persist=0
+[WORKER] Meshing cx=-6 cz=-6 (persisted=0)
+[WORKER] Meshing cx=-5 cz=-8 (persisted=0)
+[WORKER] Mesh complete cx=-6 cz=-1 built=000001CEEDA68F00
+[WORKER] Queuing result cx=-6 cz=-1 gen=2 space=superchunk_terrain built=000001CEEDA68F00 results=0/768
+[WORKER] Processing job cx=-7 cz=-6 gen=2 space=superchunk_terrain type=GENERATE
+[WORKER] Meshing cx=-7 cz=-3 (persisted=0)
+[ADOPT] Adopting chunk (-6,-1) gen=2 role=1
+[WORKER] Meshing cx=-6 cz=-7 (persisted=0)
+[ADOPT] SUCCESS chunk (-6,-1) now resident. loaded_from_persist=0
+[WORKER] Meshing cx=-7 cz=-2 (persisted=0)
+[WORKER] Meshing cx=-7 cz=-4 (persisted=0)
+[WORKER] Meshing cx=-1 cz=-12 (persisted=0)
+[WORKER] Meshing cx=-4 cz=-10 (persisted=0)
+[WORKER] Meshing cx=-3 cz=-11 (persisted=0)
+[WORKER] Meshing cx=-7 cz=-1 (persisted=0)
+[WORKER] Meshing cx=-5 cz=-9 (persisted=0)
+[WORKER] Mesh complete cx=-2 cz=-11 built=000001CEEDA6C650
+[WORKER] Queuing result cx=-2 cz=-11 gen=2 space=superchunk_terrain built=000001CEEDA6C650 results=0/768
+[WORKER] Processing job cx=-4 cz=-11 gen=2 space=superchunk_terrain type=GENERATE
+[WORKER] Meshing cx=-7 cz=-5 (persisted=0)
+[ADOPT] Adopting chunk (-2,-11) gen=2 role=1
+[ADOPT] SUCCESS chunk (-2,-11) now resident. loaded_from_persist=0
+[WORKER] Meshing cx=-6 cz=-8 (persisted=0)
+[WORKER] Mesh complete cx=-6 cz=-6 built=000001CEEDA678E0
+[WORKER] Queuing result cx=-6 cz=-6 gen=2 space=superchunk_terrain built=000001CEEDA678E0 results=0/768
+[WORKER] Processing job cx=-5 cz=-10 gen=2 space=superchunk_terrain type=GENERATE
+[ADOPT] Adopting chunk (-6,-6) gen=2 role=1
+[ADOPT] SUCCESS chunk (-6,-6) now resident. loaded_from_persist=0
+[WALL] HEALTH W=17/0/0 N=17/0/0 E=17/0/0 S=17/0/0 (desired/resident/ready)
+[WORKER] Mesh complete cx=-5 cz=-8 built=000001CEEDA66DD0
+[WORKER] Queuing result cx=-5 cz=-8 gen=2 space=superchunk_terrain built=000001CEEDA66DD0 results=0/768
+[WORKER] Processing job cx=-1 cz=-13 gen=2 space=superchunk_terrain type=GENERATE
+[ADOPT] Adopting chunk (-5,-8) gen=2 role=1
+[ADOPT] SUCCESS chunk (-5,-8) now resident. loaded_from_persist=0
+[WORKER] Mesh complete cx=-6 cz=-7 built=000001CEEDA6B030
+[WORKER] Queuing result cx=-6 cz=-7 gen=2 space=superchunk_terrain built=000001CEEDA6B030 results=0/768
+[WORKER] Processing job cx=-7 cz=-7 gen=2 space=superchunk_terrain type=GENERATE
+[WORKER] Mesh complete cx=-7 cz=-3 built=000001CEEDA6F290
+[WORKER] Queuing result cx=-7 cz=-3 gen=2 space=superchunk_terrain built=000001CEEDA6F290 results=1/768
+[WORKER] Processing job cx=-3 cz=-12 gen=2 space=superchunk_terrain type=GENERATE
+[ADOPT] Adopting chunk (-6,-7) gen=2 role=1
+[ADOPT] SUCCESS chunk (-6,-7) now resident. loaded_from_persist=0
+[ADOPT] Adopting chunk (-7,-3) gen=2 role=1
+[ADOPT] SUCCESS chunk (-7,-3) now resident. loaded_from_persist=0
+[WORKER] Mesh complete cx=-7 cz=-2 built=000001CEEDA6D160
+[WORKER] Queuing result cx=-7 cz=-2 gen=2 space=superchunk_terrain built=000001CEEDA6D160 results=0/768
+[WORKER] Processing job cx=-6 cz=-9 gen=2 space=superchunk_terrain type=GENERATE
+[ADOPT] Adopting chunk (-7,-2) gen=2 role=1
+[ADOPT] SUCCESS chunk (-7,-2) now resident. loaded_from_persist=0
+[WORKER] Mesh complete cx=-7 cz=-4 built=000001CEEDA734F0
+[WORKER] Queuing result cx=-7 cz=-4 gen=2 space=superchunk_terrain built=000001CEEDA734F0 results=0/768
+[WORKER] Processing job cx=-8 cz=-3 gen=2 space=superchunk_terrain type=GENERATE
+[ADOPT] Adopting chunk (-7,-4) gen=2 role=1
+[ADOPT] SUCCESS chunk (-7,-4) now resident. loaded_from_persist=0
+[WORKER] Mesh complete cx=-4 cz=-10 built=000001CEEDA708B0
+[WORKER] Queuing result cx=-4 cz=-10 gen=2 space=superchunk_terrain built=000001CEEDA708B0 results=0/768
+[WORKER] Processing job cx=14 cz=-3 gen=2 space=superchunk_terrain type=GENERATE
+[ADOPT] Adopting chunk (-4,-10) gen=2 role=1
+[ADOPT] SUCCESS chunk (-4,-10) now resident. loaded_from_persist=0
+[WORKER] Mesh complete cx=-7 cz=-1 built=000001CEEDA71ED0
+[WORKER] Queuing result cx=-7 cz=-1 gen=2 space=superchunk_terrain built=000001CEEDA71ED0 results=0/768
+[WORKER] Processing job cx=14 cz=-4 gen=2 space=superchunk_terrain type=GENERATE
+[ADOPT] Adopting chunk (-7,-1) gen=2 role=1
+[ADOPT] SUCCESS chunk (-7,-1) now resident. loaded_from_persist=0
+[WORKER] Mesh complete cx=-3 cz=-11 built=000001CEEDEF5EF0
+[WORKER] Queuing result cx=-3 cz=-11 gen=2 space=superchunk_terrain built=000001CEEDEF5EF0 results=0/768
+[WORKER] Processing job cx=-8 cz=-4 gen=2 space=superchunk_terrain type=GENERATE
+[ADOPT] Adopting chunk (-3,-11) gen=2 role=1
+[ADOPT] SUCCESS chunk (-3,-11) now resident. loaded_from_persist=0
+[WORKER] Mesh complete cx=-1 cz=-12 built=000001CEEDEFEEC0
+[WORKER] Queuing result cx=-1 cz=-12 gen=2 space=superchunk_terrain built=000001CEEDEFEEC0 results=0/768
+[WORKER] Processing job cx=14 cz=-2 gen=2 space=superchunk_terrain type=GENERATE
+[ADOPT] Adopting chunk (-1,-12) gen=2 role=1
+[ADOPT] SUCCESS chunk (-1,-12) now resident. loaded_from_persist=0
+[WORKER] Mesh complete cx=-5 cz=-9 built=000001CEEDF02610
+[WORKER] Queuing result cx=-5 cz=-9 gen=2 space=superchunk_terrain built=000001CEEDF02610 results=0/768
+[WORKER] Processing job cx=-8 cz=-2 gen=2 space=superchunk_terrain type=GENERATE
+[ADOPT] Adopting chunk (-5,-9) gen=2 role=1
+[ADOPT] SUCCESS chunk (-5,-9) now resident. loaded_from_persist=0
+[WORKER] Mesh complete cx=-7 cz=-5 built=000001CEEDF03C30
+[WORKER] Queuing result cx=-7 cz=-5 gen=2 space=superchunk_terrain built=000001CEEDF03C30 results=0/768
+[WORKER] Processing job cx=-2 cz=-13 gen=2 space=superchunk_terrain type=GENERATE
+[ADOPT] Adopting chunk (-7,-5) gen=2 role=1
+[ADOPT] SUCCESS chunk (-7,-5) now resident. loaded_from_persist=0
+[WORKER] Mesh complete cx=-6 cz=-8 built=000001CE9C913850
+[WORKER] Queuing result cx=-6 cz=-8 gen=2 space=superchunk_terrain built=000001CE9C913850 results=0/768
+[WORKER] Processing job cx=-7 cz=-8 gen=2 space=superchunk_terrain type=GENERATE
+[ADOPT] Adopting chunk (-6,-8) gen=2 role=1
+[ADOPT] SUCCESS chunk (-6,-8) now resident. loaded_from_persist=0
+[WORKER] Meshing cx=-2 cz=-12 (persisted=0)
+[WORKER] Meshing cx=-7 cz=-6 (persisted=0)
+[WORKER] Meshing cx=-4 cz=-11 (persisted=0)
+[WORKER] Mesh complete cx=-2 cz=-12 built=000001CE9C91BD10
+[WORKER] Queuing result cx=-2 cz=-12 gen=2 space=superchunk_terrain built=000001CE9C91BD10 results=0/768
+[WORKER] Processing job cx=-8 cz=-1 gen=2 space=superchunk_terrain type=GENERATE
+[ADOPT] Adopting chunk (-2,-12) gen=2 role=1
+[ADOPT] SUCCESS chunk (-2,-12) now resident. loaded_from_persist=0
+[WORKER] Mesh complete cx=-7 cz=-6 built=000001CEEDA6A520
+[WORKER] Queuing result cx=-7 cz=-6 gen=2 space=superchunk_terrain built=000001CEEDA6A520 results=0/768
+[WORKER] Processing job cx=14 cz=-1 gen=2 space=superchunk_terrain type=GENERATE
+[WORKER] Meshing cx=-5 cz=-10 (persisted=0)
+[ADOPT] Adopting chunk (-7,-6) gen=2 role=1
+[ADOPT] SUCCESS chunk (-7,-6) now resident. loaded_from_persist=0
+[WORKER] Meshing cx=-7 cz=-7 (persisted=0)
+[WORKER] Meshing cx=-8 cz=-3 (persisted=0)
+[WORKER] Meshing cx=-8 cz=-4 (persisted=0)
+[WORKER] Meshing cx=14 cz=-3 (persisted=0)
+[WORKER] Meshing cx=-8 cz=-2 (persisted=0)
+[WORKER] Meshing cx=-6 cz=-9 (persisted=0)
+[WORKER] Meshing cx=-1 cz=-13 (persisted=0)
+[WORKER] Meshing cx=14 cz=-2 (persisted=0)
+[WORKER] Meshing cx=-3 cz=-12 (persisted=0)
+[WORKER] Meshing cx=14 cz=-4 (persisted=0)
+[WORKER] Meshing cx=-7 cz=-8 (persisted=0)
+[WORKER] Mesh complete cx=-4 cz=-11 built=000001CEEDA69A10
+[WORKER] Queuing result cx=-4 cz=-11 gen=2 space=superchunk_terrain built=000001CEEDA69A10 results=0/768
+[WORKER] Processing job cx=-8 cz=-5 gen=2 space=superchunk_terrain type=GENERATE
+[ADOPT] Adopting chunk (-4,-11) gen=2 role=1
+[ADOPT] SUCCESS chunk (-4,-11) now resident. loaded_from_persist=0
+[WORKER] Mesh complete cx=-5 cz=-10 built=000001CEEDA6DC70
+[WORKER] Queuing result cx=-5 cz=-10 gen=2 space=superchunk_terrain built=000001CEEDA6DC70 results=0/768
+[WORKER] Processing job cx=14 cz=-5 gen=2 space=superchunk_terrain type=GENERATE
+[ADOPT] Adopting chunk (-5,-10) gen=2 role=1
+[ADOPT] SUCCESS chunk (-5,-10) now resident. loaded_from_persist=0
+[WORKER] Mesh complete cx=-8 cz=-3 built=000001CEEDA713C0
+[WORKER] Queuing result cx=-8 cz=-3 gen=2 space=superchunk_terrain built=000001CEEDA713C0 results=0/768
+[WORKER] Processing job cx=-5 cz=-11 gen=2 space=superchunk_terrain type=GENERATE
+[ADOPT] Adopting chunk (-8,-3) gen=2 role=1
+[ADOPT] SUCCESS chunk (-8,-3) now resident. loaded_from_persist=0
+[WORKER] Mesh complete cx=-7 cz=-7 built=000001CEEDA74000
+[WORKER] Queuing result cx=-7 cz=-7 gen=2 space=superchunk_terrain built=000001CEEDA74000 results=0/768
+[WORKER] Processing job cx=-8 cz=-6 gen=2 space=superchunk_terrain type=GENERATE
+[WORKER] Meshing cx=-2 cz=-13 (persisted=0)
+[ADOPT] Adopting chunk (-7,-7) gen=2 role=1
+[ADOPT] SUCCESS chunk (-7,-7) now resident. loaded_from_persist=0
+[WORKER] Mesh complete cx=-8 cz=-4 built=000001CEEDEFF9D0
+[WORKER] Queuing result cx=-8 cz=-4 gen=2 space=superchunk_terrain built=000001CEEDEFF9D0 results=0/768
+[WORKER] Processing job cx=14 cz=-6 gen=2 space=superchunk_terrain type=GENERATE
+[ADOPT] Adopting chunk (-8,-4) gen=2 role=1
+[ADOPT] SUCCESS chunk (-8,-4) now resident. loaded_from_persist=0
+[WORKER] Mesh complete cx=14 cz=-3 built=000001CEEDEFE3B0
+[WORKER] Queuing result cx=14 cz=-3 gen=2 space=superchunk_terrain built=000001CEEDEFE3B0 results=0/768
+[WORKER] Processing job cx=-6 cz=-10 gen=2 space=superchunk_terrain type=GENERATE
+[ADOPT] Adopting chunk (14,-3) gen=2 role=1
+[ADOPT] SUCCESS chunk (14,-3) now resident. loaded_from_persist=0
+[WORKER] Mesh complete cx=-8 cz=-2 built=000001CEA95017D0
+[WORKER] Queuing result cx=-8 cz=-2 gen=2 space=superchunk_terrain built=000001CEA95017D0 results=0/768
+[WORKER] Processing job cx=-4 cz=-12 gen=2 space=superchunk_terrain type=GENERATE
+[WALL] HEALTH W=17/0/0 N=17/0/0 E=17/0/0 S=17/0/0 (desired/resident/ready)
+[ADOPT] Adopting chunk (-8,-2) gen=2 role=1
+[ADOPT] SUCCESS chunk (-8,-2) now resident. loaded_from_persist=0
+[WORKER] Mesh complete cx=14 cz=-2 built=000001CE9C9185C0
+[WORKER] Queuing result cx=14 cz=-2 gen=2 space=superchunk_terrain built=000001CE9C9185C0 results=0/768
+[WORKER] Processing job cx=-3 cz=-13 gen=2 space=superchunk_terrain type=GENERATE
+[ADOPT] Adopting chunk (14,-2) gen=2 role=1
+[ADOPT] SUCCESS chunk (14,-2) now resident. loaded_from_persist=0
+[WORKER] Mesh complete cx=-6 cz=-9 built=000001CF49B16280
+[WORKER] Queuing result cx=-6 cz=-9 gen=2 space=superchunk_terrain built=000001CF49B16280 results=0/768
+[WORKER] Processing job cx=-7 cz=-9 gen=2 space=superchunk_terrain type=GENERATE
+[ADOPT] Adopting chunk (-6,-9) gen=2 role=1
+[ADOPT] SUCCESS chunk (-6,-9) now resident. loaded_from_persist=0
+[WORKER] Mesh complete cx=14 cz=-4 built=000001CF49B199D0
+[WORKER] Queuing result cx=14 cz=-4 gen=2 space=superchunk_terrain built=000001CF49B199D0 results=0/768
+[WORKER] Processing job cx=-1 cz=-14 gen=2 space=superchunk_terrain type=GENERATE
+[ADOPT] Adopting chunk (14,-4) gen=2 role=1
+[ADOPT] SUCCESS chunk (14,-4) now resident. loaded_from_persist=0
+[WORKER] Mesh complete cx=-1 cz=-13 built=000001CF49B1A4E0
+[WORKER] Queuing result cx=-1 cz=-13 gen=2 space=superchunk_terrain built=000001CF49B1A4E0 results=0/768
+[WORKER] Processing job cx=14 cz=-7 gen=2 space=superchunk_terrain type=GENERATE
+[ADOPT] Adopting chunk (-1,-13) gen=2 role=1
+[ADOPT] SUCCESS chunk (-1,-13) now resident. loaded_from_persist=0
+[WORKER] Mesh complete cx=-3 cz=-12 built=000001CF49B1DC30
+[WORKER] Queuing result cx=-3 cz=-12 gen=2 space=superchunk_terrain built=000001CF49B1DC30 results=0/768
+[WORKER] Processing job cx=-8 cz=-7 gen=2 space=superchunk_terrain type=GENERATE
+[ADOPT] Adopting chunk (-3,-12) gen=2 role=1
+[ADOPT] SUCCESS chunk (-3,-12) now resident. loaded_from_persist=0
+[WORKER] Meshing cx=-8 cz=-1 (persisted=0)
+[WORKER] Mesh complete cx=-7 cz=-8 built=000001CF49B1E740
+[WORKER] Queuing result cx=-7 cz=-8 gen=2 space=superchunk_terrain built=000001CF49B1E740 results=0/768
+[WORKER] Processing job cx=15 cz=-3 gen=2 space=superchunk_terrain type=GENERATE
+[ADOPT] Adopting chunk (-7,-8) gen=2 role=1
+[ADOPT] SUCCESS chunk (-7,-8) now resident. loaded_from_persist=0
+[WORKER] Meshing cx=14 cz=-1 (persisted=0)
+[WORKER] Mesh complete cx=-2 cz=-13 built=000001CF49B1F250
+[WORKER] Queuing result cx=-2 cz=-13 gen=2 space=superchunk_terrain built=000001CF49B1F250 results=0/768
+[WORKER] Processing job cx=-9 cz=-3 gen=2 space=superchunk_terrain type=GENERATE
+[ADOPT] Adopting chunk (-2,-13) gen=2 role=1
+[ADOPT] SUCCESS chunk (-2,-13) now resident. loaded_from_persist=0
+[WORKER] Mesh complete cx=-8 cz=-1 built=000001CF49B1C610
+[WORKER] Queuing result cx=-8 cz=-1 gen=2 space=superchunk_terrain built=000001CF49B1C610 results=0/768
+[WORKER] Processing job cx=-9 cz=-2 gen=2 space=superchunk_terrain type=GENERATE
+[ADOPT] Adopting chunk (-8,-1) gen=2 role=1
+[ADOPT] SUCCESS chunk (-8,-1) now resident. loaded_from_persist=0
+[WORKER] Meshing cx=-8 cz=-5 (persisted=0)
+[WORKER] Mesh complete cx=14 cz=-1 built=000001CF49B1FD60
+[WORKER] Queuing result cx=14 cz=-1 gen=2 space=superchunk_terrain built=000001CF49B1FD60 results=0/768
+[WORKER] Processing job cx=15 cz=-4 gen=2 space=superchunk_terrain type=GENERATE
+[ADOPT] Adopting chunk (14,-1) gen=2 role=1
+[ADOPT] SUCCESS chunk (14,-1) now resident. loaded_from_persist=0
+[WORKER] Meshing cx=14 cz=-5 (persisted=0)
+[WORKER] Meshing cx=-8 cz=-6 (persisted=0)
+[WORKER] Meshing cx=14 cz=-6 (persisted=0)
+[WORKER] Meshing cx=-5 cz=-11 (persisted=0)
+[WORKER] Meshing cx=-6 cz=-10 (persisted=0)
+[WORKER] Meshing cx=14 cz=-7 (persisted=0)
+[WORKER] Meshing cx=-7 cz=-9 (persisted=0)
+[WORKER] Meshing cx=-8 cz=-7 (persisted=0)
+[WORKER] Meshing cx=-4 cz=-12 (persisted=0)
+[WORKER] Meshing cx=-3 cz=-13 (persisted=0)
+[WORKER] Mesh complete cx=-8 cz=-5 built=000001CF49B18EC0
+[WORKER] Queuing result cx=-8 cz=-5 gen=2 space=superchunk_terrain built=000001CF49B18EC0 results=0/768
+[WORKER] Processing job cx=-9 cz=-4 gen=2 space=superchunk_terrain type=GENERATE
+[WORKER] Meshing cx=-1 cz=-14 (persisted=0)
+[WORKER] Meshing cx=15 cz=-3 (persisted=0)
+[WORKER] Mesh complete cx=14 cz=-5 built=000001CF49B16D90
+[WORKER] Queuing result cx=14 cz=-5 gen=2 space=superchunk_terrain built=000001CF49B16D90 results=1/768
+[WORKER] Processing job cx=-6 cz=-11 gen=2 space=superchunk_terrain type=GENERATE
+[WORKER] Mesh complete cx=-8 cz=-6 built=000001CF49B183B0
+[WORKER] Queuing result cx=-8 cz=-6 gen=2 space=superchunk_terrain built=000001CF49B183B0 results=2/768
+[WORKER] Processing job cx=15 cz=-2 gen=2 space=superchunk_terrain type=GENERATE
+[WORKER] Meshing cx=-9 cz=-3 (persisted=0)
+[WORKER] Mesh complete cx=14 cz=-6 built=000001CF49B1D120
+[WORKER] Queuing result cx=14 cz=-6 gen=2 space=superchunk_terrain built=000001CF49B1D120 results=3/768
+[WORKER] Processing job cx=-5 cz=-12 gen=2 space=superchunk_terrain type=GENERATE
+[WORKER] Mesh complete cx=-5 cz=-11 built=000001CF49B21380
+[WORKER] Queuing result cx=-5 cz=-11 gen=2 space=superchunk_terrain built=000001CF49B21380 results=4/768
+[WORKER] Processing job cx=-2 cz=-14 gen=2 space=superchunk_terrain type=GENERATE
+[WORKER] Mesh complete cx=-6 cz=-10 built=000001CF49B24AD0
+[WORKER] Queuing result cx=-6 cz=-10 gen=2 space=superchunk_terrain built=000001CF49B24AD0 results=5/768
+[WORKER] Processing job cx=14 cz=-8 gen=2 space=superchunk_terrain type=GENERATE
+[WORKER] Mesh complete cx=14 cz=-7 built=000001CF49B255E0
+[WORKER] Queuing result cx=14 cz=-7 gen=2 space=superchunk_terrain built=000001CF49B255E0 results=6/768
+[WORKER] Processing job cx=-8 cz=-8 gen=2 space=superchunk_terrain type=GENERATE
+[WORKER] Mesh complete cx=-7 cz=-9 built=000001CEEDA6E780
+[WORKER] Queuing result cx=-7 cz=-9 gen=2 space=superchunk_terrain built=000001CEEDA6E780 results=7/768
+[WORKER] Processing job cx=-9 cz=-1 gen=2 space=superchunk_terrain type=GENERATE
+[WORKER] Mesh complete cx=-8 cz=-7 built=000001CEEDA729E0
+[WORKER] Queuing result cx=-8 cz=-7 gen=2 space=superchunk_terrain built=000001CEEDA729E0 results=8/768
+[WORKER] Processing job cx=15 cz=-5 gen=2 space=superchunk_terrain type=GENERATE
+[WORKER] Meshing cx=-9 cz=-2 (persisted=0)
+[WORKER] Mesh complete cx=-4 cz=-12 built=000001CEEDEF8020
+[WORKER] Queuing result cx=-4 cz=-12 gen=2 space=superchunk_terrain built=000001CEEDEF8020 results=9/768
+[WORKER] Processing job cx=-9 cz=-5 gen=2 space=superchunk_terrain type=GENERATE
+[WORKER] Mesh complete cx=-3 cz=-13 built=000001CEEDF03120
+[WORKER] Queuing result cx=-3 cz=-13 gen=2 space=superchunk_terrain built=000001CEEDF03120 results=10/768
+[WORKER] Processing job cx=15 cz=-1 gen=2 space=superchunk_terrain type=GENERATE
+[WORKER] Mesh complete cx=15 cz=-3 built=000001CE930D9670
+[WORKER] Queuing result cx=15 cz=-3 gen=2 space=superchunk_terrain built=000001CE930D9670 results=11/768
+[WORKER] Processing job cx=-4 cz=-13 gen=2 space=superchunk_terrain type=GENERATE
+[WORKER] Mesh complete cx=-9 cz=-3 built=000001CFACB4F9F0
+[WORKER] Queuing result cx=-9 cz=-3 gen=2 space=superchunk_terrain built=000001CFACB4F9F0 results=12/768
+[WORKER] Processing job cx=-7 cz=-10 gen=2 space=superchunk_terrain type=GENERATE
+[WORKER] Meshing cx=15 cz=-4 (persisted=0)
+[WORKER] Mesh complete cx=-1 cz=-14 built=000001CFACB51B20
+[WORKER] Queuing result cx=-1 cz=-14 gen=2 space=superchunk_terrain built=000001CFACB51B20 results=13/768
+[WORKER] Processing job cx=-9 cz=-6 gen=2 space=superchunk_terrain type=GENERATE
+[WORKER] Mesh complete cx=-9 cz=-2 built=000001CFACB51010
+[WORKER] Queuing result cx=-9 cz=-2 gen=2 space=superchunk_terrain built=000001CFACB51010 results=14/768
+[WORKER] Processing job cx=15 cz=-6 gen=2 space=superchunk_terrain type=GENERATE
+[WORKER] Meshing cx=-9 cz=-4 (persisted=0)
+[WORKER] Mesh complete cx=15 cz=-4 built=000001CFACB55D80
+[WORKER] Queuing result cx=15 cz=-4 gen=2 space=superchunk_terrain built=000001CFACB55D80 results=15/768
+[WORKER] Processing job cx=14 cz=-9 gen=2 space=superchunk_terrain type=GENERATE
+[WORKER] Meshing cx=15 cz=-2 (persisted=0)
+[WORKER] Meshing cx=-6 cz=-11 (persisted=0)
+[WORKER] Meshing cx=-9 cz=-1 (persisted=0)
+[WORKER] Meshing cx=14 cz=-8 (persisted=0)
+[WORKER] Meshing cx=-8 cz=-8 (persisted=0)
+[WORKER] Meshing cx=-5 cz=-12 (persisted=0)
+[WORKER] Meshing cx=-9 cz=-5 (persisted=0)
+[WORKER] Meshing cx=15 cz=-5 (persisted=0)
+[WORKER] Mesh complete cx=-9 cz=-4 built=000001CFACB55270
+[WORKER] Queuing result cx=-9 cz=-4 gen=2 space=superchunk_terrain built=000001CFACB55270 results=16/768
+[WORKER] Processing job cx=-3 cz=-14 gen=2 space=superchunk_terrain type=GENERATE
+[WORKER] Meshing cx=15 cz=-1 (persisted=0)
+[WORKER] Meshing cx=-2 cz=-14 (persisted=0)
+[WORKER] Mesh complete cx=15 cz=-2 built=000001CFACB589C0
+[WORKER] Queuing result cx=15 cz=-2 gen=2 space=superchunk_terrain built=000001CFACB589C0 results=17/768
+[WORKER] Processing job cx=-8 cz=-9 gen=2 space=superchunk_terrain type=GENERATE
+[WORKER] Meshing cx=-9 cz=-6 (persisted=0)
+[WORKER] Meshing cx=-7 cz=-10 (persisted=0)
+[WORKER] Mesh complete cx=-9 cz=-1 built=000001CFACB50500
+[WORKER] Queuing result cx=-9 cz=-1 gen=2 space=superchunk_terrain built=000001CFACB50500 results=18/768
+[WORKER] Processing job cx=15 cz=-7 gen=2 space=superchunk_terrain type=GENERATE
+[WORKER] Mesh complete cx=-6 cz=-11 built=000001CFACB594D0
+[WORKER] Queuing result cx=-6 cz=-11 gen=2 space=superchunk_terrain built=000001CFACB594D0 results=19/768
+[WORKER] Processing job cx=-9 cz=-7 gen=2 space=superchunk_terrain type=GENERATE
+[WORKER] Meshing cx=-4 cz=-13 (persisted=0)
+[WORKER] Mesh complete cx=-8 cz=-8 built=000001CFACB4EEE0
+[WORKER] Queuing result cx=-8 cz=-8 gen=2 space=superchunk_terrain built=000001CFACB4EEE0 results=20/768
+[WORKER] Processing job cx=-1 cz=-15 gen=2 space=superchunk_terrain type=GENERATE
+[WORKER] Mesh complete cx=14 cz=-8 built=000001CFACB573A0
+[WORKER] Queuing result cx=14 cz=-8 gen=2 space=superchunk_terrain built=000001CFACB573A0 results=21/768
+[WORKER] Processing job cx=-6 cz=-12 gen=2 space=superchunk_terrain type=GENERATE
+[WORKER] Mesh complete cx=-9 cz=-5 built=000001CFACB5C110
+[WORKER] Queuing result cx=-9 cz=-5 gen=2 space=superchunk_terrain built=000001CFACB5C110 results=22/768
+[WORKER] Processing job cx=-5 cz=-13 gen=2 space=superchunk_terrain type=GENERATE
+[WORKER] Mesh complete cx=-5 cz=-12 built=000001CFACB5AAF0
+[WORKER] Queuing result cx=-5 cz=-12 gen=2 space=superchunk_terrain built=000001CFACB5AAF0 results=23/768
+[WORKER] Processing job cx=-7 cz=-11 gen=2 space=superchunk_terrain type=GENERATE
+[WORKER] Meshing cx=15 cz=-6 (persisted=0)
+[WORKER] Mesh complete cx=15 cz=-5 built=000001CFACB52630
+[WORKER] Queuing result cx=15 cz=-5 gen=2 space=superchunk_terrain built=000001CFACB52630 results=24/768
+[WORKER] Processing job cx=-2 cz=-15 gen=2 space=superchunk_terrain type=GENERATE
+[WORKER] Mesh complete cx=15 cz=-1 built=000001CF49B178A0
+[WORKER] Queuing result cx=15 cz=-1 gen=2 space=superchunk_terrain built=000001CF49B178A0 results=25/768
+[WORKER] Processing job cx=15 cz=-8 gen=2 space=superchunk_terrain type=GENERATE
+[WORKER] Mesh complete cx=-2 cz=-14 built=000001CF49B1BB00
+[WORKER] Queuing result cx=-2 cz=-14 gen=2 space=superchunk_terrain built=000001CF49B1BB00 results=26/768
+[WORKER] Processing job cx=-10 cz=-3 gen=2 space=superchunk_terrain type=GENERATE
+[WORKER] Mesh complete cx=-9 cz=-6 built=000001CF49B234B0
+[WORKER] Queuing result cx=-9 cz=-6 gen=2 space=superchunk_terrain built=000001CF49B234B0 results=27/768
+[WORKER] Processing job cx=-9 cz=-8 gen=2 space=superchunk_terrain type=GENERATE
+[WORKER] Meshing cx=14 cz=-9 (persisted=0)
+[WORKER] Mesh complete cx=-7 cz=-10 built=000001CF49B229A0
+[WORKER] Queuing result cx=-7 cz=-10 gen=2 space=superchunk_terrain built=000001CF49B229A0 results=28/768
+[WORKER] Processing job cx=-4 cz=-14 gen=2 space=superchunk_terrain type=GENERATE
+[WORKER] Mesh complete cx=-4 cz=-13 built=000001CEEDA657B0
+[WORKER] Queuing result cx=-4 cz=-13 gen=2 space=superchunk_terrain built=000001CEEDA657B0 results=29/768
+[WORKER] Processing job cx=14 cz=-10 gen=2 space=superchunk_terrain type=GENERATE
+[WORKER] Mesh complete cx=15 cz=-6 built=000001CEEDA6FDA0
+[WORKER] Queuing result cx=15 cz=-6 gen=2 space=superchunk_terrain built=000001CEEDA6FDA0 results=30/768
+[WORKER] Processing job cx=-10 cz=-2 gen=2 space=superchunk_terrain type=GENERATE
+[WORKER] Mesh complete cx=14 cz=-9 built=000001CEEDEFD8A0
+[WORKER] Queuing result cx=14 cz=-9 gen=2 space=superchunk_terrain built=000001CEEDEFD8A0 results=31/768
+[WORKER] Processing job cx=-10 cz=-4 gen=2 space=superchunk_terrain type=GENERATE
+[WORKER] Meshing cx=-9 cz=-7 (persisted=0)
+[WORKER] Meshing cx=-8 cz=-9 (persisted=0)
+[WORKER] Meshing cx=-3 cz=-14 (persisted=0)
+[WORKER] Meshing cx=15 cz=-7 (persisted=0)
+[WORKER] Meshing cx=-6 cz=-12 (persisted=0)
+[WORKER] Meshing cx=-7 cz=-11 (persisted=0)
+[WORKER] Meshing cx=15 cz=-8 (persisted=0)
+[WORKER] Meshing cx=-10 cz=-3 (persisted=0)
+[WORKER] Meshing cx=-5 cz=-13 (persisted=0)
+[WORKER] Meshing cx=-1 cz=-15 (persisted=0)
+[WORKER] Meshing cx=-9 cz=-8 (persisted=0)
+[WORKER] Mesh complete cx=-9 cz=-7 built=000001D03FA6E940
+[WORKER] Queuing result cx=-9 cz=-7 gen=2 space=superchunk_terrain built=000001D03FA6E940 results=32/768
+[WORKER] Processing job cx=-8 cz=-10 gen=2 space=superchunk_terrain type=GENERATE
+[WORKER] Mesh complete cx=-8 cz=-9 built=000001D03FA6F450
+[WORKER] Queuing result cx=-8 cz=-9 gen=2 space=superchunk_terrain built=000001D03FA6F450 results=33/768
+[WORKER] Processing job cx=-10 cz=-5 gen=2 space=superchunk_terrain type=GENERATE
+[WORKER] Mesh complete cx=15 cz=-7 built=000001D03FA71580
+[WORKER] Queuing result cx=15 cz=-7 gen=2 space=superchunk_terrain built=000001D03FA71580 results=34/768
+[WORKER] Processing job cx=-10 cz=-1 gen=2 space=superchunk_terrain type=GENERATE
+[WORKER] Meshing cx=-2 cz=-15 (persisted=0)
+[WORKER] Meshing cx=-10 cz=-2 (persisted=0)
+[WORKER] Mesh complete cx=-3 cz=-14 built=000001D03FA70A70
+[WORKER] Queuing result cx=-3 cz=-14 gen=2 space=superchunk_terrain built=000001D03FA70A70 results=35/768
+[WORKER] Processing job cx=-10 cz=-6 gen=2 space=superchunk_terrain type=GENERATE
+[WORKER] Meshing cx=14 cz=-10 (persisted=0)
+[WORKER] Meshing cx=-4 cz=-14 (persisted=0)
+[WORKER] Mesh complete cx=-7 cz=-11 built=000001D03FA74CD0
+[WORKER] Queuing result cx=-7 cz=-11 gen=2 space=superchunk_terrain built=000001D03FA74CD0 results=36/768
+[WORKER] Processing job cx=-9 cz=-9 gen=2 space=superchunk_terrain type=GENERATE
+[WORKER] Mesh complete cx=-6 cz=-12 built=000001D03FA72090
+[WORKER] Queuing result cx=-6 cz=-12 gen=2 space=superchunk_terrain built=000001D03FA72090 results=37/768
+[WORKER] Processing job cx=15 cz=-9 gen=2 space=superchunk_terrain type=GENERATE
+[WORKER] Mesh complete cx=-10 cz=-3 built=000001D03FA762F0
+[WORKER] Queuing result cx=-10 cz=-3 gen=2 space=superchunk_terrain built=000001D03FA762F0 results=38/768
+[WORKER] Processing job cx=-3 cz=-15 gen=2 space=superchunk_terrain type=GENERATE
+[WORKER] Mesh complete cx=15 cz=-8 built=000001D03FA77910
+[WORKER] Queuing result cx=15 cz=-8 gen=2 space=superchunk_terrain built=000001D03FA77910 results=39/768
+[WORKER] Processing job cx=-6 cz=-13 gen=2 space=superchunk_terrain type=GENERATE
+[WORKER] Meshing cx=-10 cz=-4 (persisted=0)
+[WORKER] Mesh complete cx=-9 cz=-8 built=000001D03FA6D320
+[WORKER] Queuing result cx=-9 cz=-8 gen=2 space=superchunk_terrain built=000001D03FA6D320 results=40/768
+[WORKER] Processing job cx=-7 cz=-12 gen=2 space=superchunk_terrain type=GENERATE
+[WORKER] Mesh complete cx=-5 cz=-13 built=000001D03FA79A40
+[WORKER] Queuing result cx=-5 cz=-13 gen=2 space=superchunk_terrain built=000001D03FA79A40 results=41/768
+[WORKER] Processing job cx=14 cz=-11 gen=2 space=superchunk_terrain type=GENERATE
+[WORKER] Mesh complete cx=-10 cz=-2 built=000001D03FA7A550
+[WORKER] Queuing result cx=-10 cz=-2 gen=2 space=superchunk_terrain built=000001D03FA7A550 results=42/768
+[WORKER] Processing job cx=-10 cz=-7 gen=2 space=superchunk_terrain type=GENERATE
+[WORKER] Mesh complete cx=-1 cz=-15 built=000001CFACB53140
+[WORKER] Queuing result cx=-1 cz=-15 gen=2 space=superchunk_terrain built=000001CFACB53140 results=43/768
+[WORKER] Processing job cx=-5 cz=-14 gen=2 space=superchunk_terrain type=GENERATE
+[WORKER] Mesh complete cx=-2 cz=-15 built=000001CFACB56890
+[WORKER] Queuing result cx=-2 cz=-15 gen=2 space=superchunk_terrain built=000001CFACB56890 results=44/768
+[WORKER] Processing job cx=-1 cz=-16 gen=2 space=superchunk_terrain type=GENERATE
+[WORKER] Mesh complete cx=14 cz=-10 built=000001CFACB59FE0
+[WORKER] Queuing result cx=14 cz=-10 gen=2 space=superchunk_terrain built=000001CFACB59FE0 results=45/768
+[WORKER] Processing job cx=-8 cz=-11 gen=2 space=superchunk_terrain type=GENERATE
+[WORKER] Mesh complete cx=-4 cz=-14 built=000001CFACB5B600
+[WORKER] Queuing result cx=-4 cz=-14 gen=2 space=superchunk_terrain built=000001CFACB5B600 results=46/768
+[WORKER] Processing job cx=15 cz=-10 gen=2 space=superchunk_terrain type=GENERATE
+[WORKER] Mesh complete cx=-10 cz=-4 built=000001CFACB5D730
+[WORKER] Queuing result cx=-10 cz=-4 gen=2 space=superchunk_terrain built=000001CFACB5D730 results=47/768
+[WORKER] Processing job cx=-4 cz=-15 gen=2 space=superchunk_terrain type=GENERATE
+[WORKER] Meshing cx=-10 cz=-1 (persisted=0)
+[WORKER] Meshing cx=-10 cz=-5 (persisted=0)
+[WORKER] Meshing cx=-8 cz=-10 (persisted=0)
+[WORKER] Meshing cx=-10 cz=-6 (persisted=0)
+[WORKER] Meshing cx=-9 cz=-9 (persisted=0)
+[WORKER] Meshing cx=15 cz=-9 (persisted=0)
+[WORKER] Mesh complete cx=-10 cz=-5 built=000001D03FA6C810
+[WORKER] Queuing result cx=-10 cz=-5 gen=2 space=superchunk_terrain built=000001D03FA6C810 results=48/768
+[WORKER] Processing job cx=-9 cz=-10 gen=2 space=superchunk_terrain type=GENERATE
+[WORKER] Mesh complete cx=-10 cz=-1 built=000001D03FA72BA0
+[WORKER] Queuing result cx=-10 cz=-1 gen=2 space=superchunk_terrain built=000001D03FA72BA0 results=49/768
+[WORKER] Processing job cx=-10 cz=-8 gen=2 space=superchunk_terrain type=GENERATE
+[WORKER] Meshing cx=-10 cz=-7 (persisted=0)
+[WORKER] Mesh complete cx=-8 cz=-10 built=000001D03FA757E0
+[WORKER] Queuing result cx=-8 cz=-10 gen=2 space=superchunk_terrain built=000001D03FA757E0 results=50/768
+[WORKER] Processing job cx=-2 cz=-16 gen=2 space=superchunk_terrain type=GENERATE
+[WORKER] Meshing cx=-6 cz=-13 (persisted=0)
+[WORKER] Meshing cx=14 cz=-11 (persisted=0)
+[WORKER] Mesh complete cx=-10 cz=-6 built=000001D03FA76E00
+[WORKER] Queuing result cx=-10 cz=-6 gen=2 space=superchunk_terrain built=000001D03FA76E00 results=51/768
+[WORKER] Processing job cx=-11 cz=-3 gen=2 space=superchunk_terrain type=GENERATE
+[WORKER] Meshing cx=-7 cz=-12 (persisted=0)
+[WORKER] Meshing cx=-3 cz=-15 (persisted=0)
+[WORKER] Meshing cx=-8 cz=-11 (persisted=0)
+[WORKER] Mesh complete cx=-9 cz=-9 built=000001D03FA736B0
+[WORKER] Queuing result cx=-9 cz=-9 gen=2 space=superchunk_terrain built=000001D03FA736B0 results=52/768
+[WORKER] Processing job cx=-11 cz=-4 gen=2 space=superchunk_terrain type=GENERATE
+[WORKER] Meshing cx=-5 cz=-14 (persisted=0)
+[WORKER] Meshing cx=-1 cz=-16 (persisted=0)
+[WORKER] Mesh complete cx=15 cz=-9 built=000001D03FA78420
+[WORKER] Queuing result cx=15 cz=-9 gen=2 space=superchunk_terrain built=000001D03FA78420 results=53/768
+[WORKER] Processing job cx=-11 cz=-2 gen=2 space=superchunk_terrain type=GENERATE
+[WORKER] Meshing cx=15 cz=-10 (persisted=0)
+[WORKER] Mesh complete cx=-10 cz=-7 built=000001CF49B20870
+[WORKER] Queuing result cx=-10 cz=-7 gen=2 space=superchunk_terrain built=000001CF49B20870 results=54/768
+[WORKER] Processing job cx=-11 cz=-5 gen=2 space=superchunk_terrain type=GENERATE
+[WORKER] Mesh complete cx=14 cz=-11 built=000001CF49B21E90
+[WORKER] Queuing result cx=14 cz=-11 gen=2 space=superchunk_terrain built=000001CF49B21E90 results=55/768
+[WORKER] Processing job cx=-7 cz=-13 gen=2 space=superchunk_terrain type=GENERATE
+[WORKER] Meshing cx=-4 cz=-15 (persisted=0)
+[WORKER] Mesh complete cx=-6 cz=-13 built=000001CFACB54760
+[WORKER] Queuing result cx=-6 cz=-13 gen=2 space=superchunk_terrain built=000001CFACB54760 results=56/768
+[WORKER] Processing job cx=-11 cz=-1 gen=2 space=superchunk_terrain type=GENERATE
+[WORKER] Mesh complete cx=-7 cz=-12 built=000001CFACB5E240
+[WORKER] Queuing result cx=-7 cz=-12 gen=2 space=superchunk_terrain built=000001CFACB5E240 results=57/768
+[WORKER] Processing job cx=-6 cz=-14 gen=2 space=superchunk_terrain type=GENERATE
+[WORKER] Mesh complete cx=-3 cz=-15 built=000001CEEDA6BB40
+[WORKER] Queuing result cx=-3 cz=-15 gen=2 space=superchunk_terrain built=000001CEEDA6BB40 results=58/768
+[WORKER] Processing job cx=14 cz=-12 gen=2 space=superchunk_terrain type=GENERATE
+[WORKER] Mesh complete cx=-8 cz=-11 built=000001D06AA222F0
+[WORKER] Queuing result cx=-8 cz=-11 gen=2 space=superchunk_terrain built=000001D06AA222F0 results=59/768
+[WORKER] Processing job cx=-8 cz=-12 gen=2 space=superchunk_terrain type=GENERATE
+[WORKER] Mesh complete cx=-5 cz=-14 built=000001D06AA20CD0
+[WORKER] Queuing result cx=-5 cz=-14 gen=2 space=superchunk_terrain built=000001D06AA20CD0 results=60/768
+[WORKER] Processing job cx=-10 cz=-9 gen=2 space=superchunk_terrain type=GENERATE
+[WORKER] Meshing cx=-10 cz=-8 (persisted=0)
+[WORKER] Mesh complete cx=15 cz=-10 built=000001D06AA217E0
+[WORKER] Queuing result cx=15 cz=-10 gen=2 space=superchunk_terrain built=000001D06AA217E0 results=61/768
+[WORKER] Processing job cx=-3 cz=-16 gen=2 space=superchunk_terrain type=GENERATE
+[WORKER] Meshing cx=-9 cz=-10 (persisted=0)
+[WORKER] Mesh complete cx=-1 cz=-16 built=000001D06AA27060
+[WORKER] Queuing result cx=-1 cz=-16 gen=2 space=superchunk_terrain built=000001D06AA27060 results=62/768
+[WORKER] Processing job cx=-11 cz=-6 gen=2 space=superchunk_terrain type=GENERATE
+[WORKER] Meshing cx=-11 cz=-3 (persisted=0)
+[WORKER] Mesh complete cx=-4 cz=-15 built=000001D06AA24F30
+[WORKER] Queuing result cx=-4 cz=-15 gen=2 space=superchunk_terrain built=000001D06AA24F30 results=63/768
+[WORKER] Processing job cx=15 cz=-11 gen=2 space=superchunk_terrain type=GENERATE
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=92(P84/F8/T0/E0) jobs=272 results=64 primary=(0,-1) desired_sc=(0,-1) transition=0
+[WORKER] Meshing cx=-11 cz=-4 (persisted=0)
+[WORKER] Meshing cx=-2 cz=-16 (persisted=0)
+[STREAM] drop stale chunk (-8,-5) got_gen=2 want_gen=3 role=1
+[WALL] HEALTH W=17/3/1 N=17/0/0 E=17/0/0 S=17/0/0 (desired/resident/ready)
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=92(P84/F8/T0/E0) jobs=348 results=62 primary=(0,-1) desired_sc=(0,-1) transition=0
+[WORKER] Meshing cx=-11 cz=-2 (persisted=0)
+[WORKER] Mesh complete cx=-10 cz=-8 built=000001D098CF0110
+[WORKER] Queuing result cx=-10 cz=-8 gen=2 space=superchunk_terrain built=000001D098CF0110 results=62/768
+[WORKER] Meshing cx=-11 cz=-5 (persisted=0)
+[WORKER] Mesh complete cx=-9 cz=-10 built=000001CFACE2B9C0
+[WORKER] Queuing result cx=-9 cz=-10 gen=2 space=superchunk_terrain built=000001CFACE2B9C0 results=62/768
+[WORKER] Mesh complete cx=-11 cz=-3 built=000001CFACE35FB0
+[WORKER] Queuing result cx=-11 cz=-3 gen=2 space=superchunk_terrain built=000001CFACE35FB0 results=62/768
+[WORKER] Processing job cx=-8 cz=-5 gen=4 space=superchunk_terrain type=GENERATE
+[STREAM] drop stale chunk (-8,-6) got_gen=2 want_gen=4 role=1
+rain type=GENERATE
+
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=92(P84/F8/T0/E0) jobs=345 results=64 primary=(0,-1) desired_sc=(0,-1) transition=0
+[WORKER] Meshing cx=14 cz=-12 (persisted=0)
+[WORKER] Meshing cx=-11 cz=-1 (persisted=0)
+[STREAM] drop stale chunk (14,-6) got_gen=2 want_gen=5 role=1
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=92(P84/F8/T0/E0) jobs=348 results=63 primary=(0,-1) desired_sc=(0,-1) transition=0
+[STREAM] drop stale chunk (-5,-11) got_gen=2 want_gen=6 role=1
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=92(P84/F8/T0/E0) jobs=348 results=62 primary=(0,-1) desired_sc=(0,-1) transition=0
+[WORKER] Mesh complete cx=-11 cz=-4 built=000001CFACE21EE0
+[WORKER] Queuing result cx=-11 cz=-4 gen=2 space=superchunk_terrain built=000001CFACE21EE0 results=62/768
+[WORKER] Meshing cx=-7 cz=-13 (persisted=0)
+[WORKER] Processing job cx=-8 cz=-5 gen=7 space=superchunk_terrain type=GENERATE
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=92(P84/F8/T0/E0) jobs=347 results=61 primary=(0,-1) desired_sc=(0,-1) transition=0
+[STREAM] drop stale chunk (-7,-9) got_gen=2 want_gen=8 role=1
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=92(P84/F8/T0/E0) jobs=348 results=59 primary=(0,-1) desired_sc=(0,-1) transition=0
+[WORKER] Meshing cx=-8 cz=-12 (persisted=0)
+[WORKER] Mesh complete cx=-2 cz=-16 built=000001CFACE24010
+[WORKER] Queuing result cx=-2 cz=-16 gen=2 space=superchunk_terrain built=000001CFACE24010 results=59/768
+[WORKER] Mesh complete cx=-11 cz=-2 built=000001CFACE23500
+[WORKER] Queuing result cx=-11 cz=-2 gen=2 space=superchunk_terrain built=000001CFACE23500 results=59/768
+[WORKER] Meshing cx=-6 cz=-14 (persisted=0)
+[WORKER] Meshing cx=-10 cz=-9 (persisted=0)
+[WORKER] Mesh complete cx=-11 cz=-5 built=000001CFACE375D0
+[WORKER] Queuing result cx=-11 cz=-5 gen=2 space=superchunk_terrain built=000001CFACE375D0 results=59/768
+[WORKER] Meshing cx=-11 cz=-6 (persisted=0)
+[WORKER] Processing job cx=-8 cz=-6 gen=9 space=superchunk_terrain type=GENERATE
+[WORKER] Processing job cx=-8 cz=-5 gen=9 space=superchunk_terrain type=GENERATE
+[WORKER] Processing job cx=-6 cz=-10 gen=9 space=superchunk_terrain type=GENERATE
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=92(P84/F8/T0/E0) jobs=345 results=60 primary=(0,-1) desired_sc=(0,-1) transition=0
+[WORKER] Mesh complete cx=14 cz=-12 built=000001D098CEC690
+[WORKER] Queuing result cx=14 cz=-12 gen=2 space=superchunk_terrain built=000001D098CEC690 results=60/768
+[STREAM] drop stale chunk (15,-3) got_gen=2 want_gen=10 role=1
+[WORKER] Processing job cx=-8 cz=-5 gen=10 space=superchunk_terrain type=GENERATE
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=92(P84/F8/T0/E0) jobs=347 results=60 primary=(0,-1) desired_sc=(0,-1) transition=0
+[WORKER] Mesh complete cx=-11 cz=-1 built=000001D098CE7920
+[WORKER] Queuing result cx=-11 cz=-1 gen=2 space=superchunk_terrain built=000001D098CE7920 results=60/768
+[WORKER] Processing job cx=-8 cz=-5 gen=11 space=superchunk_terrain type=GENERATE
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=92(P84/F8/T0/E0) jobs=347 results=59 primary=(0,-1) desired_sc=(0,-1) transition=0
+[WORKER] Meshing cx=-3 cz=-16 (persisted=0)
+[WORKER] Meshing cx=15 cz=-11 (persisted=0)
+[STREAM] drop stale chunk (-9,-2) got_gen=2 want_gen=12 role=1
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=92(P84/F8/T0/E0) jobs=348 results=57 primary=(0,-1) desired_sc=(0,-1) transition=0
+[WORKER] Mesh complete cx=-7 cz=-13 built=000001CFACE3EF80
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=92(P84/F8/T0/E0) jobs=348 results=55 primary=(0,-1) desired_sc=(0,-1) transition=0
+[WORKER] Queuing result cx=-7 cz=-13 gen=2 space=superchunk_terrain built=000001CFACE3EF80 results=55/768
+[WORKER] Meshing cx=-8 cz=-5 (persisted=0)
+[WORKER] Meshing cx=-8 cz=-6 (persisted=0)
+[WORKER] Processing job cx=-8 cz=-5 gen=14 space=superchunk_terrain type=GENERATE
+[STREAM] drop stale chunk (-9,-1) got_gen=2 want_gen=14 role=1
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=92(P84/F8/T0/E0) jobs=347 results=55 primary=(0,-1) desired_sc=(0,-1) transition=0
+[WORKER] Mesh complete cx=-11 cz=-6 built=000001D098D0C6A0
+[WORKER] Queuing result cx=-11 cz=-6 gen=2 space=superchunk_terrain built=000001D098D0C6A0 results=55/768
+[WORKER] Mesh complete cx=-10 cz=-9 built=000001CFACE31D50
+[WORKER] Queuing result cx=-10 cz=-9 gen=2 space=superchunk_terrain built=000001CFACE31D50 results=55/768
+[WORKER] Processing job cx=-8 cz=-6 gen=15 space=superchunk_terrain type=GENERATE
+[WORKER] Mesh complete cx=-8 cz=-12 built=000001CFACE3FA90
+[WORKER] Queuing result cx=-8 cz=-12 gen=2 space=superchunk_terrain built=000001CFACE3FA90 results=55/768
+[WORKER] Processing job cx=-6 cz=-10 gen=15 space=superchunk_terrain type=GENERATE
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=92(P84/F8/T0/E0) jobs=345 results=56 primary=(0,-1) desired_sc=(0,-1) transition=0
+[WORKER] Meshing cx=-6 cz=-10 (persisted=0)
+[WORKER] Mesh complete cx=-6 cz=-14 built=000001D098CDA6F0
+[WORKER] Queuing result cx=-6 cz=-14 gen=2 space=superchunk_terrain built=000001D098CDA6F0 results=56/768
+[STREAM] drop stale chunk (14,-8) got_gen=2 want_gen=16 role=1
+[WORKER] Processing job cx=-8 cz=-5 gen=16 space=superchunk_terrain type=GENERATE
+[WALL] HEALTH W=17/3/1 N=17/0/0 E=17/0/0 S=17/0/0 (desired/resident/ready)
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=92(P84/F8/T0/E0) jobs=347 results=56 primary=(0,-1) desired_sc=(0,-1) transition=0
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=92(P84/F8/T0/E0) jobs=348 results=54 primary=(0,-1) desired_sc=(0,-1) transition=0
+[WORKER] Meshing cx=-8 cz=-5 (persisted=0)
+[WORKER] Mesh complete cx=15 cz=-11 built=000001CFACB55270
+[WORKER] Queuing result cx=15 cz=-11 gen=2 space=superchunk_terrain built=000001CFACB55270 results=54/768
+[WORKER] Processing job cx=-8 cz=-5 gen=18 space=superchunk_terrain type=GENERATE
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=92(P84/F8/T0/E0) jobs=347 results=54 primary=(0,-1) desired_sc=(0,-1) transition=0
+[WORKER] Mesh complete cx=-8 cz=-5 built=000001D098CE8430
+[WORKER] Queuing result cx=-8 cz=-5 gen=4 space=superchunk_terrain built=000001D098CE8430 results=54/768
+[WORKER] Processing job cx=-8 cz=-5 gen=19 space=superchunk_terrain type=GENERATE
+[WORKER] Mesh complete cx=-8 cz=-6 built=000001CF49B1AFF0
+[WORKER] Mesh complete cx=-3 cz=-16 built=000001CF49B183B0
+[WORKER] Queuing result cx=-8 cz=-6 gen=4 space=superchunk_terrain built=000001CF49B1AFF0 results=54/768
+[WORKER] Queuing result cx=-3 cz=-16 gen=2 space=superchunk_terrain built=000001CF49B183B0 results=54/768
+[WORKER] Processing job cx=-8 cz=-6 gen=19 space=superchunk_terrain type=GENERATE
+[WORKER] Processing job cx=-6 cz=-10 gen=19 space=superchunk_terrain type=GENERATE
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=92(P84/F8/T0/E0) jobs=345 results=56 primary=(0,-1) desired_sc=(0,-1) transition=0
+[WORKER] Meshing cx=-8 cz=-5 (persisted=0)
+[STREAM] drop stale chunk (-2,-14) got_gen=2 want_gen=20 role=1
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=92(P84/F8/T0/E0) jobs=348 results=55 primary=(0,-1) desired_sc=(0,-1) transition=0
+[WORKER] Meshing cx=-8 cz=-6 (persisted=0)
+[WORKER] Meshing cx=-8 cz=-5 (persisted=0)
+[WORKER] Meshing cx=-6 cz=-10 (persisted=0)
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=92(P84/F8/T0/E0) jobs=348 results=53 primary=(0,-1) desired_sc=(0,-1) transition=0
+[WORKER] Mesh complete cx=-6 cz=-10 built=000001CFACE28270
+[WORKER] Queuing result cx=-6 cz=-10 gen=4 space=superchunk_terrain built=000001CFACE28270 results=53/768
+[STREAM] drop stale chunk (-4,-13) got_gen=2 want_gen=22 role=1
+[WORKER] Processing job cx=-8 cz=-5 gen=22 space=superchunk_terrain type=GENERATE
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=92(P84/F8/T0/E0) jobs=347 results=53 primary=(0,-1) desired_sc=(0,-1) transition=0
+[WORKER] Meshing cx=-8 cz=-5 (persisted=0)
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=92(P84/F8/T0/E0) jobs=348 results=51 primary=(0,-1) desired_sc=(0,-1) transition=0
+[WORKER] Mesh complete cx=-8 cz=-5 built=000001CF49B234B0
+[WORKER] Queuing result cx=-8 cz=-5 gen=7 space=superchunk_terrain built=000001CF49B234B0 results=51/768
+[WORKER] Processing job cx=-8 cz=-5 gen=24 space=superchunk_terrain type=GENERATE
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=92(P84/F8/T0/E0) jobs=347 results=50 primary=(0,-1) desired_sc=(0,-1) transition=0
+[WORKER] Meshing cx=-8 cz=-5 (persisted=0)
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=92(P84/F8/T0/E0) jobs=348 results=48 primary=(0,-1) desired_sc=(0,-1) transition=0
+[WORKER] Mesh complete cx=-8 cz=-5 built=000001D06AA24420
+[WORKER] Queuing result cx=-8 cz=-5 gen=9 space=superchunk_terrain built=000001D06AA24420 results=48/768
+[STREAM] drop stale chunk (-7,-11) got_gen=2 want_gen=26 role=1
+ain type=GENERATE
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=92(P84/F8/T0/E0) jobs=347 results=48 primary=(0,-1) desired_sc=(0,-1) transition=0
+[WORKER] Meshing cx=-8 cz=-5 (persisted=0)
+[WORKER] Mesh complete cx=-8 cz=-5 built=000001D098D041E0
+[WORKER] Queuing result cx=-8 cz=-5 gen=10 space=superchunk_terrain built=000001D098D041E0 results=48/768
+[WORKER] Meshing cx=-8 cz=-6 (persisted=0)
+[WORKER] Mesh complete cx=-6 cz=-10 built=000001D098CED1A0
+[WORKER] Queuing result cx=-6 cz=-10 gen=9 space=superchunk_terrain built=000001D098CED1A0 results=48/768
+[WORKER] Processing job cx=-8 cz=-5 gen=27 space=superchunk_terrain type=GENERATE
+[WORKER] Processing job cx=-8 cz=-6 gen=27 space=superchunk_terrain type=GENERATE
+[WORKER] Mesh complete cx=-8 cz=-6 built=000001D03FA70A70
+[WORKER] Queuing result cx=-8 cz=-6 gen=9 space=superchunk_terrain built=000001D03FA70A70 results=48/768
+[WORKER] Processing job cx=-6 cz=-10 gen=27 space=superchunk_terrain type=GENERATE
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=92(P84/F8/T0/E0) jobs=345 results=49 primary=(0,-1) desired_sc=(0,-1) transition=0
+[STREAM] drop stale chunk (15,-8) got_gen=2 want_gen=28 role=1
+[WORKER] Meshing cx=-8 cz=-5 (persisted=0)
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=92(P84/F8/T0/E0) jobs=348 results=47 primary=(0,-1) desired_sc=(0,-1) transition=0
+[WORKER] Meshing cx=-6 cz=-10 (persisted=0)
+[WORKER] Mesh complete cx=-8 cz=-5 built=000001D098CFDE50
+[WORKER] Queuing result cx=-8 cz=-5 gen=11 space=superchunk_terrain built=000001D098CFDE50 results=47/768
+[WORKER] Processing job cx=-8 cz=-5 gen=29 space=superchunk_terrain type=GENERATE
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=92(P84/F8/T0/E0) jobs=347 results=46 primary=(0,-1) desired_sc=(0,-1) transition=0
+[STREAM] drop stale chunk (-1,-15) got_gen=2 want_gen=30 role=1
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=92(P84/F8/T0/E0) jobs=348 results=45 primary=(0,-1) desired_sc=(0,-1) transition=0
+[WORKER] Meshing cx=-8 cz=-5 (persisted=0)
+[WORKER] Mesh complete cx=-8 cz=-5 built=000001D098CFF470
+[WORKER] Queuing result cx=-8 cz=-5 gen=14 space=superchunk_terrain built=000001D098CFF470 results=45/768
+[WORKER] Meshing cx=-8 cz=-6 (persisted=0)
+[WORKER] Processing job cx=-8 cz=-5 gen=31 space=superchunk_terrain type=GENERATE
+[WORKER] Meshing cx=-8 cz=-5 (persisted=0)
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=92(P84/F8/T0/E0) jobs=347 results=45 primary=(0,-1) desired_sc=(0,-1) transition=0
+[STREAM] drop stale chunk (14,-10) got_gen=2 want_gen=32 role=1
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=92(P84/F8/T0/E0) jobs=348 results=43 primary=(0,-1) desired_sc=(0,-1) transition=0
+[WORKER] Meshing cx=-6 cz=-10 (persisted=0)
+[WALL] HEALTH W=17/3/1 N=17/0/0 E=17/0/0 S=17/0/0 (desired/resident/ready)
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=92(P84/F8/T0/E0) jobs=348 results=41 primary=(0,-1) desired_sc=(0,-1) transition=0
+[WORKER] Mesh complete cx=-8 cz=-6 built=000001CFACB589C0
+[WORKER] Queuing result cx=-8 cz=-6 gen=15 space=superchunk_terrain built=000001CFACB589C0 results=41/768
+[WORKER] Queuing result cx=-8 cz=-5 gen=15 space=superchunk_terrain built=000001CFACB57EB0 results=41/768
+[WORKER] Mesh complete cx=-8 cz=-5 built=000001D098CE36C0
+[WORKER] Queuing result cx=-8 cz=-5 gen=16 space=superchunk_terrain built=000001D098CE36C0 results=41/768
+[WORKER] Processing job cx=-8 cz=-6 gen=34 space=superchunk_terrain type=GENERATE
+
+[STREAM] drop stale chunk (-10,-1) got_gen=2 want_gen=34 role=1
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=92(P84/F8/T0/E0) jobs=345 results=43 primary=(0,-1) desired_sc=(0,-1) transition=0
+[WORKER] Meshing cx=-8 cz=-5 (persisted=0)
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=92(P84/F8/T0/E0) jobs=348 results=42 primary=(0,-1) desired_sc=(0,-1) transition=0
+[WORKER] Mesh complete cx=-6 cz=-10 built=000001D098CD4E70
+[WORKER] Queuing result cx=-6 cz=-10 gen=15 space=superchunk_terrain built=000001D098CD4E70 results=42/768
+[STREAM] drop stale chunk (-10,-6) got_gen=2 want_gen=36 role=1
+ain type=GENERATE
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=92(P84/F8/T0/E0) jobs=347 results=42 primary=(0,-1) desired_sc=(0,-1) transition=0
+[WORKER] Meshing cx=-8 cz=-5 (persisted=0)
+[WORKER] Mesh complete cx=-8 cz=-5 built=000001D098CE6E10
+[WORKER] Queuing result cx=-8 cz=-5 gen=18 space=superchunk_terrain built=000001D098CE6E10 results=42/768
+[WORKER] Mesh complete cx=-8 cz=-6 built=000001CFACE2DAF0
+[WORKER] Queuing result cx=-8 cz=-6 gen=19 space=superchunk_terrain built=000001CFACE2DAF0 results=42/768
+[WORKER] Mesh complete cx=-8 cz=-5 built=000001CFACE3C340
+[WORKER] Queuing result cx=-8 cz=-5 gen=19 space=superchunk_terrain built=000001CFACE3C340 results=42/768
+[WORKER] Processing job cx=-8 cz=-5 gen=37 space=superchunk_terrain type=GENERATE
+
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=92(P84/F8/T0/E0) jobs=345 results=44 primary=(0,-1) desired_sc=(0,-1) transition=0
+[STREAM] drop stale chunk (15,-9) got_gen=2 want_gen=38 role=1
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=92(P84/F8/T0/E0) jobs=348 results=42 primary=(0,-1) desired_sc=(0,-1) transition=0
+[WORKER] Meshing cx=-8 cz=-5 (persisted=0)
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=92(P84/F8/T0/E0) jobs=348 results=41 primary=(0,-1) desired_sc=(0,-1) transition=0
+[WORKER] Meshing cx=-8 cz=-5 (persisted=0)
+[WORKER] Mesh complete cx=-6 cz=-10 built=000001D06AA22E00
+[WORKER] Queuing result cx=-6 cz=-10 gen=19 space=superchunk_terrain built=000001D06AA22E00 results=41/768
+[WORKER] Processing job cx=-8 cz=-5 gen=40 space=superchunk_terrain type=GENERATE
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=92(P84/F8/T0/E0) jobs=347 results=41 primary=(0,-1) desired_sc=(0,-1) transition=0
+[WORKER] Meshing cx=-8 cz=-6 (persisted=0)
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=92(P84/F8/T0/E0) jobs=348 results=40 primary=(0,-1) desired_sc=(0,-1) transition=0
+[WORKER] Mesh complete cx=-8 cz=-5 built=000001CFACB54760
+[WORKER] Queuing result cx=-8 cz=-5 gen=22 space=superchunk_terrain built=000001CFACB54760 results=40/768
+[WORKER] Meshing cx=-6 cz=-10 (persisted=0)
+[STREAM] drop stale chunk (-3,-15) got_gen=2 want_gen=42 role=1
+[WORKER] Processing job cx=-8 cz=-5 gen=42 space=superchunk_terrain type=GENERATE
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=92(P84/F8/T0/E0) jobs=347 results=40 primary=(0,-1) desired_sc=(0,-1) transition=0
+[WORKER] Meshing cx=-8 cz=-5 (persisted=0)
+[WORKER] Mesh complete cx=-8 cz=-5 built=000001CF49B23FC0
+[WORKER] Queuing result cx=-8 cz=-5 gen=24 space=superchunk_terrain built=000001CF49B23FC0 results=39/768
+[WORKER] Processing job cx=-8 cz=-5 gen=43 space=superchunk_terrain type=GENERATE
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=92(P84/F8/T0/E0) jobs=347 results=40 primary=(0,-1) desired_sc=(0,-1) transition=0
+[WORKER] Meshing cx=-8 cz=-5 (persisted=0)
+[STREAM] drop stale chunk (-5,-14) got_gen=2 want_gen=44 role=1
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=92(P84/F8/T0/E0) jobs=348 results=39 primary=(0,-1) desired_sc=(0,-1) transition=0
+[WORKER] Mesh complete cx=-8 cz=-5 built=000001D098D04CF0
+[WORKER] Queuing result cx=-8 cz=-5 gen=26 space=superchunk_terrain built=000001D098D04CF0 results=39/768
+[WORKER] Processing job cx=-8 cz=-5 gen=45 space=superchunk_terrain type=GENERATE
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=92(P84/F8/T0/E0) jobs=347 results=38 primary=(0,-1) desired_sc=(0,-1) transition=0
+[WORKER] Mesh complete cx=-8 cz=-5 built=000001D098CFA700
+[WORKER] Queuing result cx=-8 cz=-5 gen=27 space=superchunk_terrain built=000001D098CFA700 results=38/768
+[STREAM] drop stale chunk (-4,-15) got_gen=2 want_gen=46 role=1
+[WORKER] Processing job cx=-8 cz=-5 gen=46 space=superchunk_terrain type=GENERATE
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=92(P84/F8/T0/E0) jobs=347 results=38 primary=(0,-1) desired_sc=(0,-1) transition=0
+[WORKER] Mesh complete cx=-8 cz=-6 built=000001D098CD2230
+[WORKER] Queuing result cx=-8 cz=-6 gen=27 space=superchunk_terrain built=000001D098CD2230 results=38/768
+[WORKER] Meshing cx=-8 cz=-5 (persisted=0)
+[WORKER] Meshing cx=-8 cz=-6 (persisted=0)
+[WORKER] Processing job cx=-8 cz=-5 gen=47 space=superchunk_terrain type=GENERATE
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=92(P84/F8/T0/E0) jobs=347 results=38 primary=(0,-1) desired_sc=(0,-1) transition=0
+[WORKER] Mesh complete cx=-6 cz=-10 built=000001D098CD1720
+[WORKER] Queuing result cx=-6 cz=-10 gen=27 space=superchunk_terrain built=000001D098CD1720 results=38/768
+[WORKER] Processing job cx=-8 cz=-5 gen=48 space=superchunk_terrain type=GENERATE
+[STREAM] drop stale chunk (-9,-10) got_gen=2 want_gen=48 role=1
+[WORKER] Mesh complete cx=-8 cz=-5 built=000001CFACB4EEE0
+[WORKER] Queuing result cx=-8 cz=-5 gen=29 space=superchunk_terrain built=000001CFACB4EEE0 results=38/768
+[WORKER] Processing job cx=-8 cz=-6 gen=48 space=superchunk_terrain type=GENERATE
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=92(P84/F8/T0/E0) jobs=346 results=39 primary=(0,-1) desired_sc=(0,-1) transition=0
+[WORKER] Meshing cx=-6 cz=-10 (persisted=0)
+[WORKER] Meshing cx=-8 cz=-5 (persisted=0)
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=92(P84/F8/T0/E0) jobs=348 results=38 primary=(0,-1) desired_sc=(0,-1) transition=0
+[WORKER] Meshing cx=-8 cz=-5 (persisted=0)
+[WORKER] Meshing cx=-8 cz=-6 (persisted=0)
+[WORKER] Mesh complete cx=-8 cz=-5 built=000001D098D02BC0
+[WORKER] Queuing result cx=-8 cz=-5 gen=31 space=superchunk_terrain built=000001D098D02BC0 results=38/768
+[WORKER] Processing job cx=-8 cz=-5 gen=50 space=superchunk_terrain type=GENERATE
+[STREAM] drop stale chunk (-11,-4) got_gen=2 want_gen=50 role=1
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=92(P84/F8/T0/E0) jobs=347 results=38 primary=(0,-1) desired_sc=(0,-1) transition=0
+[WORKER] Meshing cx=-6 cz=-10 (persisted=0)
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=92(P84/F8/T0/E0) jobs=348 results=37 primary=(0,-1) desired_sc=(0,-1) transition=0
+[WORKER] Meshing cx=-8 cz=-5 (persisted=0)
+[STREAM] drop stale chunk (-11,-2) got_gen=2 want_gen=52 role=1
+[WALL] HEALTH W=17/3/1 N=17/0/0 E=17/0/0 S=17/0/0 (desired/resident/ready)
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=92(P84/F8/T0/E0) jobs=348 results=35 primary=(0,-1) desired_sc=(0,-1) transition=0
+[WORKER] Mesh complete cx=-8 cz=-5 built=000001D03FA757E0
+[WORKER] Queuing result cx=-8 cz=-5 gen=34 space=superchunk_terrain built=000001D03FA757E0 results=35/768
+[WORKER] Mesh complete cx=-8 cz=-6 built=000001D098CFD340
+[WORKER] Queuing result cx=-8 cz=-6 gen=34 space=superchunk_terrain built=000001D098CFD340 results=35/768
+[WORKER] Processing job cx=-8 cz=-6 gen=53 space=superchunk_terrain type=GENERATE
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=92(P84/F8/T0/E0) jobs=346 results=35 primary=(0,-1) desired_sc=(0,-1) transition=0
+[WORKER] Meshing cx=-8 cz=-5 (persisted=0)
+[WORKER] Mesh complete cx=-8 cz=-5 built=000001D098CEBB80
+[WORKER] Queuing result cx=-8 cz=-5 gen=36 space=superchunk_terrain built=000001D098CEBB80 results=35/768
+[WORKER] Processing job cx=-8 cz=-5 gen=54 space=superchunk_terrain type=GENERATE
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=92(P84/F8/T0/E0) jobs=347 results=34 primary=(0,-1) desired_sc=(0,-1) transition=0
+[WORKER] Meshing cx=-8 cz=-5 (persisted=0)
+[WORKER] Mesh complete cx=-6 cz=-10 built=000001D098D0DCC0
+[WORKER] Queuing result cx=-6 cz=-10 gen=34 space=superchunk_terrain built=000001D098D0DCC0 results=34/768
+[WORKER] Mesh complete cx=-8 cz=-5 built=000001CFACE33E80
+[WORKER] Queuing result cx=-8 cz=-5 gen=37 space=superchunk_terrain built=000001CFACE33E80 results=34/768
+[WORKER] Processing job cx=-8 cz=-6 gen=55 space=superchunk_terrain type=GENERATE
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=92(P84/F8/T0/E0) jobs=346 results=34 primary=(0,-1) desired_sc=(0,-1) transition=0
+[WORKER] Mesh complete cx=-8 cz=-6 built=000001D098CFE960
+[WORKER] Queuing result cx=-8 cz=-6 gen=37 space=superchunk_terrain built=000001D098CFE960 results=34/768
+[STREAM] drop stale chunk (-6,-14) got_gen=2 want_gen=56 role=1
+[WORKER] Processing job cx=-8 cz=-5 gen=56 space=superchunk_terrain type=GENERATE
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=92(P84/F8/T0/E0) jobs=347 results=33 primary=(0,-1) desired_sc=(0,-1) transition=0
+[WORKER] Meshing cx=-8 cz=-5 (persisted=0)
+[WORKER] Mesh complete cx=-6 cz=-10 built=000001D098D08440
+[WORKER] Queuing result cx=-6 cz=-10 gen=37 space=superchunk_terrain built=000001D098D08440 results=33/768
+[WORKER] Processing job cx=-8 cz=-5 gen=57 space=superchunk_terrain type=GENERATE
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=92(P84/F8/T0/E0) jobs=347 results=32 primary=(0,-1) desired_sc=(0,-1) transition=0
+[WORKER] Mesh complete cx=-8 cz=-5 built=000001CFACE25630
+[WORKER] Queuing result cx=-8 cz=-5 gen=40 space=superchunk_terrain built=000001CFACE25630 results=32/768
+[WORKER] Meshing cx=-8 cz=-5 (persisted=0)
+[STREAM] drop stale chunk (-3,-16) got_gen=2 want_gen=58 role=1
+ain type=GENERATE
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=92(P84/F8/T0/E0) jobs=347 results=32 primary=(0,-1) desired_sc=(0,-1) transition=0
+[WORKER] Meshing cx=-8 cz=-5 (persisted=0)
+[WORKER] Meshing cx=-8 cz=-5 (persisted=0)
+[WORKER] Mesh complete cx=-8 cz=-5 built=000001D06AA2A7B0
+[WORKER] Queuing result cx=-8 cz=-5 gen=42 space=superchunk_terrain built=000001D06AA2A7B0 results=29/768
+[WORKER] Processing job cx=-8 cz=-5 gen=59 space=superchunk_terrain type=GENERATE
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=92(P84/F8/T0/E0) jobs=347 results=30 primary=(0,-1) desired_sc=(0,-1) transition=0
+[WORKER] Meshing cx=-8 cz=-6 (persisted=0)
+[STREAM] drop stale chunk (-8,-5) got_gen=10 want_gen=60 role=1
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=92(P84/F8/T0/E0) jobs=348 results=27 primary=(0,-1) desired_sc=(0,-1) transition=0
+[WORKER] Mesh complete cx=-8 cz=-5 built=000001CFACE29890
+[WORKER] Queuing result cx=-8 cz=-5 gen=43 space=superchunk_terrain built=000001CFACE29890 results=27/768
+[WORKER] Processing job cx=-8 cz=-5 gen=61 space=superchunk_terrain type=GENERATE
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=92(P84/F8/T0/E0) jobs=347 results=25 primary=(0,-1) desired_sc=(0,-1) transition=0
+[WORKER] Meshing cx=-8 cz=-5 (persisted=0)
+[STREAM] drop stale chunk (-8,-5) got_gen=15 want_gen=62 role=1
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=92(P84/F8/T0/E0) jobs=348 results=22 primary=(0,-1) desired_sc=(0,-1) transition=0
+[WORKER] Mesh complete cx=-8 cz=-5 built=000001CFACE405A0
+[WORKER] Queuing result cx=-8 cz=-5 gen=45 space=superchunk_terrain built=000001CFACE405A0 results=22/768
+[WORKER] Processing job cx=-8 cz=-5 gen=63 space=superchunk_terrain type=GENERATE
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=92(P84/F8/T0/E0) jobs=347 results=20 primary=(0,-1) desired_sc=(0,-1) transition=0
+[WORKER] Mesh complete cx=-8 cz=-5 built=000001D03FA78F30
+[WORKER] Queuing result cx=-8 cz=-5 gen=46 space=superchunk_terrain built=000001D03FA78F30 results=20/768
+[WORKER] Processing job cx=-8 cz=-5 gen=64 space=superchunk_terrain type=GENERATE
+[STREAM] drop stale chunk (-8,-5) got_gen=26 want_gen=64 role=1
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=92(P84/F8/T0/E0) jobs=347 results=17 primary=(0,-1) desired_sc=(0,-1) transition=0
+[WORKER] Mesh complete cx=-8 cz=-5 built=000001CEA950B2B0
+[WORKER] Queuing result cx=-8 cz=-5 gen=48 space=superchunk_terrain built=000001CEA950B2B0 results=17/768
+[WORKER] Mesh complete cx=-8 cz=-5 built=000001D098CE20A0
+[WORKER] Queuing result cx=-8 cz=-5 gen=47 space=superchunk_terrain built=000001D098CE20A0 results=17/768
+[WORKER] Meshing cx=-8 cz=-5 (persisted=0)
+[WORKER] Meshing cx=-8 cz=-6 (persisted=0)
+[WORKER] Processing job cx=-8 cz=-6 gen=65 space=superchunk_terrain type=GENERATE
+[WORKER] Processing job cx=-8 cz=-5 gen=65 space=superchunk_terrain type=GENERATE
+[WORKER] Meshing cx=-8 cz=-5 (persisted=0)
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=92(P84/F8/T0/E0) jobs=346 results=17 primary=(0,-1) desired_sc=(0,-1) transition=0
+[WORKER] Mesh complete cx=-8 cz=-6 built=000001D098CF6FB0
+[WORKER] Queuing result cx=-8 cz=-6 gen=48 space=superchunk_terrain built=000001D098CF6FB0 results=17/768
+[WORKER] Processing job cx=-8 cz=-5 gen=66 space=superchunk_terrain type=GENERATE
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=92(P84/F8/T0/E0) jobs=347 results=14 primary=(0,-1) desired_sc=(0,-1) transition=0
+[WORKER] Meshing cx=-8 cz=-5 (persisted=0)
+[WORKER] Meshing cx=-8 cz=-6 (persisted=0)
+[STREAM] drop stale chunk (-8,-6) got_gen=34 want_gen=67 role=1
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=92(P84/F8/T0/E0) jobs=348 results=13 primary=(0,-1) desired_sc=(0,-1) transition=0
+[WORKER] Mesh complete cx=-8 cz=-5 built=000001D03FA70A70
+[WORKER] Queuing result cx=-8 cz=-5 gen=50 space=superchunk_terrain built=000001D03FA70A70 results=13/768
+[WORKER] Meshing cx=-8 cz=-5 (persisted=0)
+[WORKER] Processing job cx=-8 cz=-5 gen=68 space=superchunk_terrain type=GENERATE
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=92(P84/F8/T0/E0) jobs=347 results=11 primary=(0,-1) desired_sc=(0,-1) transition=0
+[WORKER] Meshing cx=-8 cz=-5 (persisted=0)
+[STREAM] drop stale chunk (-8,-6) got_gen=37 want_gen=69 role=1
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=92(P84/F8/T0/E0) jobs=348 results=8 primary=(0,-1) desired_sc=(0,-1) transition=0
+[WORKER] Meshing cx=-8 cz=-5 (persisted=0)
+[WORKER] Mesh complete cx=-8 cz=-5 built=000001CFACE354A0
+[WORKER] Queuing result cx=-8 cz=-5 gen=54 space=superchunk_terrain built=000001CFACE354A0 results=8/768
+[WORKER] Processing job cx=-8 cz=-5 gen=70 space=superchunk_terrain type=GENERATE
+[WORKER] Meshing cx=-8 cz=-5 (persisted=0)
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=92(P84/F8/T0/E0) jobs=347 results=6 primary=(0,-1) desired_sc=(0,-1) transition=0
+[WORKER] Mesh complete cx=-8 cz=-5 built=000001D098CE0A80
+[WORKER] Queuing result cx=-8 cz=-5 gen=53 space=superchunk_terrain built=000001D098CE0A80 results=6/768
+[WORKER] Mesh complete cx=-8 cz=-6 built=000001D098CE36C0
+[WORKER] Queuing result cx=-8 cz=-6 gen=53 space=superchunk_terrain built=000001D098CE36C0 results=6/768
+[WORKER] Processing job cx=-8 cz=-6 gen=71 space=superchunk_terr[WORKER] Processing job cx=-8 cz=-5 gen=71 space=superchunk_terrain type=GENERATE
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=92(P84/F8/T0/E0) jobs=346 results=6 primary=(0,-1) desired_sc=(0,-1) transition=0
+[WALL] HEALTH W=17/3/1 N=17/0/0 E=17/0/0 S=17/0/0 (desired/resident/ready)
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=92(P84/F8/T0/E0) jobs=348 results=3 primary=(0,-1) desired_sc=(0,-1) transition=0
+[WORKER] Meshing cx=-8 cz=-5 (persisted=0)
+[WORKER] Mesh complete cx=-8 cz=-6 built=000001D098D0E7D0
+[WORKER] Queuing result cx=-8 cz=-6 gen=55 space=superchunk_terrain built=000001D098D0E7D0 results=3/768
+[WORKER] Mesh complete cx=-8 cz=-5 built=000001D098CD9BE0
+[WORKER] Queuing result cx=-8 cz=-5 gen=55 space=superchunk_terrain built=000001D098CD9BE0 results=3/768
+[WORKER] Processing job cx=-8 cz=-5 gen=73 space=superchunk_terrain type=GENERATE
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=92(P84/F8/T0/E0) jobs=346 results=3 primary=(0,-1) desired_sc=(0,-1) transition=0
+[WORKER] Mesh complete cx=-8 cz=-5 built=000001CFACE2AEB0
+[WORKER] Queuing result cx=-8 cz=-5 gen=56 space=superchunk_terrain built=000001CFACE2AEB0 results=3/768
+[WORKER] Processing job cx=-8 cz=-5 gen=74 space=superchunk_terrain type=GENERATE
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=92(P84/F8/T0/E0) jobs=347 results=1 primary=(0,-1) desired_sc=(0,-1) transition=0
+[WORKER] Mesh complete cx=-8 cz=-5 built=000001D098CD5980
+[WORKER] Queuing result cx=-8 cz=-5 gen=57 space=superchunk_terrain built=000001D098CD5980 results=1/768
+[WORKER] Meshing cx=-8 cz=-5 (persisted=0)
+[WORKER] Mesh complete cx=-8 cz=-5 built=000001CFACE3A210
+[WORKER] Queuing result cx=-8 cz=-5 gen=59 space=superchunk_terrain built=000001CFACE3A210 results=1/768
+[WORKER] Processing job cx=-8 cz=-5 gen=75 space=superchunk_terrain type=GENERATE
+[STREAM] drop stale chunk (-8,-5) got_gen=57 want_gen=75 role=1
+ain type=GENERATE
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=92(P84/F8/T0/E0) jobs=346 results=1 primary=(0,-1) desired_sc=(0,-1) transition=0
+[WORKER] Mesh complete cx=-8 cz=-5 built=000001D098CF5990
+[WORKER] Queuing result cx=-8 cz=-5 gen=58 space=superchunk_terrain built=000001D098CF5990 results=1/768
+[WORKER] Meshing cx=-8 cz=-5 (persisted=0)
+[WORKER] Processing job cx=-8 cz=-5 gen=76 space=superchunk_terrain type=GENERATE
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=92(P84/F8/T0/E0) jobs=347 results=0 primary=(0,-1) desired_sc=(0,-1) transition=0
+[WORKER] Meshing cx=-8 cz=-5 (persisted=0)
+[WORKER] Meshing cx=-8 cz=-6 (persisted=0)
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=92(P84/F8/T0/E0) jobs=348 results=0 primary=(0,-1) desired_sc=(0,-1) transition=0
+[WORKER] Meshing cx=-8 cz=-5 (persisted=0)
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=92(P84/F8/T0/E0) jobs=348 results=0 primary=(0,-1) desired_sc=(0,-1) transition=0
+[WORKER] Mesh complete cx=-8 cz=-5 built=000001D098D02BC0
+[WORKER] Queuing result cx=-8 cz=-5 gen=61 space=superchunk_terrain built=000001D098D02BC0 results=0/768
+[STREAM] drop stale chunk (-8,-5) got_gen=61 want_gen=79 role=1
+ain type=GENERATE
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=92(P84/F8/T0/E0) jobs=347 results=0 primary=(0,-1) desired_sc=(0,-1) transition=0
+[WORKER] Meshing cx=-8 cz=-5 (persisted=0)
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=92(P84/F8/T0/E0) jobs=348 results=0 primary=(0,-1) desired_sc=(0,-1) transition=0
+[WORKER] Mesh complete cx=-8 cz=-5 built=000001D098D06310
+[WORKER] Queuing result cx=-8 cz=-5 gen=63 space=superchunk_terrain built=000001D098D06310 results=0/768
+[STREAM] drop stale chunk (-8,-5) got_gen=63 want_gen=81 role=1
+ain type=GENERATE
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=92(P84/F8/T0/E0) jobs=347 results=0 primary=(0,-1) desired_sc=(0,-1) transition=0
+[WORKER] Meshing cx=-8 cz=-5 (persisted=0)
+[WORKER] Mesh complete cx=-8 cz=-5 built=000001CFACE2DAF0
+[WORKER] Queuing result cx=-8 cz=-5 gen=64 space=superchunk_terrain built=000001CFACE2DAF0 results=0/768
+[WORKER] Processing job cx=-8 cz=-5 gen=82 space=superchunk_terrain type=GENERATE
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=92(P84/F8/T0/E0) jobs=347 results=1 primary=(0,-1) desired_sc=(0,-1) transition=0
+[WORKER] Mesh complete cx=-8 cz=-5 built=000001D03FA74CD0
+[WORKER] Queuing result cx=-8 cz=-5 gen=65 space=superchunk_terrain built=000001D03FA74CD0 results=1/768
+[WORKER] Meshing cx=-8 cz=-5 (persisted=0)
+[STREAM] drop stale chunk (-8,-5) got_gen=64 want_gen=83 role=1
+[WORKER] Processing job cx=-8 cz=-5 gen=83 space=superchunk_terrain type=GENERATE
+[WORKER] Meshing cx=-8 cz=-6 (persisted=0)
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=92(P84/F8/T0/E0) jobs=347 results=0 primary=(0,-1) desired_sc=(0,-1) transition=0
+[WORKER] Mesh complete cx=-8 cz=-6 built=000001D098CFA700
+[WORKER] Queuing result cx=-8 cz=-6 gen=65 space=superchunk_terrain built=000001D098CFA700 results=0/768
+[WORKER] Mesh complete cx=-8 cz=-5 built=000001CEA9504F20
+[WORKER] Processing job cx=-8 cz=-5 gen=84 space=superchunk_terrain type=GENERATE
+A9504F20 results=1/768
+[WORKER] Processing job cx=-8 cz=-6 gen=84 space=superchunk_terrain type=GENERATE
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=92(P84/F8/T0/E0) jobs=346 results=1 primary=(0,-1) desired_sc=(0,-1) transition=0
+[WORKER] Meshing cx=-8 cz=-5 (persisted=0)
+[STREAM] drop stale chunk (-8,-5) got_gen=66 want_gen=85 role=1
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=92(P84/F8/T0/E0) jobs=348 results=0 primary=(0,-1) desired_sc=(0,-1) transition=0
+[WORKER] Meshing cx=-8 cz=-6 (persisted=0)
+[WORKER] Mesh complete cx=-8 cz=-5 built=000001D098D036D0
+[WORKER] Queuing result cx=-8 cz=-5 gen=68 space=superchunk_terrain built=000001D098D036D0 results=0/768
+[WORKER] Processing job cx=-8 cz=-5 gen=86 space=superchunk_terrain type=GENERATE
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=92(P84/F8/T0/E0) jobs=347 results=1 primary=(0,-1) desired_sc=(0,-1) transition=0
+[WORKER] Meshing cx=-8 cz=-5 (persisted=0)
+[WORKER] Meshing cx=-8 cz=-5 (persisted=0)
+[STREAM] drop stale chunk (-8,-5) got_gen=68 want_gen=87 role=1
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=92(P84/F8/T0/E0) jobs=348 results=0 primary=(0,-1) desired_sc=(0,-1) transition=0
+[WORKER] Meshing cx=-8 cz=-6 (persisted=0)
+[WORKER] Mesh complete cx=-8 cz=-5 built=000001CFACE3A210
+[WORKER] Queuing result cx=-8 cz=-5 gen=70 space=superchunk_terrain built=000001CFACE3A210 results=0/768
+[WORKER] Meshing cx=-8 cz=-5 (persisted=0)
+[WORKER] Processing job cx=-8 cz=-5 gen=88 space=superchunk_terrain type=GENERATE
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=92(P84/F8/T0/E0) jobs=347 results=1 primary=(0,-1) desired_sc=(0,-1) transition=0
+[WORKER] Mesh complete cx=-8 cz=-6 built=000001CFACE2AEB0
+[WORKER] Queuing result cx=-8 cz=-6 gen=71 space=superchunk_terrain built=000001CFACE2AEB0 results=1/768
+[WORKER] Mesh complete cx=-8 cz=-5 built=000001D098CF6FB0
+[WORKER] Queuing result cx=-8 cz=-5 gen=71 space=superchunk_terrain built=000001D098CF6FB0 results=1/768
+[STREAM] drop stale chunk (-8,-5) got_gen=70 want_gen=89 role=1
+ain type=GENERATE
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=92(P84/F8/T0/E0) jobs=346 results=0 primary=(0,-1) desired_sc=(0,-1) transition=0
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=92(P84/F8/T0/E0) jobs=348 results=0 primary=(0,-1) desired_sc=(0,-1) transition=0
+[WORKER] Mesh complete cx=-8 cz=-5 built=000001CFACE21EE0
+[WORKER] Queuing result cx=-8 cz=-5 gen=73 space=superchunk_terrain built=000001CFACE21EE0 results=0/768
+[WORKER] Meshing cx=-8 cz=-5 (persisted=0)
+[WORKER] Processing job cx=-8 cz=-5 gen=91 space=superchunk_terrain type=GENERATE
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=92(P84/F8/T0/E0) jobs=347 results=1 primary=(0,-1) desired_sc=(0,-1) transition=0
+[WORKER] Mesh complete cx=-8 cz=-6 built=000001CFACE31D50
+[WORKER] Queuing result cx=-8 cz=-6 gen=73 space=superchunk_terrain built=000001CFACE31D50 results=1/768
+[STREAM] drop stale chunk (-8,-5) got_gen=73 want_gen=92 role=1
+ain type=GENERATE
+[WALL] HEALTH W=17/3/1 N=17/0/0 E=17/0/0 S=17/0/0 (desired/resident/ready)
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=92(P84/F8/T0/E0) jobs=347 results=0 primary=(0,-1) desired_sc=(0,-1) transition=0
+[WORKER] Mesh complete cx=-8 cz=-5 built=000001D098CF4370
+[WORKER] Queuing result cx=-8 cz=-5 gen=75 space=superchunk_terrain built=000001D098CF4370 results=0/768
+[WORKER] Meshing cx=-8 cz=-5 (persisted=0)
+[WORKER] Processing job cx=-8 cz=-5 gen=93 space=superchunk_terrain type=GENERATE
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=92(P84/F8/T0/E0) jobs=347 results=1 primary=(0,-1) desired_sc=(0,-1) transition=0
+[WORKER] Mesh complete cx=-8 cz=-5 built=000001D098CDB200
+[WORKER] Queuing result cx=-8 cz=-5 gen=74 space=superchunk_terrain built=000001D098CDB200 results=1/768
+[WORKER] Mesh complete cx=-8 cz=-6 built=000001CFACE3A210
+[WORKER] Queuing result cx=-8 cz=-6 gen=75 space=superchunk_terrain built=000001CFACE3A210 results=1/768
+[WORKER] Mesh complete cx=-8 cz=-5 built=000001CFACE405A0
+[WORKER] Queuing result cx=-8 cz=-5 gen=76 space=superchunk_terrain built=000001CFACE405A0 results=1/768
+[WORKER] Processing job cx=-6 cz=-10 gen=94 space=superchunk_ter[WORKER] Processing job cx=-8 cz=-6 gen=94 space=superchunk_terrain type=GENERATE
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=92(P84/F8/T0/E0) jobs=345 results=2 primary=(0,-1) desired_sc=(0,-1) transition=0
+[WORKER] Meshing cx=-8 cz=-5 (persisted=0)
+[WORKER] Meshing cx=-8 cz=-5 (persisted=0)
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=92(P84/F8/T0/E0) jobs=348 results=1 primary=(0,-1) desired_sc=(0,-1) transition=0
+[WORKER] Meshing cx=-8 cz=-5 (persisted=0)
+[WORKER] Meshing cx=-8 cz=-6 (persisted=0)
+[STREAM] drop stale chunk (-8,-5) got_gen=76 want_gen=96 role=1
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=92(P84/F8/T0/E0) jobs=348 results=0 primary=(0,-1) desired_sc=(0,-1) transition=0
+[WORKER] Mesh complete cx=-8 cz=-5 built=000001CEA9507B60
+[WORKER] Queuing result cx=-8 cz=-5 gen=79 space=superchunk_terrain built=000001CEA9507B60 results=0/768
+[WORKER] Processing job cx=-8 cz=-5 gen=97 space=superchunk_terrain type=GENERATE
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=92(P84/F8/T0/E0) jobs=347 results=0 primary=(0,-1) desired_sc=(0,-1) transition=0
+[WORKER] Meshing cx=-8 cz=-5 (persisted=0)
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=92(P84/F8/T0/E0) jobs=348 results=0 primary=(0,-1) desired_sc=(0,-1) transition=0
+[WORKER] Mesh complete cx=-8 cz=-5 built=000001D098CE57F0
+[WORKER] Queuing result cx=-8 cz=-5 gen=81 space=superchunk_terrain built=000001D098CE57F0 results=0/768
+[WORKER] Processing job cx=-8 cz=-5 gen=99 space=superchunk_terrain type=GENERATE
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=92(P84/F8/T0/E0) jobs=347 results=0 primary=(0,-1) desired_sc=(0,-1) transition=0
+[WORKER] Meshing cx=-8 cz=-5 (persisted=0)
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=92(P84/F8/T0/E0) jobs=348 results=0 primary=(0,-1) desired_sc=(0,-1) transition=0
+[WORKER] Mesh complete cx=-8 cz=-5 built=000001D03FA741C0
+[WORKER] Queuing result cx=-8 cz=-5 gen=83 space=superchunk_terrain built=000001D03FA741C0 results=0/768
+[WORKER] Mesh complete cx=-8 cz=-5 built=000001CFACE2F110
+[WORKER] Queuing result cx=-8 cz=-5 gen=82 space=superchunk_terrain built=000001CFACE2F110 results=0/768
+[WORKER] Meshing cx=-8 cz=-5 (persisted=0)
+[WORKER] Processing job cx=-8 cz=-5 gen=101 space=superchunk_terrain type=GENERATE
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=92(P84/F8/T0/E0) jobs=346 results=2 primary=(0,-1) desired_sc=(0,-1) transition=0
+[WORKER] Meshing cx=-8 cz=-6 (persisted=0)
+[WORKER] Mesh complete cx=-8 cz=-5 built=000001CFACE24010
+[WORKER] Queuing result cx=-8 cz=-5 gen=84 space=superchunk_terrain built=000001CFACE24010 results=2/768
+[WORKER] Mesh complete cx=-8 cz=-6 built=000001D098D06310
+[WORKER] Queuing result cx=-8 cz=-6 gen=84 space=superchunk_terrain built=000001D098D06310 results=2/768
+[WORKER] Processing job cx=-8 cz=-5 gen=102 space=superchunk_terrain type=GENERATE
+[WORKER] Processing job cx=-8 cz=-6 gen=102 space=superchunk_terrain type=GENERATE
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=92(P84/F8/T0/E0) jobs=346 results=2 primary=(0,-1) desired_sc=(0,-1) transition=0
+[WORKER] Meshing cx=-8 cz=-5 (persisted=0)
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=92(P84/F8/T0/E0) jobs=348 results=0 primary=(0,-1) desired_sc=(0,-1) transition=0
+[WORKER] Mesh complete cx=-8 cz=-5 built=000001CFACE21EE0
+[WORKER] Queuing result cx=-8 cz=-5 gen=86 space=superchunk_terrain built=000001CFACE21EE0 results=0/768
+[WORKER] Meshing cx=-8 cz=-5 (persisted=0)
+[WORKER] Processing job cx=-8 cz=-5 gen=104 space=superchunk_terrain type=GENERATE
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=92(P84/F8/T0/E0) jobs=347 results=1 primary=(0,-1) desired_sc=(0,-1) transition=0
+[WORKER] Meshing cx=-8 cz=-5 (persisted=0)
+[STREAM] drop stale chunk (-8,-5) got_gen=86 want_gen=105 role=1
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=92(P84/F8/T0/E0) jobs=348 results=0 primary=(0,-1) desired_sc=(0,-1) transition=0
+[WORKER] Meshing cx=-8 cz=-5 (persisted=0)
+[WORKER] Mesh complete cx=-8 cz=-5 built=000001D098CFBD20
+[WORKER] Queuing result cx=-8 cz=-5 gen=88 space=superchunk_terrain built=000001D098CFBD20 results=0/768
+[WORKER] Processing job cx=-8 cz=-5 gen=106 space=superchunk_terrain type=GENERATE
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=92(P84/F8/T0/E0) jobs=347 results=1 primary=(0,-1) desired_sc=(0,-1) transition=0
+[WORKER] Meshing cx=-8 cz=-6 (persisted=0)
+[WORKER] Mesh complete cx=-8 cz=-5 built=000001CEA9504F20
+[WORKER] Queuing result cx=-8 cz=-5 gen=89 space=superchunk_terrain built=000001CEA9504F20 results=1/768
+[WORKER] Processing job cx=-8 cz=-5 gen=107 space=superchunk_terrain type=GENERATE
+[STREAM] drop stale chunk (-8,-5) got_gen=88 want_gen=107 role=1
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=92(P84/F8/T0/E0) jobs=347 results=0 primary=(0,-1) desired_sc=(0,-1) transition=0
+[WORKER] Meshing cx=-6 cz=-10 (persisted=0)
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=92(P84/F8/T0/E0) jobs=348 results=0 primary=(0,-1) desired_sc=(0,-1) transition=0
+[WORKER] Mesh complete cx=-8 cz=-5 built=000001CF49B1D120
+[WORKER] Mesh complete cx=-8 cz=-6 built=000001CF49B1AFF0
+[WORKER] Queuing result cx=-8 cz=-5 gen=91 space=superchunk_terrain built=000001CF49B1D120 results=0/768
+[WORKER] Queuing result cx=-8 cz=-6 gen=89 space=superchunk_terrain built=000001CF49B1AFF0 results=0/768
+[WORKER] Meshing cx=-8 cz=-5 (persisted=0)
+[WORKER] Processing job cx=-8 cz=-5 gen=109 space=superchunk_terrain type=GENERATE
+[WORKER] Processing job cx=-8 cz=-6 gen=109 space=superchunk_terrain type=GENERATE
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=92(P84/F8/T0/E0) jobs=346 results=2 primary=(0,-1) desired_sc=(0,-1) transition=0
+[WORKER] Mesh complete cx=-8 cz=-5 built=000001D098CDB200
+[WORKER] Queuing result cx=-8 cz=-5 gen=92 space=superchunk_terrain built=000001D098CDB200 results=2/768
+[STREAM] drop stale chunk (-8,-5) got_gen=91 want_gen=110 role=1
+ain type=GENERATE
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=92(P84/F8/T0/E0) jobs=347 results=2 primary=(0,-1) desired_sc=(0,-1) transition=0
+[WORKER] Mesh complete cx=-8 cz=-5 built=000001D03FA6F450
+[WORKER] Queuing result cx=-8 cz=-5 gen=93 space=superchunk_terrain built=000001D03FA6F450 results=2/768
+[WORKER] Meshing cx=-8 cz=-5 (persisted=0)
+[WORKER] Processing job cx=-8 cz=-5 gen=111 space=superchunk_terrain type=GENERATE
+[WALL] HEALTH W=17/3/1 N=17/0/0 E=17/0/0 S=17/0/0 (desired/resident/ready)
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=92(P84/F8/T0/E0) jobs=347 results=1 primary=(0,-1) desired_sc=(0,-1) transition=0
+[WORKER] Mesh complete cx=-8 cz=-5 built=000001CF49B255E0
+[WORKER] Queuing result cx=-8 cz=-5 gen=94 space=superchunk_terrain built=000001CF49B255E0 results=1/768
+[WORKER] Processing job cx=-8 cz=-5 gen=112 space=superchunk_terrain type=GENERATE
+[STREAM] drop stale chunk (-8,-5) got_gen=93 want_gen=112 role=1
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=92(P84/F8/T0/E0) jobs=347 results=1 primary=(0,-1) desired_sc=(0,-1) transition=0
+[WORKER] Mesh complete cx=-8 cz=-6 built=000001D098D06E20
+[WORKER] Queuing result cx=-8 cz=-6 gen=94 space=superchunk_terrain built=000001D098D06E20 results=1/768
+[WORKER] Meshing cx=-8 cz=-5 (persisted=0)
+[WORKER] Processing job cx=-8 cz=-5 gen=113 space=superchunk_terrain type=GENERATE
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=92(P84/F8/T0/E0) jobs=347 results=0 primary=(0,-1) desired_sc=(0,-1) transition=0
+[WORKER] Meshing cx=-8 cz=-6 (persisted=0)
+[WORKER] Meshing cx=-8 cz=-5 (persisted=0)
+[WORKER] Meshing cx=-8 cz=-6 (persisted=0)
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=92(P84/F8/T0/E0) jobs=348 results=0 primary=(0,-1) desired_sc=(0,-1) transition=0
+[WORKER] Mesh complete cx=-6 cz=-10 built=000001D03FA736B0
+[WORKER] Queuing result cx=-6 cz=-10 gen=94 space=superchunk_terrain built=000001D03FA736B0 results=0/768
+[WORKER] Mesh complete cx=-8 cz=-5 built=000001CFACE2E600
+[WORKER] Queuing result cx=-8 cz=-5 gen=97 space=superchunk_terrain built=000001CFACE2E600 results=0/768
+[WORKER] Processing job cx=-8 cz=-6 gen=115 space=superchunk_terrain type=GENERATE
+[STREAM] drop stale chunk (-6,-10) got_gen=94 want_gen=115 role=1
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=92(P84/F8/T0/E0) jobs=346 results=0 primary=(0,-1) desired_sc=(0,-1) transition=0
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=92(P84/F8/T0/E0) jobs=348 results=0 primary=(0,-1) desired_sc=(0,-1) transition=0
+[WORKER] Meshing cx=-8 cz=-5 (persisted=0)
+[WORKER] Mesh complete cx=-8 cz=-5 built=000001D03FA741C0
+[WORKER] Queuing result cx=-8 cz=-5 gen=99 space=superchunk_terrain built=000001D03FA741C0 results=0/768
+[WORKER] Processing job cx=-8 cz=-5 gen=117 space=superchunk_terrain type=GENERATE
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=92(P84/F8/T0/E0) jobs=347 results=1 primary=(0,-1) desired_sc=(0,-1) transition=0
+[WORKER] Meshing cx=-8 cz=-5 (persisted=0)
+[STREAM] drop stale chunk (-8,-5) got_gen=99 want_gen=118 role=1
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=92(P84/F8/T0/E0) jobs=348 results=0 primary=(0,-1) desired_sc=(0,-1) transition=0
+[WORKER] Meshing cx=-8 cz=-5 (persisted=0)
+[WORKER] Mesh complete cx=-8 cz=-5 built=000001CFACE32860
+[WORKER] Queuing result cx=-8 cz=-5 gen=101 space=superchunk_terrain built=000001CFACE32860 results=0/768
+[WORKER] Processing job cx=-8 cz=-5 gen=119 space=superchunk_terrain type=GENERATE
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=92(P84/F8/T0/E0) jobs=347 results=1 primary=(0,-1) desired_sc=(0,-1) transition=0
+[WORKER] Mesh complete cx=-8 cz=-5 built=000001D098CEC690
+[WORKER] Queuing result cx=-8 cz=-5 gen=102 space=superchunk_terrain built=000001D098CEC690 results=1/768
+[WORKER] Mesh complete cx=-8 cz=-6 built=000001D098D08440
+[WORKER] Queuing result cx=-8 cz=-6 gen=101 space=superchunk_terrain built=000001D098D08440 results=1/768
+[WORKER] Processing job cx=-8 cz=-6 gen=120 space=superchunk_terrain type=GENERATE
+[STREAM] drop stale chunk (-8,-5) got_gen=101 want_gen=120 role=1
+in type=GENERATE
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=92(P84/F8/T0/E0) jobs=346 results=2 primary=(0,-1) desired_sc=(0,-1) transition=0
+[WORKER] Mesh complete cx=-8 cz=-6 built=000001CEA9509180
+[WORKER] Queuing result cx=-8 cz=-6 gen=102 space=superchunk_terrain built=000001CEA9509180 results=2/768
+[WORKER] Processing job cx=-8 cz=-5 gen=121 space=superchunk_terrain type=GENERATE
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=92(P84/F8/T0/E0) jobs=347 results=0 primary=(0,-1) desired_sc=(0,-1) transition=0
+[WORKER] Meshing cx=-8 cz=-5 (persisted=0)
+[WORKER] Meshing cx=-8 cz=-6 (persisted=0)
+[WORKER] Mesh complete cx=-8 cz=-5 built=000001D098D0DCC0
+[WORKER] Queuing result cx=-8 cz=-5 gen=104 space=superchunk_terrain built=000001D098D0DCC0 results=0/768
+[WORKER] Processing job cx=-8 cz=-5 gen=122 space=superchunk_terrain type=GENERATE
+[WORKER] Meshing cx=-8 cz=-5 (persisted=0)
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=92(P84/F8/T0/E0) jobs=347 results=1 primary=(0,-1) desired_sc=(0,-1) transition=0
+[WORKER] Meshing cx=-8 cz=-5 (persisted=0)
+[WORKER] Mesh complete cx=-8 cz=-5 built=000001D098CE6E10
+[WORKER] Queuing result cx=-8 cz=-5 gen=106 space=superchunk_terrain built=000001D098CE6E10 results=1/768
+[WORKER] Processing job cx=-8 cz=-5 gen=123 space=superchunk_terrain type=GENERATE
+[STREAM] drop stale chunk (-8,-5) got_gen=104 want_gen=123 role=1
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=92(P84/F8/T0/E0) jobs=347 results=1 primary=(0,-1) desired_sc=(0,-1) transition=0
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=92(P84/F8/T0/E0) jobs=348 results=0 primary=(0,-1) desired_sc=(0,-1) transition=0
+[WORKER] Mesh complete cx=-8 cz=-5 built=000001D098CE6E10
+[WORKER] Queuing result cx=-8 cz=-5 gen=107 space=superchunk_terrain built=000001D098CE6E10 results=0/768
+[WORKER] Meshing cx=-8 cz=-5 (persisted=0)
+[WORKER] Processing job cx=-8 cz=-5 gen=125 space=superchunk_terrain type=GENERATE
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=92(P84/F8/T0/E0) jobs=347 results=1 primary=(0,-1) desired_sc=(0,-1) transition=0
+[STREAM] drop stale chunk (-8,-5) got_gen=107 want_gen=126 role=1
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=92(P84/F8/T0/E0) jobs=348 results=0 primary=(0,-1) desired_sc=(0,-1) transition=0
+[WORKER] Meshing cx=-8 cz=-5 (persisted=0)
+[WORKER] Meshing cx=-8 cz=-6 (persisted=0)
+[WORKER] Mesh complete cx=-8 cz=-5 built=000001CFACE26C50
+[WORKER] Queuing result cx=-8 cz=-5 gen=110 space=superchunk_terrain built=000001CFACE26C50 results=0/768
+[WORKER] Processing job cx=-8 cz=-5 gen=127 space=superchunk_terrain type=GENERATE
+[WORKER] Mesh complete cx=-8 cz=-5 built=000001CFACE28270
+[WORKER] Queuing result cx=-8 cz=-5 gen=109 space=superchunk_terrain built=000001CFACE28270 results=1/768
+[WORKER] Processing job cx=-8 cz=-6 gen=127 space=superchunk_terrain type=GENERATE
+[WORKER] Mesh complete cx=-8 cz=-6 built=000001CFACE26140
+[WORKER] Queuing result cx=-8 cz=-6 gen=109 space=superchunk_terrain built=000001CFACE26140 results=2/768
+[WORKER] Processing job cx=-6 cz=-10 gen=127 space=superchunk_terrain type=GENERATE
+[WORKER] Mesh complete cx=-8 cz=-5 built=000001CFACE2AEB0
+[WORKER] Queuing result cx=-8 cz=-5 gen=111 space=superchunk_terrain built=000001CFACE2AEB0 results=3/768
+[WORKER] Processing job cx=-8 cz=-7 gen=127 space=superchunk_terrain type=GENERATE
+[WORKER] Meshing cx=-8 cz=-5 (persisted=0)
+[WORKER] Mesh complete cx=-8 cz=-5 built=000001CFACE29890
+[WORKER] Queuing result cx=-8 cz=-5 gen=113 space=superchunk_terrain built=000001CFACE29890 results=4/768
+[WORKER] Processing job cx=-5 cz=-11 gen=127 space=superchunk_terrain type=GENERATE
+[WORKER] Mesh complete cx=-8 cz=-5 built=000001CFACE2F110
+[WORKER] Queuing result cx=-8 cz=-5 gen=112 space=superchunk_terrain built=000001CFACE2F110 results=5/768
+[WORKER] Processing job cx=-7 cz=-9 gen=127 space=superchunk_terrain type=GENERATE
+[WORKER] Meshing cx=-8 cz=-5 (persisted=0)
+[WORKER] Meshing cx=-8 cz=-5 (persisted=0)
+[WORKER] Meshing cx=-8 cz=-6 (persisted=0)
+[WORKER] Mesh complete cx=-8 cz=-6 built=000001CFACE2E600
+[WORKER] Queuing result cx=-8 cz=-6 gen=115 space=superchunk_terrain built=000001CFACE2E600 results=6/768
+[WORKER] Processing job cx=-8 cz=-8 gen=127 space=superchunk_terrain type=GENERATE
+[WORKER] Meshing cx=-8 cz=-5 (persisted=0)
+[WORKER] Mesh complete cx=-8 cz=-5 built=000001CFACE30730
+[WORKER] Queuing result cx=-8 cz=-5 gen=115 space=superchunk_terrain built=000001CFACE30730 results=7/768
+[WORKER] Processing job cx=-4 cz=-12 gen=127 space=superchunk_terrain type=GENERATE
+[WORKER] Meshing cx=-8 cz=-5 (persisted=0)
+[WORKER] Mesh complete cx=-8 cz=-5 built=000001CFACE31240
+[WORKER] Queuing result cx=-8 cz=-5 gen=117 space=superchunk_terrain built=000001CFACE31240 results=8/768
+[WORKER] Processing job cx=-9 cz=-4 gen=127 space=superchunk_terrain type=GENERATE
+[WORKER] Meshing cx=-8 cz=-5 (persisted=0)
+[WORKER] Mesh complete cx=-8 cz=-5 built=000001CFACE34990
+[WORKER] Queuing result cx=-8 cz=-5 gen=119 space=superchunk_terrain built=000001CFACE34990 results=9/768
+[WORKER] Processing job cx=-9 cz=-3 gen=127 space=superchunk_terrain type=GENERATE
+[WORKER] Mesh complete cx=-8 cz=-6 built=000001CFACE33370
+[WORKER] Queuing result cx=-8 cz=-6 gen=120 space=superchunk_terrain built=000001CFACE33370 results=10/768
+[WORKER] Processing job cx=-9 cz=-5 gen=127 space=superchunk_terrain type=GENERATE
+[WORKER] Meshing cx=-8 cz=-5 (persisted=0)
+[WORKER] Mesh complete cx=-8 cz=-5 built=000001CFACE380E0
+[WORKER] Queuing result cx=-8 cz=-5 gen=120 space=superchunk_terrain built=000001CFACE380E0 results=11/768
+[WORKER] Processing job cx=-9 cz=-2 gen=127 space=superchunk_terrain type=GENERATE
+[WORKER] Mesh complete cx=-8 cz=-5 built=000001CFACE38BF0
+[WORKER] Queuing result cx=-8 cz=-5 gen=121 space=superchunk_terrain built=000001CFACE38BF0 results=12/768
+[WORKER] Processing job cx=-9 cz=-6 gen=127 space=superchunk_terrain type=GENERATE
+[WORKER] Meshing cx=-8 cz=-6 (persisted=0)
+[WORKER] Meshing cx=-8 cz=-5 (persisted=0)
+[WORKER] Mesh complete cx=-8 cz=-5 built=000001CFACE28D80
+[WORKER] Queuing result cx=-8 cz=-5 gen=123 space=superchunk_terrain built=000001CFACE28D80 results=13/768
+[WORKER] Processing job cx=-7 cz=-10 gen=127 space=superchunk_terrain type=GENERATE
+[WORKER] Mesh complete cx=-8 cz=-5 built=000001CFACE36AC0
+[WORKER] Queuing result cx=-8 cz=-5 gen=122 space=superchunk_terrain built=000001CFACE36AC0 results=14/768
+[WORKER] Processing job cx=-6 cz=-11 gen=127 space=superchunk_terrain type=GENERATE
+[WORKER] Meshing cx=-6 cz=-10 (persisted=0)
+[WORKER] Meshing cx=-8 cz=-7 (persisted=0)
+[WORKER] Mesh complete cx=-8 cz=-5 built=000001CFACE2B9C0
+[WORKER] Queuing result cx=-8 cz=-5 gen=125 space=superchunk_terrain built=000001CFACE2B9C0 results=15/768
+[WORKER] Processing job cx=-8 cz=-9 gen=127 space=superchunk_terrain type=GENERATE
+[WORKER] Meshing cx=-7 cz=-9 (persisted=0)
+[WORKER] Meshing cx=-5 cz=-11 (persisted=0)
+[WORKER] Mesh complete cx=-8 cz=-6 built=000001CFACE2FC20
+[WORKER] Queuing result cx=-8 cz=-6 gen=127 space=superchunk_terrain built=000001CFACE2FC20 results=16/768
+[WORKER] Processing job cx=-5 cz=-12 gen=127 space=superchunk_terrain type=GENERATE
+[WORKER] Meshing cx=-8 cz=-8 (persisted=0)
+[WORKER] Mesh complete cx=-8 cz=-5 built=000001CFACE2CFE0
+[WORKER] Queuing result cx=-8 cz=-5 gen=127 space=superchunk_terrain built=000001CFACE2CFE0 results=17/768
+[WORKER] Processing job cx=-9 cz=-1 gen=127 space=superchunk_terrain type=GENERATE
+[WORKER] Meshing cx=-9 cz=-4 (persisted=0)
+[WORKER] Mesh complete cx=-6 cz=-10 built=000001CFACE32860
+[WORKER] Queuing result cx=-6 cz=-10 gen=127 space=superchunk_terrain built=000001CFACE32860 results=18/768
+[WORKER] Processing job cx=-3 cz=-13 gen=127 space=superchunk_terrain type=GENERATE
+[WORKER] Mesh complete cx=-8 cz=-7 built=000001CFACE3B830
+[WORKER] Queuing result cx=-8 cz=-7 gen=127 space=superchunk_terrain built=000001CFACE3B830 results=19/768
+[WORKER] Processing job cx=-9 cz=-7 gen=127 space=superchunk_terrain type=GENERATE
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=93(P84/F9/T0/E0) jobs=328 results=20 primary=(0,-1) desired_sc=(0,-1) transition=0
+[WORKER] Meshing cx=-4 cz=-12 (persisted=0)
+[WORKER] Meshing cx=-9 cz=-3 (persisted=0)
+[STREAM] drop stale chunk (-8,-5) got_gen=110 want_gen=128 role=1
+[WALL] HEALTH W=17/4/1 N=17/0/0 E=17/0/0 S=17/0/0 (desired/resident/ready)
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=93(P84/F9/T0/E0) jobs=347 results=19 primary=(0,-1) desired_sc=(0,-1) transition=0
+[WORKER] Meshing cx=-9 cz=-2 (persisted=0)
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=93(P84/F9/T0/E0) jobs=347 results=16 primary=(0,-1) desired_sc=(0,-1) transition=0
+[WORKER] Meshing cx=-9 cz=-5 (persisted=0)
+[WORKER] Mesh complete cx=-7 cz=-9 built=000001CEA9508670
+[WORKER] Queuing result cx=-7 cz=-9 gen=127 space=superchunk_terrain built=000001CEA9508670 results=16/768
+[WORKER] Processing job cx=-8 cz=-5 gen=130 space=superchunk_terrain type=GENERATE
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=93(P84/F9/T0/E0) jobs=346 results=15 primary=(0,-1) desired_sc=(0,-1) transition=0
+[WORKER] Mesh complete cx=-5 cz=-11 built=000001D098D0A570
+[WORKER] Queuing result cx=-5 cz=-11 gen=127 space=superchunk_terrain built=000001D098D0A570 results=15/768
+[WORKER] Meshing cx=-9 cz=-6 (persisted=0)
+[WORKER] Processing job cx=-8 cz=-5 gen=131 space=superchunk_terrain type=GENERATE
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=93(P84/F9/T0/E0) jobs=346 results=13 primary=(0,-1) desired_sc=(0,-1) transition=0
+[WORKER] Mesh complete cx=-8 cz=-8 built=000001CF49B21380
+[WORKER] Queuing result cx=-8 cz=-8 gen=127 space=superchunk_terrain built=000001CF49B21380 results=13/768
+[WORKER] Mesh complete cx=-9 cz=-4 built=000001CFACE2E600
+[WORKER] Queuing result cx=-9 cz=-4 gen=127 space=superchunk_terrain built=000001CFACE2E600 results=13/768
+[WORKER] Processing job cx=-8 cz=-5 gen=132 space=superchunk_terrain type=GENERATE
+[WORKER] Processing job cx=-8 cz=-6 gen=132 space=superchunk_terrain type=GENERATE
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=93(P84/F9/T0/E0) jobs=345 results=13 primary=(0,-1) desired_sc=(0,-1) transition=0
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=93(P84/F9/T0/E0) jobs=347 results=10 primary=(0,-1) desired_sc=(0,-1) transition=0
+[WORKER] Meshing cx=-7 cz=-10 (persisted=0)
+[STREAM] drop stale chunk (-8,-5) got_gen=122 want_gen=134 role=1
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=93(P84/F9/T0/E0) jobs=347 results=8 primary=(0,-1) desired_sc=(0,-1) transition=0
+[WORKER] Meshing cx=-6 cz=-11 (persisted=0)
+[WORKER] Mesh complete cx=-9 cz=-3 built=000001D098CE41D0
+[WORKER] Queuing result cx=-9 cz=-3 gen=127 space=superchunk_terrain built=000001D098CE41D0 results=8/768
+[WORKER] Processing job cx=-8 cz=-5 gen=135 space=superchunk_terrain type=GENERATE
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=93(P84/F9/T0/E0) jobs=346 results=6 primary=(0,-1) desired_sc=(0,-1) transition=0
+[WORKER] Mesh complete cx=-9 cz=-2 built=000001CEA950A7A0
+[WORKER] Queuing result cx=-9 cz=-2 gen=127 space=superchunk_terrain built=000001CEA950A7A0 results=6/768
+[WORKER] Mesh complete cx=-4 cz=-12 built=000001D098CE20A0
+[WORKER] Queuing result cx=-4 cz=-12 gen=127 space=superchunk_terrain built=000001D098CE20A0 results=6/768
+[WORKER] Processing job cx=-8 cz=-5 gen=136 space=superchunk_terrain type=GENERATE
+[STREAM] drop stale chunk (-8,-7) got_gen=127 want_gen=136 role=1
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=93(P84/F9/T0/E0) jobs=345 results=6 primary=(0,-1) desired_sc=(0,-1) transition=0
+[WORKER] Mesh complete cx=-9 cz=-5 built=000001D098CEDCB0
+[WORKER] Queuing result cx=-9 cz=-5 gen=127 space=superchunk_terrain built=000001D098CEDCB0 results=6/768
+[WORKER] Meshing cx=-8 cz=-9 (persisted=0)
+[WORKER] Processing job cx=-8 cz=-5 gen=137 space=superchunk_terrain type=GENERATE
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=93(P84/F9/T0/E0) jobs=346 results=5 primary=(0,-1) desired_sc=(0,-1) transition=0
+[WORKER] Mesh complete cx=-9 cz=-6 built=000001D098D0A570
+[WORKER] Queuing result cx=-9 cz=-6 gen=127 space=superchunk_terrain built=000001D098D0A570 results=5/768
+[WORKER] Processing job cx=-8 cz=-5 gen=138 space=superchunk_terrain type=GENERATE
+[STREAM] drop stale chunk (-9,-4) got_gen=127 want_gen=138 role=1
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=93(P84/F9/T0/E0) jobs=346 results=4 primary=(0,-1) desired_sc=(0,-1) transition=0
+[WORKER] Meshing cx=-9 cz=-1 (persisted=0)
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=93(P84/F9/T0/E0) jobs=347 results=1 primary=(0,-1) desired_sc=(0,-1) transition=0
+[STREAM] drop stale chunk (-9,-6) got_gen=127 want_gen=140 role=1
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=93(P84/F9/T0/E0) jobs=347 results=0 primary=(0,-1) desired_sc=(0,-1) transition=0
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=93(P84/F9/T0/E0) jobs=347 results=0 primary=(0,-1) desired_sc=(0,-1) transition=0
+[WORKER] Mesh complete cx=-7 cz=-10 built=000001CFACE28D80
+[WORKER] Queuing result cx=-7 cz=-10 gen=127 space=superchunk_terrain built=000001CFACE28D80 results=0/768
+[WORKER] Meshing cx=-5 cz=-12 (persisted=0)
+[WORKER] Meshing cx=-9 cz=-7 (persisted=0)
+[WORKER] Processing job cx=-8 cz=-5 gen=142 space=superchunk_terrain type=GENERATE
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=93(P84/F9/T0/E0) jobs=346 results=1 primary=(0,-1) desired_sc=(0,-1) transition=0
+[WORKER] Mesh complete cx=-6 cz=-11 built=000001D098D0D1B0
+[WORKER] Queuing result cx=-6 cz=-11 gen=127 space=superchunk_terrain built=000001D098D0D1B0 results=1/768
+[STREAM] drop stale chunk (-7,-10) got_gen=127 want_gen=143 role=1
+[WORKER] Processing job cx=-8 cz=-5 gen=143 space=superchunk_terrain type=GENERATE
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=93(P84/F9/T0/E0) jobs=346 results=0 primary=(0,-1) desired_sc=(0,-1) transition=0
+[WORKER] Meshing cx=-3 cz=-13 (persisted=0)
+[WORKER] Mesh complete cx=-8 cz=-9 built=000001D098CEA560
+[WORKER] Queuing result cx=-8 cz=-9 gen=127 space=superchunk_terrain built=000001D098CEA560 results=0/768
+[WORKER] Meshing cx=-8 cz=-5 (persisted=0)
+[WORKER] Processing job cx=-8 cz=-5 gen=144 space=superchunk_terrain type=GENERATE
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=93(P84/F9/T0/E0) jobs=346 results=1 primary=(0,-1) desired_sc=(0,-1) transition=0
+[WORKER] Meshing cx=-8 cz=-5 (persisted=0)
+[WORKER] Mesh complete cx=-9 cz=-1 built=000001D098D0E7D0
+[WORKER] Queuing result cx=-9 cz=-1 gen=127 space=superchunk_terrain built=000001D098D0E7D0 results=1/768
+[WORKER] Processing job cx=-8 cz=-5 gen=145 space=superchunk_terrain type=GENERATE
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=93(P84/F9/T0/E0) jobs=346 results=0 primary=(0,-1) desired_sc=(0,-1) transition=0
+[WORKER] Meshing cx=-8 cz=-5 (persisted=0)
+[WORKER] Meshing cx=-8 cz=-6 (persisted=0)
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=93(P84/F9/T0/E0) jobs=347 results=0 primary=(0,-1) desired_sc=(0,-1) transition=0
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=93(P84/F9/T0/E0) jobs=347 results=0 primary=(0,-1) desired_sc=(0,-1) transition=0
+[WORKER] Meshing cx=-8 cz=-5 (persisted=0)
+[WORKER] Mesh complete cx=-9 cz=-7 built=000001D098D07930
+[WORKER] Queuing result cx=-9 cz=-7 gen=127 space=superchunk_terrain built=000001D098D07930 results=0/768
+[WORKER] Processing job cx=-8 cz=-5 gen=148 space=superchunk_terrain type=GENERATE
+[WALL] HEALTH W=17/4/1 N=17/0/0 E=17/0/0 S=17/0/0 (desired/resident/ready)
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=93(P84/F9/T0/E0) jobs=346 results=1 primary=(0,-1) desired_sc=(0,-1) transition=0
+[WORKER] Mesh complete cx=-5 cz=-12 built=000001D098D0DCC0
+[WORKER] Queuing result cx=-5 cz=-12 gen=127 space=superchunk_terrain built=000001D098D0DCC0 results=1/768
+[WORKER] Meshing cx=-8 cz=-5 (persisted=0)
+[STREAM] drop stale chunk (-9,-7) got_gen=127 want_gen=149 role=1
+in type=GENERATE
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=93(P84/F9/T0/E0) jobs=346 results=1 primary=(0,-1) desired_sc=(0,-1) transition=0
+[WORKER] Meshing cx=-8 cz=-6 (persisted=0)
+[WORKER] Meshing cx=-8 cz=-5 (persisted=0)
+[WORKER] Mesh complete cx=-8 cz=-5 built=000001D098CEDCB0
+[WORKER] Queuing result cx=-8 cz=-5 gen=130 space=superchunk_terrain built=000001D098CEDCB0 results=1/768
+[WORKER] Processing job cx=-8 cz=-5 gen=150 space=superchunk_terrain type=GENERATE
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=93(P84/F9/T0/E0) jobs=346 results=0 primary=(0,-1) desired_sc=(0,-1) transition=0
+[WORKER] Meshing cx=-8 cz=-5 (persisted=0)
+[WORKER] Mesh complete cx=-3 cz=-13 built=000001D098CE57F0
+[WORKER] Queuing result cx=-3 cz=-13 gen=127 space=superchunk_terrain built=000001D098CE57F0 results=0/768
+[WORKER] Mesh complete cx=-8 cz=-5 built=000001D098CEE7C0
+[WORKER] Queuing result cx=-8 cz=-5 gen=131 space=superchunk_terrain built=000001D098CEE7C0 results=0/768
+[WORKER] Processing job cx=-8 cz=-6 gen=151 space=superchunk_terrain type=GENERATE
+[WORKER] Processing job cx=-8 cz=-5 gen=151 space=superchunk_terrain type=GENERATE
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=93(P84/F9/T0/E0) jobs=345 results=2 primary=(0,-1) desired_sc=(0,-1) transition=0
+[WORKER] Mesh complete cx=-8 cz=-5 built=000001D098CFBD20
+[WORKER] Queuing result cx=-8 cz=-5 gen=132 space=superchunk_terrain built=000001D098CFBD20 results=2/768
+[WORKER] Mesh complete cx=-8 cz=-6 built=000001CF49B1AFF0
+[WORKER] Queuing result cx=-8 cz=-6 gen=132 space=superchunk_terrain built=000001CF49B1AFF0 results=2/768
+[WORKER] Processing job cx=-8 cz=-5 gen=152 space=superchunk_terrain type=GENERATE
+[WORKER] Processing job cx=-8 cz=-6 gen=152 space=superchunk_terrain type=GENERATE
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=93(P84/F9/T0/E0) jobs=345 results=2 primary=(0,-1) desired_sc=(0,-1) transition=0
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=93(P84/F9/T0/E0) jobs=347 results=0 primary=(0,-1) desired_sc=(0,-1) transition=0
+[WORKER] Mesh complete cx=-8 cz=-5 built=000001CFACE375D0
+[WORKER] Queuing result cx=-8 cz=-5 gen=135 space=superchunk_terrain built=000001CFACE375D0 results=0/768
+[STREAM] drop stale chunk (-8,-5) got_gen=135 want_gen=154 role=1
+[WORKER] Processing job cx=-8 cz=-5 gen=154 space=superchunk_terrain type=GENERATE
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=93(P84/F9/T0/E0) jobs=346 results=0 primary=(0,-1) desired_sc=(0,-1) transition=0
+[WORKER] Meshing cx=-8 cz=-5 (persisted=0)
+[WORKER] Mesh complete cx=-8 cz=-5 built=000001D098CED1A0
+[WORKER] Queuing result cx=-8 cz=-5 gen=136 space=superchunk_terrain built=000001D098CED1A0 results=0/768
+[WORKER] Processing job cx=-8 cz=-5 gen=155 space=superchunk_terrain type=GENERATE
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=93(P84/F9/T0/E0) jobs=346 results=1 primary=(0,-1) desired_sc=(0,-1) transition=0
+[WORKER] Meshing cx=-8 cz=-5 (persisted=0)
+[WORKER] Mesh complete cx=-8 cz=-5 built=000001D098CE8430
+[WORKER] Queuing result cx=-8 cz=-5 gen=137 space=superchunk_terrain built=000001D098CE8430 results=1/768
+[STREAM] drop stale chunk (-8,-5) got_gen=136 want_gen=156 role=1
+[WORKER] Processing job cx=-8 cz=-5 gen=156 space=superchunk_terrain type=GENERATE
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=93(P84/F9/T0/E0) jobs=346 results=0 primary=(0,-1) desired_sc=(0,-1) transition=0
+[WORKER] Mesh complete cx=-8 cz=-6 built=000001CF49B255E0
+[WORKER] Meshing cx=-8 cz=-5 (persisted=0)
+ space=superchunk_terrain built=000001CF49B255E0 results=0/768
+[WORKER] Mesh complete cx=-8 cz=-5 built=000001D098CFE960
+[WORKER] Queuing result cx=-8 cz=-5 gen=138 space=superchunk_terrain built=000001D098CFE960 results=0/768
+[WORKER] Meshing cx=-8 cz=-5 (persisted=0)
+[WORKER] Processing job cx=-8 cz=-6 gen=157 space=superchunk_terrain type=GENERATE
+[WORKER] Processing job cx=-8 cz=-5 gen=157 space=superchunk_terrain type=GENERATE
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=93(P84/F9/T0/E0) jobs=345 results=2 primary=(0,-1) desired_sc=(0,-1) transition=0
+[STREAM] drop stale chunk (-8,-6) got_gen=136 want_gen=158 role=1
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=93(P84/F9/T0/E0) jobs=347 results=0 primary=(0,-1) desired_sc=(0,-1) transition=0
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=93(P84/F9/T0/E0) jobs=347 results=0 primary=(0,-1) desired_sc=(0,-1) transition=0
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=93(P84/F9/T0/E0) jobs=347 results=0 primary=(0,-1) desired_sc=(0,-1) transition=0
+[WORKER] Meshing cx=-8 cz=-5 (persisted=0)
+[WORKER] Mesh complete cx=-8 cz=-5 built=000001D098CDBD10
+[WORKER] Queuing result cx=-8 cz=-5 gen=142 space=superchunk_terrain built=000001D098CDBD10 results=0/768
+[WORKER] Processing job cx=-8 cz=-5 gen=161 space=superchunk_terrain type=GENERATE
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=93(P84/F9/T0/E0) jobs=346 results=1 primary=(0,-1) desired_sc=(0,-1) transition=0
+[WORKER] Meshing cx=-8 cz=-5 (persisted=0)
+[WORKER] Mesh complete cx=-8 cz=-5 built=000001D098CE1590
+[WORKER] Queuing result cx=-8 cz=-5 gen=143 space=superchunk_terrain built=000001D098CE1590 results=1/768
+[WORKER] Processing job cx=-8 cz=-5 gen=162 space=superchunk_terrain type=GENERATE
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=93(P84/F9/T0/E0) jobs=346 results=0 primary=(0,-1) desired_sc=(0,-1) transition=0
+[WORKER] Mesh complete cx=-8 cz=-5 built=000001D098CE57F0
+[WORKER] Queuing result cx=-8 cz=-5 gen=144 space=superchunk_terrain built=000001D098CE57F0 results=0/768
+[WORKER] Meshing cx=-8 cz=-5 (persisted=0)
+[WORKER] Mesh complete cx=-8 cz=-5 built=000001D098D020B0
+[WORKER] Queuing result cx=-8 cz=-5 gen=145 space=superchunk_terrain built=000001D098D020B0 results=0/768
+[WORKER] Processing job cx=-8 cz=-5 gen=163 space=superchunk_terrain type=GENERATE
+[WORKER] Processing job cx=-8 cz=-6 gen=163 space=superchunk_terrain type=GENERATE
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=93(P84/F9/T0/E0) jobs=345 results=0 primary=(0,-1) desired_sc=(0,-1) transition=0
+[WORKER] Meshing cx=-8 cz=-5 (persisted=0)
+[WORKER] Meshing cx=-8 cz=-6 (persisted=0)
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=93(P84/F9/T0/E0) jobs=347 results=0 primary=(0,-1) desired_sc=(0,-1) transition=0
+[WORKER] Meshing cx=-8 cz=-5 (persisted=0)
+[WORKER] Meshing cx=-8 cz=-6 (persisted=0)
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=93(P84/F9/T0/E0) jobs=347 results=0 primary=(0,-1) desired_sc=(0,-1) transition=0
+[WORKER] Meshing cx=-8 cz=-5 (persisted=0)
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=93(P84/F9/T0/E0) jobs=347 results=0 primary=(0,-1) desired_sc=(0,-1) transition=0
+[WORKER] Mesh complete cx=-8 cz=-5 built=000001D098CD5980
+[WORKER] Queuing result cx=-8 cz=-5 gen=148 space=superchunk_terrain built=000001D098CD5980 results=0/768
+[WORKER] Processing job cx=-8 cz=-5 gen=167 space=superchunk_terrain type=GENERATE
+[WALL] HEALTH W=17/4/1 N=17/0/0 E=17/0/0 S=17/0/0 (desired/resident/ready)
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=93(P84/F9/T0/E0) jobs=346 results=0 primary=(0,-1) desired_sc=(0,-1) transition=0
+[WORKER] Meshing cx=-8 cz=-5 (persisted=0)
+[WORKER] Mesh complete cx=-8 cz=-5 built=000001D098CFC830
+[WORKER] Queuing result cx=-8 cz=-5 gen=149 space=superchunk_terrain built=000001D098CFC830 results=0/768
+[WORKER] Processing job cx=-8 cz=-5 gen=168 space=superchunk_terrain type=GENERATE
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=93(P84/F9/T0/E0) jobs=346 results=1 primary=(0,-1) desired_sc=(0,-1) transition=0
+[WORKER] Meshing cx=-8 cz=-5 (persisted=0)
+[WORKER] Mesh complete cx=-8 cz=-5 built=000001D098CF6FB0
+[WORKER] Queuing result cx=-8 cz=-5 gen=150 space=superchunk_terrain built=000001D098CF6FB0 results=1/768
+[STREAM] drop stale chunk (-8,-5) got_gen=149 want_gen=169 role=1
+[WORKER] Processing job cx=-8 cz=-5 gen=169 space=superchunk_terrain type=GENERATE
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=93(P84/F9/T0/E0) jobs=346 results=1 primary=(0,-1) desired_sc=(0,-1) transition=0
+[WORKER] Meshing cx=-8 cz=-6 (persisted=0)
+[WORKER] Meshing cx=-8 cz=-5 (persisted=0)
+[WORKER] Mesh complete cx=-8 cz=-6 built=000001D098CFA700
+[WORKER] Queuing result cx=-8 cz=-6 gen=151 space=superchunk_terrain built=000001D098CFA700 results=1/768
+[WORKER] Mesh complete cx=-8 cz=-5 built=000001D098D02BC0
+[WORKER] Queuing result cx=-8 cz=-5 gen=151 space=superchunk_terrain built=000001D098D02BC0 results=1/768
+[WORKER] Processing job cx=-8 cz=-5 gen=170 space=superchunk_terrain type=GENERATE
+[WORKER] Processing job cx=-8 cz=-6 gen=170 space=superchunk_terrain type=GENERATE
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=93(P84/F9/T0/E0) jobs=345 results=0 primary=(0,-1) desired_sc=(0,-1) transition=0
+[WORKER] Mesh complete cx=-8 cz=-5 built=000001D098D07930
+[WORKER] Queuing result cx=-8 cz=-5 gen=152 space=superchunk_terrain built=000001D098D07930 results=0/768
+[WORKER] Mesh complete cx=-8 cz=-6 built=000001CFACE3A210
+[WORKER] Queuing result cx=-8 cz=-6 gen=152 space=superchunk_terrain built=000001CFACE3A210 results=0/768
+[WORKER] Processing job cx=-8 cz=-6 gen=171 space=superchunk_terrain type=GENERATE
+[WORKER] Processing job cx=-8 cz=-5 gen=171 space=superchunk_terrain type=GENERATE
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=93(P84/F9/T0/E0) jobs=345 results=2 primary=(0,-1) desired_sc=(0,-1) transition=0
+[WORKER] Mesh complete cx=-8 cz=-5 built=000001D098CF64A0
+[WORKER] Queuing result cx=-8 cz=-5 gen=154 space=superchunk_terrain built=000001D098CF64A0 results=2/768
+[WORKER] Processing job cx=-8 cz=-5 gen=172 space=superchunk_terrain type=GENERATE
+[STREAM] drop stale chunk (-8,-5) got_gen=152 want_gen=172 role=1
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=93(P84/F9/T0/E0) jobs=346 results=2 primary=(0,-1) desired_sc=(0,-1) transition=0
+[WORKER] Meshing cx=-8 cz=-5 (persisted=0)
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=93(P84/F9/T0/E0) jobs=347 results=0 primary=(0,-1) desired_sc=(0,-1) transition=0
+[WORKER] Mesh complete cx=-8 cz=-5 built=000001D098CF2D50
+[WORKER] Queuing result cx=-8 cz=-5 gen=155 space=superchunk_terrain built=000001D098CF2D50 results=0/768
+[STREAM] drop stale chunk (-8,-5) got_gen=155 want_gen=174 role=1
+in type=GENERATE
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=93(P84/F9/T0/E0) jobs=346 results=0 primary=(0,-1) desired_sc=(0,-1) transition=0
+[WORKER] Meshing cx=-8 cz=-5 (persisted=0)
+[WORKER] Meshing cx=-8 cz=-5 (persisted=0)
+[WORKER] Mesh complete cx=-8 cz=-5 built=000001D098CE36C0
+[WORKER] Queuing result cx=-8 cz=-5 gen=156 space=superchunk_terrain built=000001D098CE36C0 results=0/768
+[WORKER] Processing job cx=-8 cz=-5 gen=175 space=superchunk_terrain type=GENERATE
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=93(P84/F9/T0/E0) jobs=346 results=1 primary=(0,-1) desired_sc=(0,-1) transition=0
+[WORKER] Meshing cx=-8 cz=-6 (persisted=0)
+[WORKER] Mesh complete cx=-8 cz=-5 built=000001D098CE20A0
+[WORKER] Queuing result cx=-8 cz=-5 gen=157 space=superchunk_terrain built=000001D098CE20A0 results=1/768
+[WORKER] Processing job cx=-8 cz=-5 gen=176 space=superchunk_terrain type=GENERATE
+[STREAM] drop stale chunk (-8,-5) got_gen=156 want_gen=176 role=1
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=93(P84/F9/T0/E0) jobs=346 results=1 primary=(0,-1) desired_sc=(0,-1) transition=0
+[WORKER] Mesh complete cx=-8 cz=-6 built=000001CEA950B2B0
+[WORKER] Queuing result cx=-8 cz=-6 gen=157 space=superchunk_terrain built=000001CEA950B2B0 results=1/768
+[WORKER] Processing job cx=-8 cz=-5 gen=177 space=superchunk_terrain type=GENERATE
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=93(P84/F9/T0/E0) jobs=346 results=0 primary=(0,-1) desired_sc=(0,-1) transition=0
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=93(P84/F9/T0/E0) jobs=347 results=0 primary=(0,-1) desired_sc=(0,-1) transition=0
+[WORKER] Mesh complete cx=-8 cz=-5 built=000001D098CD2230
+[WORKER] Queuing result cx=-8 cz=-5 gen=161 space=superchunk_terrain built=000001D098CD2230 results=0/768
+[STREAM] drop stale chunk (-8,-5) got_gen=161 want_gen=179 role=1
+in type=GENERATE
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=93(P84/F9/T0/E0) jobs=346 results=0 primary=(0,-1) desired_sc=(0,-1) transition=0
+[WORKER] Meshing cx=-8 cz=-5 (persisted=0)
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=93(P84/F9/T0/E0) jobs=347 results=0 primary=(0,-1) desired_sc=(0,-1) transition=0
+[WORKER] Meshing cx=-8 cz=-5 (persisted=0)
+[WORKER] Mesh complete cx=-8 cz=-5 built=000001D098D07930
+[WORKER] Queuing result cx=-8 cz=-5 gen=163 space=superchunk_terrain built=000001D098D07930 results=0/768
+[WORKER] Mesh complete cx=-8 cz=-5 built=000001D098CE4CE0
+[WORKER] Queuing result cx=-8 cz=-5 gen=162 space=superchunk_terrain built=000001D098CE4CE0 results=0/768
+[WORKER] Processing job cx=-8 cz=-5 gen=181 space=superchunk_terrain type=GENERATE
+[WORKER] Processing job cx=-8 cz=-6 gen=181 space=superchunk_terrain type=GENERATE
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=93(P84/F9/T0/E0) jobs=345 results=2 primary=(0,-1) desired_sc=(0,-1) transition=0
+[WORKER] Meshing cx=-8 cz=-5 (persisted=0)
+[WORKER] Mesh complete cx=-8 cz=-6 built=000001D098D06310
+[WORKER] Queuing result cx=-8 cz=-6 gen=163 space=superchunk_terrain built=000001D098D06310 results=2/768
+[WORKER] Processing job cx=-8 cz=-5 gen=182 space=superchunk_terrain type=GENERATE
+[STREAM] drop stale chunk (-8,-5) got_gen=163 want_gen=182 role=1
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=93(P84/F9/T0/E0) jobs=346 results=2 primary=(0,-1) desired_sc=(0,-1) transition=0
+[WORKER] Meshing cx=-8 cz=-5 (persisted=0)
+[WORKER] Meshing cx=-8 cz=-6 (persisted=0)
+[WORKER] Meshing cx=-8 cz=-5 (persisted=0)
+d=440(P256/F180/T4) resident=93(P84/F9/T0/E0) jobs=347 results=0 primary=(0,-1) desired_sc=(0,-1) transition=0
+[WORKER] Meshing cx=-8 cz=-6 (persisted=0)
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=93(P84/F9/T0/E0) jobs=347 results=0 primary=(0,-1) desired_sc=(0,-1) transition=0
+[WORKER] Meshing cx=-8 cz=-5 (persisted=0)
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=93(P84/F9/T0/E0) jobs=347 results=0 primary=(0,-1) desired_sc=(0,-1) transition=0
+[WORKER] Mesh complete cx=-8 cz=-5 built=000001D098CE57F0
+[WORKER] Queuing result cx=-8 cz=-5 gen=167 space=superchunk_terrain built=000001D098CE57F0 results=0/768
+[STREAM] drop stale chunk (-8,-5) got_gen=167 want_gen=186 role=1
+[WORKER] Processing job cx=-8 cz=-5 gen=186 space=superchunk_terrain type=GENERATE
+[WALL] HEALTH W=17/4/1 N=17/0/0 E=17/0/0 S=17/0/0 (desired/resident/ready)
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=93(P84/F9/T0/E0) jobs=346 results=0 primary=(0,-1) desired_sc=(0,-1) transition=0
+[WORKER] Meshing cx=-8 cz=-5 (persisted=0)
+[WORKER] Mesh complete cx=-8 cz=-5 built=000001D098CF9BF0
+[WORKER] Queuing result cx=-8 cz=-5 gen=168 space=superchunk_terrain built=000001D098CF9BF0 results=0/768
+[WORKER] Processing job cx=-8 cz=-5 gen=187 space=superchunk_terrain type=GENERATE
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=93(P84/F9/T0/E0) jobs=346 results=1 primary=(0,-1) desired_sc=(0,-1) transition=0
+[WORKER] Mesh complete cx=-8 cz=-5 built=000001D098CF2240
+[WORKER] Queuing result cx=-8 cz=-5 gen=169 space=superchunk_terrain built=000001D098CF2240 results=1/768
+[WORKER] Meshing cx=-8 cz=-5 (persisted=0)
+[STREAM] drop stale chunk (-8,-5) got_gen=169 want_gen=188 role=1
+in type=GENERATE
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=93(P84/F9/T0/E0) jobs=346 results=0 primary=(0,-1) desired_sc=(0,-1) transition=0
+[WORKER] Meshing cx=-8 cz=-5 (persisted=0)
+[WORKER] Mesh complete cx=-8 cz=-5 built=000001CFACE2CFE0
+[WORKER] Queuing result cx=-8 cz=-5 gen=170 space=superchunk_terrain built=000001CFACE2CFE0 results=0/768
+[WORKER] Mesh complete cx=-8 cz=-6 built=000001D098CFBD20
+[WORKER] Queuing result cx=-8 cz=-6 gen=170 space=superchunk_terrain built=000001D098CFBD20 results=0/768
+[WORKER] Meshing cx=-8 cz=-5 (persisted=0)
+[WORKER] Processing job cx=-8 cz=-5 gen=189 space=superchunk_terrain type=GENERATE
+[WORKER] Processing job cx=-8 cz=-6 gen=189 space=superchunk_terrain type=GENERATE
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=93(P84/F9/T0/E0) jobs=345 results=2 primary=(0,-1) desired_sc=(0,-1) transition=0
+[WORKER] Mesh complete cx=-8 cz=-5 built=000001D098D06310
+[WORKER] Queuing result cx=-8 cz=-5 gen=171 space=superchunk_terrain built=000001D098D06310 results=2/768
+[WORKER] Mesh complete cx=-8 cz=-6 built=000001CFACE3FA90
+nk_terrain type=GENERATE
+[STREAM] drop stale chunk (-8,-5) got_gen=170 want_gen=190 role=1
+[WORKER] Queuing result cx=-8 cz=-6 gen=171 space=superchunk_terrain built=000001CFACE3FA90 results=2/768
+[WORKER] Processing job cx=-8 cz=-6 gen=190 space=superchunk_terrain type=GENERATE
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=93(P84/F9/T0/E0) jobs=345 results=3 primary=(0,-1) desired_sc=(0,-1) transition=0
+[WORKER] Mesh complete cx=-8 cz=-5 built=000001CFACE35FB0
+[WORKER] Queuing result cx=-8 cz=-5 gen=172 space=superchunk_terrain built=000001CFACE35FB0 results=3/768
+[WORKER] Meshing cx=-8 cz=-5 (persisted=0)
+[WORKER] Processing job cx=-8 cz=-5 gen=191 space=superchunk_terrain type=GENERATE
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=93(P84/F9/T0/E0) jobs=346 results=3 primary=(0,-1) desired_sc=(0,-1) transition=0
+[STREAM] drop stale chunk (-8,-5) got_gen=171 want_gen=192 role=1
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=93(P84/F9/T0/E0) jobs=347 results=0 primary=(0,-1) desired_sc=(0,-1) transition=0
+[WORKER] Meshing cx=-8 cz=-5 (persisted=0)
+[WORKER] Mesh complete cx=-8 cz=-5 built=000001D098CFBD20
+[WORKER] Queuing result cx=-8 cz=-5 gen=174 space=superchunk_terrain built=000001D098CFBD20 results=0/768
+[WORKER] Processing job cx=-8 cz=-5 gen=193 space=superchunk_terrain type=GENERATE
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=93(P84/F9/T0/E0) jobs=346 results=1 primary=(0,-1) desired_sc=(0,-1) transition=0
+[WORKER] Meshing cx=-8 cz=-6 (persisted=0)
+[WORKER] Mesh complete cx=-8 cz=-5 built=000001D098CF6FB0
+[WORKER] Queuing result cx=-8 cz=-5 gen=175 space=superchunk_terrain built=000001D098CF6FB0 results=1/768
+[WORKER] Meshing cx=-8 cz=-5 (persisted=0)
+[STREAM] drop stale chunk (-8,-5) got_gen=174 want_gen=194 role=1
+[WORKER] Processing job cx=-8 cz=-5 gen=194 space=superchunk_terrain type=GENERATE
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=93(P84/F9/T0/E0) jobs=346 results=0 primary=(0,-1) desired_sc=(0,-1) transition=0
+[WORKER] Mesh complete cx=-8 cz=-5 built=000001D098CED1A0
+[WORKER] Queuing result cx=-8 cz=-5 gen=176 space=superchunk_terrain built=000001D098CED1A0 results=0/768
+[WORKER] Processing job cx=-8 cz=-5 gen=195 space=superchunk_terrain type=GENERATE
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=93(P84/F9/T0/E0) jobs=346 results=0 primary=(0,-1) desired_sc=(0,-1) transition=0
+[WORKER] Mesh complete cx=-8 cz=-5 built=000001CFACE3EF80
+[WORKER] Queuing result cx=-8 cz=-5 gen=177 space=superchunk_terrain built=000001CFACE3EF80 results=0/768
+[WORKER] Processing job cx=-8 cz=-5 gen=196 space=superchunk_terrain type=GENERATE
+[STREAM] drop stale chunk (-8,-5) got_gen=177 want_gen=196 role=1
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=93(P84/F9/T0/E0) jobs=346 results=0 primary=(0,-1) desired_sc=(0,-1) transition=0
+[WORKER] Mesh complete cx=-8 cz=-5 built=000001D098CFF470
+[WORKER] Queuing result cx=-8 cz=-5 gen=179 space=superchunk_terrain built=000001D098CFF470 results=0/768
+[WORKER] Processing job cx=-8 cz=-5 gen=197 space=superchunk_terrain type=GENERATE
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=93(P84/F9/T0/E0) jobs=346 results=0 primary=(0,-1) desired_sc=(0,-1) transition=0
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=93(P84/F9/T0/E0) jobs=347 results=0 primary=(0,-1) desired_sc=(0,-1) transition=0
+[WORKER] Meshing cx=-8 cz=-5 (persisted=0)
+[WORKER] Mesh complete cx=-8 cz=-5 built=000001D098D0BB90
+[WORKER] Queuing result cx=-8 cz=-5 gen=181 space=superchunk_terrain built=000001D098D0BB90 results=0/768
+[WORKER] Meshing cx=-8 cz=-5 (persisted=0)
+[WORKER] Processing job cx=-8 cz=-5 gen=199 space=superchunk_terrain type=GENERATE
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=93(P84/F9/T0/E0) jobs=346 results=1 primary=(0,-1) desired_sc=(0,-1) transition=0
+[WORKER] Mesh complete cx=-8 cz=-5 built=000001D098CFF470
+[WORKER] Queuing result cx=-8 cz=-5 gen=182 space=superchunk_terrain built=000001D098CFF470 results=1/768
+[STREAM] drop stale chunk (-8,-5) got_gen=181 want_gen=200 role=1
+in type=GENERATE
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=93(P84/F9/T0/E0) jobs=346 results=0 primary=(0,-1) desired_sc=(0,-1) transition=0
+[WORKER] Mesh complete cx=-8 cz=-6 built=000001CEA9509C90
+[WORKER] Queuing result cx=-8 cz=-6 gen=181 space=superchunk_terrain built=000001CEA9509C90 results=0/768
+[WORKER] Meshing cx=-8 cz=-5 (persisted=0)
+[WORKER] Processing job cx=-8 cz=-5 gen=201 space=superchunk_terrain type=GENERATE
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=93(P84/F9/T0/E0) jobs=346 results=1 primary=(0,-1) desired_sc=(0,-1) transition=0
+[WORKER] Meshing cx=-8 cz=-5 (persisted=0)
+[WORKER] Meshing cx=-8 cz=-6 (persisted=0)
+[STREAM] drop stale chunk (-8,-6) got_gen=181 want_gen=202 role=1
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=93(P84/F9/T0/E0) jobs=347 results=0 primary=(0,-1) desired_sc=(0,-1) transition=0
+[WORKER] Meshing cx=-8 cz=-5 (persisted=0)
+[WORKER] Meshing cx=-8 cz=-6 (persisted=0)
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=93(P84/F9/T0/E0) jobs=347 results=0 primary=(0,-1) desired_sc=(0,-1) transition=0
+[WORKER] Meshing cx=-8 cz=-5 (persisted=0)
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=93(P84/F9/T0/E0) jobs=347 results=0 primary=(0,-1) desired_sc=(0,-1) transition=0
+[WORKER] Mesh complete cx=-8 cz=-5 built=000001CFACE2B9C0
+[WORKER] Queuing result cx=-8 cz=-5 gen=187 space=superchunk_terrain built=000001CFACE2B9C0 results=0/768
+[WORKER] Mesh complete cx=-8 cz=-5 built=000001D098D041E0
+[WORKER] Queuing result cx=-8 cz=-5 gen=186 space=superchunk_terrain built=000001D098D041E0 results=0/768
+[WORKER] Processing job cx=-8 cz=-6 gen=205 space=superchunk_terrain type=GENERATE
+[WORKER] Processing job cx=-8 cz=-5 gen=205 space=superchunk_terrain type=GENERATE
+[WALL] HEALTH W=17/4/1 N=17/0/0 E=17/0/0 S=17/0/0 (desired/resident/ready)
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=93(P84/F9/T0/E0) jobs=345 results=2 primary=(0,-1) desired_sc=(0,-1) transition=0
+[WORKER] Meshing cx=-8 cz=-5 (persisted=0)
+[STREAM] drop stale chunk (-8,-5) got_gen=187 want_gen=206 role=1
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=93(P84/F9/T0/E0) jobs=347 results=1 primary=(0,-1) desired_sc=(0,-1) transition=0
+[WORKER] Mesh complete cx=-8 cz=-5 built=000001D098CF7AC0
+[WORKER] Queuing result cx=-8 cz=-5 gen=188 space=superchunk_terrain built=000001D098CF7AC0 results=1/768
+[WORKER] Meshing cx=-8 cz=-5 (persisted=0)
+[WORKER] Processing job cx=-8 cz=-5 gen=207 space=superchunk_terrain type=GENERATE
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=93(P84/F9/T0/E0) jobs=346 results=0 primary=(0,-1) desired_sc=(0,-1) transition=0
+[WORKER] Meshing cx=-8 cz=-5 (persisted=0)
+[WORKER] Mesh complete cx=-8 cz=-5 built=000001D098CE6300
+[WORKER] Queuing result cx=-8 cz=-5 gen=189 space=superchunk_terrain built=000001D098CE6300 results=0/768
+[WORKER] Mesh complete cx=-8 cz=-6 built=000001D098D08440
+[WORKER] Queuing result cx=-8 cz=-6 gen=189 space=superchunk_terrain built=000001D098D08440 results=0/768
+[WORKER] Processing job cx=-8 cz=-5 gen=208 space=superchunk_terrain type=GENERATE
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=93(P84/F9/T0/E0) jobs=345 results=2 primary=(0,-1) desired_sc=(0,-1) transition=0
+[WORKER] Meshing cx=-8 cz=-5 (persisted=0)
+[WORKER] Mesh complete cx=-8 cz=-5 built=000001D098CF0C20
+[WORKER] Queuing result cx=-8 cz=-5 gen=190 space=superchunk_terrain built=000001D098CF0C20 results=2/768
+[WORKER] Mesh complete cx=-8 cz=-6 built=000001D098CFE960
+[WORKER] Queuing result cx=-8 cz=-6 gen=190 space=superchunk_terrain built=000001D098CFE960 results=2/768
+[STREAM] drop stale chunk (-8,-5) got_gen=189 want_gen=209 role=1
+[WORKER] Processing job cx=-8 cz=-6 gen=209 space=superchunk_terrain type=GENERATE
+[WORKER] Processing job cx=-8 cz=-5 gen=209 space=superchunk_terrain type=GENERATE
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=93(P84/F9/T0/E0) jobs=345 results=3 primary=(0,-1) desired_sc=(0,-1) transition=0
+[WORKER] Meshing cx=-8 cz=-5 (persisted=0)
+[WORKER] Mesh complete cx=-8 cz=-5 built=000001D098CFA700
+[WORKER] Queuing result cx=-8 cz=-5 gen=191 space=superchunk_terrain built=000001D098CFA700 results=3/768
+[WORKER] Processing job cx=-8 cz=-5 gen=210 space=superchunk_terrain type=GENERATE
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=93(P84/F9/T0/E0) jobs=346 results=2 primary=(0,-1) desired_sc=(0,-1) transition=0
+[STREAM] drop stale chunk (-8,-6) got_gen=190 want_gen=211 role=1
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=93(P84/F9/T0/E0) jobs=347 results=0 primary=(0,-1) desired_sc=(0,-1) transition=0
+[WORKER] Meshing cx=-8 cz=-5 (persisted=0)
+[WORKER] Mesh complete cx=-8 cz=-5 built=000001D098CFA700
+[WORKER] Queuing result cx=-8 cz=-5 gen=193 space=superchunk_terrain built=000001D098CFA700 results=0/768
+[WORKER] Meshing cx=-8 cz=-5 (persisted=0)
+[WORKER] Processing job cx=-8 cz=-5 gen=212 space=superchunk_terrain type=GENERATE
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=93(P84/F9/T0/E0) jobs=346 results=1 primary=(0,-1) desired_sc=(0,-1) transition=0
+[WORKER] Mesh complete cx=-8 cz=-5 built=000001D098D015A0
+[WORKER] Queuing result cx=-8 cz=-5 gen=194 space=superchunk_terrain built=000001D098D015A0 results=1/768
+[STREAM] drop stale chunk (-8,-5) got_gen=193 want_gen=213 role=1
+in type=GENERATE
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=93(P84/F9/T0/E0) jobs=346 results=0 primary=(0,-1) desired_sc=(0,-1) transition=0
+[WORKER] Mesh complete cx=-8 cz=-5 built=000001D098D04CF0
+[WORKER] Queuing result cx=-8 cz=-5 gen=195 space=superchunk_terrain built=000001D098D04CF0 results=0/768
+[WORKER] Meshing cx=-8 cz=-5 (persisted=0)
+[WORKER] Processing job cx=-8 cz=-5 gen=214 space=superchunk_terrain type=GENERATE
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=93(P84/F9/T0/E0) jobs=346 results=1 primary=(0,-1) desired_sc=(0,-1) transition=0
+[WORKER] Mesh complete cx=-8 cz=-5 built=000001D098CDB200
+[WORKER] Queuing result cx=-8 cz=-5 gen=196 space=superchunk_terrain built=000001D098CDB200 results=1/768
+[STREAM] drop stale chunk (-8,-5) got_gen=195 want_gen=215 role=1
+[WORKER] Processing job cx=-8 cz=-5 gen=215 space=superchunk_terrain type=GENERATE
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=93(P84/F9/T0/E0) jobs=346 results=0 primary=(0,-1) desired_sc=(0,-1) transition=0
+[WORKER] Mesh complete cx=-8 cz=-5 built=000001D098CD5980
+[WORKER] Queuing result cx=-8 cz=-5 gen=197 space=superchunk_terrain built=000001D098CD5980 results=0/768
+[WORKER] Processing job cx=-8 cz=-5 gen=216 space=superchunk_terrain type=GENERATE
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=93(P84/F9/T0/E0) jobs=346 results=0 primary=(0,-1) desired_sc=(0,-1) transition=0
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=93(P84/F9/T0/E0) jobs=347 results=0 primary=(0,-1) desired_sc=(0,-1) transition=0
+[WORKER] Meshing cx=-8 cz=-5 (persisted=0)
+[WORKER] Meshing cx=-8 cz=-6 (persisted=0)
+[WORKER] Mesh complete cx=-8 cz=-5 built=000001D098CDD330
+[WORKER] Queuing result cx=-8 cz=-5 gen=200 space=superchunk_terrain built=000001D098CDD330 results=0/768
+[WORKER] Mesh complete cx=-8 cz=-5 built=000001D098CDF460
+[WORKER] Queuing result cx=-8 cz=-5 gen=199 space=superchunk_terrain built=000001D098CDF460 results=0/768
+[WORKER] Processing job cx=-8 cz=-6 gen=218 space=superchunk_terrain type=GENERATE
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=93(P84/F9/T0/E0) jobs=345 results=2 primary=(0,-1) desired_sc=(0,-1) transition=0
+[STREAM] drop stale chunk (-8,-5) got_gen=200 want_gen=219 role=1
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=93(P84/F9/T0/E0) jobs=347 results=0 primary=(0,-1) desired_sc=(0,-1) transition=0
+[WORKER] Meshing cx=-8 cz=-5 (persisted=0)
+[WORKER] Mesh complete cx=-8 cz=-5 built=000001CFACE27760
+[WORKER] Queuing result cx=-8 cz=-5 gen=201 space=superchunk_terrain built=000001CFACE27760 results=0/768
+[WORKER] Processing job cx=-8 cz=-5 gen=220 space=superchunk_terrain type=GENERATE
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=93(P84/F9/T0/E0) jobs=346 results=1 primary=(0,-1) desired_sc=(0,-1) transition=0
+[WORKER] Meshing cx=-8 cz=-5 (persisted=0)
+[WORKER] Meshing cx=-8 cz=-6 (persisted=0)
+[STREAM] drop stale chunk (-8,-5) got_gen=201 want_gen=221 role=1
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=93(P84/F9/T0/E0) jobs=347 results=0 primary=(0,-1) desired_sc=(0,-1) transition=0
+[WORKER] Meshing cx=-8 cz=-5 (persisted=0)
+[WORKER] Meshing cx=-8 cz=-6 (persisted=0)
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=93(P84/F9/T0/E0) jobs=347 results=0 primary=(0,-1) desired_sc=(0,-1) transition=0
+[WORKER] Meshing cx=-8 cz=-5 (persisted=0)
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=93(P84/F9/T0/E0) jobs=347 results=0 primary=(0,-1) desired_sc=(0,-1) transition=0
+[WORKER] Mesh complete cx=-8 cz=-5 built=000001D098CF9BF0
+[WORKER] Queuing result cx=-8 cz=-5 gen=205 space=superchunk_terrain built=000001D098CF9BF0 results=0/768
+[WORKER] Mesh complete cx=-8 cz=-6 built=000001D098CD3850
+[WORKER] Queuing result cx=-8 cz=-6 gen=205 space=superchunk_terrain built=000001D098CD3850 results=0/768
+[WORKER] Processing job cx=-8 cz=-5 gen=224 space=superchunk_terrain type=GENERATE
+[WORKER] Processing job cx=-8 cz=-6 gen=224 space=superchunk_terrain type=GENERATE
+[WALL] HEALTH W=17/4/1 N=17/0/0 E=17/0/0 S=17/0/0 (desired/resident/ready)
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=93(P84/F9/T0/E0) jobs=345 results=2 primary=(0,-1) desired_sc=(0,-1) transition=0
+[WORKER] Meshing cx=-8 cz=-5 (persisted=0)
+[STREAM] drop stale chunk (-8,-5) got_gen=205 want_gen=225 role=1
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=93(P84/F9/T0/E0) jobs=347 results=0 primary=(0,-1) desired_sc=(0,-1) transition=0
+[WORKER] Meshing cx=-8 cz=-5 (persisted=0)
+[WORKER] Mesh complete cx=-8 cz=-5 built=000001D098CFF470
+[WORKER] Queuing result cx=-8 cz=-5 gen=207 space=superchunk_terrain built=000001D098CFF470 results=0/768
+[WORKER] Meshing cx=-8 cz=-5 (persisted=0)
+[WORKER] Processing job cx=-8 cz=-5 gen=226 space=superchunk_terrain type=GENERATE
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=93(P84/F9/T0/E0) jobs=346 results=1 primary=(0,-1) desired_sc=(0,-1) transition=0
+[WORKER] Mesh complete cx=-8 cz=-5 built=000001D098CF5990
+[WORKER] Queuing result cx=-8 cz=-5 gen=208 space=superchunk_terrain built=000001D098CF5990 results=1/768
+[WORKER] Mesh complete cx=-8 cz=-6 built=000001D098CED1A0
+[WORKER] Queuing result cx=-8 cz=-6 gen=208 space=superchunk_terrain built=000001D098CED1A0 results=1/768
+[WORKER] Meshing cx=-8 cz=-5 (persisted=0)
+[WORKER] Processing job cx=-8 cz=-6 gen=227 space=superchunk_terrain type=GENERATE
+[WORKER] Processing job cx=-8 cz=-5 gen=227 space=superchunk_terrain type=GENERATE
+[STREAM] drop stale chunk (-8,-5) got_gen=207 want_gen=227 role=1
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=93(P84/F9/T0/E0) jobs=345 results=2 primary=(0,-1) desired_sc=(0,-1) transition=0
+[WORKER] Mesh complete cx=-8 cz=-5 built=000001CFACE3FA90
+[WORKER] Queuing result cx=-8 cz=-5 gen=209 space=superchunk_terrain built=000001CFACE3FA90 results=2/768
+[WORKER] Mesh complete cx=-8 cz=-6 built=000001D098D07930
+[WORKER] Queuing result cx=-8 cz=-6 gen=209 space=superchunk_terrain built=000001D098D07930 results=2/768
+[WORKER] Processing job cx=-8 cz=-5 gen=228 space=superchunk_terrain type=GENERATE
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=93(P84/F9/T0/E0) jobs=345 results=1 primary=(0,-1) desired_sc=(0,-1) transition=0
+[WORKER] Meshing cx=-8 cz=-5 (persisted=0)
+[WORKER] Mesh complete cx=-8 cz=-5 built=000001D098D0B080
+[WORKER] Queuing result cx=-8 cz=-5 gen=210 space=superchunk_terrain built=000001D098D0B080 results=1/768
+[STREAM] drop stale chunk (-8,-6) got_gen=209 want_gen=229 role=1
+in type=GENERATE
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=93(P84/F9/T0/E0) jobs=346 results=0 primary=(0,-1) desired_sc=(0,-1) transition=0
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=93(P84/F9/T0/E0) jobs=347 results=0 primary=(0,-1) desired_sc=(0,-1) transition=0
+[WORKER] Meshing cx=-8 cz=-5 (persisted=0)
+[WORKER] Meshing cx=-8 cz=-6 (persisted=0)
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=93(P84/F9/T0/E0) jobs=347 results=0 primary=(0,-1) desired_sc=(0,-1) transition=0
+[WORKER] Mesh complete cx=-8 cz=-5 built=000001D098CF2D50
+[WORKER] Queuing result cx=-8 cz=-5 gen=212 space=superchunk_terrain built=000001D098CF2D50 results=0/768
+[STREAM] drop stale chunk (-8,-5) got_gen=212 want_gen=232 role=1
+in type=GENERATE
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=93(P84/F9/T0/E0) jobs=346 results=0 primary=(0,-1) desired_sc=(0,-1) transition=0
+[WORKER] Mesh complete cx=-8 cz=-5 built=000001CEA9507050
+[WORKER] Queuing result cx=-8 cz=-5 gen=213 space=superchunk_terrain built=000001CEA9507050 results=0/768
+[WORKER] Mesh complete cx=-8 cz=-5 built=000001D098CD0C10
+[WORKER] Queuing result cx=-8 cz=-5 gen=214 space=superchunk_terrain built=000001D098CD0C10 results=0/768
+[WORKER] Processing job cx=-8 cz=-5 gen=233 space=superchunk_terrain type=GENERATE
+[WORKER] Processing job cx=-8 cz=-6 gen=233 space=superchunk_terrain type=GENERATE
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=93(P84/F9/T0/E0) jobs=345 results=2 primary=(0,-1) desired_sc=(0,-1) transition=0
+[WORKER] Meshing cx=-8 cz=-5 (persisted=0)
+[WORKER] Mesh complete cx=-8 cz=-5 built=000001CFACE2CFE0
+[WORKER] Queuing result cx=-8 cz=-5 gen=215 space=superchunk_terrain built=000001CFACE2CFE0 results=2/768
+[WORKER] Processing job cx=-8 cz=-5 gen=234 space=superchunk_terrain type=GENERATE
+[STREAM] drop stale chunk (-8,-5) got_gen=213 want_gen=234 role=1
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=93(P84/F9/T0/E0) jobs=346 results=1 primary=(0,-1) desired_sc=(0,-1) transition=0
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=93(P84/F9/T0/E0) jobs=347 results=0 primary=(0,-1) desired_sc=(0,-1) transition=0
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=93(P84/F9/T0/E0) jobs=347 results=0 primary=(0,-1) desired_sc=(0,-1) transition=0
+[WORKER] Mesh complete cx=-8 cz=-5 built=000001D098CD1720
+[WORKER] Queuing result cx=-8 cz=-5 gen=216 space=superchunk_terrain built=000001D098CD1720 results=0/768
+[STREAM] drop stale chunk (-8,-5) got_gen=216 want_gen=237 role=1
+[WORKER] Processing job cx=-8 cz=-5 gen=237 space=superchunk_terrain type=GENERATE
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=93(P84/F9/T0/E0) jobs=346 results=0 primary=(0,-1) desired_sc=(0,-1) transition=0
+[WORKER] Meshing cx=-8 cz=-6 (persisted=0)
+[WORKER] Meshing cx=-8 cz=-5 (persisted=0)
+[WORKER] Mesh complete cx=-8 cz=-6 built=000001CEA9507B60
+[WORKER] Queuing result cx=-8 cz=-6 gen=218 space=superchunk_terrain built=000001CEA9507B60 results=0/768
+[WORKER] Mesh complete cx=-8 cz=-5 built=000001CEA9509C90
+[WORKER] Queuing result cx=-8 cz=-5 gen=218 space=superchunk_terrain built=000001CEA9509C90 results=0/768
+[WORKER] Processing job cx=-8 cz=-5 gen=238 space=superchunk_terrain type=GENERATE
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=93(P84/F9/T0/E0) jobs=345 results=2 primary=(0,-1) desired_sc=(0,-1) transition=0
+[STREAM] drop stale chunk (-8,-6) got_gen=218 want_gen=239 role=1
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=93(P84/F9/T0/E0) jobs=347 results=0 primary=(0,-1) desired_sc=(0,-1) transition=0
+[WORKER] Meshing cx=-8 cz=-5 (persisted=0)
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=93(P84/F9/T0/E0) jobs=347 results=0 primary=(0,-1) desired_sc=(0,-1) transition=0
+[WORKER] Mesh complete cx=-8 cz=-5 built=000001D098CE6E10
+[WORKER] Queuing result cx=-8 cz=-5 gen=220 space=superchunk_terrain built=000001D098CE6E10 results=0/768
+[WORKER] Meshing cx=-8 cz=-5 (persisted=0)
+[WORKER] Processing job cx=-8 cz=-5 gen=241 space=superchunk_terrain type=GENERATE
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=93(P84/F9/T0/E0) jobs=346 results=0 primary=(0,-1) desired_sc=(0,-1) transition=0
+[WORKER] Meshing cx=-8 cz=-5 (persisted=0)
+[WORKER] Meshing cx=-8 cz=-6 (persisted=0)
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=93(P84/F9/T0/E0) jobs=347 results=0 primary=(0,-1) desired_sc=(0,-1) transition=0
+[WORKER] Meshing cx=-8 cz=-6 (persisted=0)
+[WORKER] Meshing cx=-8 cz=-5 (persisted=0)
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=93(P84/F9/T0/E0) jobs=347 results=0 primary=(0,-1) desired_sc=(0,-1) transition=0
+[WALL] HEALTH W=17/4/1 N=17/0/0 E=17/0/0 S=17/0/0 (desired/resident/ready)
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=93(P84/F9/T0/E0) jobs=347 results=0 primary=(0,-1) desired_sc=(0,-1) transition=0
+[WORKER] Mesh complete cx=-8 cz=-5 built=000001D098CDBD10
+[WORKER] Queuing result cx=-8 cz=-5 gen=224 space=superchunk_terrain built=000001D098CDBD10 results=0/768
+[WORKER] Mesh complete cx=-8 cz=-6 built=000001CEA9507050
+[WORKER] Queuing result cx=-8 cz=-6 gen=224 space=superchunk_terrain built=000001CEA9507050 results=0/768
+[STREAM] drop stale chunk (-8,-5) got_gen=224 want_gen=245 role=1
+in type=GENERATE
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=93(P84/F9/T0/E0) jobs=345 results=0 primary=(0,-1) desired_sc=(0,-1) transition=0
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=93(P84/F9/T0/E0) jobs=347 results=0 primary=(0,-1) desired_sc=(0,-1) transition=0
+[WORKER] Mesh complete cx=-8 cz=-5 built=000001D098CE8F40
+[WORKER] Queuing result cx=-8 cz=-5 gen=226 space=superchunk_terrain built=000001D098CE8F40 results=0/768
+[WORKER] Meshing cx=-8 cz=-5 (persisted=0)
+[WORKER] Meshing cx=-8 cz=-5 (persisted=0)
+[WORKER] Processing job cx=-8 cz=-5 gen=247 space=superchunk_terrain type=GENERATE
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=93(P84/F9/T0/E0) jobs=346 results=1 primary=(0,-1) desired_sc=(0,-1) transition=0
+[WORKER] Meshing cx=-8 cz=-6 (persisted=0)
+[WORKER] Mesh complete cx=-8 cz=-5 built=000001D098CE2BB0
+[WORKER] Queuing result cx=-8 cz=-5 gen=227 space=superchunk_terrain built=000001D098CE2BB0 results=1/768
+[STREAM] drop stale chunk (-8,-5) got_gen=226 want_gen=248 role=1
+in type=GENERATE
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=93(P84/F9/T0/E0) jobs=346 results=0 primary=(0,-1) desired_sc=(0,-1) transition=0
+[WORKER] Meshing cx=-8 cz=-5 (persisted=0)
+[WORKER] Mesh complete cx=-8 cz=-5 built=000001D098D04CF0
+[WORKER] Queuing result cx=-8 cz=-5 gen=228 space=superchunk_terrain built=000001D098D04CF0 results=0/768
+[WORKER] Processing job cx=-8 cz=-5 gen=249 space=superchunk_terrain type=GENERATE
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=93(P84/F9/T0/E0) jobs=346 results=1 primary=(0,-1) desired_sc=(0,-1) transition=0
+[WORKER] Mesh complete cx=-8 cz=-6 built=000001CEA950A7A0
+[WORKER] Queuing result cx=-8 cz=-6 gen=227 space=superchunk_terrain built=000001CEA950A7A0 results=1/768
+[WORKER] Mesh complete cx=-8 cz=-5 built=000001D098CFDE50
+[WORKER] Queuing result cx=-8 cz=-5 gen=229 space=superchunk_terrain built=000001D098CFDE50 results=1/768
+[WORKER] Mesh complete cx=-8 cz=-6 built=000001D098CED1A0
+[WORKER] Processing job cx=-8 cz=-6 gen=250 space=superchunk_terrain type=GENERATE
+[STREAM] drop stale chunk (-8,-6) got_gen=227 want_gen=250 role=1
+in built=000001D098CED1A0 results=2/768
+[WORKER] Processing job cx=-8 cz=-7 gen=250 space=superchunk_terrain type=GENERATE
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=93(P84/F9/T0/E0) jobs=344 results=2 primary=(0,-1) desired_sc=(0,-1) transition=0
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=93(P84/F9/T0/E0) jobs=347 results=0 primary=(0,-1) desired_sc=(0,-1) transition=0
+[WORKER] Meshing cx=-8 cz=-5 (persisted=0)
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=93(P84/F9/T0/E0) jobs=347 results=0 primary=(0,-1) desired_sc=(0,-1) transition=0
+[WORKER] Meshing cx=-8 cz=-5 (persisted=0)
+[WORKER] Meshing cx=-8 cz=-6 (persisted=0)
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=93(P84/F9/T0/E0) jobs=347 results=0 primary=(0,-1) desired_sc=(0,-1) transition=0
+[WORKER] Mesh complete cx=-8 cz=-5 built=000001CFACE2B9C0
+[WORKER] Queuing result cx=-8 cz=-5 gen=233 space=superchunk_terrain built=000001CFACE2B9C0 results=0/768
+[WORKER] Processing job cx=-8 cz=-5 gen=254 space=superchunk_terrain type=GENERATE
+[STREAM] drop stale chunk (-8,-5) got_gen=233 want_gen=254 role=1
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=93(P84/F9/T0/E0) jobs=346 results=0 primary=(0,-1) desired_sc=(0,-1) transition=0
+[WORKER] Mesh complete cx=-8 cz=-5 built=000001D098CE36C0
+[WORKER] Queuing result cx=-8 cz=-5 gen=232 space=superchunk_terrain built=000001D098CE36C0 results=0/768
+[WORKER] Processing job cx=-8 cz=-5 gen=255 space=superchunk_terrain type=GENERATE
+[WORKER] Meshing cx=-8 cz=-5 (persisted=0)
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=93(P84/F9/T0/E0) jobs=346 results=0 primary=(0,-1) desired_sc=(0,-1) transition=0
+[WORKER] Mesh complete cx=-8 cz=-6 built=000001CF49B20870
+[WORKER] Queuing result cx=-8 cz=-6 gen=233 space=superchunk_terrain built=000001CF49B20870 results=0/768
+[STREAM] drop stale chunk (-8,-6) got_gen=233 want_gen=256 role=1
+in type=GENERATE
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=93(P84/F9/T0/E0) jobs=346 results=0 primary=(0,-1) desired_sc=(0,-1) transition=0
+[WORKER] Mesh complete cx=-8 cz=-5 built=000001D098CD2D40
+[WORKER] Queuing result cx=-8 cz=-5 gen=234 space=superchunk_terrain built=000001D098CD2D40 results=0/768
+[WORKER] Processing job cx=-8 cz=-5 gen=257 space=superchunk_terrain type=GENERATE
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=93(P84/F9/T0/E0) jobs=346 results=0 primary=(0,-1) desired_sc=(0,-1) transition=0
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=93(P84/F9/T0/E0) jobs=347 results=0 primary=(0,-1) desired_sc=(0,-1) transition=0
+[WORKER] Mesh complete cx=-8 cz=-5 built=000001D098CE7920
+[WORKER] Queuing result cx=-8 cz=-5 gen=237 space=superchunk_terrain built=000001D098CE7920 results=0/768
+[STREAM] drop stale chunk (-8,-5) got_gen=237 want_gen=259 role=1
+[WORKER] Processing job cx=-8 cz=-5 gen=259 space=superchunk_terrain type=GENERATE
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=93(P84/F9/T0/E0) jobs=346 results=0 primary=(0,-1) desired_sc=(0,-1) transition=0
+[WORKER] Mesh complete cx=-8 cz=-5 built=000001D098CFE960
+[WORKER] Queuing result cx=-8 cz=-5 gen=238 space=superchunk_terrain built=000001D098CFE960 results=0/768
+[WORKER] Meshing cx=-8 cz=-5 (persisted=0)
+[WORKER] Meshing cx=-8 cz=-6 (persisted=0)
+[WORKER] Processing job cx=-8 cz=-5 gen=260 space=superchunk_terrain type=GENERATE
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=93(P84/F9/T0/E0) jobs=346 results=1 primary=(0,-1) desired_sc=(0,-1) transition=0
+[WORKER] Mesh complete cx=-8 cz=-6 built=000001D098CF0C20
+[WORKER] Queuing result cx=-8 cz=-6 gen=238 space=superchunk_terrain built=000001D098CF0C20 results=1/768
+[WORKER] Meshing cx=-8 cz=-5 (persisted=0)
+[WORKER] Processing job cx=-8 cz=-5 gen=261 space=superchunk_terrain type=GENERATE
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=93(P84/F9/T0/E0) jobs=346 results=0 primary=(0,-1) desired_sc=(0,-1) transition=0
+[WORKER] Mesh complete cx=-8 cz=-5 built=000001CFACE3AD20
+[WORKER] Queuing result cx=-8 cz=-5 gen=241 space=superchunk_terrain built=000001CFACE3AD20 results=0/768
+[STREAM] drop stale chunk (-8,-5) got_gen=241 want_gen=262 role=1
+[WORKER] Processing job cx=-8 cz=-5 gen=262 space=superchunk_terrain type=GENERATE
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=93(P84/F9/T0/E0) jobs=346 results=0 primary=(0,-1) desired_sc=(0,-1) transition=0
+[WORKER] Meshing cx=-8 cz=-5 (persisted=0)
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=93(P84/F9/T0/E0) jobs=347 results=0 primary=(0,-1) desired_sc=(0,-1) transition=0
+[WORKER] Meshing cx=-8 cz=-5 (persisted=0)
+[WORKER] Meshing cx=-8 cz=-6 (persisted=0)
+[WORKER] Meshing cx=-8 cz=-5 (persisted=0)
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=93(P84/F9/T0/E0) jobs=347 results=0 primary=(0,-1) desired_sc=(0,-1) transition=0
+[WORKER] Meshing cx=-8 cz=-7 (persisted=0)
+[WALL] HEALTH W=17/4/1 N=17/0/0 E=17/0/0 S=17/0/0 (desired/resident/ready)
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=93(P84/F9/T0/E0) jobs=347 results=0 primary=(0,-1) desired_sc=(0,-1) transition=0
+[WORKER] Mesh complete cx=-8 cz=-5 built=000001CFACE2F110
+[WORKER] Queuing result cx=-8 cz=-5 gen=245 space=superchunk_terrain built=000001CFACE2F110 results=0/768
+[STREAM] drop stale chunk (-8,-5) got_gen=245 want_gen=266 role=1
+[WORKER] Processing job cx=-8 cz=-5 gen=266 space=superchunk_terrain type=GENERATE
+[WORKER] Mesh complete cx=-8 cz=-6 built=000001D098CEB070
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=93(P84/F9/T0/E0) jobs=346 results=0 primary=(0,-1) desired_sc=(0,-1) transition=0
+[WORKER] Queuing result cx=-8 cz=-6 gen=245 space=superchunk_terrain built=000001D098CEB070 results=0/768
+[WORKER] Mesh complete cx=-8 cz=-5 built=000001D098D0A570
+[WORKER] Queuing result cx=-8 cz=-5 gen=247 space=superchunk_terrain built=000001D098D0A570 results=0/768
+[WORKER] Processing job cx=-8 cz=-6 gen=267 space=superchunk_terrain type=GENERATE
+[WORKER] Processing job cx=-8 cz=-5 gen=267 space=superchunk_terrain type=GENERATE
+[WORKER] Meshing cx=-8 cz=-5 (persisted=0)
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=93(P84/F9/T0/E0) jobs=345 results=0 primary=(0,-1) desired_sc=(0,-1) transition=0
+[WORKER] Meshing cx=-8 cz=-5 (persisted=0)
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=93(P84/F9/T0/E0) jobs=347 results=0 primary=(0,-1) desired_sc=(0,-1) transition=0
+[WORKER] Mesh complete cx=-8 cz=-5 built=000001D098CE57F0
+[WORKER] Queuing result cx=-8 cz=-5 gen=248 space=superchunk_terrain built=000001D098CE57F0 results=0/768
+[WORKER] Processing job cx=-8 cz=-5 gen=269 space=superchunk_terrain type=GENERATE
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=93(P84/F9/T0/E0) jobs=346 results=1 primary=(0,-1) desired_sc=(0,-1) transition=0
+[WORKER] Meshing cx=-8 cz=-5 (persisted=0)
+[STREAM] drop stale chunk (-8,-5) got_gen=248 want_gen=270 role=1
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=93(P84/F9/T0/E0) jobs=347 results=0 primary=(0,-1) desired_sc=(0,-1) transition=0
+[WORKER] Meshing cx=-8 cz=-5 (persisted=0)
+[WORKER] Mesh complete cx=-8 cz=-6 built=000001CEA950D3E0
+[WORKER] Queuing result cx=-8 cz=-6 gen=250 space=superchunk_terrain built=000001CEA950D3E0 results=0/768
+[WORKER] Mesh complete cx=-8 cz=-5 built=000001D098D015A0
+[WORKER] Queuing result cx=-8 cz=-5 gen=250 space=superchunk_terrain built=000001D098D015A0 results=0/768
+[WORKER] Mesh complete cx=-8 cz=-5 built=000001D098D07930
+[WORKER] Queuing result cx=-8 cz=-5 gen=249 space=superchunk_terrain built=000001D098D07930 results=0/768
+[WORKER] Processing job cx=-8 cz=-6 gen=271 space=superchunk_terrain type=GENERATE
+[WORKER] Processing job cx=-8 cz=-7 gen=271 space=superchunk_terrain type=GENERATE
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=93(P84/F9/T0/E0) jobs=344 results=3 primary=(0,-1) desired_sc=(0,-1) transition=0
+[WORKER] Mesh complete cx=-8 cz=-7 built=000001CFACE28D80
+[WORKER] Queuing result cx=-8 cz=-7 gen=250 space=superchunk_terrain built=000001CFACE28D80 results=3/768
+[STREAM] drop stale chunk (-8,-6) got_gen=250 want_gen=272 role=1
+[WORKER] Processing job cx=-8 cz=-5 gen=272 space=superchunk_terrain type=GENERATE
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=93(P84/F9/T0/E0) jobs=346 results=1 primary=(0,-1) desired_sc=(0,-1) transition=0
+[WORKER] Meshing cx=-8 cz=-5 (persisted=0)
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=93(P84/F9/T0/E0) jobs=347 results=0 primary=(0,-1) desired_sc=(0,-1) transition=0
+[WORKER] Meshing cx=-8 cz=-5 (persisted=0)
+[WORKER] Mesh complete cx=-8 cz=-5 built=000001D098CE8F40
+[WORKER] Queuing result cx=-8 cz=-5 gen=254 space=superchunk_terrain built=000001D098CE8F40 results=0/768
+[WORKER] Processing job cx=-8 cz=-5 gen=274 space=superchunk_terrain type=GENERATE
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=93(P84/F9/T0/E0) jobs=346 results=1 primary=(0,-1) desired_sc=(0,-1) transition=0
+[WORKER] Meshing cx=-8 cz=-5 (persisted=0)
+[WORKER] Mesh complete cx=-8 cz=-5 built=000001D098D08440
+[WORKER] Queuing result cx=-8 cz=-5 gen=255 space=superchunk_terrain built=000001D098D08440 results=1/768
+[WORKER] Processing job cx=-8 cz=-5 gen=275 space=superchunk_terrain type=GENERATE
+[RESIDENCY] TOPOLOGY mode=superchunk desired=440(P256/F180/T4) resident=93(P84/F9/T0/E0) jobs=346 results=0 primary=(0,-1) desired_sc=(0,-1) transition=0

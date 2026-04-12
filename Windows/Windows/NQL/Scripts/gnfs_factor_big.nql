@@ -1,0 +1,94 @@
+LET N = 1000000016000000063
+LET t0 = TIMER_START()
+PRINT 'GNFS Factoring N = ', N
+
+LET poly = GNFS_BASE_M_POLY(N, 3)
+LET f = ARRAY_GET(poly, 0)
+LET g = ARRAY_GET(poly, 1)
+LET m = ARRAY_GET(poly, 2)
+PRINT 'f = ', f
+PRINT 'm = ', m
+
+LET gnfs_fb = GNFS_FB_BUILD(N, f, m, 20000, 20000, 200)
+LET rfc = GNFS_FB_RAT_COUNT(gnfs_fb)
+LET afc = GNFS_FB_ALG_COUNT(gnfs_fb)
+PRINT 'Rat FB: ', rfc, '  Alg FB: ', afc
+
+LET rels = GNFS_RELATION_CREATE(rfc, afc, 100000)
+LET sieve = GNFS_SIEVE_REGION_CREATE(2000, 2000)
+LET target_rels = rfc + afc + 500
+PRINT 'Target: ', target_rels, ' relations'
+
+LET total_added = 0
+FOR q FROM 101 TO 100000 DO
+    IF IS_PRIME(q) THEN
+        LET roots = POLY_ROOTS_MOD(f, q)
+        IF ARRAY_LENGTH(roots) > 0 THEN
+            FOR EACH r IN roots DO
+                LET sieve = GNFS_SIEVE_SET_SPECIAL_Q(sieve, q, r)
+                LET sieve = GNFS_SIEVE_INIT_NORMS(sieve, f, g, m)
+                LET added = GNFS_SIEVE_AND_COLLECT(sieve, gnfs_fb, rels, 30.0, 30.0)
+                LET total_added = total_added + added
+            END FOR
+        END IF
+    END IF
+    IF GNFS_RELATION_COUNT(rels) >= target_rels THEN
+        PRINT 'Enough at q=', q, ': ', GNFS_RELATION_COUNT(rels), ' rels'
+        BREAK
+    END IF
+    IF q % 500 = 1 THEN
+        PRINT 'q=', q, ': ', GNFS_RELATION_COUNT(rels), ' rels (', TIMER_ELAPSED(t0), 's)'
+    END IF
+END FOR
+
+LET nrels = GNFS_RELATION_COUNT(rels)
+PRINT 'Collected: ', nrels, ' relations in ', TIMER_ELAPSED(t0), 's'
+
+IF nrels > rfc + afc THEN
+    PRINT 'Building parity matrix + solving...'
+    LET parity = GNFS_RELATION_PARITY_ROWS(rels, rfc, afc)
+    LET ncols = rfc + afc
+    PRINT 'Matrix: ', nrels, ' x ', ncols
+    LET ns_vecs = GNFS_DENSE_SOLVE(parity, nrels, ncols)
+    PRINT 'Null-space: ', ARRAY_LENGTH(ns_vecs), ' vectors (', TIMER_ELAPSED(t0), 's)'
+
+    LET rat_p = GNFS_FB_RAT_PRIMES(gnfs_fb)
+    LET alg_p = GNFS_FB_ALG_PRIMES(gnfs_fb)
+    LET factor_found = 0
+
+    LET tried = 0
+    FOR EACH dep IN ns_vecs DO
+        IF tried > 500 THEN
+            BREAK
+        END IF
+        LET tried = tried + 1
+        LET x_sq = GNFS_EXTRACT_RATIONAL_SQRT(dep, rels, m, N)
+        LET y = GNFS_ALGEBRAIC_SQRT(dep, rels, rat_p, alg_p, N)
+        LET g_val = GNFS_EXTRACT_TRY_FACTOR(x_sq, MULMOD(y, y, N), N)
+        IF g_val != NULL THEN
+            IF g_val > 1 THEN
+                IF g_val < N THEN
+                    PRINT 'FACTOR FOUND: ', g_val, ' x ', N / g_val
+                    LET factor_found = g_val
+                    BREAK
+                END IF
+            END IF
+        END IF
+        LET g_val = GCD(x_rat, N)
+        IF g_val > 1 THEN
+            IF g_val < N THEN
+                PRINT 'FACTOR (GCD): ', g_val, ' x ', N / g_val
+                LET factor_found = g_val
+                BREAK
+            END IF
+        END IF
+    END FOR
+
+    IF factor_found <= 1 THEN
+        PRINT 'No factor found from ', ARRAY_LENGTH(ns_vecs), ' dependencies'
+    END IF
+ELSE
+    PRINT 'Not enough relations (', nrels, ' < ', rfc + afc, ')'
+END IF
+
+PRINT 'Total time: ', TIMER_ELAPSED(t0), 's'

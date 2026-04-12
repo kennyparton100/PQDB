@@ -1,0 +1,2 @@
+name=ANIMATION 002
+frame_count=8

@@ -1,0 +1,5 @@
+TRAIT TestNoWrite
+REQUIRES
+    field1 : INT
+END REQUIRES
+END TRAIT

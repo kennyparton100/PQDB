@@ -1,0 +1,21 @@
+PRINT '=== Snapshot Behavior Comparison ==='
+
+-- Test: ASSUMPTION_FAILED without auto-rollback
+PRINT 'Test: ASSUMPTION_FAILED behavior'
+LET value = 10
+PRINT 'Before ASSUME:', value
+
+ASSUME true THEN
+    LET value = 20
+    PRINT 'Changed to:', value
+    ASSUMPTION_FAILED
+OTHERWISE
+    PRINT 'In OTHERWISE - value should still be 20 (no auto-rollback):', value
+END ASSUME
+
+PRINT 'Final value:', value
+PRINT ''
+
+-- This demonstrates that without auto-snapshotting,
+-- state changes persist even after ASSUMPTION_FAILED
+PRINT '=== Comparison complete ==='

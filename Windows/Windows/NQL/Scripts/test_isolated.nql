@@ -1,0 +1,11 @@
+PRINT 'Isolated tests'
+
+-- Test 1: Single-line chained ASSUME (should work)
+LET test1 = 'start'
+ASSUME false THEN LET test1 = 'first' OTHERWISE ASSUME true THEN LET test1 = 'second' END ASSUME
+PRINT 'Test1 result:', test1
+
+-- Test 2: Single-line bare OTHERWISE (should work)
+LET test2 = 'start'
+ASSUME false THEN LET test2 = 'first' OTHERWISE LET test2 = 'fallback' END ASSUME
+PRINT 'Test2 result:', test2

@@ -1,0 +1,12 @@
+PRINT 'Test bare OTHERWISE fix'
+LET x = 'start'
+
+ASSUME false THEN 
+    LET x = 'first' 
+OTHERWISE ASSUME false THEN 
+    LET y = 'fallback' 
+OTHERWISE
+    LET x = 'success'
+END ASSUME
+
+PRINT 'Result:', x

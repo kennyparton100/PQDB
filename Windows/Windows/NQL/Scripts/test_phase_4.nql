@@ -1,0 +1,133 @@
+-- Phase 4 Test: ASSUME/OTHERWISE speculative execution
+-- Tests basic ASSUME/OTHERWISE functionality, assumption failure, and state rollback
+
+PRINT '=== Phase 4 ASSUME/OTHERWISE Tests ==='
+
+-- Test 1: Basic ASSUME with true condition
+PRINT 'Test 1: ASSUME true condition'
+LET x = 10
+PRINT 'Before ASSUME x:', x
+
+ASSUME x = 10 THEN
+    LET x = 20
+    PRINT 'Inside ASSUME x:', x
+OTHERWISE
+    PRINT 'In OTHERWISE (should not execute)'
+END ASSUME
+
+PRINT 'After ASSUME x:', x
+PRINT ''
+
+-- Test 2: ASSUME with false condition (skip to OTHERWISE)
+PRINT 'Test 2: ASSUME false condition'
+LET y = 5
+PRINT 'Before ASSUME y:', y
+
+ASSUME y = 10 THEN
+    LET y = 100
+    PRINT 'Inside ASSUME (should not execute)'
+OTHERWISE
+    LET y = 50
+    PRINT 'In OTHERWISE y:', y
+END ASSUME
+
+PRINT 'After ASSUME y:', y
+PRINT ''
+
+-- Test 3: ASSUMPTION_FAILED with rollback
+PRINT 'Test 3: ASSUMPTION_FAILED with rollback'
+LET z = [1, 2, 3]
+LET w = z  -- Create alias
+PRINT 'Before ASSUME z:', z
+PRINT 'Before ASSUME w (alias):', w
+
+ASSUME true THEN
+    LET z = ARRAY_APPEND(z, 4)
+    PRINT 'Inside ASSUME z after append:', z
+    PRINT 'Inside ASSUME w (alias):', w
+    ASSUMPTION_FAILED('Test failure')
+OTHERWISE
+    PRINT 'In OTHERWISE after rollback'
+    PRINT 'z should be restored:', z
+    PRINT 'w should still alias:', w
+END ASSUME
+
+PRINT 'Final z:', z
+PRINT 'Final w:', w
+PRINT ''
+
+-- Test 4: Chained OTHERWISE ASSUME
+PRINT 'Test 4: Chained OTHERWISE ASSUME'
+LET result = 'initial'
+
+ASSUME false THEN
+    LET result = 'first'
+OTHERWISE ASSUME false THEN
+    LET result = 'second'
+OTHERWISE ASSUME true THEN
+    LET result = 'third'
+OTHERWISE
+    LET result = 'fallback'
+END ASSUME
+
+PRINT 'Result should be "third":', result
+PRINT ''
+
+-- Test 5: Nested ASSUME blocks
+PRINT 'Test 5: Nested ASSUME blocks'
+LET outer = 1
+LET inner = 1
+
+ASSUME outer = 1 THEN
+    LET outer = 2
+    PRINT 'Outer ASSUME outer:', outer
+    
+    ASSUME inner = 1 THEN
+        LET inner = 3
+        LET outer = 99  -- This should be rolled back if inner fails
+        PRINT 'Inner ASSUME inner:', inner
+        PRINT 'Inner ASSUME outer:', outer
+        ASSUMPTION_FAILED('Inner failure')
+    OTHERWISE
+        PRINT 'Inner OTHERWISE - inner failed'
+    END ASSUME
+    
+    PRINT 'After inner ASSUME outer:', outer
+    PRINT 'After inner ASSUME inner:', inner
+OTHERWISE
+    PRINT 'Outer OTHERWISE (should not execute)'
+END ASSUME
+
+PRINT 'Final outer:', outer
+PRINT 'Final inner:', inner
+PRINT ''
+
+-- Test 6: Empty ASSUME body
+PRINT 'Test 6: Empty ASSUME body'
+LET empty_test = 'before'
+
+ASSUME empty_test = 'before' THEN
+    -- Empty body
+OTHERWISE
+    LET empty_test = 'otherwise'
+END ASSUME
+
+PRINT 'Empty test result:', empty_test
+PRINT ''
+
+-- Test 7: ASSUMPTION_FAILED with reason
+PRINT 'Test 7: ASSUMPTION_FAILED with reason'
+LET reason_test = 'before'
+
+ASSUME true THEN
+    LET reason_test = 'changed'
+    ASSUMPTION_FAILED('Custom reason message')
+OTHERWISE
+    PRINT 'Custom reason should appear above'
+    LET reason_test = 'restored'
+END ASSUME
+
+PRINT 'Reason test final:', reason_test
+PRINT ''
+
+PRINT '=== Phase 4 Tests Complete ==='

@@ -1,0 +1,5 @@
+PRINT 'Test statement 1'
+PRINT 'Test statement 2'
+CLASS TestClass
+    name : STRING
+END CLASS

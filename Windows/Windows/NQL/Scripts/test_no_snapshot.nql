@@ -1,0 +1,39 @@
+PRINT '=== Test ASSUME without auto-snapshot ==='
+
+-- Test 1: Basic ASSUME without snapshot
+PRINT 'Test 1: Basic ASSUME'
+LET x = 10
+ASSUME x = 10 THEN
+    LET x = 20
+    PRINT 'Inside ASSUME x:', x
+END ASSUME
+PRINT 'After ASSUME x:', x
+PRINT ''
+
+-- Test 2: ASSUMPTION_FAILED without rollback
+PRINT 'Test 2: ASSUMPTION_FAILED'
+LET y = 5
+ASSUME true THEN
+    LET y = 15
+    PRINT 'Changed y to:', y
+    ASSUMPTION_FAILED
+OTHERWISE
+    PRINT 'In OTHERWISE - y remains changed:', y
+END ASSUME
+PRINT 'Final y:', y
+PRINT ''
+
+-- Test 3: Chained ASSUME without snapshot
+PRINT 'Test 3: Chained ASSUME'
+LET z = 'start'
+ASSUME false THEN
+    LET z = 'first'
+    PRINT 'Should not execute'
+OTHERWISE ASSUME true THEN
+    LET z = 'second'
+    PRINT 'Second ASSUME succeeded'
+END ASSUME
+PRINT 'Final z:', z
+PRINT ''
+
+PRINT '=== No-snapshot tests complete ==='

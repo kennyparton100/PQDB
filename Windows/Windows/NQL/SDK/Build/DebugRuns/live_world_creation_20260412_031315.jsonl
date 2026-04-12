@@ -1,0 +1,4 @@
+{"ms":0,"event":"trace_reset","world_id":"","world_dir":"","detail":"nqlsdk_init","frontend_view":0,"world_session_active":false,"world_generation_active":false,"world_generation_stage":0}
+{"ms":0,"event":"runtime_init_start","world_id":"","world_dir":"","detail":"NQL SDK - D3D12","frontend_view":0,"world_session_active":false,"world_generation_active":false,"world_generation_stage":0}
+{"ms":93,"event":"window_created","world_id":"","world_dir":"","detail":"NQL SDK - D3D12","frontend_view":0,"world_session_active":false,"world_generation_active":false,"world_generation_stage":0}
+{"ms":625,"event":"runtime_init_complete","world_id":"","world_dir":"","detail":"renderer initialized","frontend_view":0,"world_session_active":false,"world_generation_active":false,"world_generation_stage":0}

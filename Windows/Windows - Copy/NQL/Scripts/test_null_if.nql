@@ -1,0 +1,11 @@
+LET tf = TRIAL_SMALL_FACTOR(8051, 100)
+PRINT 'tf = ', tf
+IF tf != NULL THEN
+    PRINT 'found factor: ', tf
+END IF
+IF tf = NULL THEN
+    PRINT 'no trivial factor, proceeding...'
+    LET fb = FACTOR_BASE_BUILD(8051, 100, 64)
+    PRINT 'fb = ', fb
+END IF
+PRINT 'done'

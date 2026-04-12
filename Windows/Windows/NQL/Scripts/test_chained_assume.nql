@@ -1,0 +1,84 @@
+PRINT '=== Chained ASSUME Test ==='
+
+-- Test 1: Simple chained ASSUME
+PRINT 'Test 1: Simple chained ASSUME'
+LET result = 'initial'
+
+ASSUME false THEN
+    LET result = 'first'
+OTHERWISE ASSUME false THEN
+    LET result = 'second'
+OTHERWISE ASSUME true THEN
+    LET result = 'third'
+END ASSUME
+
+PRINT 'Result should be "third":', result
+PRINT ''
+
+-- Test 2: Chained ASSUME with final OTHERWISE
+PRINT 'Test 2: Chained ASSUME with final OTHERWISE'
+LET result2 = 'initial'
+
+ASSUME false THEN
+    LET result2 = 'first'
+OTHERWISE ASSUME false THEN
+    LET result2 = 'second'
+OTHERWISE ASSUME false THEN
+    LET result2 = 'third'
+OTHERWISE
+    LET result2 = 'fallback'
+END ASSUME
+
+PRINT 'Result should be "fallback":', result2
+PRINT ''
+
+-- Test 3: Nested ASSUME with chained OTHERWISE
+PRINT 'Test 3: Nested ASSUME with chained OTHERWISE'
+LET outer = 'initial'
+
+ASSUME true THEN
+    LET outer = 'outer'
+    PRINT 'In outer ASSUME'
+    
+    LET inner = 'inner_initial'
+    ASSUME false THEN
+        LET inner = 'inner_first'
+    OTHERWISE ASSUME false THEN
+        LET inner = 'inner_second'
+    OTHERWISE ASSUME true THEN
+        LET inner = 'inner_third'
+    END ASSUME
+    
+    PRINT 'Inner result:', inner
+OTHERWISE
+    LET outer = 'outer_fallback'
+END ASSUME
+
+PRINT 'Outer result:', outer
+PRINT ''
+
+-- Test 4: Complex nested with IF inside ASSUME
+PRINT 'Test 4: Complex nested with IF inside ASSUME'
+LET complex = 'start'
+
+ASSUME true THEN
+    LET complex = 'assume_start'
+    PRINT 'In ASSUME'
+    
+    IF complex = 'assume_start' THEN
+        LET complex = 'if_matched'
+        PRINT 'In IF branch'
+    ELSE
+        LET complex = 'if_else'
+        PRINT 'In IF else'
+    END IF
+    
+    PRINT 'After IF:', complex
+OTHERWISE
+    LET complex = 'assume_fallback'
+END ASSUME
+
+PRINT 'Final complex:', complex
+PRINT ''
+
+PRINT '=== Chained ASSUME tests complete ==='

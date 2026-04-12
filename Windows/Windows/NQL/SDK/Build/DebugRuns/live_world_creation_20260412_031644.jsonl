@@ -1,0 +1,10 @@
+{"ms":0,"event":"trace_reset","world_id":"","world_dir":"","detail":"nqlsdk_init","frontend_view":0,"world_session_active":false,"world_generation_active":false,"world_generation_stage":0}
+{"ms":0,"event":"runtime_init_start","world_id":"","world_dir":"","detail":"NQL SDK - D3D12","frontend_view":0,"world_session_active":false,"world_generation_active":false,"world_generation_stage":0}
+{"ms":78,"event":"window_created","world_id":"","world_dir":"","detail":"NQL SDK - D3D12","frontend_view":0,"world_session_active":false,"world_generation_active":false,"world_generation_stage":0}
+{"ms":563,"event":"runtime_init_complete","world_id":"","world_dir":"","detail":"renderer initialized","frontend_view":0,"world_session_active":false,"world_generation_active":false,"world_generation_stage":0}
+{"ms":12391,"event":"escape_close_request","world_id":"","world_dir":"","detail":"VK_ESCAPE","frontend_view":0,"world_session_active":false,"world_generation_active":false,"world_generation_stage":0}
+{"ms":12391,"event":"wm_quit","world_id":"","world_dir":"","detail":"WM_QUIT","frontend_view":0,"world_session_active":false,"world_generation_active":false,"world_generation_stage":0}
+{"ms":12391,"event":"window_pump_returned_false","world_id":"","world_dir":"","detail":"sdk_window_pump returned false","frontend_view":0,"world_session_active":false,"world_generation_active":false,"world_generation_stage":0}
+{"ms":12391,"event":"runtime_shutdown_begin","world_id":"","world_dir":"","detail":"nqlsdk_shutdown","frontend_view":0,"world_session_active":false,"world_generation_active":false,"world_generation_stage":0}
+{"ms":12641,"event":"wm_destroy","world_id":"","world_dir":"","detail":"WM_DESTROY","frontend_view":0,"world_session_active":false,"world_generation_active":false,"world_generation_stage":0}
+{"ms":12672,"event":"runtime_shutdown_complete","world_id":"","world_dir":"","detail":"nqlsdk_shutdown","frontend_view":0,"world_session_active":false,"world_generation_active":false,"world_generation_stage":0}

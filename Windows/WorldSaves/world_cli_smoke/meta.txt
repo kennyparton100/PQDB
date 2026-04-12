@@ -1,0 +1,12 @@
+name=world_cli_smoke
+seed=123
+render_distance_chunks=8
+settlements_enabled=1
+construction_cells_enabled=0
+superchunks_enabled=1
+superchunk_chunk_span=16
+walls_enabled=1
+walls_detached=1
+wall_grid_size=18
+wall_grid_offset_x=0
+wall_grid_offset_z=0

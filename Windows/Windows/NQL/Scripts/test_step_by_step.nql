@@ -1,0 +1,12 @@
+PRINT 'Step 1'
+LET x = 1
+PRINT 'Step 2'
+ASSUME x = 1 THEN
+PRINT 'Step 3'
+LET x = 2
+PRINT 'Step 4'
+PRINT 'Inside'
+PRINT 'Step 5'
+END ASSUME
+PRINT 'Step 6'
+PRINT 'After:', x

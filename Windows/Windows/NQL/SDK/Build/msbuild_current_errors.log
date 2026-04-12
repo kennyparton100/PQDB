@@ -1,0 +1,214 @@
+
+  sdk_api.c
+  sdk_automation.c
+  sdk_server_runtime.c
+  sdk_api_frontend.c
+  sdk_frontend_assets.c
+  sdk_frontend_worlds.c
+  sdk_frontend_async.c
+  sdk_frontend_worldgen.c
+  sdk_frontend_online.c
+  sdk_frontend_menu.c
+  sdk_api_session.c
+  sdk_api_interaction.c
+  sdk_api_player.c
+  sdk_api_crafting.c
+  sdk_station_runtime.c
+  sdk_crafting_ui.c
+  sdk_creative_inventory.c
+  sdk_pause_menu.c
+  sdk_skills_menu.c
+  sdk_map_input.c
+  Generating Code...
+  Compiling...
+  sdk_benchmark.c
+  sdk_profiler.c
+  sdk_runtime_host.c
+  lz4.c
+  sdk_worldgen_tile_cache.c
+  sdk_worldgen_shared_cache.c
+  sdk_worldgen_scheduler.c
+  sdk_settlement_persistence.c
+  sdk_math.c
+  sdk_camera.c
+  sdk_scene.c
+  sdk_block.c
+  sdk_chunk.c
+  chunk_compress.c
+  chunk_compress_impl.c
+  rle_decoder.c
+  sdk_chunk_codec.c
+  sdk_simulation.c
+  sdk_chunk_manager.c
+  sdk_chunk_streamer.c
+  Generating Code...
+  Compiling...
+  sdk_persistence.c
+  sdk_world_tooling.c
+  sdk_chunk_save_json.c
+  sdk_settings.c
+  sdk_input.c
+  sdk_worldgen.c
+  sdk_worldgen_macro.c
+  sdk_worldgen_continental.c
+  sdk_worldgen_hydro.c
+  sdk_worldgen_column.c
+  sdk_worldgen_column_region.c
+  sdk_worldgen_column_geology.c
+  sdk_worldgen_column_surface.c
+  sdk_worldgen_column_debug.c
+  sdk_worldgen_debug_report.c
+  sdk_worldgen_construction_cells.c
+  sdk_worldgen_terrain_edge_cells.c
+  sdk_worldgen_construction_cells_edge_config_resolver.c
+  sdk_chunk_topology.c
+  sdk_superchunk_config.c
+  Generating Code...
+  Compiling...
+  sdk_world_config.c
+  sdk_world_walls_config.c
+  sdk_terrain.c
+  sdk_mesh_builder.c
+  sdk_entity.c
+  sdk_construction_cells.c
+  sdk_building_family.c
+  sdk_role_assets.c
+  sdk_settlement.c
+  sdk_settlement_placement.c
+  sdk_settlement_layout.c
+  sdk_settlement_roads.c
+  sdk_settlement_building.c
+  sdk_settlement_runtime.c
+  sdk_settlement_foundation.c
+  sdk_settlement_terrain.c
+  sdk_window.c
+  Generating Code...
+  d3d12_renderer.cpp
+  d3d12_renderer_resources.cpp
+  d3d12_renderer_textures.cpp
+  d3d12_renderer_frame.cpp
+  d3d12_renderer_screenshot.cpp
+  d3d12_renderer_chunks.cpp
+  d3d12_renderer_chunks_unified.cpp
+  d3d12_renderer_hud.cpp
+  d3d12_pipeline.cpp
+  main.cpp
+  Generating Code...
+  NqlSDK.vcxproj -> C:\GitHub\CPSS\PrimeNumberTools\Viewers\C\Windows\Windows\NQL\SDK\x64\Debug\NqlSDK.exe
+  'pwsh.exe' is not recognized as an internal or external command,
+  operable program or batch file.
+  Copying HLSL shaders to output directory...
+  0 File(s) copied
+  0 File(s) copied
+  sdk_api.c
+  sdk_automation.c
+  sdk_server_runtime.c
+  sdk_api_frontend.c
+  sdk_frontend_assets.c
+  sdk_frontend_worlds.c
+  sdk_frontend_async.c
+  sdk_frontend_worldgen.c
+  sdk_frontend_online.c
+  sdk_frontend_menu.c
+  sdk_api_session.c
+  sdk_session_headless.c
+  sdk_api_interaction.c
+  sdk_api_player.c
+  sdk_api_crafting.c
+  sdk_station_runtime.c
+  sdk_crafting_ui.c
+  sdk_creative_inventory.c
+  sdk_pause_menu.c
+  sdk_skills_menu.c
+  Generating Code...
+  Compiling...
+  sdk_map_input.c
+  sdk_benchmark.c
+  sdk_profiler.c
+  sdk_runtime_host.c
+  lz4.c
+  sdk_worldgen_tile_cache.c
+  sdk_worldgen_shared_cache.c
+  sdk_worldgen_scheduler.c
+  sdk_settlement_persistence.c
+  sdk_math.c
+  sdk_camera.c
+  sdk_scene.c
+  sdk_block.c
+  sdk_chunk.c
+  chunk_compress.c
+  chunk_compress_impl.c
+  rle_decoder.c
+  sdk_chunk_codec.c
+  chunk_analysis.c
+  sdk_simulation.c
+  Generating Code...
+  Compiling...
+  sdk_chunk_manager.c
+  sdk_chunk_streamer.c
+  sdk_persistence.c
+  sdk_world_tooling.c
+  sdk_chunk_save_json.c
+  sdk_settings.c
+  sdk_input.c
+  sdk_worldgen.c
+  sdk_worldgen_macro.c
+  sdk_worldgen_continental.c
+  sdk_worldgen_hydro.c
+  sdk_worldgen_column.c
+  sdk_worldgen_column_region.c
+  sdk_worldgen_column_geology.c
+  sdk_worldgen_column_surface.c
+  sdk_worldgen_column_debug.c
+  sdk_worldgen_debug_report.c
+  sdk_worldgen_construction_cells.c
+  sdk_worldgen_terrain_edge_cells.c
+  sdk_worldgen_construction_cells_edge_config_resolver.c
+  Generating Code...
+  Compiling...
+  sdk_chunk_topology.c
+  sdk_superchunk_config.c
+  sdk_world_config.c
+  sdk_world_walls_config.c
+  sdk_terrain.c
+  sdk_mesh_builder.c
+  sdk_entity.c
+  sdk_construction_cells.c
+  sdk_building_family.c
+  sdk_role_assets.c
+  sdk_settlement.c
+  sdk_settlement_placement.c
+  sdk_settlement_layout.c
+  sdk_settlement_roads.c
+  sdk_settlement_building.c
+  sdk_settlement_runtime.c
+  sdk_settlement_foundation.c
+  sdk_settlement_terrain.c
+  sdk_window.c
+  debugger_main.c
+  Generating Code...
+  Compiling...
+  debugger_mapping.c
+  debugger_cli_world.c
+  debugger_cli_runtime.c
+  debugger_cli_walls.c
+  debugger_play.c
+  Generating Code...
+  main.c
+  main.c
+  d3d12_renderer.cpp
+  d3d12_renderer_resources.cpp
+  d3d12_renderer_textures.cpp
+  d3d12_renderer_frame.cpp
+  d3d12_renderer_screenshot.cpp
+  d3d12_renderer_chunks.cpp
+  d3d12_renderer_chunks_unified.cpp
+  d3d12_renderer_hud.cpp
+  d3d12_pipeline.cpp
+  Generating Code...
+  WorldgenDebugger.vcxproj -> C:\GitHub\CPSS\PrimeNumberTools\Viewers\C\Windows\Windows\NQL\SDK\x64\Debug\WorldgenDebugger.exe
+  'pwsh.exe' is not recognized as an internal or external command,
+  operable program or batch file.
+  Copying HLSL shaders to output directory...
+  0 File(s) copied
+  0 File(s) copied

@@ -1,0 +1,15 @@
+name=WORLD 046
+seed=533255296
+render_distance_chunks=16
+spawn_mode=0
+settlements_enabled=1
+construction_cells_enabled=0
+coordinate_system=2
+superchunks_enabled=1
+superchunk_chunk_span=16
+walls_enabled=1
+wall_grid_size=18
+wall_grid_offset_x=0
+wall_grid_offset_z=0
+wall_thickness_blocks=64
+wall_rings_shared=1

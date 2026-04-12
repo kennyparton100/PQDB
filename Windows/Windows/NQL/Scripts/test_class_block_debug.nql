@@ -1,0 +1,5 @@
+PRINT 'Before CLASS'
+CLASS SimpleClass
+    name : STRING
+END CLASS
+PRINT 'After CLASS'

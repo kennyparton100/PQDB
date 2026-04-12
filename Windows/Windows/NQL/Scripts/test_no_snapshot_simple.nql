@@ -1,0 +1,24 @@
+PRINT '=== Simple No-Snapshot Test ==='
+
+-- Test 1: Basic ASSUME without snapshot (single line)
+PRINT 'Test 1: Basic ASSUME'
+LET x = 10
+ASSUME x = 10 THEN LET x = 20 PRINT 'Inside ASSUME x:' PRINT x END ASSUME
+PRINT 'After ASSUME x:', x
+PRINT ''
+
+-- Test 2: Chained ASSUME (single line)
+PRINT 'Test 2: Chained ASSUME'
+LET y = 'start'
+ASSUME false THEN LET y = 'first' OTHERWISE ASSUME true THEN LET y = 'second' END ASSUME
+PRINT 'Chained result:', y
+PRINT ''
+
+-- Test 3: Bare OTHERWISE (single line)
+PRINT 'Test 3: Bare OTHERWISE'
+LET z = 'start'
+ASSUME false THEN LET z = 'first' OTHERWISE LET z = 'fallback' END ASSUME
+PRINT 'Bare result:', z
+PRINT ''
+
+PRINT '=== Simple tests complete ==='

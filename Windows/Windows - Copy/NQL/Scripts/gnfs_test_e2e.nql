@@ -1,0 +1,46 @@
+LET N = 8051
+LET t0 = TIMER_START()
+PRINT 'GNFS E2E Test: N = ', N
+
+LET poly = GNFS_BASE_M_POLY(N, 3)
+LET f = ARRAY_GET(poly, 0)
+LET g = ARRAY_GET(poly, 1)
+LET m = ARRAY_GET(poly, 2)
+PRINT 'f = ', f, '  m = ', m
+
+LET gnfs_fb = GNFS_FB_BUILD(N, f, m, 1000, 1000, 64)
+PRINT 'Rat FB: ', GNFS_FB_RAT_COUNT(gnfs_fb), '  Alg FB: ', GNFS_FB_ALG_COUNT(gnfs_fb)
+
+LET rels = GNFS_RELATION_CREATE(GNFS_FB_RAT_COUNT(gnfs_fb), GNFS_FB_ALG_COUNT(gnfs_fb), 5000)
+LET sieve = GNFS_SIEVE_REGION_CREATE(200, 200)
+LET target_rels = GNFS_FB_RAT_COUNT(gnfs_fb) + GNFS_FB_ALG_COUNT(gnfs_fb) + 20
+PRINT 'Target relations: ', target_rels
+
+LET found = 0
+FOR sq_idx FROM 20 TO 80 DO
+    LET sq_p = ARRAY_GET(POLY_ROOTS_MOD(f, sq_idx * 2 + 3), 0)
+    IF sq_p != NULL THEN
+        LET q = sq_idx * 2 + 3
+        IF IS_PRIME(q) THEN
+            LET roots = POLY_ROOTS_MOD(f, q)
+            IF ARRAY_LENGTH(roots) > 0 THEN
+                LET r = ARRAY_GET(roots, 0)
+                LET sieve = GNFS_SIEVE_SET_SPECIAL_Q(sieve, q, r)
+                LET sieve = GNFS_SIEVE_INIT_NORMS(sieve, f, g, m)
+                LET sieve = GNFS_SIEVE_RUN_SIDE(sieve, ARRAY(), ARRAY(), 0)
+                LET sieve = GNFS_SIEVE_RUN_SIDE(sieve, ARRAY(), ARRAY(), 1)
+                LET added = GNFS_SIEVE_AND_COLLECT(sieve, gnfs_fb, rels, 15.0, 15.0)
+                IF added > 0 THEN
+                    PRINT 'q=', q, ' r=', r, ' added=', added, ' total=', GNFS_RELATION_COUNT(rels)
+                END IF
+            END IF
+        END IF
+    END IF
+    IF GNFS_RELATION_COUNT(rels) >= target_rels THEN
+        PRINT 'Enough relations!'
+        BREAK
+    END IF
+END FOR
+
+PRINT 'Total relations: ', GNFS_RELATION_COUNT(rels)
+PRINT 'Time: ', TIMER_ELAPSED(t0), 's'

@@ -1,0 +1,4 @@
+PRINT 'Test format'
+LET x = 10
+ASSUME x = 10 THEN LET x = 20 PRINT 'Inside' END ASSUME
+PRINT 'After:', x

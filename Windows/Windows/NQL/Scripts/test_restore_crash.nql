@@ -1,0 +1,21 @@
+PRINT 'Testing RESTORE crash issue'
+
+LET test_var = 100
+LET test_obj = NEW Person()
+LET test_obj.name = 'Test'
+LET test_obj.age = 25
+
+PRINT 'Before snapshot - var:', test_var, 'obj.name:', test_obj.name
+
+SNAPSHOT test_checkpoint
+
+LET test_var = 200
+LET test_obj.name = 'Modified'
+
+PRINT 'After modification - var:', test_var, 'obj.name:', test_obj.name
+
+RESTORE test_checkpoint
+
+PRINT 'After restore - var:', test_var, 'obj.name:', test_obj.name
+
+PRINT 'Test completed successfully'

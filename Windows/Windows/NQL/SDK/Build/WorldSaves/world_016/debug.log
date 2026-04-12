@@ -1,0 +1,987 @@
+'NqlSDK.exe' (Win32): Loaded 'C:\GitHub\CPSS\PrimeNumberTools\Viewers\C\Windows\Windows\NQL\SDK\x64\Debug\NqlSDK.exe'. Symbols loaded.
+'NqlSDK.exe' (Win32): Loaded 'C:\Windows\System32\ntdll.dll'. Symbol loading disabled by Include/Exclude setting.
+'NqlSDK.exe' (Win32): Loaded 'C:\Windows\System32\kernel32.dll'. Symbol loading disabled by Include/Exclude setting.
+'NqlSDK.exe' (Win32): Loaded 'C:\Windows\System32\KernelBase.dll'. Symbol loading disabled by Include/Exclude setting.
+'NqlSDK.exe' (Win32): Loaded 'C:\Windows\System32\user32.dll'. Symbol loading disabled by Include/Exclude setting.
+'NqlSDK.exe' (Win32): Loaded 'C:\Windows\System32\win32u.dll'. Symbol loading disabled by Include/Exclude setting.
+'NqlSDK.exe' (Win32): Loaded 'C:\Windows\System32\D3D12.dll'. Symbol loading disabled by Include/Exclude setting.
+'NqlSDK.exe' (Win32): Loaded 'C:\Windows\System32\gdi32.dll'. Symbol loading disabled by Include/Exclude setting.
+'NqlSDK.exe' (Win32): Loaded 'C:\Windows\System32\msvcp_win.dll'. Symbol loading disabled by Include/Exclude setting.
+'NqlSDK.exe' (Win32): Loaded 'C:\Windows\System32\dxgi.dll'. Symbol loading disabled by Include/Exclude setting.
+'NqlSDK.exe' (Win32): Loaded 'C:\Windows\System32\gdi32full.dll'. Symbol loading disabled by Include/Exclude setting.
+'NqlSDK.exe' (Win32): Loaded 'C:\Windows\System32\ucrtbase.dll'. Symbol loading disabled by Include/Exclude setting.
+'NqlSDK.exe' (Win32): Loaded 'C:\Windows\System32\D3DCompiler_47.dll'. Symbol loading disabled by Include/Exclude setting.
+'NqlSDK.exe' (Win32): Loaded 'C:\Windows\System32\ole32.dll'. Symbol loading disabled by Include/Exclude setting.
+'NqlSDK.exe' (Win32): Loaded 'C:\Windows\System32\rpcrt4.dll'. Symbol loading disabled by Include/Exclude setting.
+'NqlSDK.exe' (Win32): Loaded 'C:\Windows\System32\powrprof.dll'. Symbol loading disabled by Include/Exclude setting.
+'NqlSDK.exe' (Win32): Loaded 'C:\Windows\System32\combase.dll'. Symbol loading disabled by Include/Exclude setting.
+'NqlSDK.exe' (Win32): Loaded 'C:\Windows\System32\cryptsp.dll'. Symbol loading disabled by Include/Exclude setting.
+'NqlSDK.exe' (Win32): Loaded 'C:\Windows\System32\msvcp140d.dll'. Symbol loading disabled by Include/Exclude setting.
+'NqlSDK.exe' (Win32): Loaded 'C:\Windows\System32\vcruntime140d.dll'. Symbol loading disabled by Include/Exclude setting.
+'NqlSDK.exe' (Win32): Loaded 'C:\Windows\System32\vcruntime140_1d.dll'. Symbol loading disabled by Include/Exclude setting.
+'NqlSDK.exe' (Win32): Loaded 'C:\Windows\System32\vcruntime140_1d.dll'. Symbol loading disabled by Include/Exclude setting.
+'NqlSDK.exe' (Win32): Loaded 'C:\Windows\System32\ucrtbased.dll'. Symbol loading disabled by Include/Exclude setting.
+'NqlSDK.exe' (Win32): Unloaded 'C:\Windows\System32\vcruntime140_1d.dll'
+'NqlSDK.exe' (Win32): Loaded 'C:\Windows\System32\ucrtbased.dll'. Symbol loading disabled by Include/Exclude setting.
+'NqlSDK.exe' (Win32): Unloaded 'C:\Windows\System32\ucrtbased.dll'
+'NqlSDK.exe' (Win32): Loaded 'C:\Windows\System32\umpdc.dll'. Symbol loading disabled by Include/Exclude setting.
+'NqlSDK.exe' (Win32): Loaded 'C:\Windows\System32\imm32.dll'. Symbol loading disabled by Include/Exclude setting.
+[SHARED_CACHE] Initialized global worldgen cache
+'NqlSDK.exe' (Win32): Loaded 'C:\Windows\System32\uxtheme.dll'. Symbol loading disabled by Include/Exclude setting.
+'NqlSDK.exe' (Win32): Loaded 'C:\Windows\System32\msctf.dll'. Symbol loading disabled by Include/Exclude setting.
+'NqlSDK.exe' (Win32): Loaded 'C:\Windows\System32\msvcrt.dll'. Symbol loading disabled by Include/Exclude setting.
+'NqlSDK.exe' (Win32): Loaded 'C:\Windows\System32\kernel.appcore.dll'. Symbol loading disabled by Include/Exclude setting.
+'NqlSDK.exe' (Win32): Loaded 'C:\Windows\System32\bcryptprimitives.dll'. Symbol loading disabled by Include/Exclude setting.
+'NqlSDK.exe' (Win32): Loaded 'C:\Windows\System32\oleaut32.dll'. Symbol loading disabled by Include/Exclude setting.
+'NqlSDK.exe' (Win32): Loaded 'C:\Windows\System32\sechost.dll'. Symbol loading disabled by Include/Exclude setting.
+'NqlSDK.exe' (Win32): Loaded 'C:\Windows\System32\TextInputFramework.dll'. Symbol loading disabled by Include/Exclude setting.
+'NqlSDK.exe' (Win32): Loaded 'C:\Windows\System32\CoreMessaging.dll'. Symbol loading disabled by Include/Exclude setting.
+'NqlSDK.exe' (Win32): Loaded 'C:\Windows\System32\CoreUIComponents.dll'. Symbol loading disabled by Include/Exclude setting.
+'NqlSDK.exe' (Win32): Loaded 'C:\Windows\System32\WinTypes.dll'. Symbol loading disabled by Include/Exclude setting.
+'NqlSDK.exe' (Win32): Loaded 'C:\Windows\System32\advapi32.dll'. Symbol loading disabled by Include/Exclude setting.
+'NqlSDK.exe' (Win32): Loaded 'C:\Windows\System32\cryptbase.dll'. Symbol loading disabled by Include/Exclude setting.
+'NqlSDK.exe' (Win32): Loaded 'C:\Windows\System32\oleacc.dll'. Symbol loading disabled by Include/Exclude setting.
+The thread 'ShellHandwriting Delegate Thread' (41432) has exited with code 0 (0x0).
+'NqlSDK.exe' (Win32): Loaded 'C:\Windows\System32\D3D12Core.dll'. Symbol loading disabled by Include/Exclude setting.
+'NqlSDK.exe' (Win32): Loaded 'C:\Windows\System32\DXGIDebug.dll'. Symbol loading disabled by Include/Exclude setting.
+'NqlSDK.exe' (Win32): Loaded 'C:\Windows\System32\d3d12SDKLayers.dll'. Symbol loading disabled by Include/Exclude setting.
+'NqlSDK.exe' (Win32): Unloaded 'C:\Windows\System32\DXGIDebug.dll'
+'NqlSDK.exe' (Win32): Unloaded 'C:\Windows\System32\d3d12SDKLayers.dll'
+'NqlSDK.exe' (Win32): Loaded 'C:\Windows\System32\DXGIDebug.dll'. Symbol loading disabled by Include/Exclude setting.
+'NqlSDK.exe' (Win32): Loaded 'C:\Windows\System32\DXCore.dll'. Symbol loading disabled by Include/Exclude setting.
+'NqlSDK.exe' (Win32): Loaded 'C:\Windows\System32\ResourcePolicyClient.dll'. Symbol loading disabled by Include/Exclude setting.
+'NqlSDK.exe' (Win32): Unloaded 'C:\Windows\System32\ResourcePolicyClient.dll'
+'NqlSDK.exe' (Win32): Loaded 'C:\Windows\System32\directxdatabasehelper.dll'. Symbol loading disabled by Include/Exclude setting.
+'NqlSDK.exe' (Win32): Loaded 'C:\Windows\System32\cfgmgr32.dll'. Symbol loading disabled by Include/Exclude setting.
+'NqlSDK.exe' (Win32): Loaded 'C:\Windows\System32\DriverStore\FileRepository\nvamsi.inf_amd64_82cd5f0af3386fea\nvdlistx.dll'. Symbol loading disabled by Include/Exclude setting.
+'NqlSDK.exe' (Win32): Loaded 'C:\Windows\System32\version.dll'. Symbol loading disabled by Include/Exclude setting.
+'NqlSDK.exe' (Win32): Unloaded 'C:\Windows\System32\version.dll'
+'NqlSDK.exe' (Win32): Unloaded 'C:\Windows\System32\DriverStore\FileRepository\nvamsi.inf_amd64_82cd5f0af3386fea\nvdlistx.dll'
+'NqlSDK.exe' (Win32): Loaded 'C:\Windows\System32\DriverStore\FileRepository\nvamsi.inf_amd64_82cd5f0af3386fea\nvdlistx.dll'. Symbol loading disabled by Include/Exclude setting.
+'NqlSDK.exe' (Win32): Loaded 'C:\Windows\System32\version.dll'. Symbol loading disabled by Include/Exclude setting.
+'NqlSDK.exe' (Win32): Loaded 'C:\Windows\System32\DriverStore\FileRepository\u0414671.inf_amd64_d35a7e787428e027\B414600\amdxc64.dll'. Symbol loading disabled by Include/Exclude setting.
+'NqlSDK.exe' (Win32): Loaded 'C:\Windows\System32\winmm.dll'. Symbol loading disabled by Include/Exclude setting.
+'NqlSDK.exe' (Win32): Unloaded 'C:\Windows\System32\DriverStore\FileRepository\nvamsi.inf_amd64_82cd5f0af3386fea\nvdlistx.dll'
+The thread 3856 has exited with code 0 (0x0).
+'NqlSDK.exe' (Win32): Loaded 'C:\Windows\System32\shell32.dll'. Symbol loading disabled by Include/Exclude setting.
+'NqlSDK.exe' (Win32): Loaded 'C:\Windows\System32\windows.storage.dll'. Symbol loading disabled by Include/Exclude setting.
+'NqlSDK.exe' (Win32): Loaded 'C:\Windows\System32\SHCore.dll'. Symbol loading disabled by Include/Exclude setting.
+'NqlSDK.exe' (Win32): Loaded 'C:\Windows\System32\shlwapi.dll'. Symbol loading disabled by Include/Exclude setting.
+'NqlSDK.exe' (Win32): Loaded 'C:\Windows\System32\bcrypt.dll'. Symbol loading disabled by Include/Exclude setting.
+'NqlSDK.exe' (Win32): Loaded 'C:\Windows\System32\DriverStore\FileRepository\u0414671.inf_amd64_d35a7e787428e027\B414600\amdihk64.dll'. Module was built without symbols.
+'NqlSDK.exe' (Win32): Loaded 'C:\Windows\System32\d3d12SDKLayers.dll'. Symbol loading disabled by Include/Exclude setting.
+'NqlSDK.exe' (Win32): Unloaded 'C:\Windows\System32\d3d12SDKLayers.dll'
+'NqlSDK.exe' (Win32): Unloaded 'C:\Windows\System32\DriverStore\FileRepository\u0414671.inf_amd64_d35a7e787428e027\B414600\amdihk64.dll'
+'NqlSDK.exe' (Win32): Unloaded 'C:\Windows\System32\winmm.dll'
+'NqlSDK.exe' (Win32): Unloaded 'C:\Windows\System32\version.dll'
+'NqlSDK.exe' (Win32): Unloaded 'C:\Windows\System32\DriverStore\FileRepository\u0414671.inf_amd64_d35a7e787428e027\B414600\amdxc64.dll'
+'NqlSDK.exe' (Win32): Loaded 'C:\Windows\System32\DriverStore\FileRepository\u0414671.inf_amd64_d35a7e787428e027\B414600\amdxc64.dll'. Symbol loading disabled by Include/Exclude setting.
+'NqlSDK.exe' (Win32): Loaded 'C:\Windows\System32\version.dll'. Symbol loading disabled by Include/Exclude setting.
+'NqlSDK.exe' (Win32): Loaded 'C:\Windows\System32\winmm.dll'. Symbol loading disabled by Include/Exclude setting.
+'NqlSDK.exe' (Win32): Loaded 'C:\Windows\System32\DriverStore\FileRepository\u0414671.inf_amd64_d35a7e787428e027\B414600\amdihk64.dll'. Module was built without symbols.
+'NqlSDK.exe' (Win32): Loaded 'C:\Windows\System32\d3d12SDKLayers.dll'. Symbol loading disabled by Include/Exclude setting.
+'NqlSDK.exe' (Win32): Loaded 'C:\Windows\System32\D3DSCache.dll'. Symbol loading disabled by Include/Exclude setting.
+'NqlSDK.exe' (Win32): Loaded 'C:\Windows\System32\userenv.dll'. Symbol loading disabled by Include/Exclude setting.
+'NqlSDK.exe' (Win32): Loaded 'C:\Windows\System32\dxilconv.dll'. Symbol loading disabled by Include/Exclude setting.
+'NqlSDK.exe' (Win32): Unloaded 'C:\Windows\System32\dxilconv.dll'
+'NqlSDK.exe' (Win32): Loaded 'C:\Windows\System32\dcomp.dll'. Symbol loading disabled by Include/Exclude setting.
+'NqlSDK.exe' (Win32): Loaded 'C:\Windows\System32\Microsoft.Internal.WarpPal.dll'. Symbol loading disabled by Include/Exclude setting.
+'NqlSDK.exe' (Win32): Loaded 'C:\Windows\System32\dwmapi.dll'. Symbol loading disabled by Include/Exclude setting.
+'NqlSDK.exe' (Win32): Loaded 'C:\Windows\System32\rsaenh.dll'. Symbol loading disabled by Include/Exclude setting.
+'NqlSDK.exe' (Win32): Loaded 'C:\Windows\System32\dxilconv.dll'. Symbol loading disabled by Include/Exclude setting.
+'NqlSDK.exe' (Win32): Loaded 'C:\Windows\System32\clbcatq.dll'. Symbol loading disabled by Include/Exclude setting.
+'NqlSDK.exe' (Win32): Loaded 'C:\Windows\System32\WindowsCodecs.dll'. Symbol loading disabled by Include/Exclude setting.
+'NqlSDK.exe' (Win32): Loaded 'C:\Windows\System32\TextShaping.dll'. Symbol loading disabled by Include/Exclude setting.
+[NQL SDK] Camera init: pos(0.00,200.00,0.00) tgt(0.00,180.00,64.00)
+'NqlSDK.exe' (Win32): Loaded 'C:\Windows\System32\ApplicationTargetedFeatureDatabase.dll'. Symbol loading disabled by Include/Exclude setting.
+'NqlSDK.exe' (Win32): Loaded 'C:\Windows\System32\twinapi.appcore.dll'. Symbol loading disabled by Include/Exclude setting.
+The thread 'ShellHandwriting Delegate Thread' (39172) has exited with code 0 (0x0).
+[GEN_STAGE] begin idx=0/16 name="Opening world save"
+[GEN_STAGE] end idx=0 name="Opening world save" duration=0ms chunks=0 data_kb=0
+[GEN_STAGE] begin idx=1/16 name="Initializing world generator"
+[GEN_STAGE] end idx=1 name="Initializing world generator" duration=16ms chunks=0 data_kb=0
+[GEN_STAGE] begin idx=2/16 name="Preparing world systems"
+[GEN_STAGE] end idx=2 name="Preparing world systems" duration=47ms chunks=0 data_kb=0
+[GEN_STAGE] begin idx=3/16 name="Loading station state"
+[GEN_STAGE] end idx=3 name="Loading station state" duration=0ms chunks=0 data_kb=0
+[GEN_STAGE] begin idx=4/16 name="Preparing chunk systems"
+[STREAMER] Initializing with 16 worker threads
+[GEN_STAGE] end idx=4 name="Preparing chunk systems" duration=16ms chunks=0 data_kb=0
+[GEN_STAGE] begin idx=5/16 name="Initializing entities"
+[GEN_STAGE] end idx=5 name="Initializing entities" duration=0ms chunks=0 data_kb=0
+[GEN_STAGE] begin idx=6/16 name="Restoring world state"
+[SPAWN] Random spawn at (106,-229) top=322 surface=320 water=0 province=10 moisture=0 relief=0 score=0
+[GEN_STAGE] end idx=6 name="Restoring world state" duration=609ms chunks=0 data_kb=0
+[GEN_STAGE] begin idx=7/16 name="Planning visible chunks"
+[GEN_STAGE] end idx=7 name="Planning visible chunks" duration=0ms chunks=0 data_kb=0
+[GEN_STAGE] begin idx=8/16 name="Loading nearby chunks"
+[BOOTSTRAP] sync_target_total=6 safety_radius=1
+[WORKER] Processing job cx=1 cz=-5 gen=2 type=GENERATE
+[WORKER] Processing job cx=1 cz=-4 gen=2 type=GENERATE
+[WORKER] Processing job cx=1 cz=-3 gen=2 type=GENERATE
+[WORKER] Processing job cx=0 cz=-3 gen=2 type=GENERATE
+[WORKER] Processing job cx=3 cz=-4 gen=2 type=GENERATE
+[WORKER] Processing job cx=-1 cz=-4 gen=2 type=GENERATE
+[WORKER] Processing job cx=0 cz=-5 gen=2 type=GENERATE
+[READINESS] desired=6 resident=0 gpu_ready=0 | skips: not_primary=144 outside_radius=250 no_chunk=6 no_blocks=0 | pending: jobs=15 results=0
+[WORKER] Processing job cx=2 cz=-4 gen=2 type=GENERATE
+[WORKER] Processing job cx=1 cz=-6 gen=2 type=GENERATE
+[WORKER] Processing job cx=2 cz=-3 gen=2 type=GENERATE
+[WORKER] Processing job cx=1 cz=-2 gen=2 type=GENERATE
+[WORKER] Processing job cx=3 cz=-5 gen=2 type=GENERATE
+[WORKER] Processing job cx=0 cz=-4 gen=2 type=GENERATE
+[WORKER] Processing job cx=2 cz=-5 gen=2 type=GENERATE
+[WORKER] Processing job cx=0 cz=-2 gen=2 type=GENERATE
+[WORKER] Processing job cx=-1 cz=-5 gen=2 type=GENERATE
+[WORLD_CELLS] Entry: chunk=(-1,-5) enabled=1 registry=0000021D1D3664F0
+[WORLD_CELLS] Proceeding with construction cell generation
+[TERRAIN_EDGE] chunk=(-1,-5) enabled=1 registry=0000021D1D3664F0
+[WORLD_CELLS] Entry: chunk=(-1,-4) enabled=1 registry=0000021D1D3664F0
+[WORLD_CELLS] Proceeding with construction cell generation
+[TERRAIN_EDGE] chunk=(-1,-4) enabled=1 registry=0000021D1D3664F0
+[WORLD_CELLS] Entry: chunk=(0,-2) enabled=1 registry=0000021D1D3664F0
+[WORLD_CELLS] Proceeding with construction cell generation
+[TERRAIN_EDGE] chunk=(0,-2) enabled=1 registry=0000021D1D3664F0
+[WORLD_CELLS] Entry: chunk=(0,-3) enabled=1 registry=0000021D1D3664F0
+[WORLD_CELLS] Proceeding with construction cell generation
+[TERRAIN_EDGE] chunk=(0,-3) enabled=1 registry=0000021D1D3664F0
+[WORLD_CELLS] Entry: chunk=(0,-4) enabled=1 registry=0000021D1D3664F0
+[WORLD_CELLS] Proceeding with construction cell generation
+[TERRAIN_EDGE] chunk=(0,-4) enabled=1 registry=0000021D1D3664F0
+[TERRAIN_EDGE] chunk=(-1,-5) placed=0 skipped=396 (has_occupancy=396 not_edge=3700 no_config=0 set_payload_failed=0 edge_blocks=396)
+[WORLD_CELLS] Found settlement_data with 0 settlements
+[WORLD_CELLS] Entry: chunk=(0,-5) enabled=1 registry=0000021D1D3664F0
+[WORLD_CELLS] Proceeding with construction cell generation
+[TERRAIN_EDGE] chunk=(0,-5) enabled=1 registry=0000021D1D3664F0
+[STREAMER] Chunk (-1,-5): blocks=0000021D40760070, impl=0000021D2CE77CB0, construction_cells_enabled=1, registry=0000021D1D3664F0
+[WORLD_CELLS] Entry: chunk=(-1,-5) enabled=1 registry=0000021D1D3664F0
+[WORLD_CELLS] Proceeding with construction cell generation
+[TERRAIN_EDGE] chunk=(-1,-5) enabled=1 registry=0000021D1D3664F0
+[TERRAIN_EDGE] chunk=(0,-2) placed=0 skipped=226 (has_occupancy=226 not_edge=3870 no_config=0 set_payload_failed=0 edge_blocks=226)
+[WORLD_CELLS] Found settlement_data with 0 settlements
+[STREAMER] Chunk (0,-2): blocks=0000021D437CC070, impl=0000021D2CE74FB0, construction_cells_enabled=1, registry=0000021D1D3664F0
+[WORLD_CELLS] Entry: chunk=(0,-2) enabled=1 registry=0000021D1D3664F0
+[WORLD_CELLS] Proceeding with construction cell generation
+[TERRAIN_EDGE] chunk=(0,-2) enabled=1 registry=0000021D1D3664F0
+[TERRAIN_EDGE] chunk=(0,-3) placed=0 skipped=226 (has_occupancy=226 not_edge=3870 no_config=0 set_payload_failed=0 edge_blocks=226)
+[WORLD_CELLS] Found settlement_data with 0 settlements
+[STREAMER] Chunk (0,-3): blocks=0000021D3DF12070, impl=0000021D2CE770B0, construction_cells_enabled=1, registry=0000021D1D3664F0
+[WORLD_CELLS] Entry: chunk=(0,-3) enabled=1 registry=0000021D1D3664F0
+[WORLD_CELLS] Proceeding with construction cell generation
+[TERRAIN_EDGE] chunk=(0,-3) enabled=1 registry=0000021D1D3664F0
+[WORLD_CELLS] Found settlement_data with 0 settlements
+[STREAMER] Chunk (-1,-4): blocks=0000021D3CEFD070, impl=0000021D2CE779B0, construction_cells_enabled=1, registry=0000021D1D3664F0
+[WORLD_CELLS] Entry: chunk=(-1,-4) enabled=1 registry=0000021D1D3664F0
+[WORLD_CELLS] Proceeding with construction cell generation
+[TERRAIN_EDGE] chunk=(-1,-4) enabled=1 registry=0000021D1D3664F0
+[TERRAIN_EDGE] chunk=(0,-4) placed=0 skipped=226 (has_occupancy=226 not_edge=3870 no_config=0 set_payload_failed=0 edge_blocks=226)
+[WORLD_CELLS] Found settlement_data with 0 settlements
+[STREAMER] Chunk (0,-4): blocks=0000021D40F79070, impl=0000021D2CE773B0, construction_cells_enabled=1, registry=0000021D1D3664F0
+[WORLD_CELLS] Entry: chunk=(0,-4) enabled=1 registry=0000021D1D3664F0
+[WORLD_CELLS] Proceeding with construction cell generation
+[TERRAIN_EDGE] chunk=(0,-4) enabled=1 registry=0000021D1D3664F0
+[TERRAIN_EDGE] chunk=(0,-5) placed=0 skipped=226 (has_occupancy=226 not_edge=3870 no_config=0 set_payload_failed=0 edge_blocks=226)
+[WORLD_CELLS] Found settlement_data with 0 settlements
+[STREAMER] Chunk (0,-5): blocks=0000021D42FB7070, impl=0000021D2CE75BB0, construction_cells_enabled=1, registry=0000021D1D3664F0
+[WORLD_CELLS] Entry: chunk=(0,-5) enabled=1 registry=0000021D1D3664F0
+[WORLD_CELLS] Proceeding with construction cell generation
+[TERRAIN_EDGE] chunk=(0,-5) enabled=1 registry=0000021D1D3664F0
+[TERRAIN_EDGE] chunk=(0,-2) placed=0 skipped=226 (has_occupancy=226 not_edge=3870 no_config=0 set_payload_failed=0 edge_blocks=226)
+[WORLD_CELLS] Found settlement_data with 0 settlements
+[WORKER] Meshing cx=0 cz=-2 (persisted=0)
+[TERRAIN_EDGE] chunk=(0,-3) placed=0 skipped=226 (has_occupancy=226 not_edge=3870 no_config=0 set_payload_failed=0 edge_blocks=226)
+[WORLD_CELLS] Found settlement_data with 0 settlements
+[WORKER] Meshing cx=0 cz=-3 (persisted=0)
+[TERRAIN_EDGE] chunk=(0,-4) placed=0 skipped=226 (has_occupancy=226 not_edge=3870 no_config=0 set_payload_failed=0 edge_blocks=226)
+[WORLD_CELLS] Found settlement_data with 0 settlements
+[WORKER] Meshing cx=0 cz=-4 (persisted=0)
+[TERRAIN_EDGE] chunk=(0,-5) placed=0 skipped=226 (has_occupancy=226 not_edge=3870 no_config=0 set_payload_failed=0 edge_blocks=226)
+[WORLD_CELLS] Found settlement_data with 0 settlements
+[WORKER] Meshing cx=0 cz=-5 (persisted=0)
+[TERRAIN_EDGE] chunk=(-1,-5) placed=0 skipped=396 (has_occupancy=396 not_edge=3700 no_config=0 set_payload_failed=0 edge_blocks=396)
+[WORLD_CELLS] Found settlement_data with 0 settlements
+[WORKER] Meshing cx=-1 cz=-5 (persisted=0)
+[WORLD_CELLS] Found settlement_data with 0 settlements
+[WORKER] Meshing cx=-1 cz=-4 (persisted=0)
+[READINESS] desired=6 resident=0 gpu_ready=0 | skips: not_primary=144 outside_radius=250 no_chunk=6 no_blocks=0 | pending: jobs=9 results=0
+[WORKER] Mesh complete cx=-1 cz=-4 built=0000021D3C24F140
+[WORKER] Queuing result cx=-1 cz=-4 gen=2 built=0000021D3C24F140 results=0/768
+[WORKER] Processing job cx=2 cz=-6 gen=2 type=GENERATE
+[PROCESS] Popped result cx=-1 cz=-4 gen=2 type=GENERATE built=0000021D3C24F140
+[ADOPT] Adopting chunk (-1,-4) gen=2 role=2
+[ADOPT] SUCCESS chunk (-1,-4) now resident. loaded_from_persist=0
+[PROCESS] Adoption result: adopted=1 for cx=-1 cz=-4
+[WORKER] Mesh complete cx=-1 cz=-5 built=0000021D3C24E630
+[WORKER] Queuing result cx=-1 cz=-5 gen=2 built=0000021D3C24E630 results=0/768
+[WORKER] Processing job cx=-1 cz=-3 gen=2 type=GENERATE
+[PROCESS] Popped result cx=-1 cz=-5 gen=2 type=GENERATE built=0000021D3C24E630
+[ADOPT] Adopting chunk (-1,-5) gen=2 role=2
+[ADOPT] SUCCESS chunk (-1,-5) now resident. loaded_from_persist=0
+[PROCESS] Adoption result: adopted=1 for cx=-1 cz=-5
+[READINESS] desired=6 resident=0 gpu_ready=0 | skips: not_primary=144 outside_radius=250 no_chunk=6 no_blocks=0 | pending: jobs=7 results=0
+[WORLD_CELLS] Entry: chunk=(1,-6) enabled=1 registry=0000021D1D3664F0
+[WORLD_CELLS] Proceeding with construction cell generation
+[TERRAIN_EDGE] chunk=(1,-6) enabled=1 registry=0000021D1D3664F0
+[WORLD_CELLS] Entry: chunk=(3,-5) enabled=1 registry=0000021D1D3664F0
+[WORLD_CELLS] Proceeding with construction cell generation
+[TERRAIN_EDGE] chunk=(3,-5) enabled=1 registry=0000021D1D3664F0
+[TERRAIN_EDGE] chunk=(1,-6) placed=0 skipped=3038 (has_occupancy=3038 not_edge=1058 no_config=0 set_payload_failed=0 edge_blocks=3038)
+[WORLD_CELLS] Found settlement_data with 0 settlements
+[STREAMER] Chunk (1,-6): blocks=0000021D44FAE070, impl=0000021D2CE758B0, construction_cells_enabled=1, registry=0000021D1D3664F0
+[WORLD_CELLS] Entry: chunk=(1,-6) enabled=1 registry=0000021D1D3664F0
+[WORLD_CELLS] Proceeding with construction cell generation
+[TERRAIN_EDGE] chunk=(1,-6) enabled=1 registry=0000021D1D3664F0
+[WORLD_CELLS] Entry: chunk=(3,-4) enabled=1 registry=0000021D1D3664F0
+[WORLD_CELLS] Proceeding with construction cell generation
+[TERRAIN_EDGE] chunk=(3,-4) enabled=1 registry=0000021D1D3664F0
+[TERRAIN_EDGE] chunk=(3,-5) placed=0 skipped=2255 (has_occupancy=2255 not_edge=1841 no_config=0 set_payload_failed=0 edge_blocks=2255)
+[WORLD_CELLS] Found settlement_data with 0 settlements
+[STREAMER] Chunk (3,-5): blocks=0000021D3E726070, impl=0000021D2CE78BB0, construction_cells_enabled=1, registry=0000021D1D3664F0
+[WORLD_CELLS] Entry: chunk=(3,-5) enabled=1 registry=0000021D1D3664F0
+[WORLD_CELLS] Proceeding with construction cell generation
+[TERRAIN_EDGE] chunk=(3,-5) enabled=1 registry=0000021D1D3664F0
+[TERRAIN_EDGE] chunk=(1,-6) placed=0 skipped=3038 (has_occupancy=3038 not_edge=1058 no_config=0 set_payload_failed=0 edge_blocks=3038)
+[WORLD_CELLS] Found settlement_data with 0 settlements
+[WORKER] Meshing cx=1 cz=-6 (persisted=0)
+[TERRAIN_EDGE] chunk=(3,-4) placed=0 skipped=2652 (has_occupancy=2652 not_edge=1444 no_config=0 set_payload_failed=0 edge_blocks=2652)
+[WORLD_CELLS] Found settlement_data with 0 settlements
+[STREAMER] Chunk (3,-4): blocks=0000021D3D70E070, impl=0000021D2CE76AB0, construction_cells_enabled=1, registry=0000021D1D3664F0
+[WORLD_CELLS] Entry: chunk=(3,-4) enabled=1 registry=0000021D1D3664F0
+[WORLD_CELLS] Proceeding with construction cell generation
+[TERRAIN_EDGE] chunk=(3,-4) enabled=1 registry=0000021D1D3664F0
+[TERRAIN_EDGE] chunk=(3,-5) placed=0 skipped=2255 (has_occupancy=2255 not_edge=1841 no_config=0 set_payload_failed=0 edge_blocks=2255)
+[WORLD_CELLS] Found settlement_data with 0 settlements
+[WORKER] Meshing cx=3 cz=-5 (persisted=0)
+[TERRAIN_EDGE] chunk=(3,-4) placed=0 skipped=2652 (has_occupancy=2652 not_edge=1444 no_config=0 set_payload_failed=0 edge_blocks=2652)
+[WORLD_CELLS] Found settlement_data with 0 settlements
+[WORKER] Meshing cx=3 cz=-4 (persisted=0)
+[WORLD_CELLS] Entry: chunk=(1,-5) enabled=1 registry=0000021D1D3664F0
+[WORLD_CELLS] Proceeding with construction cell generation
+[TERRAIN_EDGE] chunk=(1,-5) enabled=1 registry=0000021D1D3664F0
+[WORLD_CELLS] Entry: chunk=(2,-5) enabled=1 registry=0000021D1D3664F0
+[WORLD_CELLS] Proceeding with construction cell generation
+[TERRAIN_EDGE] chunk=(2,-5) enabled=1 registry=0000021D1D3664F0
+[WORKER] Mesh complete cx=0 cz=-4 built=0000021D3C251D80
+[WORKER] Queuing result cx=0 cz=-4 gen=2 built=0000021D3C251D80 results=0/768
+[WORKER] Processing job cx=2 cz=-2 gen=2 type=GENERATE
+[WORLD_CELLS] Entry: chunk=(2,-4) enabled=1 registry=0000021D1D3664F0
+[WORLD_CELLS] Proceeding with construction cell generation
+[TERRAIN_EDGE] chunk=(2,-4) enabled=1 registry=0000021D1D3664F0
+[WORKER] Mesh complete cx=0 cz=-3 built=0000021D3C2533A0
+[WORKER] Queuing result cx=0 cz=-3 gen=2 built=0000021D3C2533A0 results=1/768
+[WORKER] Processing job cx=3 cz=-3 gen=2 type=GENERATE
+[PROCESS] Popped result cx=0 cz=-4 gen=2 type=GENERATE built=0000021D3C251D80
+[ADOPT] Adopting chunk (0,-4) gen=2 role=2
+[ADOPT] SUCCESS chunk (0,-4) now resident. loaded_from_persist=0
+[PROCESS] Adoption result: adopted=1 for cx=0 cz=-4
+[TERRAIN_EDGE] chunk=(1,-5) placed=0 skipped=3449 (has_occupancy=3449 not_edge=647 no_config=0 set_payload_failed=0 edge_blocks=3449)
+[WORLD_CELLS] Found settlement_data with 0 settlements
+[STREAMER] Chunk (1,-5): blocks=0000021D41780070, impl=0000021D2CE755B0, construction_cells_enabled=1, registry=0000021D1D3664F0
+[WORLD_CELLS] Entry: chunk=(1,-5) enabled=1 registry=0000021D1D3664F0
+[WORLD_CELLS] Proceeding with construction cell generation
+[TERRAIN_EDGE] chunk=(1,-5) enabled=1 registry=0000021D1D3664F0
+[PROCESS] Popped result cx=0 cz=-3 gen=2 type=GENERATE built=0000021D3C2533A0
+[ADOPT] Adopting chunk (0,-3) gen=2 role=2
+[ADOPT] SUCCESS chunk (0,-3) now resident. loaded_from_persist=0
+[PROCESS] Adoption result: adopted=1 for cx=0 cz=-3
+[WORKER] Mesh complete cx=0 cz=-5 built=0000021D3C253EB0
+[WORKER] Queuing result cx=0 cz=-5 gen=2 built=0000021D3C253EB0 results=0/768
+[WORKER] Processing job cx=0 cz=-6 gen=2 type=GENERATE
+[WORKER] Mesh complete cx=0 cz=-2 built=0000021D445D46D0
+[WORKER] Queuing result cx=0 cz=-2 gen=2 built=0000021D445D46D0 results=1/768
+[WORKER] Processing job cx=3 cz=-2 gen=2 type=GENERATE
+[PROCESS] Popped result cx=0 cz=-5 gen=2 type=GENERATE built=0000021D3C253EB0
+[ADOPT] Adopting chunk (0,-5) gen=2 role=2
+[ADOPT] SUCCESS chunk (0,-5) now resident. loaded_from_persist=0
+[PROCESS] Adoption result: adopted=1 for cx=0 cz=-5
+[TERRAIN_EDGE] chunk=(2,-5) placed=0 skipped=3384 (has_occupancy=3384 not_edge=712 no_config=0 set_payload_failed=0 edge_blocks=3384)
+[WORLD_CELLS] Found settlement_data with 0 settlements
+[STREAMER] Chunk (2,-5): blocks=0000021D457BF070, impl=0000021D2CE752B0, construction_cells_enabled=1, registry=0000021D1D3664F0
+[WORLD_CELLS] Entry: chunk=(2,-5) enabled=1 registry=0000021D1D3664F0
+[WORLD_CELLS] Proceeding with construction cell generation
+[TERRAIN_EDGE] chunk=(2,-5) enabled=1 registry=0000021D1D3664F0
+[PROCESS] Popped result cx=0 cz=-2 gen=2 type=GENERATE built=0000021D445D46D0
+[ADOPT] Adopting chunk (0,-2) gen=2 role=2
+[ADOPT] SUCCESS chunk (0,-2) now resident. loaded_from_persist=0
+[PROCESS] Adoption result: adopted=1 for cx=0 cz=-2
+[TERRAIN_EDGE] chunk=(2,-4) placed=0 skipped=2862 (has_occupancy=2862 not_edge=1234 no_config=0 set_payload_failed=0 edge_blocks=2862)
+[WORLD_CELLS] Found settlement_data with 0 settlements
+[STREAMER] Chunk (2,-4): blocks=0000021D3FF57070, impl=0000021D2CE75EB0, construction_cells_enabled=1, registry=0000021D1D3664F0
+[WORLD_CELLS] Entry: chunk=(2,-4) enabled=1 registry=0000021D1D3664F0
+[WORLD_CELLS] Proceeding with construction cell generation
+[TERRAIN_EDGE] chunk=(2,-4) enabled=1 registry=0000021D1D3664F0
+[TERRAIN_EDGE] chunk=(1,-5) placed=0 skipped=3449 (has_occupancy=3449 not_edge=647 no_config=0 set_payload_failed=0 edge_blocks=3449)
+[WORLD_CELLS] Found settlement_data with 0 settlements
+[WORKER] Meshing cx=1 cz=-5 (persisted=0)
+[TERRAIN_EDGE] chunk=(2,-5) placed=0 skipped=3384 (has_occupancy=3384 not_edge=712 no_config=0 set_payload_failed=0 edge_blocks=3384)
+[WORLD_CELLS] Found settlement_data with 0 settlements
+[WORKER] Meshing cx=2 cz=-5 (persisted=0)
+[READINESS] desired=6 resident=0 gpu_ready=0 | skips: not_primary=144 outside_radius=250 no_chunk=6 no_blocks=0 | pending: jobs=3 results=0
+[TERRAIN_EDGE] chunk=(2,-4) placed=0 skipped=2862 (has_occupancy=2862 not_edge=1234 no_config=0 set_payload_failed=0 edge_blocks=2862)
+[WORLD_CELLS] Found settlement_data with 0 settlements
+[WORKER] Meshing cx=2 cz=-4 (persisted=0)
+[WORLD_CELLS] Entry: chunk=(1,-4) enabled=1 registry=0000021D1D3664F0
+[WORLD_CELLS] Proceeding with construction cell generation
+[TERRAIN_EDGE] chunk=(1,-4) enabled=1 registry=0000021D1D3664F0
+[WORLD_CELLS] Entry: chunk=(0,-6) enabled=1 registry=0000021D1D3664F0
+[WORLD_CELLS] Proceeding with construction cell generation
+[TERRAIN_EDGE] chunk=(0,-6) enabled=1 registry=0000021D1D3664F0
+[TERRAIN_EDGE] chunk=(1,-4) placed=0 skipped=2857 (has_occupancy=2857 not_edge=1239 no_config=0 set_payload_failed=0 edge_blocks=2857)
+[WORLD_CELLS] Found settlement_data with 0 settlements
+[STREAMER] Chunk (1,-4): blocks=0000021D3EF3A070, impl=0000021D2CE785B0, construction_cells_enabled=1, registry=0000021D1D3664F0
+[WORLD_CELLS] Entry: chunk=(1,-4) enabled=1 registry=0000021D1D3664F0
+[WORLD_CELLS] Proceeding with construction cell generation
+[TERRAIN_EDGE] chunk=(1,-4) enabled=1 registry=0000021D1D3664F0
+[TERRAIN_EDGE] chunk=(0,-6) placed=0 skipped=226 (has_occupancy=226 not_edge=3870 no_config=0 set_payload_failed=0 edge_blocks=226)
+[WORLD_CELLS] Found settlement_data with 0 settlements
+[STREAMER] Chunk (0,-6): blocks=0000021D4FD84070, impl=0000021D2CE75BB0, construction_cells_enabled=1, registry=0000021D1D3664F0
+[WORLD_CELLS] Entry: chunk=(0,-6) enabled=1 registry=0000021D1D3664F0
+[WORLD_CELLS] Proceeding with construction cell generation
+[TERRAIN_EDGE] chunk=(0,-6) enabled=1 registry=0000021D1D3664F0
+[TERRAIN_EDGE] chunk=(1,-4) placed=0 skipped=2857 (has_occupancy=2857 not_edge=1239 no_config=0 set_payload_failed=0 edge_blocks=2857)
+[WORLD_CELLS] Found settlement_data with 0 settlements
+[WORKER] Meshing cx=1 cz=-4 (persisted=0)
+[TERRAIN_EDGE] chunk=(0,-6) placed=0 skipped=226 (has_occupancy=226 not_edge=3870 no_config=0 set_payload_failed=0 edge_blocks=226)
+[WORLD_CELLS] Found settlement_data with 0 settlements
+[WORKER] Meshing cx=0 cz=-6 (persisted=0)
+[WORLD_CELLS] Entry: chunk=(1,-2) enabled=1 registry=0000021D1D3664F0
+[WORLD_CELLS] Proceeding with construction cell generation
+[TERRAIN_EDGE] chunk=(1,-2) enabled=1 registry=0000021D1D3664F0
+[WORLD_CELLS] Entry: chunk=(1,-3) enabled=1 registry=0000021D1D3664F0
+[WORLD_CELLS] Proceeding with construction cell generation
+[TERRAIN_EDGE] chunk=(1,-3) enabled=1 registry=0000021D1D3664F0
+[TERRAIN_EDGE] chunk=(1,-2) placed=0 skipped=2458 (has_occupancy=2458 not_edge=1638 no_config=0 set_payload_failed=0 edge_blocks=2458)
+[WORLD_CELLS] Found settlement_data with 0 settlements
+[STREAMER] Chunk (1,-2): blocks=0000021D427AA070, impl=0000021D2CE788B0, construction_cells_enabled=1, registry=0000021D1D3664F0
+[WORLD_CELLS] Entry: chunk=(1,-2) enabled=1 registry=0000021D1D3664F0
+[WORLD_CELLS] Proceeding with construction cell generation
+[TERRAIN_EDGE] chunk=(1,-2) enabled=1 registry=0000021D1D3664F0
+[WORLD_CELLS] Entry: chunk=(-1,-3) enabled=1 registry=0000021D1D3664F0
+[WORLD_CELLS] Proceeding with construction cell generation
+[TERRAIN_EDGE] chunk=(-1,-3) enabled=1 registry=0000021D1D3664F0
+[WORLD_CELLS] Entry: chunk=(2,-3) enabled=1 registry=0000021D1D3664F0
+[WORLD_CELLS] Proceeding with construction cell generation
+[TERRAIN_EDGE] chunk=(2,-3) enabled=1 registry=0000021D1D3664F0
+[TERRAIN_EDGE] chunk=(1,-2) placed=0 skipped=2458 (has_occupancy=2458 not_edge=1638 no_config=0 set_payload_failed=0 edge_blocks=2458)
+[WORLD_CELLS] Found settlement_data with 0 settlements
+[WORKER] Meshing cx=1 cz=-2 (persisted=0)
+[TERRAIN_EDGE] chunk=(1,-3) placed=0 skipped=3414 (has_occupancy=3414 not_edge=682 no_config=0 set_payload_failed=0 edge_blocks=3414)
+[WORLD_CELLS] Found settlement_data with 0 settlements
+[STREAMER] Chunk (1,-3): blocks=0000021D3F74A070, impl=0000021D2CE782B0, construction_cells_enabled=1, registry=0000021D1D3664F0
+[WORLD_CELLS] Entry: chunk=(1,-3) enabled=1 registry=0000021D1D3664F0
+[WORLD_CELLS] Proceeding with construction cell generation
+[TERRAIN_EDGE] chunk=(1,-3) enabled=1 registry=0000021D1D3664F0
+[TERRAIN_EDGE] chunk=(-1,-3) placed=0 skipped=2257 (has_occupancy=2257 not_edge=1839 no_config=0 set_payload_failed=0 edge_blocks=2257)
+[WORLD_CELLS] Found settlement_data with 0 settlements
+[TERRAIN_EDGE] chunk=(2,-3) placed=0 skipped=2535 (has_occupancy=2535 not_edge=1561 no_config=0 set_payload_failed=0 edge_blocks=2535)
+[WORLD_CELLS] Found settlement_data with 0 settlements
+[STREAMER] Chunk (-1,-3): blocks=0000021D4B105070, impl=0000021D2CE77CB0, construction_cells_enabled=1, registry=0000021D1D3664F0
+[WORLD_CELLS] Entry: chunk=(-1,-3) enabled=1 registry=0000021D1D3664F0
+[WORLD_CELLS] Proceeding with construction cell generation
+[TERRAIN_EDGE] chunk=(-1,-3) enabled=1 registry=0000021D1D3664F0
+[STREAMER] Chunk (2,-3): blocks=0000021D41F9A070, impl=0000021D2CE76DB0, construction_cells_enabled=1, registry=0000021D1D3664F0
+[WORLD_CELLS] Entry: chunk=(2,-3) enabled=1 registry=0000021D1D3664F0
+[WORLD_CELLS] Proceeding with construction cell generation
+[TERRAIN_EDGE] chunk=(2,-3) enabled=1 registry=0000021D1D3664F0
+[TERRAIN_EDGE] chunk=(1,-3) placed=0 skipped=3414 (has_occupancy=3414 not_edge=682 no_config=0 set_payload_failed=0 edge_blocks=3414)
+[WORLD_CELLS] Found settlement_data with 0 settlements
+[WORKER] Meshing cx=1 cz=-3 (persisted=0)
+[TERRAIN_EDGE] chunk=(2,-3) placed=0 skipped=2535 (has_occupancy=2535 not_edge=1561 no_config=0 set_payload_failed=0 edge_blocks=2535)
+[WORLD_CELLS] Found settlement_data with 0 settlements
+[WORKER] Meshing cx=2 cz=-3 (persisted=0)
+[TERRAIN_EDGE] chunk=(-1,-3) placed=0 skipped=2257 (has_occupancy=2257 not_edge=1839 no_config=0 set_payload_failed=0 edge_blocks=2257)
+[WORLD_CELLS] Found settlement_data with 0 settlements
+[WORKER] Meshing cx=-1 cz=-3 (persisted=0)
+[WORLD_CELLS] Entry: chunk=(2,-6) enabled=1 registry=0000021D1D3664F0
+[WORLD_CELLS] Proceeding with construction cell generation
+[TERRAIN_EDGE] chunk=(2,-6) enabled=1 registry=0000021D1D3664F0
+[TERRAIN_EDGE] chunk=(2,-6) placed=0 skipped=3300 (has_occupancy=3300 not_edge=796 no_config=0 set_payload_failed=0 edge_blocks=3300)
+[WORLD_CELLS] Found settlement_data with 0 settlements
+[STREAMER] Chunk (2,-6): blocks=0000021D49CAF070, impl=0000021D2CE779B0, construction_cells_enabled=1, registry=0000021D1D3664F0
+[WORLD_CELLS] Entry: chunk=(2,-6) enabled=1 registry=0000021D1D3664F0
+[WORLD_CELLS] Proceeding with construction cell generation
+[TERRAIN_EDGE] chunk=(2,-6) enabled=1 registry=0000021D1D3664F0
+[TERRAIN_EDGE] chunk=(2,-6) placed=0 skipped=3300 (has_occupancy=3300 not_edge=796 no_config=0 set_payload_failed=0 edge_blocks=3300)
+[WORLD_CELLS] Found settlement_data with 0 settlements
+[WORKER] Meshing cx=2 cz=-6 (persisted=0)
+[READINESS] desired=6 resident=0 gpu_ready=0 | skips: not_primary=144 outside_radius=250 no_chunk=6 no_blocks=0 | pending: jobs=3 results=0
+[WORKER] Mesh complete cx=1 cz=-6 built=0000021D445D30B0
+[WORKER] Queuing result cx=1 cz=-6 gen=2 built=0000021D445D30B0 results=0/768
+[WORKER] Processing job cx=3 cz=-6 gen=2 type=GENERATE
+[PROCESS] Popped result cx=1 cz=-6 gen=2 type=GENERATE built=0000021D445D30B0
+[ADOPT] Adopting chunk (1,-6) gen=2 role=1
+[ADOPT] SUCCESS chunk (1,-6) now resident. loaded_from_persist=0
+[PROCESS] Adoption result: adopted=1 for cx=1 cz=-6
+[WORKER] Mesh complete cx=3 cz=-5 built=0000021D445D3BC0
+[WORKER] Queuing result cx=3 cz=-5 gen=2 built=0000021D445D3BC0 results=0/768
+[WORKER] Processing job cx=-1 cz=-6 gen=2 type=GENERATE
+[PROCESS] Popped result cx=3 cz=-5 gen=2 type=GENERATE built=0000021D445D3BC0
+[ADOPT] Adopting chunk (3,-5) gen=2 role=1
+[ADOPT] SUCCESS chunk (3,-5) now resident. loaded_from_persist=0
+[PROCESS] Adoption result: adopted=1 for cx=3 cz=-5
+[WORKER] Mesh complete cx=3 cz=-4 built=0000021D445D8930
+[WORKER] Queuing result cx=3 cz=-4 gen=2 built=0000021D445D8930 results=0/768
+[WORKER] Processing job cx=-1 cz=-2 gen=2 type=GENERATE
+[PROCESS] Popped result cx=3 cz=-4 gen=2 type=GENERATE built=0000021D445D8930
+[ADOPT] Adopting chunk (3,-4) gen=2 role=1
+[ADOPT] SUCCESS chunk (3,-4) now resident. loaded_from_persist=0
+[PROCESS] Adoption result: adopted=1 for cx=3 cz=-4
+[WORKER] Mesh complete cx=1 cz=-5 built=0000021D445D7E20
+[WORKER] Queuing result cx=1 cz=-5 gen=2 built=0000021D445D7E20 results=0/768
+[PROCESS] Popped result cx=1 cz=-5 gen=2 type=GENERATE built=0000021D445D7E20
+[ADOPT] Adopting chunk (1,-5) gen=2 role=1
+[ADOPT] SUCCESS chunk (1,-5) now resident. loaded_from_persist=0
+[PROCESS] Adoption result: adopted=1 for cx=1 cz=-5
+[WORKER] Mesh complete cx=2 cz=-5 built=0000021D445D5CF0
+[WORKER] Queuing result cx=2 cz=-5 gen=2 built=0000021D445D5CF0 results=0/768
+[PROCESS] Popped result cx=2 cz=-5 gen=2 type=GENERATE built=0000021D445D5CF0
+[ADOPT] Adopting chunk (2,-5) gen=2 role=1
+[ADOPT] SUCCESS chunk (2,-5) now resident. loaded_from_persist=0
+[PROCESS] Adoption result: adopted=1 for cx=2 cz=-5
+[WORKER] Mesh complete cx=2 cz=-4 built=0000021D445D9F50
+[WORKER] Queuing result cx=2 cz=-4 gen=2 built=0000021D445D9F50 results=0/768
+[PROCESS] Popped result cx=2 cz=-4 gen=2 type=GENERATE built=0000021D445D9F50
+[ADOPT] Adopting chunk (2,-4) gen=2 role=1
+[ADOPT] SUCCESS chunk (2,-4) now resident. loaded_from_persist=0
+[PROCESS] Adoption result: adopted=1 for cx=2 cz=-4
+[WORKER] Mesh complete cx=1 cz=-4 built=0000021D445D9440
+[WORKER] Queuing result cx=1 cz=-4 gen=2 built=0000021D445D9440 results=0/768
+[PROCESS] Popped result cx=1 cz=-4 gen=2 type=GENERATE built=0000021D445D9440
+[ADOPT] Adopting chunk (1,-4) gen=2 role=1
+[ADOPT] SUCCESS chunk (1,-4) now resident. loaded_from_persist=0
+[PROCESS] Adoption result: adopted=1 for cx=1 cz=-4
+[WORKER] Mesh complete cx=1 cz=-2 built=0000021D445DCB90
+[WORKER] Queuing result cx=1 cz=-2 gen=2 built=0000021D445DCB90 results=0/768
+[WORKER] Mesh complete cx=-1 cz=-3 built=0000021D445DAA60
+[WORKER] Queuing result cx=-1 cz=-3 gen=2 built=0000021D445DAA60 results=1/768
+[PROCESS] Popped result cx=1 cz=-2 gen=2 type=GENERATE built=0000021D445DCB90
+[ADOPT] Adopting chunk (1,-2) gen=2 role=1
+[ADOPT] SUCCESS chunk (1,-2) now resident. loaded_from_persist=0
+[PROCESS] Adoption result: adopted=1 for cx=1 cz=-2
+[PROCESS] Popped result cx=-1 cz=-3 gen=2 type=GENERATE built=0000021D445DAA60
+[ADOPT] Adopting chunk (-1,-3) gen=2 role=2
+[ADOPT] SUCCESS chunk (-1,-3) now resident. loaded_from_persist=0
+[PROCESS] Adoption result: adopted=1 for cx=-1 cz=-3
+[WORKER] Mesh complete cx=1 cz=-3 built=0000021D445DE1B0
+[WORKER] Queuing result cx=1 cz=-3 gen=2 built=0000021D445DE1B0 results=0/768
+[WORKER] Mesh complete cx=2 cz=-6 built=0000021D445DC080
+[WORKER] Queuing result cx=2 cz=-6 gen=2 built=0000021D445DC080 results=1/768
+[PROCESS] Popped result cx=1 cz=-3 gen=2 type=GENERATE built=0000021D445DE1B0
+[ADOPT] Adopting chunk (1,-3) gen=2 role=1
+[ADOPT] SUCCESS chunk (1,-3) now resident. loaded_from_persist=0
+[PROCESS] Adoption result: adopted=1 for cx=1 cz=-3
+[PROCESS] Popped result cx=2 cz=-6 gen=2 type=GENERATE built=0000021D445DC080
+[ADOPT] Adopting chunk (2,-6) gen=2 role=1
+[ADOPT] SUCCESS chunk (2,-6) now resident. loaded_from_persist=0
+[PROCESS] Adoption result: adopted=1 for cx=2 cz=-6
+[WORKER] Mesh complete cx=2 cz=-3 built=0000021D445DB570
+[WORKER] Queuing result cx=2 cz=-3 gen=2 built=0000021D445DB570 results=0/768
+[PROCESS] Popped result cx=2 cz=-3 gen=2 type=GENERATE built=0000021D445DB570
+[ADOPT] Adopting chunk (2,-3) gen=2 role=1
+[ADOPT] SUCCESS chunk (2,-3) now resident. loaded_from_persist=0
+[PROCESS] Adoption result: adopted=1 for cx=2 cz=-3
+[READINESS] desired=6 resident=6 gpu_ready=0 | skips: not_primary=144 outside_radius=250 no_chunk=0 no_blocks=0 | pending: jobs=0 results=0
+[WORKER] Mesh complete cx=0 cz=-6 built=0000021D445DECC0
+[WORKER] Queuing result cx=0 cz=-6 gen=2 built=0000021D445DECC0 results=0/768
+[WORLD_CELLS] Entry: chunk=(-1,-6) enabled=1 registry=0000021D1D3664F0
+[WORLD_CELLS] Proceeding with construction cell generation
+[TERRAIN_EDGE] chunk=(-1,-6) enabled=1 registry=0000021D1D3664F0
+[TERRAIN_EDGE] chunk=(-1,-6) placed=0 skipped=1983 (has_occupancy=1983 not_edge=2113 no_config=0 set_payload_failed=0 edge_blocks=1983)
+[WORLD_CELLS] Found settlement_data with 0 settlements
+[STREAMER] Chunk (-1,-6): blocks=0000021D5F489070, impl=0000021D2CE78BB0, construction_cells_enabled=1, registry=0000021D1D3664F0
+[WORLD_CELLS] Entry: chunk=(-1,-6) enabled=1 registry=0000021D1D3664F0
+[WORLD_CELLS] Proceeding with construction cell generation
+[TERRAIN_EDGE] chunk=(-1,-6) enabled=1 registry=0000021D1D3664F0
+[TERRAIN_EDGE] chunk=(-1,-6) placed=0 skipped=1983 (has_occupancy=1983 not_edge=2113 no_config=0 set_payload_failed=0 edge_blocks=1983)
+[WORLD_CELLS] Found settlement_data with 0 settlements
+[WORKER] Meshing cx=-1 cz=-6 (persisted=0)
+[WORLD_CELLS] Entry: chunk=(3,-3) enabled=1 registry=0000021D1D3664F0
+[WORLD_CELLS] Proceeding with construction cell generation
+[TERRAIN_EDGE] chunk=(3,-3) enabled=1 registry=0000021D1D3664F0
+[WORLD_CELLS] Entry: chunk=(2,-2) enabled=1 registry=0000021D1D3664F0
+[WORLD_CELLS] Proceeding with construction cell generation
+[TERRAIN_EDGE] chunk=(2,-2) enabled=1 registry=0000021D1D3664F0
+[TERRAIN_EDGE] chunk=(3,-3) placed=0 skipped=2619 (has_occupancy=2619 not_edge=1477 no_config=0 set_payload_failed=0 edge_blocks=2619)
+[WORLD_CELLS] Found settlement_data with 0 settlements
+[STREAMER] Chunk (3,-3): blocks=0000021D4F573070, impl=0000021D2CE770B0, construction_cells_enabled=1, registry=0000021D1D3664F0
+[WORLD_CELLS] Entry: chunk=(3,-3) enabled=1 registry=0000021D1D3664F0
+[WORLD_CELLS] Proceeding with construction cell generation
+[TERRAIN_EDGE] chunk=(3,-3) enabled=1 registry=0000021D1D3664F0
+[TERRAIN_EDGE] chunk=(2,-2) placed=0 skipped=1756 (has_occupancy=1756 not_edge=2340 no_config=0 set_payload_failed=0 edge_blocks=1756)
+[WORLD_CELLS] Found settlement_data with 0 settlements
+[STREAMER] Chunk (2,-2): blocks=0000021D4ED6B070, impl=0000021D2CE773B0, construction_cells_enabled=1, registry=0000021D1D3664F0
+[WORLD_CELLS] Entry: chunk=(2,-2) enabled=1 registry=0000021D1D3664F0
+[WORLD_CELLS] Proceeding with construction cell generation
+[TERRAIN_EDGE] chunk=(2,-2) enabled=1 registry=0000021D1D3664F0
+[TERRAIN_EDGE] chunk=(3,-3) placed=0 skipped=2619 (has_occupancy=2619 not_edge=1477 no_config=0 set_payload_failed=0 edge_blocks=2619)
+[WORLD_CELLS] Found settlement_data with 0 settlements
+[WORKER] Meshing cx=3 cz=-3 (persisted=0)
+[TERRAIN_EDGE] chunk=(2,-2) placed=0 skipped=1756 (has_occupancy=1756 not_edge=2340 no_config=0 set_payload_failed=0 edge_blocks=1756)
+[WORLD_CELLS] Found settlement_data with 0 settlements
+[WORKER] Meshing cx=2 cz=-2 (persisted=0)
+[WORLD_CELLS] Entry: chunk=(3,-2) enabled=1 registry=0000021D1D3664F0
+[WORLD_CELLS] Proceeding with construction cell generation
+[TERRAIN_EDGE] chunk=(3,-2) enabled=1 registry=0000021D1D3664F0
+[TERRAIN_EDGE] chunk=(3,-2) placed=0 skipped=1664 (has_occupancy=1664 not_edge=2432 no_config=0 set_payload_failed=0 edge_blocks=1664)
+[WORLD_CELLS] Found settlement_data with 0 settlements
+[STREAMER] Chunk (3,-2): blocks=0000021D5059C070, impl=0000021D2CE74FB0, construction_cells_enabled=1, registry=0000021D1D3664F0
+[WORLD_CELLS] Entry: chunk=(3,-2) enabled=1 registry=0000021D1D3664F0
+[WORLD_CELLS] Proceeding with construction cell generation
+[TERRAIN_EDGE] chunk=(3,-2) enabled=1 registry=0000021D1D3664F0
+[TERRAIN_EDGE] chunk=(3,-2) placed=0 skipped=1664 (has_occupancy=1664 not_edge=2432 no_config=0 set_payload_failed=0 edge_blocks=1664)
+[WORLD_CELLS] Found settlement_data with 0 settlements
+[WORKER] Meshing cx=3 cz=-2 (persisted=0)
+[WORLD_CELLS] Entry: chunk=(3,-6) enabled=1 registry=0000021D1D3664F0
+[WORLD_CELLS] Proceeding with construction cell generation
+[TERRAIN_EDGE] chunk=(3,-6) enabled=1 registry=0000021D1D3664F0
+[TERRAIN_EDGE] chunk=(3,-6) placed=0 skipped=3226 (has_occupancy=3226 not_edge=870 no_config=0 set_payload_failed=0 edge_blocks=3226)
+[WORLD_CELLS] Found settlement_data with 0 settlements
+[STREAMER] Chunk (3,-6): blocks=0000021D5D78A070, impl=0000021D2CE758B0, construction_cells_enabled=1, registry=0000021D1D3664F0
+[WORLD_CELLS] Entry: chunk=(3,-6) enabled=1 registry=0000021D1D3664F0
+[WORLD_CELLS] Proceeding with construction cell generation
+[TERRAIN_EDGE] chunk=(3,-6) enabled=1 registry=0000021D1D3664F0
+[TERRAIN_EDGE] chunk=(3,-6) placed=0 skipped=3226 (has_occupancy=3226 not_edge=870 no_config=0 set_payload_failed=0 edge_blocks=3226)
+[WORLD_CELLS] Found settlement_data with 0 settlements
+[WORKER] Meshing cx=3 cz=-6 (persisted=0)
+[WORLD_CELLS] Entry: chunk=(-1,-2) enabled=1 registry=0000021D1D3664F0
+[WORLD_CELLS] Proceeding with construction cell generation
+[TERRAIN_EDGE] chunk=(-1,-2) enabled=1 registry=0000021D1D3664F0
+[TERRAIN_EDGE] chunk=(-1,-2) placed=0 skipped=3049 (has_occupancy=3049 not_edge=1047 no_config=0 set_payload_failed=0 edge_blocks=3049)
+[WORLD_CELLS] Found settlement_data with 0 settlements
+[STREAMER] Chunk (-1,-2): blocks=0000021D608E3070, impl=0000021D2CE76AB0, construction_cells_enabled=1, registry=0000021D1D3664F0
+[WORLD_CELLS] Entry: chunk=(-1,-2) enabled=1 registry=0000021D1D3664F0
+[WORLD_CELLS] Proceeding with construction cell generation
+[TERRAIN_EDGE] chunk=(-1,-2) enabled=1 registry=0000021D1D3664F0
+[TERRAIN_EDGE] chunk=(-1,-2) placed=0 skipped=3049 (has_occupancy=3049 not_edge=1047 no_config=0 set_payload_failed=0 edge_blocks=3049)
+[WORLD_CELLS] Found settlement_data with 0 settlements
+[WORKER] Meshing cx=-1 cz=-2 (persisted=0)
+[WORKER] Mesh complete cx=-1 cz=-6 built=0000021D445D51E0
+[WORKER] Queuing result cx=-1 cz=-6 gen=2 built=0000021D445D51E0 results=1/768
+[WORKER] Mesh complete cx=3 cz=-3 built=0000021D445D25A0
+[WORKER] Queuing result cx=3 cz=-3 gen=2 built=0000021D445D25A0 results=2/768
+[WORKER] Mesh complete cx=3 cz=-6 built=0000021D445D7310
+[WORKER] Queuing result cx=3 cz=-6 gen=2 built=0000021D445D7310 results=3/768
+[WORKER] Mesh complete cx=2 cz=-2 built=0000021D445D6800
+[WORKER] Queuing result cx=2 cz=-2 gen=2 built=0000021D445D6800 results=4/768
+[WORKER] Mesh complete cx=3 cz=-2 built=0000021D445DD6A0
+[WORKER] Queuing result cx=3 cz=-2 gen=2 built=0000021D445DD6A0 results=5/768
+[WORKER] Mesh complete cx=-1 cz=-2 built=0000021D445DF7D0
+[WORKER] Queuing result cx=-1 cz=-2 gen=2 built=0000021D445DF7D0 results=6/768
+[READINESS] desired=6 resident=6 gpu_ready=6 | skips: not_primary=144 outside_radius=250 no_chunk=0 no_blocks=0 | pending: jobs=0 results=7
+[PROCESS] Popped result cx=0 cz=-6 gen=2 type=GENERATE built=0000021D445DECC0
+[ADOPT] Adopting chunk (0,-6) gen=2 role=2
+[ADOPT] SUCCESS chunk (0,-6) now resident. loaded_from_persist=0
+[PROCESS] Adoption result: adopted=1 for cx=0 cz=-6
+[GEN_STAGE] end idx=8 name="Loading nearby chunks" duration=17656ms chunks=19 data_kb=0
+[READINESS] desired=6 resident=6 gpu_ready=5 | skips: not_primary=144 outside_radius=250 no_chunk=0 no_blocks=0 | pending: jobs=0 results=6
+[PROCESS] Popped result cx=-1 cz=-6 gen=2 type=GENERATE built=0000021D445D51E0
+[ADOPT] Adopting chunk (-1,-6) gen=2 role=2
+[ADOPT] SUCCESS chunk (-1,-6) now resident. loaded_from_persist=0
+[PROCESS] Adoption result: adopted=1 for cx=-1 cz=-6
+[STARTUP] terrain desired=6 resident=6 ready=5 jobs=0 results=5 no_cpu=1 upload=0 stale=0 far_only=0 other=0
+[PROCESS] Popped result cx=3 cz=-3 gen=2 type=GENERATE built=0000021D445D25A0
+[ADOPT] Adopting chunk (3,-3) gen=2 role=1
+[ADOPT] SUCCESS chunk (3,-3) now resident. loaded_from_persist=0
+[PROCESS] Adoption result: adopted=1 for cx=3 cz=-3
+[PROCESS] Popped result cx=3 cz=-6 gen=2 type=GENERATE built=0000021D445D7310
+[ADOPT] Adopting chunk (3,-6) gen=2 role=1
+[ADOPT] SUCCESS chunk (3,-6) now resident. loaded_from_persist=0
+[PROCESS] Adoption result: adopted=1 for cx=3 cz=-6
+[PROCESS] Popped result cx=2 cz=-2 gen=2 type=GENERATE built=0000021D445D6800
+[ADOPT] Adopting chunk (2,-2) gen=2 role=1
+[ADOPT] SUCCESS chunk (2,-2) now resident. loaded_from_persist=0
+[PROCESS] Adoption result: adopted=1 for cx=2 cz=-2
+[PROCESS] Popped result cx=3 cz=-2 gen=2 type=GENERATE built=0000021D445DD6A0
+[ADOPT] Adopting chunk (3,-2) gen=2 role=1
+[ADOPT] SUCCESS chunk (3,-2) now resident. loaded_from_persist=0
+[PROCESS] Adoption result: adopted=1 for cx=3 cz=-2
+[PROCESS] Popped result cx=-1 cz=-2 gen=2 type=GENERATE built=0000021D445DF7D0
+[ADOPT] Adopting chunk (-1,-2) gen=2 role=2
+[ADOPT] SUCCESS chunk (-1,-2) now resident. loaded_from_persist=0
+[PROCESS] Adoption result: adopted=1 for cx=-1 cz=-2
+[RESIDENCY] STALL mode=superchunk desired=400(P256/F140/T4) resident=25(P15/F10/T0/E0) jobs=0 results=0 primary=(0,-1) desired_sc=(0,-1) transition=0
+[RESIDENCY] missing desired chunks primary=241 ring=130 transition=4 desired=400 active=25
+[READINESS] desired=6 resident=6 gpu_ready=1 | skips: not_primary=144 outside_radius=250 no_chunk=0 no_blocks=0 | pending: jobs=0 results=0
+[STARTUP] terrain desired=6 resident=6 ready=1 jobs=0 results=0 no_cpu=5 upload=0 stale=0 far_only=0 other=0
+[RESIDENCY] STALL mode=superchunk desired=400(P256/F140/T4) resident=25(P15/F10/T0/E0) jobs=0 results=0 primary=(0,-1) desired_sc=(0,-1) transition=0
+[RESIDENCY] missing desired chunks primary=241 ring=130 transition=4 desired=400 active=25
+[READINESS] desired=6 resident=6 gpu_ready=1 | skips: not_primary=144 outside_radius=250 no_chunk=0 no_blocks=0 | pending: jobs=0 results=0
+[STARTUP] terrain desired=6 resident=6 ready=1 jobs=0 results=0 no_cpu=5 upload=0 stale=0 far_only=0 other=0
+[RESIDENCY] STALL mode=superchunk desired=400(P256/F140/T4) resident=25(P15/F10/T0/E0) jobs=0 results=0 primary=(0,-1) desired_sc=(0,-1) transition=0
+[RESIDENCY] missing desired chunks primary=241 ring=130 transition=4 desired=400 active=25
+[PLAYER] Test flight enabled (double SPACE, testing only)
+[WORKER] Processing job cx=1 cz=-1 gen=2 type=GENERATE
+[WORKER] Processing job cx=4 cz=-4 gen=2 type=GENERATE
+[WALL] HEALTH W=16/5/0 N=16/0/0 E=16/0/0 S=16/0/0 (desired/resident/ready)
+[WORKER] Processing job cx=2 cz=-7 gen=2 type=GENERATE
+[WORKER] Processing job cx=4 cz=-3 gen=2 type=GENERATE
+[WORKER] Processing job cx=2 cz=-1 gen=2 type=GENERATE
+[WORKER] Processing job cx=3 cz=-1 gen=2 type=GENERATE
+[WORKER] Processing job cx=4 cz=-6 gen=2 type=GENERATE
+[WORKER] Processing job cx=3 cz=-7 gen=2 type=GENERATE
+[WORKER] Processing job cx=5 cz=-5 gen=2 type=GENERATE
+[WORKER] Processing job cx=5 cz=-4 gen=2 type=GENERATE
+[WORKER] Processing job cx=2 cz=-8 gen=2 type=GENERATE
+[WORKER] Processing job cx=5 cz=-3 gen=2 type=GENERATE
+[WORKER] Processing job cx=4 cz=-5 gen=2 type=GENERATE
+[WORKER] Processing job cx=4 cz=-2 gen=2 type=GENERATE
+[WORKER] Processing job cx=1 cz=-8 gen=2 type=GENERATE
+[WORKER] Processing job cx=1 cz=-7 gen=2 type=GENERATE
+[READINESS] desired=6 resident=6 gpu_ready=1 | skips: not_primary=144 outside_radius=250 no_chunk=0 no_blocks=0 | pending: jobs=359 results=0
+[READINESS] desired=6 resident=6 gpu_ready=1 | skips: not_primary=144 outside_radius=250 no_chunk=0 no_blocks=0 | pending: jobs=359 results=0
+[READINESS] desired=6 resident=6 gpu_ready=1 | skips: not_primary=144 outside_radius=250 no_chunk=0 no_blocks=0 | pending: jobs=359 results=0
+[WORLD_CELLS] Entry: chunk=(1,-7) enabled=1 registry=0000021D1D3664F0
+[WORLD_CELLS] Proceeding with construction cell generation
+[TERRAIN_EDGE] chunk=(1,-7) enabled=1 registry=0000021D1D3664F0
+[WORLD_CELLS] Entry: chunk=(3,-7) enabled=1 registry=0000021D1D3664F0
+[WORLD_CELLS] Proceeding with construction cell generation
+[TERRAIN_EDGE] chunk=(3,-7) enabled=1 registry=0000021D1D3664F0
+[WORLD_CELLS] Entry: chunk=(2,-7) enabled=1 registry=0000021D1D3664F0
+[WORLD_CELLS] Proceeding with construction cell generation
+[TERRAIN_EDGE] chunk=(2,-7) enabled=1 registry=0000021D1D3664F0
+[TERRAIN_EDGE] chunk=(1,-7) placed=0 skipped=2448 (has_occupancy=2448 not_edge=1648 no_config=0 set_payload_failed=0 edge_blocks=2448)
+[WORLD_CELLS] Found settlement_data with 0 settlements
+[STREAMER] Chunk (1,-7): blocks=0000021D8182B070, impl=0000021D2CE75EB0, construction_cells_enabled=1, registry=0000021D1D3664F0
+[WORLD_CELLS] Entry: chunk=(1,-7) enabled=1 registry=0000021D1D3664F0
+[WORLD_CELLS] Proceeding with construction cell generation
+[TERRAIN_EDGE] chunk=(1,-7) enabled=1 registry=0000021D1D3664F0
+[TERRAIN_EDGE] chunk=(3,-7) placed=0 skipped=3180 (has_occupancy=3180 not_edge=916 no_config=0 set_payload_failed=0 edge_blocks=3180)
+[WORLD_CELLS] Found settlement_data with 0 settlements
+[STREAMER] Chunk (3,-7): blocks=0000021D81016070, impl=0000021D2CE78BB0, construction_cells_enabled=1, registry=0000021D1D3664F0
+[WORLD_CELLS] Entry: chunk=(3,-7) enabled=1 registry=0000021D1D3664F0
+[WORLD_CELLS] Proceeding with construction cell generation
+[TERRAIN_EDGE] chunk=(3,-7) enabled=1 registry=0000021D1D3664F0
+[TERRAIN_EDGE] chunk=(2,-7) placed=0 skipped=3034 (has_occupancy=3034 not_edge=1062 no_config=0 set_payload_failed=0 edge_blocks=3034)
+[WORLD_CELLS] Found settlement_data with 0 settlements
+[STREAMER] Chunk (2,-7): blocks=0000021D0B98A070, impl=0000021D2CE788B0, construction_cells_enabled=1, registry=0000021D1D3664F0
+[WORLD_CELLS] Entry: chunk=(2,-7) enabled=1 registry=0000021D1D3664F0
+[WORLD_CELLS] Proceeding with construction cell generation
+[TERRAIN_EDGE] chunk=(2,-7) enabled=1 registry=0000021D1D3664F0
+[TERRAIN_EDGE] chunk=(1,-7) placed=0 skipped=2448 (has_occupancy=2448 not_edge=1648 no_config=0 set_payload_failed=0 edge_blocks=2448)
+[WORLD_CELLS] Found settlement_data with 0 settlements
+[WORKER] Meshing cx=1 cz=-7 (persisted=0)
+[TERRAIN_EDGE] chunk=(3,-7) placed=0 skipped=3180 (has_occupancy=3180 not_edge=916 no_config=0 set_payload_failed=0 edge_blocks=3180)
+[WORLD_CELLS] Found settlement_data with 0 settlements
+[WORKER] Meshing cx=3 cz=-7 (persisted=0)
+[TERRAIN_EDGE] chunk=(2,-7) placed=0 skipped=3034 (has_occupancy=3034 not_edge=1062 no_config=0 set_payload_failed=0 edge_blocks=3034)
+[WORLD_CELLS] Found settlement_data with 0 settlements
+[WORKER] Meshing cx=2 cz=-7 (persisted=0)
+[WORLD_CELLS] Entry: chunk=(1,-8) enabled=1 registry=0000021D1D3664F0
+[WORLD_CELLS] Proceeding with construction cell generation
+[TERRAIN_EDGE] chunk=(1,-8) enabled=1 registry=0000021D1D3664F0
+[WORLD_CELLS] Entry: chunk=(4,-6) enabled=1 registry=0000021D1D3664F0
+[WORLD_CELLS] Proceeding with construction cell generation
+[TERRAIN_EDGE] chunk=(4,-6) enabled=1 registry=0000021D1D3664F0
+[TERRAIN_EDGE] chunk=(1,-8) placed=0 skipped=3339 (has_occupancy=3339 not_edge=757 no_config=0 set_payload_failed=0 edge_blocks=3339)
+[WORLD_CELLS] Found settlement_data with 0 settlements
+[STREAMER] Chunk (1,-8): blocks=0000021D0D1BD070, impl=0000021D2CE770B0, construction_cells_enabled=1, registry=0000021D1D3664F0
+[WORLD_CELLS] Entry: chunk=(1,-8) enabled=1 registry=0000021D1D3664F0
+[WORLD_CELLS] Proceeding with construction cell generation
+[TERRAIN_EDGE] chunk=(1,-8) enabled=1 registry=0000021D1D3664F0
+[WORLD_CELLS] Entry: chunk=(2,-8) enabled=1 registry=0000021D1D3664F0
+[WORLD_CELLS] Proceeding with construction cell generation
+[TERRAIN_EDGE] chunk=(2,-8) enabled=1 registry=0000021D1D3664F0
+[TERRAIN_EDGE] chunk=(4,-6) placed=0 skipped=2839 (has_occupancy=2839 not_edge=1257 no_config=0 set_payload_failed=0 edge_blocks=2839)
+[WORLD_CELLS] Found settlement_data with 0 settlements
+[STREAMER] Chunk (4,-6): blocks=0000021D0A96B070, impl=0000021D2CE75BB0, construction_cells_enabled=1, registry=0000021D1D3664F0
+[WORLD_CELLS] Entry: chunk=(4,-6) enabled=1 registry=0000021D1D3664F0
+[WORLD_CELLS] Proceeding with construction cell generation
+[TERRAIN_EDGE] chunk=(4,-6) enabled=1 registry=0000021D1D3664F0
+[TERRAIN_EDGE] chunk=(2,-8) placed=0 skipped=3620 (has_occupancy=3620 not_edge=476 no_config=0 set_payload_failed=0 edge_blocks=3620)
+[WORLD_CELLS] Found settlement_data with 0 settlements
+[TERRAIN_EDGE] chunk=(1,-8) placed=0 skipped=3339 (has_occupancy=3339 not_edge=757 no_config=0 set_payload_failed=0 edge_blocks=3339)
+[WORLD_CELLS] Found settlement_data with 0 settlements
+[WORKER] Meshing cx=1 cz=-8 (persisted=0)
+[STREAMER] Chunk (2,-8): blocks=0000021D0B175070, impl=0000021D2CE76AB0, construction_cells_enabled=1, registry=0000021D1D3664F0
+[WORLD_CELLS] Entry: chunk=(2,-8) enabled=1 registry=0000021D1D3664F0
+[WORLD_CELLS] Proceeding with construction cell generation
+[TERRAIN_EDGE] chunk=(2,-8) enabled=1 registry=0000021D1D3664F0
+[TERRAIN_EDGE] chunk=(4,-6) placed=0 skipped=2839 (has_occupancy=2839 not_edge=1257 no_config=0 set_payload_failed=0 edge_blocks=2839)
+[WORLD_CELLS] Found settlement_data with 0 settlements
+[WORKER] Meshing cx=4 cz=-6 (persisted=0)
+[WORLD_CELLS] Entry: chunk=(4,-5) enabled=1 registry=0000021D1D3664F0
+[WORLD_CELLS] Proceeding with construction cell generation
+[TERRAIN_EDGE] chunk=(4,-5) enabled=1 registry=0000021D1D3664F0
+[TERRAIN_EDGE] chunk=(2,-8) placed=0 skipped=3620 (has_occupancy=3620 not_edge=476 no_config=0 set_payload_failed=0 edge_blocks=3620)
+[WORLD_CELLS] Found settlement_data with 0 settlements
+[WORKER] Meshing cx=2 cz=-8 (persisted=0)
+[TERRAIN_EDGE] chunk=(4,-5) placed=0 skipped=2532 (has_occupancy=2532 not_edge=1564 no_config=0 set_payload_failed=0 edge_blocks=2532)
+[WORLD_CELLS] Found settlement_data with 0 settlements
+[STREAMER] Chunk (4,-5): blocks=0000021D0C190070, impl=0000021D2CE782B0, construction_cells_enabled=1, registry=0000021D1D3664F0
+[WORLD_CELLS] Entry: chunk=(4,-5) enabled=1 registry=0000021D1D3664F0
+[WORLD_CELLS] Proceeding with construction cell generation
+[TERRAIN_EDGE] chunk=(4,-5) enabled=1 registry=0000021D1D3664F0
+[TERRAIN_EDGE] chunk=(4,-5) placed=0 skipped=2532 (has_occupancy=2532 not_edge=1564 no_config=0 set_payload_failed=0 edge_blocks=2532)
+[WORLD_CELLS] Found settlement_data with 0 settlements
+[WORKER] Meshing cx=4 cz=-5 (persisted=0)
+[READINESS] desired=6 resident=6 gpu_ready=1 | skips: not_primary=144 outside_radius=250 no_chunk=0 no_blocks=0 | pending: jobs=359 results=0
+[WORLD_CELLS] Entry: chunk=(4,-4) enabled=1 registry=0000021D1D3664F0
+[WORLD_CELLS] Proceeding with construction cell generation
+[TERRAIN_EDGE] chunk=(4,-4) enabled=1 registry=0000021D1D3664F0
+[WORLD_CELLS] Entry: chunk=(5,-4) enabled=1 registry=0000021D1D3664F0
+[WORLD_CELLS] Proceeding with construction cell generation
+[TERRAIN_EDGE] chunk=(5,-4) enabled=1 registry=0000021D1D3664F0
+[WORLD_CELLS] Entry: chunk=(5,-5) enabled=1 registry=0000021D1D3664F0
+[WORLD_CELLS] Proceeding with construction cell generation
+[TERRAIN_EDGE] chunk=(5,-5) enabled=1 registry=0000021D1D3664F0
+[WORLD_CELLS] Entry: chunk=(4,-3) enabled=1 registry=0000021D1D3664F0
+[WORLD_CELLS] Proceeding with construction cell generation
+[TERRAIN_EDGE] chunk=(4,-3) enabled=1 registry=0000021D1D3664F0
+[TERRAIN_EDGE] chunk=(5,-4) placed=0 skipped=1882 (has_occupancy=1882 not_edge=2214 no_config=0 set_payload_failed=0 edge_blocks=1882)
+[WORLD_CELLS] Found settlement_data with 0 settlements
+[TERRAIN_EDGE] chunk=(4,-4) placed=0 skipped=2235 (has_occupancy=2235 not_edge=1861 no_config=0 set_payload_failed=0 edge_blocks=2235)
+[WORLD_CELLS] Found settlement_data with 0 settlements
+[WORLD_CELLS] Entry: chunk=(5,-3) enabled=1 registry=0000021D1D3664F0
+[WORLD_CELLS] Proceeding with construction cell generation
+[TERRAIN_EDGE] chunk=(5,-3) enabled=1 registry=0000021D1D3664F0
+[STREAMER] Chunk (5,-4): blocks=0000021D0D9C2070, impl=0000021D2CE758B0, construction_cells_enabled=1, registry=0000021D1D3664F0
+[WORLD_CELLS] Entry: chunk=(5,-4) enabled=1 registry=0000021D1D3664F0
+[WORLD_CELLS] Proceeding with construction cell generation
+[TERRAIN_EDGE] chunk=(5,-4) enabled=1 registry=0000021D1D3664F0
+[STREAMER] Chunk (4,-4): blocks=0000021D08928070, impl=0000021D2CE752B0, construction_cells_enabled=1, registry=0000021D1D3664F0
+[WORLD_CELLS] Entry: chunk=(4,-4) enabled=1 registry=0000021D1D3664F0
+[WORLD_CELLS] Proceeding with construction cell generation
+[TERRAIN_EDGE] chunk=(4,-4) enabled=1 registry=0000021D1D3664F0
+[TERRAIN_EDGE] chunk=(5,-5) placed=0 skipped=2200 (has_occupancy=2200 not_edge=1896 no_config=0 set_payload_failed=0 edge_blocks=2200)
+[WORLD_CELLS] Found settlement_data with 0 settlements
+[WORLD_CELLS] Entry: chunk=(4,-2) enabled=1 registry=0000021D1D3664F0
+[WORLD_CELLS] Proceeding with construction cell generation
+[TERRAIN_EDGE] chunk=(4,-2) enabled=1 registry=0000021D1D3664F0
+[STREAMER] Chunk (5,-5): blocks=0000021D0A15C070, impl=0000021D2CE773B0, construction_cells_enabled=1, registry=0000021D1D3664F0
+[WORLD_CELLS] Entry: chunk=(5,-5) enabled=1 registry=0000021D1D3664F0
+[WORLD_CELLS] Proceeding with construction cell generation
+[TERRAIN_EDGE] chunk=(5,-5) enabled=1 registry=0000021D1D3664F0
+[WORLD_CELLS] Entry: chunk=(3,-1) enabled=1 registry=0000021D1D3664F0
+[WORLD_CELLS] Proceeding with construction cell generation
+[TERRAIN_EDGE] chunk=(3,-1) enabled=1 registry=0000021D1D3664F0
+[WORLD_CELLS] Entry: chunk=(2,-1) enabled=1 registry=0000021D1D3664F0
+[WORLD_CELLS] Proceeding with construction cell generation
+[TERRAIN_EDGE] chunk=(2,-1) enabled=1 registry=0000021D1D3664F0
+[TERRAIN_EDGE] chunk=(4,-3) placed=0 skipped=1889 (has_occupancy=1889 not_edge=2207 no_config=0 set_payload_failed=0 edge_blocks=1889)
+[WORLD_CELLS] Found settlement_data with 0 settlements
+[TERRAIN_EDGE] chunk=(5,-3) placed=0 skipped=1405 (has_occupancy=1405 not_edge=2691 no_config=0 set_payload_failed=0 edge_blocks=1405)
+[WORLD_CELLS] Found settlement_data with 0 settlements
+[TERRAIN_EDGE] chunk=(5,-4) placed=0 skipped=1882 (has_occupancy=1882 not_edge=2214 no_config=0 set_payload_failed=0 edge_blocks=1882)
+[WORLD_CELLS] Found settlement_data with 0 settlements
+[WORKER] Meshing cx=5 cz=-4 (persisted=0)
+[STREAMER] Chunk (4,-3): blocks=0000021D80806070, impl=0000021D2CE785B0, construction_cells_enabled=1, registry=0000021D1D3664F0
+[WORLD_CELLS] Entry: chunk=(4,-3) enabled=1 registry=0000021D1D3664F0
+[WORLD_CELLS] Proceeding with construction cell generation
+[TERRAIN_EDGE] chunk=(4,-3) enabled=1 registry=0000021D1D3664F0
+[STREAMER] Chunk (5,-3): blocks=0000021D7FFFA070, impl=0000021D2CE74FB0, construction_cells_enabled=1, registry=0000021D1D3664F0
+[WORLD_CELLS] Entry: chunk=(5,-3) enabled=1 registry=0000021D1D3664F0
+[WORLD_CELLS] Proceeding with construction cell generation
+[TERRAIN_EDGE] chunk=(5,-3) enabled=1 registry=0000021D1D3664F0
+[TERRAIN_EDGE] chunk=(4,-4) placed=0 skipped=2235 (has_occupancy=2235 not_edge=1861 no_config=0 set_payload_failed=0 edge_blocks=2235)
+[WORLD_CELLS] Found settlement_data with 0 settlements
+[WORKER] Meshing cx=4 cz=-4 (persisted=0)
+[TERRAIN_EDGE] chunk=(5,-5) placed=0 skipped=2200 (has_occupancy=2200 not_edge=1896 no_config=0 set_payload_failed=0 edge_blocks=2200)
+[WORLD_CELLS] Found settlement_data with 0 settlements
+[WORKER] Meshing cx=5 cz=-5 (persisted=0)
+[TERRAIN_EDGE] chunk=(4,-2) placed=0 skipped=2468 (has_occupancy=2468 not_edge=1628 no_config=0 set_payload_failed=0 edge_blocks=2468)
+[WORLD_CELLS] Found settlement_data with 0 settlements
+[STREAMER] Chunk (4,-2): blocks=0000021D0C9AA070, impl=0000021D2CE779B0, construction_cells_enabled=1, registry=0000021D1D3664F0
+[WORLD_CELLS] Entry: chunk=(4,-2) enabled=1 registry=0000021D1D3664F0
+[WORLD_CELLS] Proceeding with construction cell generation
+[TERRAIN_EDGE] chunk=(4,-2) enabled=1 registry=0000021D1D3664F0
+[TERRAIN_EDGE] chunk=(3,-1) placed=0 skipped=1916 (has_occupancy=1916 not_edge=2180 no_config=0 set_payload_failed=0 edge_blocks=1916)
+[WORLD_CELLS] Found settlement_data with 0 settlements
+[STREAMER] Chunk (3,-1): blocks=0000021D09948070, impl=0000021D2CE76DB0, construction_cells_enabled=1, registry=0000021D1D3664F0
+[WORLD_CELLS] Entry: chunk=(3,-1) enabled=1 registry=0000021D1D3664F0
+[WORLD_CELLS] Proceeding with construction cell generation
+[TERRAIN_EDGE] chunk=(3,-1) enabled=1 registry=0000021D1D3664F0
+[TERRAIN_EDGE] chunk=(2,-1) placed=0 skipped=2353 (has_occupancy=2353 not_edge=1743 no_config=0 set_payload_failed=0 edge_blocks=2353)
+[WORLD_CELLS] Found settlement_data with 0 settlements
+[STREAMER] Chunk (2,-1): blocks=0000021D0913C070, impl=0000021D2CE77CB0, construction_cells_enabled=1, registry=0000021D1D3664F0
+[WORLD_CELLS] Entry: chunk=(2,-1) enabled=1 registry=0000021D1D3664F0
+[WORLD_CELLS] Proceeding with construction cell generation
+[TERRAIN_EDGE] chunk=(2,-1) enabled=1 registry=0000021D1D3664F0
+[TERRAIN_EDGE] chunk=(4,-3) placed=0 skipped=1889 (has_occupancy=1889 not_edge=2207 no_config=0 set_payload_failed=0 edge_blocks=1889)
+[WORLD_CELLS] Found settlement_data with 0 settlements
+[WORKER] Meshing cx=4 cz=-3 (persisted=0)
+[TERRAIN_EDGE] chunk=(5,-3) placed=0 skipped=1405 (has_occupancy=1405 not_edge=2691 no_config=0 set_payload_failed=0 edge_blocks=1405)
+[WORLD_CELLS] Found settlement_data with 0 settlements
+[WORKER] Meshing cx=5 cz=-3 (persisted=0)
+[WORLD_CELLS] Entry: chunk=(1,-1) enabled=1 registry=0000021D1D3664F0
+[WORLD_CELLS] Proceeding with construction cell generation
+[TERRAIN_EDGE] chunk=(1,-1) enabled=1 registry=0000021D1D3664F0
+[TERRAIN_EDGE] chunk=(4,-2) placed=0 skipped=2468 (has_occupancy=2468 not_edge=1628 no_config=0 set_payload_failed=0 edge_blocks=2468)
+[WORLD_CELLS] Found settlement_data with 0 settlements
+[WORKER] Meshing cx=4 cz=-2 (persisted=0)
+[TERRAIN_EDGE] chunk=(3,-1) placed=0 skipped=1916 (has_occupancy=1916 not_edge=2180 no_config=0 set_payload_failed=0 edge_blocks=1916)
+[WORLD_CELLS] Found settlement_data with 0 settlements
+[WORKER] Meshing cx=3 cz=-1 (persisted=0)
+[TERRAIN_EDGE] chunk=(2,-1) placed=0 skipped=2353 (has_occupancy=2353 not_edge=1743 no_config=0 set_payload_failed=0 edge_blocks=2353)
+[WORLD_CELLS] Found settlement_data with 0 settlements
+[WORKER] Meshing cx=2 cz=-1 (persisted=0)
+[TERRAIN_EDGE] chunk=(1,-1) placed=0 skipped=3187 (has_occupancy=3187 not_edge=909 no_config=0 set_payload_failed=0 edge_blocks=3187)
+[WORLD_CELLS] Found settlement_data with 0 settlements
+[STREAMER] Chunk (1,-1): blocks=0000021D08111070, impl=0000021D2CE755B0, construction_cells_enabled=1, registry=0000021D1D3664F0
+[WORLD_CELLS] Entry: chunk=(1,-1) enabled=1 registry=0000021D1D3664F0
+[WORLD_CELLS] Proceeding with construction cell generation
+[TERRAIN_EDGE] chunk=(1,-1) enabled=1 registry=0000021D1D3664F0
+[TERRAIN_EDGE] chunk=(1,-1) placed=0 skipped=3187 (has_occupancy=3187 not_edge=909 no_config=0 set_payload_failed=0 edge_blocks=3187)
+[WORLD_CELLS] Found settlement_data with 0 settlements
+[WORKER] Meshing cx=1 cz=-1 (persisted=0)
+[WORKER] Mesh complete cx=1 cz=-7 built=0000021D449BE150
+[WORKER] Queuing result cx=1 cz=-7 gen=2 built=0000021D449BE150 results=0/768
+[WORKER] Processing job cx=4 cz=-7 gen=2 type=GENERATE
+[PROCESS] Popped result cx=1 cz=-7 gen=2 type=GENERATE built=0000021D449BE150
+[ADOPT] Adopting chunk (1,-7) gen=2 role=1
+[ADOPT] SUCCESS chunk (1,-7) now resident. loaded_from_persist=0
+[PROCESS] Adoption result: adopted=1 for cx=1 cz=-7
+[WORKER] Mesh complete cx=2 cz=-7 built=0000021D449BCB30
+[WORKER] Queuing result cx=2 cz=-7 gen=2 built=0000021D449BCB30 results=0/768
+[WORKER] Processing job cx=4 cz=-1 gen=2 type=GENERATE
+[PROCESS] Popped result cx=2 cz=-7 gen=2 type=GENERATE built=0000021D449BCB30
+[ADOPT] Adopting chunk (2,-7) gen=2 role=1
+[ADOPT] SUCCESS chunk (2,-7) now resident. loaded_from_persist=0
+[PROCESS] Adoption result: adopted=1 for cx=2 cz=-7
+[READINESS] desired=6 resident=6 gpu_ready=1 | skips: not_primary=144 outside_radius=250 no_chunk=0 no_blocks=0 | pending: jobs=357 results=0
+[WORKER] Mesh complete cx=3 cz=-7 built=0000021D449BC020
+[WORKER] Queuing result cx=3 cz=-7 gen=2 built=0000021D449BC020 results=0/768
+[WORKER] Processing job cx=3 cz=-8 gen=2 type=GENERATE
+[PROCESS] Popped result cx=3 cz=-7 gen=2 type=GENERATE built=0000021D449BC020
+[ADOPT] Adopting chunk (3,-7) gen=2 role=1
+[ADOPT] SUCCESS chunk (3,-7) now resident. loaded_from_persist=0
+[PROCESS] Adoption result: adopted=1 for cx=3 cz=-7
+[WORKER] Mesh complete cx=1 cz=-8 built=0000021D449C23B0
+[WORKER] Queuing result cx=1 cz=-8 gen=2 built=0000021D449C23B0 results=0/768
+[WORKER] Processing job cx=5 cz=-2 gen=2 type=GENERATE
+[PROCESS] Popped result cx=1 cz=-8 gen=2 type=GENERATE built=0000021D449C23B0
+[ADOPT] Adopting chunk (1,-8) gen=2 role=1
+[ADOPT] SUCCESS chunk (1,-8) now resident. loaded_from_persist=0
+[PROCESS] Adoption result: adopted=1 for cx=1 cz=-8
+[WORKER] Mesh complete cx=4 cz=-6 built=0000021D449C0280
+[WORKER] Queuing result cx=4 cz=-6 gen=2 built=0000021D449C0280 results=0/768
+[WORKER] Processing job cx=5 cz=-6 gen=2 type=GENERATE
+[PROCESS] Popped result cx=4 cz=-6 gen=2 type=GENERATE built=0000021D449C0280
+[ADOPT] Adopting chunk (4,-6) gen=2 role=1
+[ADOPT] SUCCESS chunk (4,-6) now resident. loaded_from_persist=0
+[PROCESS] Adoption result: adopted=1 for cx=4 cz=-6
+[WORKER] Mesh complete cx=2 cz=-8 built=0000021D449CA870
+[WORKER] Queuing result cx=2 cz=-8 gen=2 built=0000021D449CA870 results=0/768
+[WORKER] Processing job cx=5 cz=-7 gen=2 type=GENERATE
+[PROCESS] Popped result cx=2 cz=-8 gen=2 type=GENERATE built=0000021D449CA870
+[ADOPT] Adopting chunk (2,-8) gen=2 role=1
+[ADOPT] SUCCESS chunk (2,-8) now resident. loaded_from_persist=0
+[PROCESS] Adoption result: adopted=1 for cx=2 cz=-8
+[WORKER] Mesh complete cx=4 cz=-5 built=0000021D3C24FC50
+[WORKER] Queuing result cx=4 cz=-5 gen=2 built=0000021D3C24FC50 results=0/768
+[WORKER] Processing job cx=5 cz=-1 gen=2 type=GENERATE
+[PROCESS] Popped result cx=4 cz=-5 gen=2 type=GENERATE built=0000021D3C24FC50
+[ADOPT] Adopting chunk (4,-5) gen=2 role=1
+[ADOPT] SUCCESS chunk (4,-5) now resident. loaded_from_persist=0
+[PROCESS] Adoption result: adopted=1 for cx=4 cz=-5
+[WALL] HEALTH W=16/5/0 N=16/0/0 E=16/0/0 S=16/0/0 (desired/resident/ready)
+[READINESS] desired=6 resident=6 gpu_ready=1 | skips: not_primary=144 outside_radius=250 no_chunk=0 no_blocks=0 | pending: jobs=352 results=0
+[WORKER] Mesh complete cx=4 cz=-3 built=0000021D3C251270
+[WORKER] Queuing result cx=4 cz=-3 gen=2 built=0000021D3C251270 results=0/768
+[WORKER] Processing job cx=1 cz=-9 gen=2 type=GENERATE
+[PROCESS] Popped result cx=4 cz=-3 gen=2 type=GENERATE built=0000021D3C251270
+[ADOPT] Adopting chunk (4,-3) gen=2 role=1
+[ADOPT] SUCCESS chunk (4,-3) now resident. loaded_from_persist=0
+[PROCESS] Adoption result: adopted=1 for cx=4 cz=-3
+[WORKER] Mesh complete cx=4 cz=-4 built=0000021D3C2549C0
+[WORKER] Queuing result cx=4 cz=-4 gen=2 built=0000021D3C2549C0 results=0/768
+[WORKER] Processing job cx=6 cz=-4 gen=2 type=GENERATE
+[PROCESS] Popped result cx=4 cz=-4 gen=2 type=GENERATE built=0000021D3C2549C0
+[ADOPT] Adopting chunk (4,-4) gen=2 role=1
+[ADOPT] SUCCESS chunk (4,-4) now resident. loaded_from_persist=0
+[PROCESS] Adoption result: adopted=1 for cx=4 cz=-4
+[WORKER] Mesh complete cx=5 cz=-5 built=0000021D445E0DF0
+[WORKER] Queuing result cx=5 cz=-5 gen=2 built=0000021D445E0DF0 results=0/768
+[WORKER] Processing job cx=4 cz=-8 gen=2 type=GENERATE
+[PROCESS] Popped result cx=5 cz=-5 gen=2 type=GENERATE built=0000021D445E0DF0
+[ADOPT] Adopting chunk (5,-5) gen=2 role=1
+[ADOPT] SUCCESS chunk (5,-5) now resident. loaded_from_persist=0
+[PROCESS] Adoption result: adopted=1 for cx=5 cz=-5
+[WORKER] Mesh complete cx=4 cz=-2 built=0000021D6C2E7770
+[WORKER] Queuing result cx=4 cz=-2 gen=2 built=0000021D6C2E7770 results=0/768
+[WORKER] Processing job cx=2 cz=-9 gen=2 type=GENERATE
+[PROCESS] Popped result cx=4 cz=-2 gen=2 type=GENERATE built=0000021D6C2E7770
+[ADOPT] Adopting chunk (4,-2) gen=2 role=1
+[ADOPT] SUCCESS chunk (4,-2) now resident. loaded_from_persist=0
+[PROCESS] Adoption result: adopted=1 for cx=4 cz=-2
+[WORKER] Mesh complete cx=5 cz=-4 built=0000021D6C2E8D90
+[WORKER] Queuing result cx=5 cz=-4 gen=2 built=0000021D6C2E8D90 results=0/768
+[WORKER] Processing job cx=6 cz=-3 gen=2 type=GENERATE
+[PROCESS] Popped result cx=5 cz=-4 gen=2 type=GENERATE built=0000021D6C2E8D90
+[ADOPT] Adopting chunk (5,-4) gen=2 role=1
+[ADOPT] SUCCESS chunk (5,-4) now resident. loaded_from_persist=0
+[PROCESS] Adoption result: adopted=1 for cx=5 cz=-4
+[WORKER] Mesh complete cx=5 cz=-3 built=0000021D6C2E6150
+[WORKER] Queuing result cx=5 cz=-3 gen=2 built=0000021D6C2E6150 results=0/768
+[WORKER] Processing job cx=6 cz=-5 gen=2 type=GENERATE
+[PROCESS] Popped result cx=5 cz=-3 gen=2 type=GENERATE built=0000021D6C2E6150
+[ADOPT] Adopting chunk (5,-3) gen=2 role=1
+[ADOPT] SUCCESS chunk (5,-3) now resident. loaded_from_persist=0
+[PROCESS] Adoption result: adopted=1 for cx=5 cz=-3
+[WORKER] Mesh complete cx=3 cz=-1 built=0000021D6C2EB9D0
+[WORKER] Queuing result cx=3 cz=-1 gen=2 built=0000021D6C2EB9D0 results=0/768
+[WORKER] Processing job cx=6 cz=-6 gen=2 type=GENERATE
+[WORKER] Mesh complete cx=2 cz=-1 built=0000021D6C2E98A0
+[WORKER] Queuing result cx=2 cz=-1 gen=2 built=0000021D6C2E98A0 results=1/768
+[WORKER] Processing job cx=6 cz=-2 gen=2 type=GENERATE
+[PROCESS] Popped result cx=3 cz=-1 gen=2 type=GENERATE built=0000021D6C2EB9D0
+[ADOPT] Adopting chunk (3,-1) gen=2 role=1
+[ADOPT] SUCCESS chunk (3,-1) now resident. loaded_from_persist=0
+[PROCESS] Adoption result: adopted=1 for cx=3 cz=-1
+[PROCESS] Popped result cx=2 cz=-1 gen=2 type=GENERATE built=0000021D6C2E98A0
+[ADOPT] Adopting chunk (2,-1) gen=2 role=1
+[ADOPT] SUCCESS chunk (2,-1) now resident. loaded_from_persist=0
+[PROCESS] Adoption result: adopted=1 for cx=2 cz=-1
+[WORKER] Mesh complete cx=1 cz=-1 built=0000021D6C2EA3B0
+[WORKER] Queuing result cx=1 cz=-1 gen=2 built=0000021D6C2EA3B0 results=0/768
+[WORKER] Processing job cx=3 cz=-9 gen=2 type=GENERATE
+[PROCESS] Popped result cx=1 cz=-1 gen=2 type=GENERATE built=0000021D6C2EA3B0
+[ADOPT] Adopting chunk (1,-1) gen=2 role=1
+[ADOPT] SUCCESS chunk (1,-1) now resident. loaded_from_persist=0
+[PROCESS] Adoption result: adopted=1 for cx=1 cz=-1
+[READINESS] desired=6 resident=6 gpu_ready=1 | skips: not_primary=144 outside_radius=250 no_chunk=0 no_blocks=0 | pending: jobs=343 results=0
+The thread 'Internal D3D12 Sync Thread' (46388) has exited with code 0 (0x0).
+The thread 'Internal D3D12 Sync Thread' (44244) has exited with code 0 (0x0).
+The thread 35592 has exited with code 0 (0x0).
+The thread 'D3D Background Thread 1' (47392) has exited with code 0 (0x0).
+The thread 27308 has exited with code 0 (0x0).
+The thread 'D3D Background Thread 3' (34320) has exited with code 0 (0x0).
+The thread 'D3D Background Thread 2' (47572) has exited with code 0 (0x0).
+The thread 33300 has exited with code 0 (0x0).
+The thread 38352 has exited with code 0 (0x0).
+The thread 'D3D Background Thread 0' (41320) has exited with code 0 (0x0).
+The thread 39072 has exited with code 0 (0x0).
+The thread 16636 has exited with code 0 (0x0).
+The thread 12576 has exited with code 0 (0x0).
+The thread 25012 has exited with code 0 (0x0).
+The thread 40804 has exited with code 0 (0x0).
+The thread 48188 has exited with code 0 (0x0).
+The thread 11800 has exited with code 0 (0x0).
+The thread 48800 has exited with code 0 (0x0).
+The thread 45756 has exited with code 0 (0x0).
+The thread 2184 has exited with code 0 (0x0).
+The thread 29976 has exited with code 0 (0x0).
+The thread 48852 has exited with code 0 (0x0).
+The thread 30876 has exited with code 0 (0x0).
+The thread 30016 has exited with code 0 (0x0).
+The thread 48508 has exited with code 0 (0x0).
+The thread 41532 has exited with code 0 (0x0).
+The thread 22840 has exited with code 0 (0x0).
+The thread 42004 has exited with code 0 (0x0).
+The thread 20216 has exited with code 0 (0x0).
+The thread 27848 has exited with code 0 (0x0).
+The thread 35468 has exited with code 0 (0x0).
+The thread 2412 has exited with code 0 (0x0).
+The thread 44352 has exited with code 0 (0x0).
+The thread 38244 has exited with code 0 (0x0).
+The thread 30020 has exited with code 0 (0x0).
+The thread 25580 has exited with code 0 (0x0).
+The thread 47872 has exited with code 0 (0x0).
+The thread 31092 has exited with code 0 (0x0).
+The thread 47456 has exited with code 0 (0x0).
+The thread 47372 has exited with code 0 (0x0).
+The thread 48084 has exited with code 0 (0x0).
+The thread 42136 has exited with code 0 (0x0).
+The thread 47696 has exited with code 0 (0x0).
+The thread 36112 has exited with code 0 (0x0).
+The thread 45356 has exited with code 0 (0x0).
+The program '[48096] NqlSDK.exe' has exited with code 0 (0x0).

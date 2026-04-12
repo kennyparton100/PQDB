@@ -1,0 +1,6 @@
+PRINT 'Test chained fix 2'
+LET x = 'start'
+
+ASSUME false THEN LET x = 'first' OTHERWISE ASSUME true THEN LET x = 'second' END ASSUME
+
+PRINT 'Result:', x
