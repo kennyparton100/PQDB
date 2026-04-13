@@ -1,0 +1,1485 @@
+=== NQL SDK Session Debug Log ===
+started_local=2026-04-13 00:26:17.243
+world_id=world_022
+world_dir=WorldSaves\world_022
+trace_jsonl=DebugRuns\live_world_creation_20260413_002617.jsonl
+---
+[TRACE] ms=0 event=trace_reset detail=world_create_menu_activate frontend=18 session=0 worldgen_active=0 stage=0
+[TRACE] ms=0 event=world_create_enter_pressed detail=world create menu activate frontend=18 session=0 worldgen_active=0 stage=0
+[TRACE] ms=16 event=bind_world frontend=18 session=0 worldgen_active=0 stage=0
+[TRACE] ms=16 event=world_create_meta_written detail=WorldSaves\world_022\meta.txt frontend=18 session=0 worldgen_active=0 stage=0
+[TRACE] ms=16 event=bind_world frontend=18 session=0 worldgen_active=0 stage=0
+[TRACE] ms=16 event=world_create_menu_success detail=world_022 frontend=18 session=0 worldgen_active=0 stage=0
+[TRACE] ms=16 event=bind_world frontend=18 session=0 worldgen_active=0 stage=0
+[TRACE] ms=16 event=begin_async_world_session_load detail=world_022 frontend=18 session=0 worldgen_active=0 stage=0
+[TRACE] ms=16 event=async_world_session_load_ready detail=Starting world session... frontend=20 session=0 worldgen_active=1 stage=2
+[TRACE] ms=16 event=update_async_world_generation_stage detail=Starting world session... frontend=20 session=0 worldgen_active=1 stage=2
+[TRACE] ms=16 event=start_world_session_begin detail=world_022 frontend=20 session=0 worldgen_active=1 stage=2
+[TRACE] ms=16 event=bind_world frontend=20 session=0 worldgen_active=1 stage=2
+[TRACE] ms=16 event=start_world_session_enter detail=world_022 frontend=20 session=0 worldgen_active=1 stage=2
+[TRACE] ms=16 event=gen_stage_begin detail=Opening world save frontend=20 session=0 worldgen_active=1 stage=2
+[TRACE] ms=16 event=world_generation_session_step detail=Opening world save... frontend=20 session=0 worldgen_active=1 stage=2
+[TRACE] ms=16 event=gen_stage_end detail=Opening world save frontend=20 session=0 worldgen_active=1 stage=2
+[TRACE] ms=16 event=gen_stage_begin detail=Initializing world generator frontend=20 session=0 worldgen_active=1 stage=2
+[TRACE] ms=16 event=world_generation_session_step detail=Initializing world generator... frontend=20 session=0 worldgen_active=1 stage=2
+[TRACE] ms=31 event=gen_stage_end detail=Initializing world generator frontend=20 session=0 worldgen_active=1 stage=2
+[TRACE] ms=47 event=gen_stage_begin detail=Preparing world systems frontend=20 session=0 worldgen_active=1 stage=2
+[TRACE] ms=47 event=world_generation_session_step detail=Preparing world systems... frontend=20 session=0 worldgen_active=1 stage=2
+[TRACE] ms=78 event=gen_stage_end detail=Preparing world systems frontend=20 session=0 worldgen_active=1 stage=2
+[TRACE] ms=78 event=gen_stage_begin detail=Loading station state frontend=20 session=0 worldgen_active=1 stage=2
+[TRACE] ms=78 event=world_generation_session_step detail=Loading station state... frontend=20 session=0 worldgen_active=1 stage=2
+[TRACE] ms=94 event=gen_stage_end detail=Loading station state frontend=20 session=0 worldgen_active=1 stage=2
+[TRACE] ms=94 event=gen_stage_begin detail=Preparing chunk systems frontend=20 session=0 worldgen_active=1 stage=2
+[TRACE] ms=94 event=world_generation_session_step detail=Preparing chunk systems... frontend=20 session=0 worldgen_active=1 stage=2
+[STREAMER] Initializing with 16 worker threads
+[TRACE] ms=110 event=gen_stage_end detail=Preparing chunk systems frontend=20 session=0 worldgen_active=1 stage=2
+[TRACE] ms=110 event=gen_stage_begin detail=Initializing entities frontend=20 session=0 worldgen_active=1 stage=2
+[TRACE] ms=110 event=world_generation_session_step detail=Initializing entities... frontend=20 session=0 worldgen_active=1 stage=2
+[TRACE] ms=110 event=gen_stage_end detail=Initializing entities frontend=20 session=0 worldgen_active=1 stage=2
+[TRACE] ms=110 event=gen_stage_begin detail=Restoring world state frontend=20 session=0 worldgen_active=1 stage=2
+[TRACE] ms=110 event=world_generation_session_step detail=Restoring world state... frontend=20 session=0 worldgen_active=1 stage=2
+[TRACE] ms=125 event=world_generation_session_step detail=Choosing random spawn... frontend=20 session=0 worldgen_active=1 stage=2
+[TRACE] ms=703 event=gen_stage_end detail=Restoring world state frontend=20 session=0 worldgen_active=1 stage=2
+[TRACE] ms=703 event=gen_stage_begin detail=Planning visible chunks frontend=20 session=0 worldgen_active=1 stage=2
+[TRACE] ms=703 event=world_generation_session_step detail=Planning visible chunks... frontend=20 session=0 worldgen_active=1 stage=2
+[TRACE] ms=703 event=gen_stage_end detail=Planning visible chunks frontend=20 session=0 worldgen_active=1 stage=2
+[TRACE] ms=703 event=gen_stage_begin detail=Loading nearby chunks frontend=20 session=0 worldgen_active=1 stage=2
+[TRACE] ms=703 event=world_generation_session_step detail=Loading nearby chunks... frontend=20 session=0 worldgen_active=1 stage=2
+[BOOTSTRAP] sync_target_total=9 safety_radius=1
+[TRACE] ms=703 event=world_generation_session_step detail=Loading nearby terrain 9/0/0 frontend=20 session=0 worldgen_active=1 stage=2
+[WORKER] Processing job cx=-4 cz=-3 gen=1 space=global_chunk type=GENERATE
+[WORKER] Processing job cx=-4 cz=-4 gen=1 space=global_chunk type=GENERATE
+[WORKER] Processing job cx=-3 cz=-3 gen=1 space=global_chunk type=GENERATE
+[WORKER] Processing job cx=-5 cz=-2 gen=1 space=global_chunk type=GENERATE
+rrain 9/0/0 W0 frontend=20 session=0 worldgen_active=1 stage=2
+[WORKER] Processing job cx=-4 cz=-1 gen=1 space=global_chunk type=GENERATE
+[WORKER] Processing job cx=-3 cz=-2 gen=1 space=global_chunk type=GENERATE
+[TRACE] ms=719 event=world_generation_session_step detail=Loading nearby terrain 9/0/0 W11 frontend=20 session=0 worldgen_active=1 stage=2
+[WORKER] Meshing cx=-2 cz=-3 (persisted=0)
+[RESERVE_SLOT] cx=-2 cz=-3 role=1
+[RESERVE_SLOT] Created new slot: cx=-2 cz=-3 role=1 iterations=0
+[WORKER] Meshing cx=-5 cz=-3 (persisted=0)
+[RESERVE_SLOT] cx=-5 cz=-3 role=1
+[RESERVE_SLOT] Created new slot: cx=-5 cz=-3 role=1 iterations=0
+[WORKER] Meshing cx=-5 cz=-2 (persisted=0)
+[RESERVE_SLOT] cx=-5 cz=-2 role=1
+[RESERVE_SLOT] Created new slot: cx=-5 cz=-2 role=1 iterations=0
+[WORKER] Meshing cx=-4 cz=-4 (persisted=0)
+[RESERVE_SLOT] cx=-4 cz=-4 role=1
+[RESERVE_SLOT] Created new slot: cx=-4 cz=-4 role=1 iterations=0
+[WORKER] Meshing cx=-4 cz=-3 (persisted=0)
+[RESERVE_SLOT] cx=-4 cz=-3 role=1
+[RESERVE_SLOT] Created new slot: cx=-4 cz=-3 role=1 iterations=0
+[WORKER] Meshing cx=-4 cz=-2 (persisted=0)
+[RESERVE_SLOT] cx=-4 cz=-2 role=1
+[RESERVE_SLOT] Created new slot: cx=-4 cz=-2 role=1 iterations=0
+[WORKER] Meshing cx=-4 cz=-1 (persisted=0)
+[RESERVE_SLOT] cx=-4 cz=-1 role=1
+[RESERVE_SLOT] Created new slot: cx=-4 cz=-1 role=1 iterations=0
+[WORKER] Meshing cx=-5 cz=-4 (persisted=0)
+[RESERVE_SLOT] cx=-5 cz=-4 role=1
+[RESERVE_SLOT] Created new slot: cx=-5 cz=-4 role=1 iterations=0
+[WORKER] Meshing cx=-3 cz=-3 (persisted=0)
+[RESERVE_SLOT] cx=-3 cz=-3 role=1
+[RESERVE_SLOT] Created new slot: cx=-3 cz=-3 role=1 iterations=0
+[WORKER] Meshing cx=-3 cz=-4 (persisted=0)
+[RESERVE_SLOT] cx=-3 cz=-4 role=1
+[RESERVE_SLOT] Created new slot: cx=-3 cz=-4 role=1 iterations=0
+[WORKER] Meshing cx=-3 cz=-2 (persisted=0)
+[RESERVE_SLOT] cx=-3 cz=-2 role=1
+[RESERVE_SLOT] Created new slot: cx=-3 cz=-2 role=1 iterations=0
+[WORKER] Mesh complete cx=-5 cz=-2 built=000001ED8D43B900
+[WORKER] Queuing result cx=-5 cz=-2 gen=1 space=global_chunk built=000001ED8D43B900 results=0/768
+[MEM] cx=-5 cz=-2 type=GEN WorkingSet=956.3MB PagefileUsage=945.7MB jobs=0 results=1
+[ADOPT] Adopting chunk (-5,-2) gen=1 role=1
+[RESERVE_SLOT] cx=-5 cz=-2 role=1
+[RESERVE_SLOT] Created new slot: cx=-5 cz=-2 role=1 iterations=0
+[ADOPT] SUCCESS chunk (-5,-2) now resident. loaded_from_persist=0
+[TRACE] ms=5953 event=world_generation_session_step detail=Loading nearby terrain 9/1/0 W10 frontend=20 session=0 worldgen_active=1 stage=2
+[WORKER] Mesh complete cx=-2 cz=-3 built=000001ED8D4BC400
+[WORKER] Queuing result cx=-2 cz=-3 gen=1 space=global_chunk built=000001ED8D4BC400 results=0/768
+[MEM] cx=-2 cz=-3 type=GEN WorkingSet=956.3MB PagefileUsage=945.7MB jobs=0 results=1
+[WORKER] Mesh complete cx=-5 cz=-3 built=000001ED87489830
+[WORKER] Queuing result cx=-5 cz=-3 gen=1 space=global_chunk built=000001ED87489830 results=1/768
+[MEM] cx=-5 cz=-3 type=GEN WorkingSet=956.3MB PagefileUsage=945.7MB jobs=0 results=2
+[WORKER] Mesh complete cx=-4 cz=-4 built=000001ED8D5BCF40
+[WORKER] Queuing result cx=-4 cz=-4 gen=1 space=global_chunk built=000001ED8D5BCF40 results=2/768
+[MEM] cx=-4 cz=-4 type=GEN WorkingSet=967.9MB PagefileUsage=957.3MB jobs=0 results=3
+[ADOPT] Adopting chunk (-2,-3) gen=1 role=1
+[RESERVE_SLOT] cx=-2 cz=-3 role=1
+[RESERVE_SLOT] Created new slot: cx=-2 cz=-3 role=1 iterations=0
+[ADOPT] SUCCESS chunk (-2,-3) now resident. loaded_from_persist=0
+[TRACE] ms=6031 event=world_generation_session_step detail=Loading nearby terrain 9/1/0 W7 frontend=20 session=0 worldgen_active=1 stage=2
+[ADOPT] Adopting chunk (-5,-3) gen=1 role=1
+[RESERVE_SLOT] cx=-5 cz=-3 role=1
+[RESERVE_SLOT] Created new slot: cx=-5 cz=-3 role=1 iterations=0
+[ADOPT] SUCCESS chunk (-5,-3) now resident. loaded_from_persist=0
+[TRACE] ms=6047 event=world_generation_session_step detail=Loading nearby terrain 9/2/0 W7 frontend=20 session=0 worldgen_active=1 stage=2
+[ADOPT] Adopting chunk (-4,-4) gen=1 role=1
+[RESERVE_SLOT] cx=-4 cz=-4 role=1
+[RESERVE_SLOT] Created new slot: cx=-4 cz=-4 role=1 iterations=0
+[ADOPT] SUCCESS chunk (-4,-4) now resident. loaded_from_persist=0
+[TRACE] ms=6063 event=world_generation_session_step detail=Loading nearby terrain 9/3/0 W7 frontend=20 session=0 worldgen_active=1 stage=2
+[WORKER] Mesh complete cx=-4 cz=-3 built=000001EDFBBE5510
+[WORKER] Queuing result cx=-4 cz=-3 gen=1 space=global_chunk built=000001EDFBBE5510 results=0/768
+[MEM] cx=-4 cz=-3 type=GEN WorkingSet=973.9MB PagefileUsage=963.3MB jobs=0 results=1
+[ADOPT] Adopting chunk (-4,-3) gen=1 role=1
+[RESERVE_SLOT] cx=-4 cz=-3 role=1
+[RESERVE_SLOT] Created new slot: cx=-4 cz=-3 role=1 iterations=0
+[ADOPT] SUCCESS chunk (-4,-3) now resident. loaded_from_persist=0
+[TRACE] ms=6125 event=world_generation_session_step detail=Loading nearby terrain 9/4/0 W6 frontend=20 session=0 worldgen_active=1 stage=2
+[WORKER] Mesh complete cx=-3 cz=-3 built=000001ED88E9B330
+[WORKER] Queuing result cx=-3 cz=-3 gen=1 space=global_chunk built=000001ED88E9B330 results=0/768
+[MEM] cx=-3 cz=-3 type=GEN WorkingSet=973.9MB PagefileUsage=963.3MB jobs=0 results=1
+[WORKER] Mesh complete cx=-4 cz=-2 built=000001ED8D7FA060
+[WORKER] Queuing result cx=-4 cz=-2 gen=1 space=global_chunk built=000001ED8D7FA060 results=1/768
+[MEM] cx=-4 cz=-2 type=GEN WorkingSet=980.1MB PagefileUsage=969.5MB jobs=0 results=2
+[ADOPT] Adopting chunk (-3,-3) gen=1 role=1
+[RESERVE_SLOT] cx=-3 cz=-3 role=1
+[RESERVE_SLOT] Created new slot: cx=-3 cz=-3 role=1 iterations=0
+[ADOPT] SUCCESS chunk (-3,-3) now resident. loaded_from_persist=0
+[TRACE] ms=6141 event=world_generation_session_step detail=Loading nearby terrain 9/5/0 W4 frontend=20 session=0 worldgen_active=1 stage=2
+[ADOPT] Adopting chunk (-4,-2) gen=1 role=1
+[RESERVE_SLOT] cx=-4 cz=-2 role=1
+[RESERVE_SLOT] Created new slot: cx=-4 cz=-2 role=1 iterations=0
+[ADOPT] SUCCESS chunk (-4,-2) now resident. loaded_from_persist=0
+[TRACE] ms=6156 event=world_generation_session_step detail=Loading nearby terrain 9/6/0 W4 frontend=20 session=0 worldgen_active=1 stage=2
+[WORKER] Mesh complete cx=-5 cz=-4 built=000001ED8D201EA0
+[WORKER] Queuing result cx=-5 cz=-4 gen=1 space=global_chunk built=000001ED8D201EA0 results=0/768
+[MEM] cx=-5 cz=-4 type=GEN WorkingSet=986.1MB PagefileUsage=975.5MB jobs=0 results=1
+[ADOPT] Adopting chunk (-5,-4) gen=1 role=1
+[RESERVE_SLOT] cx=-5 cz=-4 role=1
+[RESERVE_SLOT] Created new slot: cx=-5 cz=-4 role=1 iterations=0
+[ADOPT] SUCCESS chunk (-5,-4) now resident. loaded_from_persist=0
+[WORKER] Mesh complete cx=-3 cz=-4 built=000001EDED758D60
+[TRACE] ms=6172 event=world_generation_session_step detail=Loading nearby terrain 9/7/0 W3 frontend=20 session=0 worldgen_active=1 stage=2
+[WORKER] Queuing result cx=-3 cz=-4 gen=1 space=global_chunk built=000001EDED758D60 results=0/768
+[MEM] cx=-3 cz=-4 type=GEN WorkingSet=992.1MB PagefileUsage=981.6MB jobs=0 results=1
+[ADOPT] Adopting chunk (-3,-4) gen=1 role=1
+[RESERVE_SLOT] cx=-3 cz=-4 role=1
+[RESERVE_SLOT] Created new slot: cx=-3 cz=-4 role=1 iterations=0
+[ADOPT] SUCCESS chunk (-3,-4) now resident. loaded_from_persist=0
+[TRACE] ms=6188 event=world_generation_session_step detail=Loading nearby terrain 9/8/0 W2 frontend=20 session=0 worldgen_active=1 stage=2
+[WORKER] Mesh complete cx=-4 cz=-1 built=000001EDED759820
+[WORKER] Queuing result cx=-4 cz=-1 gen=1 space=global_chunk built=000001EDED759820 results=0/768
+[MEM] cx=-4 cz=-1 type=GEN WorkingSet=1004.3MB PagefileUsage=993.8MB jobs=0 results=1
+[WORKER] Mesh complete cx=-3 cz=-2 built=000001ED8D1E69F0
+[WORKER] Queuing result cx=-3 cz=-2 gen=1 space=global_chunk built=000001ED8D1E69F0 results=1/768
+[MEM] cx=-3 cz=-2 type=GEN WorkingSet=1004.3MB PagefileUsage=993.8MB jobs=0 results=2
+[ADOPT] Adopting chunk (-4,-1) gen=1 role=1
+[RESERVE_SLOT] cx=-4 cz=-1 role=1
+[RESERVE_SLOT] Created new slot: cx=-4 cz=-1 role=1 iterations=0
+[ADOPT] SUCCESS chunk (-4,-1) now resident. loaded_from_persist=0
+[TRACE] ms=6250 event=world_generation_session_step detail=Loading nearby terrain 9/8/0 W0 frontend=20 session=0 worldgen_active=1 stage=2
+[ADOPT] Adopting chunk (-3,-2) gen=1 role=1
+[RESERVE_SLOT] cx=-3 cz=-2 role=1
+[RESERVE_SLOT] Created new slot: cx=-3 cz=-2 role=1 iterations=0
+[ADOPT] SUCCESS chunk (-3,-2) now resident. loaded_from_persist=0
+[TRACE] ms=6266 event=world_generation_session_step detail=Loading nearby terrain 9/9/0 W0 frontend=20 session=0 worldgen_active=1 stage=2
+[TRACE] ms=12672 event=world_generation_session_step detail=Loading nearby terrain 9/9/9 W0 frontend=20 session=0 worldgen_active=1 stage=2
+[TRACE] ms=20891 event=world_generation_session_step detail=Nearby terrain ready. Background streaming continues... frontend=20 session=0 worldgen_active=1 stage=2
+[TRACE] ms=20906 event=world_generation_session_step detail=Finalizing world session... frontend=20 session=0 worldgen_active=1 stage=2
+[TRACE] ms=20906 event=gen_stage_end detail=Loading nearby chunks frontend=20 session=0 worldgen_active=1 stage=2
+[TRACE] ms=20906 event=world_generation_session_step detail=World session ready frontend=20 session=0 worldgen_active=1 stage=2
+[TRACE] ms=20922 event=start_world_session_ready detail=world_022 frontend=20 session=1 worldgen_active=1 stage=2
+[TRACE] ms=20922 event=start_world_session_success detail=world_022 frontend=20 session=1 worldgen_active=1 stage=2
+[STREAM] job queue capped at (-2,-2) desired=81 jobs=8 results=0 max=8
+[RUNTIME] visible desired=81 resident=11 ready=10 startup=9/9/9
+[WORKER] Processing job cx=-4 cz=-5 gen=1 space=global_chunk type=GENERATE
+[WORKER] Processing job cx=-6 cz=-3 gen=1 space=global_chunk type=GENERATE
+[WORKER] Processing job cx=-6 cz=-4 gen=1 space=global_chunk type=GENERATE
+[WORKER] Processing job cx=-3 cz=-1 gen=1 space=global_chunk type=GENERATE
+[WORKER] Processing job cx=-5 cz=-5 gen=1 space=global_chunk type=GENERATE
+[BACKLOG] workers=0 jobs=7 results=0
+[RESIDENCY] STALL mode=superchunk desired=81(P81/F0/T0) resident=11(P11/F0/T0/E0) jobs=0 results=0 primary=(0,0) desired_sc=(0,0) transition=0
+[TRACE] ms=20985 event=runtime_grace_mode detail=Background streaming 81/11/10  W8 J0 R0 frontend=20 session=1 worldgen_active=0 stage=0 desired=81 resident=11 gpu_ready=10 jobs=0 results=0 uploads=0
+[WORKER] Processing job cx=-2 cz=-2 gen=1 space=global_chunk type=GENERATE
+[WORKER] Processing job cx=-6 cz=-5 gen=1 space=global_chunk type=GENERATE
+[WORKER] Processing job cx=-6 cz=-1 gen=1 space=global_chunk type=GENERATE[WORKER] Processing job cx=-2 cz=-1 gen=1 space=global_chunk type=GENERATE
+[WORKER] Processing job cx=-5 cz=-1 gen=1 space=global_chunk type=GENERATE
+[WORKER] Processing job cx=-2 cz=-5 gen=1 space=global_chunk type=GENERATE
+[TRACE] ms=21485 event=runtime_grace_mode detail=Background streaming 81/11/10  W16 J32 R0 frontend=20 session=1 worldgen_active=0 stage=0 desired=81 resident=11 gpu_ready=10 jobs=32 results=0 uploads=0
+[STREAM] job queue capped at (-7,-6) desired=81 jobs=32 results=0 max=32
+[RUNTIME] visible desired=81 resident=11 ready=10 startup=9/9/9
+[BACKLOG] workers=16 jobs=32 results=0
+[TRACE] ms=21985 event=runtime_grace_mode detail=Background streaming 81/11/10  W16 J32 R0 frontend=20 session=1 worldgen_active=0 stage=0 desired=81 resident=11 gpu_ready=10 jobs=32 results=0 uploads=0
+[TRACE] ms=22485 event=runtime_grace_mode detail=Background streaming 81/11/10  W16 J32 R0 frontend=20 session=1 worldgen_active=0 stage=0 desired=81 resident=11 gpu_ready=10 jobs=32 results=0 uploads=0
+[PLAYER] Test flight enabled (double SPACE, testing only)
+[STREAM] job queue capped at (-7,-6) desired=81 jobs=32 results=0 max=32
+[RUNTIME] visible desired=81 resident=11 ready=10 startup=9/9/9
+[BACKLOG] workers=16 jobs=32 results=0
+[TRACE] ms=22985 event=runtime_grace_mode detail=Background streaming 81/11/10  W16 J32 R0 frontend=20 session=1 worldgen_active=0 stage=0 desired=81 resident=11 gpu_ready=10 jobs=32 results=0 uploads=0
+[TRACE] ms=23485 event=runtime_grace_mode detail=Background streaming 81/11/10  W16 J32 R0 frontend=20 session=1 worldgen_active=0 stage=0 desired=81 resident=11 gpu_ready=10 jobs=32 results=0 uploads=0
+[WALL] HEALTH W=4/0/0 N=4/0/0 E=4/0/0 S=4/0/0 (desired/resident/ready)
+[WORKER] Meshing cx=-1 cz=-3 (persisted=0)
+[RESERVE_SLOT] cx=-1 cz=-3 role=1
+[RESERVE_SLOT] Created new slot: cx=-1 cz=-3 role=1 iterations=0
+[RESERVE_SLOT] cx=-2 cz=-3 role=3
+[RESERVE_SLOT] Created new slot: cx=-2 cz=-3 role=3 iterations=0
+[WORKER] Meshing cx=-4 cz=-5 (persisted=0)
+[RESERVE_SLOT] cx=-4 cz=-5 role=1
+[RESERVE_SLOT] Created new slot: cx=-4 cz=-5 role=1 iterations=0
+[RESERVE_SLOT] cx=-4 cz=-4 role=3
+[WORKER] Meshing cx=-2 cz=-1 (persisted=0)
+[RESERVE_SLOT] Created new slot: cx=-4 cz=-4 role=3 iterations=0
+[RESERVE_SLOT] cx=-5 cz=-4 role=3
+[RESERVE_SLOT] Created new slot: cx=-5 cz=-4 role=3 iterations=0
+[RESERVE_SLOT] cx=-3 cz=-4 role=3
+[RESERVE_SLOT] cx=-2 cz=-1 role=1
+[RESERVE_SLOT] Created new slot: cx=-3 cz=-4 role=3 iterations=0
+[RESERVE_SLOT] Created new slot: cx=-2 cz=-1 role=1 iterations=0
+[RESERVE_SLOT] cx=-3 cz=-2 role=3
+[RESERVE_SLOT] Created new slot: cx=-3 cz=-2 role=3 iterations=0
+[WORKER] Meshing cx=-2 cz=-4 (persisted=0)
+[RESERVE_SLOT] cx=-2 cz=-4 role=1
+[RESERVE_SLOT] Created new slot: cx=-2 cz=-4 role=1 iterations=0
+[RESERVE_SLOT] cx=-3 cz=-4 role=3
+[WORKER] Meshing cx=-5 cz=-5 (persisted=0)
+[RESERVE_SLOT] Created new slot: cx=-3 cz=-4 role=3 iterations=0
+[RESERVE_SLOT] cx=-2 cz=-3 role=3
+[RESERVE_SLOT] Created new slot: cx=-2 cz=-3 role=3 iterations=0
+[RESERVE_SLOT] Created new slot: cx=-5 cz=-5 role=1 iterations=0
+[RESERVE_SLOT] cx=-3 cz=-3 role=3
+[RESERVE_SLOT] cx=-5 cz=-4 role=3
+[RESERVE_SLOT] Created new slot: cx=-5 cz=-4 role=3 iterations=0
+[RESERVE_SLOT] Created new slot: cx=-3 cz=-3 role=3 iterations=0
+[RESERVE_SLOT] cx=-4 cz=-4 role=3
+[RESERVE_SLOT] Created new slot: cx=-4 cz=-4 role=3 iterations=0
+[WORKER] Meshing cx=-6 cz=-5 (persisted=0)
+[RESERVE_SLOT] cx=-6 cz=-5 role=1
+[RESERVE_SLOT] Created new slot: cx=-6 cz=-5 role=1 iterations=0
+[RESERVE_SLOT] cx=-5 cz=-4 role=3
+[RESERVE_SLOT] Created new slot: cx=-5 cz=-4 role=3 iterations=0
+[WORKER] Meshing cx=-5 cz=-1 (persisted=0)
+[WORKER] Meshing cx=-6 cz=-1 (persisted=0)
+[RESERVE_SLOT] cx=-5 cz=-1 role=1
+[RESERVE_SLOT] cx=-6 cz=-1 role=1
+[RESERVE_SLOT] Created new slot: cx=-5 cz=-1 role=1 iterations=0
+[RESERVE_SLOT] Created new slot: cx=-6 cz=-1 role=1 iterations=0
+[RESERVE_SLOT] cx=-4 cz=-1 role=3
+[RESERVE_SLOT] cx=-5 cz=-2 role=3
+[RESERVE_SLOT] Created new slot: cx=-4 cz=-1 role=3 iterations=0
+[RESERVE_SLOT] Created new slot: cx=-5 cz=-2 role=3 iterations=0
+[RESERVE_SLOT] cx=-5 cz=-2 role=3
+[RESERVE_SLOT] Created new slot: cx=-5 cz=-2 role=3 iterations=0
+[RESERVE_SLOT] cx=-4 cz=-2 role=3
+[RESERVE_SLOT] Created new slot: cx=-4 cz=-2 role=3 iterations=0
+[WORKER] Meshing cx=-6 cz=-2 (persisted=0)
+[RESERVE_SLOT] cx=-6 cz=-2 role=1
+[RESERVE_SLOT] Created new slot: cx=-6 cz=-2 role=1 iterations=0
+[RESERVE_SLOT] cx=-5 cz=-2 role=3
+[RESERVE_SLOT] Created new slot: cx=-5 cz=-2 role=3 iterations=0
+[RESERVE_SLOT] cx=-5 cz=-3 role=3
+[RESERVE_SLOT] Created new slot: cx=-5 cz=-3 role=3 iterations=0
+[WORKER] Meshing cx=-2 cz=-2 (persisted=0)
+[RESERVE_SLOT] cx=-2 cz=-2 role=1
+[RESERVE_SLOT] Created new slot: cx=-2 cz=-2 role=1 iterations=0
+[RESERVE_SLOT] cx=-3 cz=-2 role=3
+[RESERVE_SLOT] Created new slot: cx=-3 cz=-2 role=3 iterations=0
+[RESERVE_SLOT] cx=-2 cz=-3 role=3
+[RESERVE_SLOT] Created new slot: cx=-2 cz=-3 role=3 iterations=0
+[RESERVE_SLOT] cx=-3 cz=-3 role=3
+[RESERVE_SLOT] Created new slot: cx=-3 cz=-3 role=3 iterations=0
+[WORKER] Meshing cx=-6 cz=-3 (persisted=0)
+[RESERVE_SLOT] cx=-6 cz=-3 role=1
+[RESERVE_SLOT] Created new slot: cx=-6 cz=-3 role=1 iterations=0
+[RESERVE_SLOT] cx=-5 cz=-3 role=3
+[RESERVE_SLOT] Created new slot: cx=-5 cz=-3 role=3 iterations=0
+[WORKER] Meshing cx=-6 cz=-4 (persisted=0)
+[RESERVE_SLOT] cx=-5 cz=-4 role=3
+[RESERVE_SLOT] Created new slot: cx=-5 cz=-4 role=3 iterations=0
+[RESERVE_SLOT] cx=-5 cz=-2 role=3
+[RESERVE_SLOT] Created new slot: cx=-5 cz=-2 role=3 iterations=0
+[RESERVE_SLOT] cx=-6 cz=-4 role=1
+[RESERVE_SLOT] Created new slot: cx=-6 cz=-4 role=1 iterations=0
+[RESERVE_SLOT] cx=-5 cz=-4 role=3
+[RESERVE_SLOT] Created new slot: cx=-5 cz=-4 role=3 iterations=0
+[RESERVE_SLOT] cx=-5 cz=-3 role=3
+[RESERVE_SLOT] Created new slot: cx=-5 cz=-3 role=3 iterations=0
+[WORKER] Meshing cx=-3 cz=-5 (persisted=0)
+[RESERVE_SLOT] cx=-3 cz=-5 role=1
+[RESERVE_SLOT] Created new slot: cx=-3 cz=-5 role=1 iterations=0
+[RESERVE_SLOT] cx=-3 cz=-4 role=3
+[RESERVE_SLOT] Created new slot: cx=-3 cz=-4 role=3 iterations=0
+[RESERVE_SLOT] cx=-4 cz=-4 role=3
+[RESERVE_SLOT] Created new slot: cx=-4 cz=-4 role=3 iterations=0
+[WORKER] Meshing cx=-2 cz=-5 (persisted=0)
+[RESERVE_SLOT] cx=-2 cz=-5 role=1
+[RESERVE_SLOT] Created new slot: cx=-2 cz=-5 role=1 iterations=0
+[RESERVE_SLOT] cx=-3 cz=-4 role=3
+[RESERVE_SLOT] Created new slot: cx=-3 cz=-4 role=3 iterations=0
+[WORKER] Meshing cx=-3 cz=-1 (persisted=0)
+[RESERVE_SLOT] cx=-3 cz=-1 role=1
+[RESERVE_SLOT] Created new slot: cx=-3 cz=-1 role=1 iterations=0
+[RESERVE_SLOT] cx=-4 cz=-1 role=3
+[RESERVE_SLOT] Created new slot: cx=-4 cz=-1 role=3 iterations=0
+[RESERVE_SLOT] cx=-3 cz=-2 role=3
+[RESERVE_SLOT] Created new slot: cx=-3 cz=-2 role=3 iterations=0
+[RESERVE_SLOT] cx=-4 cz=-2 role=3
+[RESERVE_SLOT] Created new slot: cx=-4 cz=-2 role=3 iterations=0
+[WORKER] Meshing cx=-4 cz=0 (persisted=0)
+[RESERVE_SLOT] cx=-4 cz=0 role=1
+[RESERVE_SLOT] Created new slot: cx=-4 cz=0 role=1 iterations=0
+[RESERVE_SLOT] cx=-4 cz=-1 role=3
+[RESERVE_SLOT] Created new slot: cx=-4 cz=-1 role=3 iterations=0
+[WORKER] Mesh complete cx=-5 cz=-5 built=000001EDC7058200
+[WORKER] Queuing result cx=-5 cz=-5 gen=1 space=global_chunk built=000001EDC7058200 results=0/768
+[MEM] cx=-5 cz=-5 type=GEN WorkingSet=1793.6MB PagefileUsage=1784.7MB jobs=54 results=1
+[WORKER] Processing job cx=-7 cz=-3 gen=1 space=global_chunk type=GENERATE
+[ADOPT] Adopting chunk (-5,-5) gen=1 role=1
+[RESERVE_SLOT] cx=-5 cz=-5 role=1
+[RESERVE_SLOT] Created new slot: cx=-5 cz=-5 role=1 iterations=0
+[ADOPT] SUCCESS chunk (-5,-5) now resident. loaded_from_persist=0
+[WORKER] Mesh complete cx=-4 cz=-5 built=000001EDC70560D0
+[WORKER] Queuing result cx=-4 cz=-5 gen=1 space=global_chunk built=000001EDC70560D0 results=0/768
+[MEM] cx=-4 cz=-5 type=GEN WorkingSet=1846.7MB PagefileUsage=1838.1MB jobs=53 results=1
+[WORKER] Processing job cx=-4 cz=-6 gen=1 space=global_chunk type=GENERATE
+[ADOPT] Adopting chunk (-4,-5) gen=1 role=1
+[RESERVE_SLOT] cx=-4 cz=-5 role=1
+[RESERVE_SLOT] Created new slot: cx=-4 cz=-5 role=1 iterations=0
+[ADOPT] SUCCESS chunk (-4,-5) now resident. loaded_from_persist=0
+[WORKER] Mesh complete cx=-5 cz=-1 built=000001EDC705B950
+[WORKER] Queuing result cx=-5 cz=-1 gen=1 space=global_chunk built=000001EDC705B950 results=0/768
+[MEM] cx=-5 cz=-1 type=GEN WorkingSet=1911.5MB PagefileUsage=1903.2MB jobs=52 results=1
+[WORKER] Processing job cx=-7 cz=-2 gen=1 space=global_chunk type=GENERATE
+[ADOPT] Adopting chunk (-5,-1) gen=1 role=1
+[RESERVE_SLOT] cx=-5 cz=-1 role=1
+[RESERVE_SLOT] Created new slot: cx=-5 cz=-1 role=1 iterations=0
+[ADOPT] SUCCESS chunk (-5,-1) now resident. loaded_from_persist=0
+[WORKER] Mesh complete cx=-2 cz=-2 built=000001EDC7059820
+[WORKER] Queuing result cx=-2 cz=-2 gen=1 space=global_chunk built=000001EDC7059820 results=0/768
+[MEM] cx=-2 cz=-2 type=GEN WorkingSet=1959.8MB PagefileUsage=1951.8MB jobs=51 results=1
+[WORKER] Processing job cx=-3 cz=0 gen=1 space=global_chunk type=GENERATE
+[ADOPT] Adopting chunk (-2,-2) gen=1 role=1
+[RESERVE_SLOT] cx=-2 cz=-2 role=1
+[RESERVE_SLOT] Created new slot: cx=-2 cz=-2 role=1 iterations=0
+[ADOPT] SUCCESS chunk (-2,-2) now resident. loaded_from_persist=0
+[WORKER] Mesh complete cx=-6 cz=-5 built=000001EDC705FBB0
+[WORKER] Queuing result cx=-6 cz=-5 gen=1 space=global_chunk built=000001EDC705FBB0 results=0/768
+[MEM] cx=-6 cz=-5 type=GEN WorkingSet=2002.1MB PagefileUsage=1994.5MB jobs=50 results=1
+[WORKER] Processing job cx=-1 cz=-2 gen=1 space=global_chunk type=GENERATE
+[WORKER] Mesh complete cx=-1 cz=-3 built=000001EDC70606C0
+[WORKER] Queuing result cx=-1 cz=-3 gen=1 space=global_chunk built=000001EDC70606C0 results=1/768
+[ADOPT] Adopting chunk (-6,-5) gen=1 role=1
+[RESERVE_SLOT] cx=-6 cz=-5 role=1
+[MEM] cx=-1 cz=-3 type=GEN WorkingSet=2016.6MB PagefileUsage=2008.4MB jobs=49 results=1
+[RESERVE_SLOT] Created new slot: cx=-6 cz=-5 role=1 iterations=0
+[WORKER] Processing job cx=-3 cz=-6 gen=1 space=global_chunk type=GENERATE
+[ADOPT] SUCCESS chunk (-6,-5) now resident. loaded_from_persist=0
+[WORKER] Mesh complete cx=-6 cz=-2 built=000001EDC70611D0
+[WORKER] Queuing result cx=-6 cz=-2 gen=1 space=global_chunk built=000001EDC70611D0 results=1/768
+[MEM] cx=-6 cz=-2 type=GEN WorkingSet=2056.2MB PagefileUsage=2079.1MB jobs=48 results=2
+[WORKER] Processing job cx=-5 cz=-6 gen=1 space=global_chunk type=GENERATE
+[WORKER] Mesh complete cx=-6 cz=-4 built=000001EDC7063300
+[WORKER] Mesh complete cx=-2 cz=-1 built=000001EDC7063E10
+[WORKER] Queuing result cx=-6 cz=-4 gen=1 space=global_chunk built=000001EDC7063300 results=2/768
+[WORKER] Queuing result cx=-2 cz=-1 gen=1 space=global_chunk built=000001EDC7063E10 results=2/768
+[MEM] cx=-6 cz=-4 type=GEN WorkingSet=2107.6MB PagefileUsage=2100.0MB jobs=47 results=3
+[MEM] cx=-2 cz=-1 type=GEN WorkingSet=2107.6MB PagefileUsage=2100.0MB jobs=47 results=4
+[WORKER] Processing job cx=-7 cz=-4 gen=1 space=global_chunk type=GENERATE
+[WORKER] Processing job cx=-1 cz=-4 gen=1 space=global_chunk type=GENERATE
+[WORKER] Mesh complete cx=-3 cz=-5 built=000001EDC2B00AD0
+[WORKER] Mesh complete cx=-6 cz=-3 built=000001EDC7065430
+[WORKER] Queuing result cx=-3 cz=-5 gen=1 space=global_chunk built=000001EDC2B00AD0 results=4/768
+[WORKER] Queuing result cx=-6 cz=-3 gen=1 space=global_chunk built=000001EDC7065430 results=4/768
+[MEM] cx=-3 cz=-5 type=GEN WorkingSet=2124.9MB PagefileUsage=2117.6MB jobs=45 results=5
+[MEM] cx=-6 cz=-3 type=GEN WorkingSet=2124.9MB PagefileUsage=2117.6MB jobs=45 results=6
+[WORKER] Processing job cx=-5 cz=0 gen=1 space=global_chunk type=GENERATE
+[WORKER] Processing job cx=-7 cz=-5 gen=1 space=global_chunk type=GENERATE
+[WORKER] Mesh complete cx=-2 cz=-4 built=000001EDC2B015E0
+[WORKER] Queuing result cx=-2 cz=-4 gen=1 space=global_chunk built=000001EDC2B015E0 results=6/768
+[MEM] cx=-2 cz=-4 type=GEN WorkingSet=2147.9MB PagefileUsage=2141.2MB jobs=43 results=7
+[WORKER] Processing job cx=-2 cz=-6 gen=1 space=global_chunk type=GENERATE
+[WORKER] Mesh complete cx=-2 cz=-5 built=000001EDC2AFF4B0
+[WORKER] Queuing result cx=-2 cz=-5 gen=1 space=global_chunk built=000001EDC2AFF4B0 results=7/768
+[MEM] cx=-2 cz=-5 type=GEN WorkingSet=2156.4MB PagefileUsage=2150.1MB jobs=42 results=8
+[WORKER] Processing job cx=-6 cz=-6 gen=1 space=global_chunk type=GENERATE
+[WORKER] Mesh complete cx=-6 cz=-1 built=000001EDC2B05840
+[WORKER] Queuing result cx=-6 cz=-1 gen=1 space=global_chunk built=000001EDC2B05840 results=8/768
+[MEM] cx=-6 cz=-1 type=GEN WorkingSet=2176.8MB PagefileUsage=2170.8MB jobs=41 results=9
+[WORKER] Processing job cx=-7 cz=-1 gen=1 space=global_chunk type=GENERATE
+[ADOPT] Adopting chunk (-1,-3) gen=1 role=1
+[RESERVE_SLOT] cx=-1 cz=-3 role=1
+[RESERVE_SLOT] Created new slot: cx=-1 cz=-3 role=1 iterations=0
+[ADOPT] SUCCESS chunk (-1,-3) now resident. loaded_from_persist=0
+[ADOPT] Adopting chunk (-6,-2) gen=1 role=1
+[RESERVE_SLOT] cx=-6 cz=-2 role=1
+[RESERVE_SLOT] Created new slot: cx=-6 cz=-2 role=1 iterations=0
+[ADOPT] SUCCESS chunk (-6,-2) now resident. loaded_from_persist=0
+[ADOPT] Adopting chunk (-6,-4) gen=1 role=1
+[RESERVE_SLOT] cx=-6 cz=-4 role=1
+[RESERVE_SLOT] Created new slot: cx=-6 cz=-4 role=1 iterations=0
+[ADOPT] SUCCESS chunk (-6,-4) now resident. loaded_from_persist=0
+[ADOPT] Adopting chunk (-2,-1) gen=1 role=1
+[RESERVE_SLOT] cx=-2 cz=-1 role=1
+[RESERVE_SLOT] Created new slot: cx=-2 cz=-1 role=1 iterations=0
+[ADOPT] SUCCESS chunk (-2,-1) now resident. loaded_from_persist=0
+[ADOPT] Adopting chunk (-3,-5) gen=1 role=1
+[RESERVE_SLOT] cx=-3 cz=-5 role=1
+[RESERVE_SLOT] Created new slot: cx=-3 cz=-5 role=1 iterations=0
+[ADOPT] SUCCESS chunk (-3,-5) now resident. loaded_from_persist=0
+[ADOPT] Adopting chunk (-6,-3) gen=1 role=1
+[RESERVE_SLOT] cx=-6 cz=-3 role=1
+[RESERVE_SLOT] Created new slot: cx=-6 cz=-3 role=1 iterations=0
+[ADOPT] SUCCESS chunk (-6,-3) now resident. loaded_from_persist=0
+[WORKER] Mesh complete cx=-3 cz=-1 built=000001EDC2B03710
+[WORKER] Queuing result cx=-3 cz=-1 gen=1 space=global_chunk built=000001EDC2B03710 results=3/768
+[MEM] cx=-3 cz=-1 type=GEN WorkingSet=2345.4MB PagefileUsage=2340.0MB jobs=40 results=4
+[WORKER] Processing job cx=-1 cz=-1 gen=1 space=global_chunk type=GENERATE
+[ADOPT] Adopting chunk (-2,-4) gen=1 role=1
+[RESERVE_SLOT] cx=-2 cz=-4 role=1
+[RESERVE_SLOT] Created new slot: cx=-2 cz=-4 role=1 iterations=0
+[ADOPT] SUCCESS chunk (-2,-4) now resident. loaded_from_persist=0
+[ADOPT] Adopting chunk (-2,-5) gen=1 role=1
+[RESERVE_SLOT] cx=-2 cz=-5 role=1
+[RESERVE_SLOT] Created new slot: cx=-2 cz=-5 role=1 iterations=0
+[ADOPT] SUCCESS chunk (-2,-5) now resident. loaded_from_persist=0
+[ADOPT] Adopting chunk (-6,-1) gen=1 role=1
+[RESERVE_SLOT] cx=-6 cz=-1 role=1
+[RESERVE_SLOT] Created new slot: cx=-6 cz=-1 role=1 iterations=0
+[ADOPT] SUCCESS chunk (-6,-1) now resident. loaded_from_persist=0
+[ADOPT] Adopting chunk (-3,-1) gen=1 role=1
+[RESERVE_SLOT] cx=-3 cz=-1 role=1
+[RESERVE_SLOT] Created new slot: cx=-3 cz=-1 role=1 iterations=0
+[ADOPT] SUCCESS chunk (-3,-1) now resident. loaded_from_persist=0
+[WORKER] Mesh complete cx=-4 cz=0 built=000001EDC2B06350
+[WORKER] Queuing result cx=-4 cz=0 gen=1 space=global_chunk built=000001EDC2B06350 results=0/768
+[MEM] cx=-4 cz=0 type=GEN WorkingSet=2564.2MB PagefileUsage=2559.6MB jobs=39 results=1
+[WORKER] Processing job cx=-2 cz=0 gen=1 space=global_chunk type=GENERATE
+[ADOPT] Adopting chunk (-4,0) gen=1 role=1
+[RESERVE_SLOT] cx=-4 cz=0 role=1
+[RESERVE_SLOT] Created new slot: cx=-4 cz=0 role=1 iterations=0
+[ADOPT] SUCCESS chunk (-4,0) now resident. loaded_from_persist=0
+[WALL] HEALTH W=4/0/0 N=4/0/0 E=4/0/0 S=4/0/0 (desired/resident/ready)
+[WORKER] Meshing cx=-7 cz=-3 (persisted=0)
+[RESERVE_SLOT] cx=-7 cz=-3 role=1
+[RESERVE_SLOT] Created new slot: cx=-7 cz=-3 role=1 iterations=0
+[WORKER] Meshing cx=-1 cz=-4 (persisted=0)
+[RESERVE_SLOT] cx=-1 cz=-4 role=1
+[RESERVE_SLOT] Created new slot: cx=-1 cz=-4 role=1 iterations=0
+[RESERVE_SLOT] cx=-2 cz=-3 role=3
+[RESERVE_SLOT] Created new slot: cx=-2 cz=-3 role=3 iterations=0
+[WORKER] Meshing cx=-3 cz=-6 (persisted=0)
+[RESERVE_SLOT] cx=-3 cz=-6 role=1
+[RESERVE_SLOT] Created new slot: cx=-3 cz=-6 role=1 iterations=0
+[WORKER] Meshing cx=-7 cz=-1 (persisted=0)
+[RESERVE_SLOT] cx=-7 cz=-1 role=1
+[RESERVE_SLOT] Created new slot: cx=-7 cz=-1 role=1 iterations=0
+[WORKER] Meshing cx=-2 cz=-6 (persisted=0)
+[RESERVE_SLOT] cx=-2 cz=-6 role=1
+[RESERVE_SLOT] Created new slot: cx=-2 cz=-6 role=1 iterations=0
+[WORKER] Meshing cx=-4 cz=-6 (persisted=0)
+[RESERVE_SLOT] cx=-4 cz=-6 role=1
+[RESERVE_SLOT] Created new slot: cx=-4 cz=-6 role=1 iterations=0
+[WORKER] Meshing cx=-3 cz=0 (persisted=0)
+[RESERVE_SLOT] cx=-3 cz=0 role=1
+[RESERVE_SLOT] Created new slot: cx=-3 cz=0 role=1 iterations=0
+[RESERVE_SLOT] cx=-4 cz=-1 role=3
+[RESERVE_SLOT] Created new slot: cx=-4 cz=-1 role=3 iterations=0
+[WORKER] Meshing cx=-2 cz=0 (persisted=0)
+[RESERVE_SLOT] cx=-2 cz=0 role=1
+[RESERVE_SLOT] Created new slot: cx=-2 cz=0 role=1 iterations=0
+[WORKER] Meshing cx=-7 cz=-2 (persisted=0)
+[RESERVE_SLOT] cx=-7 cz=-2 role=1
+[RESERVE_SLOT] Created new slot: cx=-7 cz=-2 role=1 iterations=0
+[WORKER] Meshing cx=-1 cz=-2 (persisted=0)
+[RESERVE_SLOT] cx=-1 cz=-2 role=1
+[RESERVE_SLOT] Created new slot: cx=-1 cz=-2 role=1 iterations=0
+[RESERVE_SLOT] cx=-2 cz=-3 role=3
+[RESERVE_SLOT] Created new slot: cx=-2 cz=-3 role=3 iterations=0
+[WORKER] Meshing cx=-6 cz=-6 (persisted=0)
+[RESERVE_SLOT] cx=-6 cz=-6 role=1
+[RESERVE_SLOT] Created new slot: cx=-6 cz=-6 role=1 iterations=0
+[WORKER] Meshing cx=-7 cz=-5 (persisted=0)
+[RESERVE_SLOT] cx=-7 cz=-5 role=1
+[RESERVE_SLOT] Created new slot: cx=-7 cz=-5 role=1 iterations=0
+[WORKER] Meshing cx=-5 cz=-6 (persisted=0)
+[RESERVE_SLOT] cx=-5 cz=-6 role=1
+[RESERVE_SLOT] Created new slot: cx=-5 cz=-6 role=1 iterations=0
+[WORKER] Meshing cx=-7 cz=-4 (persisted=0)
+[RESERVE_SLOT] cx=-7 cz=-4 role=1
+[RESERVE_SLOT] Created new slot: cx=-7 cz=-4 role=1 iterations=0
+[WORKER] Meshing cx=-5 cz=0 (persisted=0)
+[RESERVE_SLOT] cx=-5 cz=0 role=1
+[RESERVE_SLOT] Created new slot: cx=-5 cz=0 role=1 iterations=0
+[RESERVE_SLOT] cx=-4 cz=-1 role=3
+[RESERVE_SLOT] Created new slot: cx=-4 cz=-1 role=3 iterations=0
+[WORKER] Meshing cx=-1 cz=-1 (persisted=0)
+[RESERVE_SLOT] cx=-1 cz=-1 role=1
+[RESERVE_SLOT] Created new slot: cx=-1 cz=-1 role=1 iterations=0
+[WALL] HEALTH W=4/0/0 N=4/0/0 E=4/0/0 S=4/0/0 (desired/resident/ready)
+[WORKER] Mesh complete cx=-7 cz=-3 built=000001EDC2AFFFC0
+[WORKER] Queuing result cx=-7 cz=-3 gen=1 space=global_chunk built=000001EDC2AFFFC0 results=0/768
+[MEM] cx=-7 cz=-3 type=GEN WorkingSet=3079.4MB PagefileUsage=3075.5MB jobs=38 results=1
+[WORKER] Processing job cx=-6 cz=0 gen=1 space=global_chunk type=GENERATE
+[ADOPT] Adopting chunk (-7,-3) gen=1 role=1
+[RESERVE_SLOT] cx=-7 cz=-3 role=1
+[RESERVE_SLOT] Created new slot: cx=-7 cz=-3 role=1 iterations=0
+[ADOPT] SUCCESS chunk (-7,-3) now resident. loaded_from_persist=0
+[WORKER] Mesh complete cx=-2 cz=-6 built=000001EDC2B020F0
+[WORKER] Queuing result cx=-2 cz=-6 gen=1 space=global_chunk built=000001EDC2B020F0 results=0/768
+[MEM] cx=-2 cz=-6 type=GEN WorkingSet=3160.9MB PagefileUsage=3157.5MB jobs=37 results=1
+[WORKER] Processing job cx=-1 cz=-5 gen=1 space=global_chunk type=GENERATE
+[ADOPT] Adopting chunk (-2,-6) gen=1 role=1
+[RESERVE_SLOT] cx=-2 cz=-6 role=1
+[RESERVE_SLOT] Created new slot: cx=-2 cz=-6 role=1 iterations=0
+[ADOPT] SUCCESS chunk (-2,-6) now resident. loaded_from_persist=0
+[WORKER] Mesh complete cx=-2 cz=0 built=000001EDC2B02C00
+[WORKER] Queuing result cx=-2 cz=0 gen=1 space=global_chunk built=000001EDC2B02C00 results=0/768
+[MEM] cx=-2 cz=0 type=GEN WorkingSet=3235.6MB PagefileUsage=3232.7MB jobs=36 results=1
+[WORKER] Processing job cx=-8 cz=-3 gen=1 space=global_chunk type=GENERATE
+[WORKER] Mesh complete cx=-7 cz=-1 built=000001EDC2B04D30
+[WORKER] Queuing result cx=-7 cz=-1 gen=1 space=global_chunk built=000001EDC2B04D30 results=1/768
+[MEM] cx=-7 cz=-1 type=GEN WorkingSet=3250.2MB PagefileUsage=3247.7MB jobs=35 results=2
+[WORKER] Processing job cx=0 cz=-3 gen=1 space=global_chunk type=GENERATE
+[WORKER] Mesh complete cx=-3 cz=-6 built=000001EDC2B09AA0
+[WORKER] Queuing result cx=-3 cz=-6 gen=1 space=global_chunk built=000001EDC2B09AA0 results=2/768
+[MEM] cx=-3 cz=-6 type=GEN WorkingSet=3264.6MB PagefileUsage=3262.4MB jobs=34 results=3
+[WORKER] Mesh complete cx=-3 cz=0 built=000001EDC2B07970
+[WORKER] Processing job cx=-4 cz=1 gen=1 space=global_chunk type=GENERATE
+[WORKER] Queuing result cx=-3 cz=0 gen=1 space=global_chunk built=000001EDC2B07970 results=3/768
+[MEM] cx=-3 cz=0 type=GEN WorkingSet=3273.1MB PagefileUsage=3271.3MB jobs=33 results=4
+[WORKER] Processing job cx=-4 cz=-7 gen=1 space=global_chunk type=GENERATE
+[WORKER] Mesh complete cx=-1 cz=-4 built=000001EDC2B0D1F0
+[WORKER] Queuing result cx=-1 cz=-4 gen=1 space=global_chunk built=000001EDC2B0D1F0 results=4/768
+[MEM] cx=-1 cz=-4 type=GEN WorkingSet=3293.4MB PagefileUsage=3292.0MB jobs=32 results=5
+[WORKER] Processing job cx=-3 cz=1 gen=1 space=global_chunk type=GENERATE
+[ADOPT] Adopting chunk (-2,0) gen=1 role=1
+[RESERVE_SLOT] cx=-2 cz=0 role=1
+[RESERVE_SLOT] Created new slot: cx=-2 cz=0 role=1 iterations=0
+[ADOPT] SUCCESS chunk (-2,0) now resident. loaded_from_persist=0
+[ADOPT] Adopting chunk (-7,-1) gen=1 role=1
+[RESERVE_SLOT] cx=-7 cz=-1 role=1
+[RESERVE_SLOT] Created new slot: cx=-7 cz=-1 role=1 iterations=0
+[ADOPT] SUCCESS chunk (-7,-1) now resident. loaded_from_persist=0
+[ADOPT] Adopting chunk (-3,-6) gen=1 role=1
+[RESERVE_SLOT] cx=-3 cz=-6 role=1
+[RESERVE_SLOT] Created new slot: cx=-3 cz=-6 role=1 iterations=0
+[WORKER] Mesh complete cx=-4 cz=-6 built=000001EDC2B0DD00
+[WORKER] Queuing result cx=-4 cz=-6 gen=1 space=global_chunk built=000001EDC2B0DD00 results=2/768
+[MEM] cx=-4 cz=-6 type=GEN WorkingSet=3365.0MB PagefileUsage=3364.2MB jobs=31 results=3
+[WORKER] Processing job cx=-8 cz=-2 gen=1 space=global_chunk type=GENERATE
+[ADOPT] SUCCESS chunk (-3,-6) now resident. loaded_from_persist=0
+[WORKER] Mesh complete cx=-7 cz=-2 built=000001EDC2B0BBD0
+[WORKER] Queuing result cx=-7 cz=-2 gen=1 space=global_chunk built=000001EDC2B0BBD0 results=3/768
+[MEM] cx=-7 cz=-2 type=GEN WorkingSet=3444.4MB PagefileUsage=3444.2MB jobs=30 results=4
+[WORKER] Processing job cx=-5 cz=1 gen=1 space=global_chunk type=GENERATE
+[WORKER] Mesh complete cx=-7 cz=-5 built=000001EDC7058D10
+[WORKER] Queuing result cx=-7 cz=-5 gen=1 space=global_chunk built=000001EDC7058D10 results=4/768
+[MEM] cx=-7 cz=-5 type=GEN WorkingSet=3452.9MB PagefileUsage=3453.1MB jobs=29 results=5
+[WORKER] Processing job cx=-5 cz=-7 gen=1 space=global_chunk type=GENERATE
+[ADOPT] Adopting chunk (-3,0) gen=1 role=1
+[RESERVE_SLOT] cx=-3 cz=0 role=1
+[RESERVE_SLOT] Created new slot: cx=-3 cz=0 role=1 iterations=0
+[ADOPT] SUCCESS chunk (-3,0) now resident. loaded_from_persist=0
+[WORKER] Mesh complete cx=-1 cz=-2 built=000001EDC705C460
+[WORKER] Queuing result cx=-1 cz=-2 gen=1 space=global_chunk built=000001EDC705C460 results=4/768
+[MEM] cx=-1 cz=-2 type=GEN WorkingSet=3514.8MB PagefileUsage=3529.2MB jobs=28 results=5
+[WORKER] Processing job cx=0 cz=-4 gen=1 space=global_chunk type=GENERATE
+[ADOPT] Adopting chunk (-1,-4) gen=1 role=1
+[RESERVE_SLOT] cx=-1 cz=-4 role=1
+[RESERVE_SLOT] Created new slot: cx=-1 cz=-4 role=1 iterations=0
+[ADOPT] SUCCESS chunk (-1,-4) now resident. loaded_from_persist=0
+[WORKER] Mesh complete cx=-6 cz=-6 built=000001EDC705CF70
+[WORKER] Queuing result cx=-6 cz=-6 gen=1 space=global_chunk built=000001EDC705CF70 results=4/768
+[MEM] cx=-6 cz=-6 type=GEN WorkingSet=3578.1MB PagefileUsage=3601.9MB jobs=27 results=5
+[WORKER] Processing job cx=-3 cz=-7 gen=1 space=global_chunk type=GENERATE
+[ADOPT] Adopting chunk (-4,-6) gen=1 role=1
+[RESERVE_SLOT] cx=-4 cz=-6 role=1
+[RESERVE_SLOT] Created new slot: cx=-4 cz=-6 role=1 iterations=0
+[ADOPT] SUCCESS chunk (-4,-6) now resident. loaded_from_persist=0
+[ADOPT] Adopting chunk (-7,-2) gen=1 role=1
+[RESERVE_SLOT] cx=-7 cz=-2 role=1
+[RESERVE_SLOT] Created new slot: cx=-7 cz=-2 role=1 iterations=0
+[WORKER] Mesh complete cx=-5 cz=-6 built=000001EDC705F0A0
+[WORKER] Queuing result cx=-5 cz=-6 gen=1 space=global_chunk built=000001EDC705F0A0 results=3/768
+[MEM] cx=-5 cz=-6 type=GEN WorkingSet=3690.6MB PagefileUsage=3692.3MB jobs=26 results=4
+[WORKER] Processing job cx=0 cz=-2 gen=1 space=global_chunk type=GENERATE
+[ADOPT] SUCCESS chunk (-7,-2) now resident. loaded_from_persist=0
+[ADOPT] Adopting chunk (-7,-5) gen=1 role=1
+[RESERVE_SLOT] cx=-7 cz=-5 role=1
+[RESERVE_SLOT] Created new slot: cx=-7 cz=-5 role=1 iterations=0
+[ADOPT] SUCCESS chunk (-7,-5) now resident. loaded_from_persist=0
+[ADOPT] Adopting chunk (-1,-2) gen=1 role=1
+[RESERVE_SLOT] cx=-1 cz=-2 role=1
+[RESERVE_SLOT] Created new slot: cx=-1 cz=-2 role=1 iterations=0
+[ADOPT] SUCCESS chunk (-1,-2) now resident. loaded_from_persist=0
+[WORKER] Mesh complete cx=-5 cz=0 built=000001EDC705E590
+[WORKER] Queuing result cx=-5 cz=0 gen=1 space=global_chunk built=000001EDC705E590 results=2/768
+[MEM] cx=-5 cz=0 type=GEN WorkingSet=3797.0MB PagefileUsage=3798.5MB jobs=25 results=3
+[WORKER] Processing job cx=-8 cz=-4 gen=1 space=global_chunk type=GENERATE
+[ADOPT] Adopting chunk (-6,-6) gen=1 role=1
+[RESERVE_SLOT] cx=-6 cz=-6 role=1
+[RESERVE_SLOT] Created new slot: cx=-6 cz=-6 role=1 iterations=0
+[ADOPT] SUCCESS chunk (-6,-6) now resident. loaded_from_persist=0
+[WORKER] Mesh complete cx=-7 cz=-4 built=000001EDC7061CE0
+[WORKER] Queuing result cx=-7 cz=-4 gen=1 space=global_chunk built=000001EDC7061CE0 results=2/768
+[MEM] cx=-7 cz=-4 type=GEN WorkingSet=3877.2MB PagefileUsage=3889.7MB jobs=24 results=3
+[WORKER] Processing job cx=-1 cz=-6 gen=1 space=global_chunk type=GENERATE
+[ADOPT] Adopting chunk (-5,-6) gen=1 role=1
+[RESERVE_SLOT] cx=-5 cz=-6 role=1
+[RESERVE_SLOT] Created new slot: cx=-5 cz=-6 role=1 iterations=0
+[ADOPT] SUCCESS chunk (-5,-6) now resident. loaded_from_persist=0
+[ADOPT] Adopting chunk (-5,0) gen=1 role=1
+[RESERVE_SLOT] cx=-5 cz=0 role=1
+[RESERVE_SLOT] Created new slot: cx=-5 cz=0 role=1 iterations=0
+[ADOPT] SUCCESS chunk (-5,0) now resident. loaded_from_persist=0
+[ADOPT] Adopting chunk (-7,-4) gen=1 role=1
+[RESERVE_SLOT] cx=-7 cz=-4 role=1
+[WORKER] Mesh complete cx=-1 cz=-1 built=000001EDC2B12D40
+[RESERVE_SLOT] Created new slot: cx=-7 cz=-4 role=1 iterations=0
+[WORKER] Queuing result cx=-1 cz=-1 gen=1 space=global_chunk built=000001EDC2B12D40 results=0/768
+[MEM] cx=-1 cz=-1 type=GEN WorkingSet=4033.2MB PagefileUsage=4035.1MB jobs=23 results=1
+[WORKER] Processing job cx=-7 cz=0 gen=1 space=global_chunk type=GENERATE
+[ADOPT] SUCCESS chunk (-7,-4) now resident. loaded_from_persist=0
+[ADOPT] Adopting chunk (-1,-1) gen=1 role=1
+[RESERVE_SLOT] cx=-1 cz=-1 role=1
+[RESERVE_SLOT] Created new slot: cx=-1 cz=-1 role=1 iterations=0
+[ADOPT] SUCCESS chunk (-1,-1) now resident. loaded_from_persist=0
+[WALL] HEALTH W=4/0/0 N=4/0/0 E=4/0/0 S=4/0/0 (desired/resident/ready)
+[WORKER] Meshing cx=-6 cz=0 (persisted=0)
+[RESERVE_SLOT] cx=-6 cz=0 role=1
+[RESERVE_SLOT] Created new slot: cx=-6 cz=0 role=1 iterations=0
+[WORKER] Meshing cx=-1 cz=-5 (persisted=0)
+[RESERVE_SLOT] cx=-1 cz=-5 role=1
+[RESERVE_SLOT] Created new slot: cx=-1 cz=-5 role=1 iterations=0
+[WORKER] Meshing cx=-4 cz=-7 (persisted=0)
+[RESERVE_SLOT] cx=-4 cz=-7 role=1
+[RESERVE_SLOT] Created new slot: cx=-4 cz=-7 role=1 iterations=0
+[WORKER] Meshing cx=-8 cz=-3 (persisted=0)
+[RESERVE_SLOT] cx=-8 cz=-3 role=1
+[RESERVE_SLOT] Created new slot: cx=-8 cz=-3 role=1 iterations=0
+[WORKER] Meshing cx=0 cz=-3 (persisted=0)
+[RESERVE_SLOT] cx=0 cz=-3 role=1
+[RESERVE_SLOT] Created new slot: cx=0 cz=-3 role=1 iterations=0
+[WORKER] Meshing cx=-3 cz=1 (persisted=0)
+[RESERVE_SLOT] cx=-3 cz=1 role=1
+[RESERVE_SLOT] Created new slot: cx=-3 cz=1 role=1 iterations=0
+[WORKER] Meshing cx=-4 cz=1 (persisted=0)
+[RESERVE_SLOT] cx=-4 cz=1 role=1
+[RESERVE_SLOT] Created new slot: cx=-4 cz=1 role=1 iterations=0
+[WORKER] Meshing cx=-5 cz=1 (persisted=0)
+[WORKER] Meshing cx=0 cz=-4 (persisted=0)
+[RESERVE_SLOT] cx=-5 cz=1 role=1
+[RESERVE_SLOT] Created new slot: cx=-5 cz=1 role=1 iterations=0
+[RESERVE_SLOT] cx=0 cz=-4 role=1
+[RESERVE_SLOT] Created new slot: cx=0 cz=-4 role=1 iterations=0
+[WORKER] Meshing cx=-8 cz=-2 (persisted=0)
+[RESERVE_SLOT] cx=-8 cz=-2 role=1
+[RESERVE_SLOT] Created new slot: cx=-8 cz=-2 role=1 iterations=0
+[WORKER] Meshing cx=-5 cz=-7 (persisted=0)
+[RESERVE_SLOT] cx=-5 cz=-7 role=1
+[RESERVE_SLOT] Created new slot: cx=-5 cz=-7 role=1 iterations=0
+[WORKER] Meshing cx=-3 cz=-7 (persisted=0)
+[RESERVE_SLOT] cx=-3 cz=-7 role=1
+[RESERVE_SLOT] Created new slot: cx=-3 cz=-7 role=1 iterations=0
+[WORKER] Meshing cx=0 cz=-2 (persisted=0)
+[RESERVE_SLOT] cx=0 cz=-2 role=1
+[RESERVE_SLOT] Created new slot: cx=0 cz=-2 role=1 iterations=0
+[WORKER] Meshing cx=-1 cz=-6 (persisted=0)
+[RESERVE_SLOT] cx=-1 cz=-6 role=1
+[RESERVE_SLOT] Created new slot: cx=-1 cz=-6 role=1 iterations=0
+[WORKER] Meshing cx=-8 cz=-4 (persisted=0)
+[RESERVE_SLOT] cx=-8 cz=-4 role=1
+[RESERVE_SLOT] Created new slot: cx=-8 cz=-4 role=1 iterations=0
+[WORKER] Meshing cx=-7 cz=0 (persisted=0)
+[RESERVE_SLOT] cx=-7 cz=0 role=1
+[RESERVE_SLOT] Created new slot: cx=-7 cz=0 role=1 iterations=0
+[WORKER] Mesh complete cx=-6 cz=0 built=000001EDC2B12230
+[WORKER] Queuing result cx=-6 cz=0 gen=1 space=global_chunk built=000001EDC2B12230 results=0/768
+[MEM] cx=-6 cz=0 type=GEN WorkingSet=4628.2MB PagefileUsage=4631.5MB jobs=22 results=1
+[WORKER] Processing job cx=-7 cz=-6 gen=1 space=global_chunk type=GENERATE
+[ADOPT] Adopting chunk (-6,0) gen=1 role=1
+[RESERVE_SLOT] cx=-6 cz=0 role=1
+[RESERVE_SLOT] Created new slot: cx=-6 cz=0 role=1 iterations=0
+[ADOPT] SUCCESS chunk (-6,0) now resident. loaded_from_persist=0
+[WORKER] Mesh complete cx=-1 cz=-5 built=000001EDC2B10100
+[WORKER] Queuing result cx=-1 cz=-5 gen=1 space=global_chunk built=000001EDC2B10100 results=0/768
+[MEM] cx=-1 cz=-5 type=GEN WorkingSet=4714.9MB PagefileUsage=4718.7MB jobs=21 results=1
+[WORKER] Processing job cx=-1 cz=0 gen=1 space=global_chunk type=GENERATE
+[WORKER] Mesh complete cx=-4 cz=-7 built=000001EDC2B14360
+[WORKER] Queuing result cx=-4 cz=-7 gen=1 space=global_chunk built=000001EDC2B14360 results=1/768
+[MEM] cx=-4 cz=-7 type=GEN WorkingSet=4729.1MB PagefileUsage=4732.9MB jobs=20 results=2
+[WORKER] Processing job cx=0 cz=-5 gen=1 space=global_chunk type=GENERATE
+[ADOPT] Adopting chunk (-1,-5) gen=1 role=1
+[RESERVE_SLOT] cx=-1 cz=-5 role=1
+[RESERVE_SLOT] Created new slot: cx=-1 cz=-5 role=1 iterations=0
+[ADOPT] SUCCESS chunk (-1,-5) now resident. loaded_from_persist=0
+[ADOPT] Adopting chunk (-4,-7) gen=1 role=1
+[RESERVE_SLOT] cx=-4 cz=-7 role=1
+[RESERVE_SLOT] Created new slot: cx=-4 cz=-7 role=1 iterations=0
+[ADOPT] SUCCESS chunk (-4,-7) now resident. loaded_from_persist=0
+[WORKER] Mesh complete cx=-8 cz=-3 built=000001EDC2B16FA0
+[WORKER] Queuing result cx=-8 cz=-3 gen=1 space=global_chunk built=000001EDC2B16FA0 results=0/768
+[MEM] cx=-8 cz=-3 type=GEN WorkingSet=4871.0MB PagefileUsage=4874.8MB jobs=19 results=1
+[WORKER] Processing job cx=-8 cz=-5 gen=1 space=global_chunk type=GENERATE
+[ADOPT] Adopting chunk (-8,-3) gen=1 role=1
+[RESERVE_SLOT] cx=-8 cz=-3 role=1
+[RESERVE_SLOT] Created new slot: cx=-8 cz=-3 role=1 iterations=0
+[ADOPT] SUCCESS chunk (-8,-3) now resident. loaded_from_persist=0
+[WORKER] Mesh complete cx=0 cz=-3 built=000001EDC2B15980
+[WORKER] Queuing result cx=0 cz=-3 gen=1 space=global_chunk built=000001EDC2B15980 results=0/768
+[MEM] cx=0 cz=-3 type=GEN WorkingSet=4938.3MB PagefileUsage=4942.3MB jobs=18 results=1
+[WORKER] Processing job cx=-6 cz=1 gen=1 space=global_chunk type=GENERATE
+[ADOPT] Adopting chunk (0,-3) gen=1 role=1
+[RESERVE_SLOT] cx=0 cz=-3 role=1
+[RESERVE_SLOT] Created new slot: cx=0 cz=-3 role=1 iterations=0
+[ADOPT] SUCCESS chunk (0,-3) now resident. loaded_from_persist=0
+[WORKER] Mesh complete cx=-3 cz=1 built=000001EDC2B190D0
+[WORKER] Queuing result cx=-3 cz=1 gen=1 space=global_chunk built=000001EDC2B190D0 results=0/768
+[MEM] cx=-3 cz=1 type=GEN WorkingSet=5004.9MB PagefileUsage=5009.1MB jobs=17 results=1
+[WORKER] Processing job cx=-2 cz=1 gen=1 space=global_chunk type=GENERATE
+[ADOPT] Adopting chunk (-3,1) gen=1 role=1
+[RESERVE_SLOT] cx=-3 cz=1 role=1
+[RESERVE_SLOT] Created new slot: cx=-3 cz=1 role=1 iterations=0
+[ADOPT] SUCCESS chunk (-3,1) now resident. loaded_from_persist=0
+[WORKER] Mesh complete cx=0 cz=-4 built=000001EDC2B19BE0
+[WORKER] Queuing result cx=0 cz=-4 gen=1 space=global_chunk built=000001EDC2B19BE0 results=0/768
+[MEM] cx=0 cz=-4 type=GEN WorkingSet=5084.0MB PagefileUsage=5088.4MB jobs=16 results=1
+[WORKER] Processing job cx=0 cz=-1 gen=1 space=global_chunk type=GENERATE
+[WORKER] Mesh complete cx=-4 cz=1 built=000001EDC2B17AB0
+[WORKER] Queuing result cx=-4 cz=1 gen=1 space=global_chunk built=000001EDC2B17AB0 results=1/768
+[MEM] cx=-4 cz=1 type=GEN WorkingSet=5104.8MB PagefileUsage=5109.3MB jobs=15 results=2
+[WORKER] Processing job cx=-8 cz=-1 gen=1 space=global_chunk type=GENERATE
+[ADOPT] Adopting chunk (0,-4) gen=1 role=1
+[RESERVE_SLOT] cx=0 cz=-4 role=1
+[RESERVE_SLOT] Created new slot: cx=0 cz=-4 role=1 iterations=0
+[ADOPT] SUCCESS chunk (0,-4) now resident. loaded_from_persist=0
+[ADOPT] Adopting chunk (-4,1) gen=1 role=1
+[RESERVE_SLOT] cx=-4 cz=1 role=1
+[RESERVE_SLOT] Created new slot: cx=-4 cz=1 role=1 iterations=0
+[ADOPT] SUCCESS chunk (-4,1) now resident. loaded_from_persist=0
+[WORKER] Mesh complete cx=-5 cz=1 built=000001EDC2B1C820
+[WORKER] Queuing result cx=-5 cz=1 gen=1 space=global_chunk built=000001EDC2B1C820 results=0/768
+[MEM] cx=-5 cz=1 type=GEN WorkingSet=5154.0MB PagefileUsage=5186.1MB jobs=14 results=1
+[WORKER] Processing job cx=-2 cz=-7 gen=1 space=global_chunk type=GENERATE
+[WORKER] Mesh complete cx=-5 cz=-7 built=000001EDC2B1D330
+[WORKER] Queuing result cx=-5 cz=-7 gen=1 space=global_chunk built=000001EDC2B1D330 results=1/768
+[MEM] cx=-5 cz=-7 type=GEN WorkingSet=5180.5MB PagefileUsage=5194.6MB jobs=13 results=2
+[WORKER] Processing job cx=-6 cz=-7 gen=1 space=global_chunk type=GENERATE
+[ADOPT] Adopting chunk (-5,1) gen=1 role=1
+[RESERVE_SLOT] cx=-5 cz=1 role=1
+[RESERVE_SLOT] Created new slot: cx=-5 cz=1 role=1 iterations=0
+[ADOPT] SUCCESS chunk (-5,1) now resident. loaded_from_persist=0
+[ADOPT] Adopting chunk (-5,-7) gen=1 role=1
+[RESERVE_SLOT] cx=-5 cz=-7 role=1
+[RESERVE_SLOT] Created new slot: cx=-5 cz=-7 role=1 iterations=0
+[ADOPT] SUCCESS chunk (-5,-7) now resident. loaded_from_persist=0
+[WORKER] Mesh complete cx=-8 cz=-2 built=000001EDC2B1BD10
+[WORKER] Queuing result cx=-8 cz=-2 gen=1 space=global_chunk built=000001EDC2B1BD10 results=0/768
+[MEM] cx=-8 cz=-2 type=GEN WorkingSet=5288.5MB PagefileUsage=5316.0MB jobs=12 results=1
+[WORKER] Processing job cx=-8 cz=0 gen=1 space=global_chunk type=GENERATE
+[WORKER] Mesh complete cx=0 cz=-2 built=000001EDC2AFE9A0
+[WORKER] Queuing result cx=0 cz=-2 gen=1 space=global_chunk built=000001EDC2AFE9A0 results=1/768
+[MEM] cx=0 cz=-2 type=GEN WorkingSet=5305.1MB PagefileUsage=5324.5MB jobs=11 results=2
+[WORKER] Processing job cx=0 cz=0 gen=1 space=global_chunk type=GENERATE
+[WORKER] Mesh complete cx=-3 cz=-7 built=000001EDC2B04220
+[WORKER] Queuing result cx=-3 cz=-7 gen=1 space=global_chunk built=000001EDC2B04220 results=2/768
+[MEM] cx=-3 cz=-7 type=GEN WorkingSet=5328.2MB PagefileUsage=5333.0MB jobs=10 results=3
+[WORKER] Processing job cx=-8 cz=-6 gen=1 space=global_chunk type=GENERATE
+[ADOPT] Adopting chunk (-8,-2) gen=1 role=1
+[RESERVE_SLOT] cx=-8 cz=-2 role=1
+[RESERVE_SLOT] Created new slot: cx=-8 cz=-2 role=1 iterations=0
+[ADOPT] SUCCESS chunk (-8,-2) now resident. loaded_from_persist=0
+[ADOPT] Adopting chunk (0,-2) gen=1 role=1
+[RESERVE_SLOT] cx=0 cz=-2 role=1
+[RESERVE_SLOT] Created new slot: cx=0 cz=-2 role=1 iterations=0
+[ADOPT] SUCCESS chunk (0,-2) now resident. loaded_from_persist=0
+[ADOPT] Adopting chunk (-3,-7) gen=1 role=1
+[RESERVE_SLOT] cx=-3 cz=-7 role=1
+[RESERVE_SLOT] Created new slot: cx=-3 cz=-7 role=1 iterations=0
+[ADOPT] SUCCESS chunk (-3,-7) now resident. loaded_from_persist=0
+[WORKER] Mesh complete cx=-1 cz=-6 built=000001EDC2B08480
+[WORKER] Queuing result cx=-1 cz=-6 gen=1 space=global_chunk built=000001EDC2B08480 results=0/768
+[MEM] cx=-1 cz=-6 type=GEN WorkingSet=5511.6MB PagefileUsage=5516.8MB jobs=9 results=1
+[ADOPT] Adopting chunk (-1,-6) gen=1 role=1
+[WORKER] Processing job cx=-7 cz=1 gen=1 space=global_chunk type=GENERATE
+[RESERVE_SLOT] cx=-1 cz=-6 role=1
+[RESERVE_SLOT] Created new slot: cx=-1 cz=-6 role=1 iterations=0
+[ADOPT] SUCCESS chunk (-1,-6) now resident. loaded_from_persist=0
+[WORKER] Mesh complete cx=-7 cz=0 built=000001EDC2B08F90
+[WORKER] Queuing result cx=-7 cz=0 gen=1 space=global_chunk built=000001EDC2B08F90 results=0/768
+[MEM] cx=-7 cz=0 type=GEN WorkingSet=5594.4MB PagefileUsage=5599.7MB jobs=8 results=1
+[WORKER] Processing job cx=0 cz=-6 gen=1 space=global_chunk type=GENERATE
+[ADOPT] Adopting chunk (-7,0) gen=1 role=1
+[RESERVE_SLOT] cx=-7 cz=0 role=1
+[RESERVE_SLOT] Created new slot: cx=-7 cz=0 role=1 iterations=0
+[ADOPT] SUCCESS chunk (-7,0) now resident. loaded_from_persist=0
+[WORKER] Mesh complete cx=-8 cz=-4 built=000001EDC7056BE0
+[WORKER] Queuing result cx=-8 cz=-4 gen=1 space=global_chunk built=000001EDC7056BE0 results=0/768
+[MEM] cx=-8 cz=-4 type=GEN WorkingSet=5636.3MB PagefileUsage=5664.7MB jobs=7 results=1
+[WORKER] Processing job cx=-1 cz=1 gen=1 space=global_chunk type=GENERATE
+[ADOPT] Adopting chunk (-8,-4) gen=1 role=1
+[RESERVE_SLOT] cx=-8 cz=-4 role=1
+[RESERVE_SLOT] Created new slot: cx=-8 cz=-4 role=1 iterations=0
+[ADOPT] SUCCESS chunk (-8,-4) now resident. loaded_from_persist=0
+[WALL] HEALTH W=4/0/0 N=4/0/0 E=4/0/0 S=4/0/0 (desired/resident/ready)
+[WORKER] Meshing cx=-7 cz=-6 (persisted=0)
+[RESERVE_SLOT] cx=-7 cz=-6 role=1
+[RESERVE_SLOT] Created new slot: cx=-7 cz=-6 role=1 iterations=0
+[WORKER] Meshing cx=-1 cz=0 (persisted=0)
+[RESERVE_SLOT] cx=-1 cz=0 role=1
+[RESERVE_SLOT] Created new slot: cx=-1 cz=0 role=1 iterations=0
+[WORKER] Meshing cx=0 cz=-5 (persisted=0)
+[RESERVE_SLOT] cx=0 cz=-5 role=1
+[RESERVE_SLOT] Created new slot: cx=0 cz=-5 role=1 iterations=0
+[WORKER] Meshing cx=-8 cz=-5 (persisted=0)
+[RESERVE_SLOT] cx=-8 cz=-5 role=1
+[RESERVE_SLOT] Created new slot: cx=-8 cz=-5 role=1 iterations=0
+[WORKER] Meshing cx=-6 cz=1 (persisted=0)
+[RESERVE_SLOT] cx=-6 cz=1 role=1
+[RESERVE_SLOT] Created new slot: cx=-6 cz=1 role=1 iterations=0
+[WORKER] Meshing cx=-8 cz=-1 (persisted=0)
+[RESERVE_SLOT] cx=-8 cz=-1 role=1
+[RESERVE_SLOT] Created new slot: cx=-8 cz=-1 role=1 iterations=0
+[WORKER] Meshing cx=0 cz=-1 (persisted=0)
+[RESERVE_SLOT] cx=0 cz=-1 role=1
+[RESERVE_SLOT] Created new slot: cx=0 cz=-1 role=1 iterations=0
+[WORKER] Meshing cx=-2 cz=1 (persisted=0)
+[RESERVE_SLOT] cx=-2 cz=1 role=1
+[RESERVE_SLOT] Created new slot: cx=-2 cz=1 role=1 iterations=0
+[WORKER] Meshing cx=-2 cz=-7 (persisted=0)
+[RESERVE_SLOT] cx=-2 cz=-7 role=1
+[RESERVE_SLOT] Created new slot: cx=-2 cz=-7 role=1 iterations=0
+[WORKER] Meshing cx=-8 cz=-6 (persisted=0)
+[RESERVE_SLOT] cx=-8 cz=-6 role=1
+[RESERVE_SLOT] Created new slot: cx=-8 cz=-6 role=1 iterations=0
+[WORKER] Meshing cx=-6 cz=-7 (persisted=0)
+[RESERVE_SLOT] cx=-6 cz=-7 role=1
+[RESERVE_SLOT] Created new slot: cx=-6 cz=-7 role=1 iterations=0
+[WORKER] Meshing cx=0 cz=0 (persisted=0)
+[RESERVE_SLOT] cx=0 cz=0 role=1
+[RESERVE_SLOT] Created new slot: cx=0 cz=0 role=1 iterations=0
+[WORKER] Meshing cx=-8 cz=0 (persisted=0)
+[RESERVE_SLOT] cx=-8 cz=0 role=1
+[RESERVE_SLOT] Created new slot: cx=-8 cz=0 role=1 iterations=0
+[WALL] HEALTH W=4/0/0 N=4/0/0 E=4/0/0 S=4/0/0 (desired/resident/ready)
+[WORKER] Meshing cx=-1 cz=1 (persisted=0)
+[RESERVE_SLOT] cx=-1 cz=1 role=1
+[RESERVE_SLOT] Created new slot: cx=-1 cz=1 role=1 iterations=0
+[WORKER] Meshing cx=0 cz=-6 (persisted=0)
+[RESERVE_SLOT] cx=0 cz=-6 role=1
+[RESERVE_SLOT] Created new slot: cx=0 cz=-6 role=1 iterations=0
+[WORKER] Meshing cx=-7 cz=1 (persisted=0)
+[RESERVE_SLOT] cx=-7 cz=1 role=1
+[RESERVE_SLOT] Created new slot: cx=-7 cz=1 role=1 iterations=0
+[WORKER] Mesh complete cx=0 cz=-5 built=000001EDC705A330
+[WORKER] Queuing result cx=0 cz=-5 gen=1 space=global_chunk built=000001EDC705A330 results=0/768
+[MEM] cx=0 cz=-5 type=GEN WorkingSet=6047.6MB PagefileUsage=6052.8MB jobs=6 results=1
+[WORKER] Processing job cx=-1 cz=-7 gen=1 space=global_chunk type=GENERATE
+[ADOPT] Adopting chunk (0,-5) gen=1 role=1
+[RESERVE_SLOT] cx=0 cz=-5 role=1
+[RESERVE_SLOT] Created new slot: cx=0 cz=-5 role=1 iterations=0
+[ADOPT] SUCCESS chunk (0,-5) now resident. loaded_from_persist=0
+[WORKER] Mesh complete cx=-1 cz=0 built=000001EDC705DA80
+[WORKER] Queuing result cx=-1 cz=0 gen=1 space=global_chunk built=000001EDC705DA80 results=0/768
+[MEM] cx=-1 cz=0 type=GEN WorkingSet=6121.9MB PagefileUsage=6127.1MB jobs=5 results=1
+[WORKER] Processing job cx=-7 cz=-7 gen=1 space=global_chunk type=GENERATE
+[ADOPT] Adopting chunk (-1,0) gen=1 role=1
+[RESERVE_SLOT] cx=-1 cz=0 role=1
+[RESERVE_SLOT] Created new slot: cx=-1 cz=0 role=1 iterations=0
+[ADOPT] SUCCESS chunk (-1,0) now resident. loaded_from_persist=0
+[WORKER] Mesh complete cx=-7 cz=-6 built=000001EDC7064920
+[WORKER] Queuing result cx=-7 cz=-6 gen=1 space=global_chunk built=000001EDC7064920 results=0/768
+[MEM] cx=-7 cz=-6 type=GEN WorkingSet=6213.3MB PagefileUsage=6218.8MB jobs=4 results=1
+[WORKER] Processing job cx=-8 cz=1 gen=1 space=global_chunk type=GENERATE
+[ADOPT] Adopting chunk (-7,-6) gen=1 role=1
+[RESERVE_SLOT] cx=-7 cz=-6 role=1
+[RESERVE_SLOT] Created new slot: cx=-7 cz=-6 role=1 iterations=0
+[ADOPT] SUCCESS chunk (-7,-6) now resident. loaded_from_persist=0
+[WORKER] Mesh complete cx=-8 cz=-5 built=000001EDC2B1E950
+[WORKER] Queuing result cx=-8 cz=-5 gen=1 space=global_chunk built=000001EDC2B1E950 results=0/768
+[MEM] cx=-8 cz=-5 type=GEN WorkingSet=6306.7MB PagefileUsage=6312.4MB jobs=4 results=1
+[WORKER] Processing job cx=0 cz=-7 gen=1 space=global_chunk type=GENERATE
+[ADOPT] Adopting chunk (-8,-5) gen=1 role=1
+[RESERVE_SLOT] cx=-8 cz=-5 role=1
+[RESERVE_SLOT] Created new slot: cx=-8 cz=-5 role=1 iterations=0
+[ADOPT] SUCCESS chunk (-8,-5) now resident. loaded_from_persist=0
+[WORKER] Mesh complete cx=-6 cz=1 built=000001EDC9D7F1C0
+[WORKER] Queuing result cx=-6 cz=1 gen=1 space=global_chunk built=000001EDC9D7F1C0 results=0/768
+[MEM] cx=-6 cz=1 type=GEN WorkingSet=6416.0MB PagefileUsage=6421.8MB jobs=4 results=1
+[WORKER] Processing job cx=0 cz=1 gen=1 space=global_chunk type=GENERATE
+[ADOPT] Adopting chunk (-6,1) gen=1 role=1
+[RESERVE_SLOT] cx=-6 cz=1 role=1
+[RESERVE_SLOT] Created new slot: cx=-6 cz=1 role=1 iterations=0
+[ADOPT] SUCCESS chunk (-6,1) now resident. loaded_from_persist=0
+[WORKER] Mesh complete cx=-8 cz=-1 built=000001EDC9D88CA0
+[WORKER] Queuing result cx=-8 cz=-1 gen=1 space=global_chunk built=000001EDC9D88CA0 results=0/768
+[MEM] cx=-8 cz=-1 type=GEN WorkingSet=6519.0MB PagefileUsage=6525.0MB jobs=4 results=1
+[WORKER] Processing job cx=-8 cz=-7 gen=1 space=global_chunk type=GENERATE
+[ADOPT] Adopting chunk (-8,-1) gen=1 role=1
+[RESERVE_SLOT] cx=-8 cz=-1 role=1
+[RESERVE_SLOT] Created new slot: cx=-8 cz=-1 role=1 iterations=0
+[ADOPT] SUCCESS chunk (-8,-1) now resident. loaded_from_persist=0
+[WORKER] Mesh complete cx=-2 cz=-7 built=000001EDC6860BA0
+[WORKER] Queuing result cx=-2 cz=-7 gen=1 space=global_chunk built=000001EDC6860BA0 results=0/768
+[MEM] cx=-2 cz=-7 type=GEN WorkingSet=6612.6MB PagefileUsage=6618.7MB jobs=4 results=1
+[WORKER] Processing job cx=-5 cz=-2 gen=2108567 space=global_chunk type=REMESH
+[WORKER] Remeshing cx=-5 cz=-2
+[RESERVE_SLOT] cx=-5 cz=-2 role=1
+[RESERVE_SLOT] Created new slot: cx=-5 cz=-2 role=1 iterations=0
+[RESERVE_SLOT] cx=-6 cz=-2 role=3
+[RESERVE_SLOT] Created new slot: cx=-6 cz=-2 role=3 iterations=0
+[RESERVE_SLOT] cx=-4 cz=-2 role=3
+[RESERVE_SLOT] Created new slot: cx=-4 cz=-2 role=3 iterations=0
+[RESERVE_SLOT] cx=-5 cz=-3 role=3
+[RESERVE_SLOT] Created new slot: cx=-5 cz=-3 role=3 iterations=0
+[RESERVE_SLOT] cx=-5 cz=-1 role=3
+[RESERVE_SLOT] Created new slot: cx=-5 cz=-1 role=3 iterations=0
+[RESERVE_SLOT] cx=-6 cz=-3 role=3
+[RESERVE_SLOT] Created new slot: cx=-6 cz=-3 role=3 iterations=0
+[RESERVE_SLOT] cx=-4 cz=-3 role=3
+[RESERVE_SLOT] Created new slot: cx=-4 cz=-3 role=3 iterations=0
+[RESERVE_SLOT] cx=-6 cz=-1 role=3
+[RESERVE_SLOT] Created new slot: cx=-6 cz=-1 role=3 iterations=0
+[RESERVE_SLOT] cx=-4 cz=-1 role=3
+[RESERVE_SLOT] Created new slot: cx=-4 cz=-1 role=3 iterations=0
+[ADOPT] Adopting chunk (-2,-7) gen=1 role=1
+[RESERVE_SLOT] cx=-2 cz=-7 role=1
+[RESERVE_SLOT] Created new slot: cx=-2 cz=-7 role=1 iterations=0
+[ADOPT] SUCCESS chunk (-2,-7) now resident. loaded_from_persist=0
+[WORKER] Mesh complete cx=0 cz=-1 built=000001EDC686B190
+[WORKER] Queuing result cx=0 cz=-1 gen=1 space=global_chunk built=000001EDC686B190 results=0/768
+[MEM] cx=0 cz=-1 type=GEN WorkingSet=6675.9MB PagefileUsage=6682.1MB jobs=4 results=1
+[WORKER] Processing job cx=-2 cz=-3 gen=2108468 space=global_chunk type=REMESH
+[WORKER] Remeshing cx=-2 cz=-3
+[RESERVE_SLOT] cx=-2 cz=-3 role=1
+[RESERVE_SLOT] Created new slot: cx=-2 cz=-3 role=1 iterations=0
+[RESERVE_SLOT] cx=-3 cz=-3 role=3
+[RESERVE_SLOT] Created new slot: cx=-3 cz=-3 role=3 iterations=0
+[RESERVE_SLOT] cx=-1 cz=-3 role=3
+[RESERVE_SLOT] Created new slot: cx=-1 cz=-3 role=3 iterations=0
+[RESERVE_SLOT] cx=-2 cz=-4 role=3
+[RESERVE_SLOT] Created new slot: cx=-2 cz=-4 role=3 iterations=0
+[RESERVE_SLOT] cx=-2 cz=-2 role=3
+[RESERVE_SLOT] Created new slot: cx=-2 cz=-2 role=3 iterations=0
+[RESERVE_SLOT] cx=-3 cz=-4 role=3
+[RESERVE_SLOT] Created new slot: cx=-3 cz=-4 role=3 iterations=0
+[RESERVE_SLOT] cx=-1 cz=-4 role=3
+[RESERVE_SLOT] Created new slot: cx=-1 cz=-4 role=3 iterations=0
+[RESERVE_SLOT] cx=-3 cz=-2 role=3
+[ADOPT] Adopting chunk (0,-1) gen=1 role=1
+[RESERVE_SLOT] Created new slot: cx=-3 cz=-2 role=3 iterations=0
+[RESERVE_SLOT] cx=0 cz=-1 role=1
+
+[RESERVE_SLOT] Created new slot: cx=-1 cz=-2 role=3 iterations=0
+[RESERVE_SLOT] Created new slot: cx=0 cz=-1 role=1 iterations=0
+[ADOPT] SUCCESS chunk (0,-1) now resident. loaded_from_persist=0
+[WORKER] Mesh complete cx=-2 cz=1 built=000001EDC2B10C10
+[WORKER] Queuing result cx=-2 cz=1 gen=1 space=global_chunk built=000001EDC2B10C10 results=0/768
+[MEM] cx=-2 cz=1 type=GEN WorkingSet=6751.6MB PagefileUsage=6758.0MB jobs=4 results=1
+[WORKER] Processing job cx=-5 cz=-3 gen=2084946 space=global_chunk type=REMESH
+[WORKER] Remeshing cx=-5 cz=-3
+[RESERVE_SLOT] cx=-5 cz=-3 role=1
+[RESERVE_SLOT] Created new slot: cx=-5 cz=-3 role=1 iterations=0
+[RESERVE_SLOT] cx=-6 cz=-3 role=3
+[RESERVE_SLOT] Created new slot: cx=-6 cz=-3 role=3 iterations=0
+[RESERVE_SLOT] cx=-4 cz=-3 role=3
+[RESERVE_SLOT] Created new slot: cx=-4 cz=-3 role=3 iterations=0
+[RESERVE_SLOT] cx=-5 cz=-4 role=3
+[RESERVE_SLOT] Created new slot: cx=-5 cz=-4 role=3 iterations=0
+[RESERVE_SLOT] cx=-5 cz=-2 role=3
+[RESERVE_SLOT] Created new slot: cx=-5 cz=-2 role=3 iterations=0
+[RESERVE_SLOT] cx=-6 cz=-4 role=3
+[RESERVE_SLOT] Created new slot: cx=-6 cz=-4 role=3 iterations=0
+[RESERVE_SLOT] cx=-4 cz=-4 role=3
+[RESERVE_SLOT] Created new slot: cx=-4 cz=-4 role=3 iterations=0
+[RESERVE_SLOT] cx=-6 cz=-2 role=3
+[RESERVE_SLOT] Created new slot: cx=-6 cz=-2 role=3 iterations=0
+[RESERVE_SLOT] cx=-4 cz=-2 role=3
+[RESERVE_SLOT] Created new slot: cx=-4 cz=-2 role=3 iterations=0
+[ADOPT] Adopting chunk (-2,1) gen=1 role=1
+[RESERVE_SLOT] cx=-2 cz=1 role=1
+[RESERVE_SLOT] Created new slot: cx=-2 cz=1 role=1 iterations=0
+[ADOPT] SUCCESS chunk (-2,1) now resident. loaded_from_persist=0
+[WORKER] Mesh complete cx=0 cz=0 built=000001EDC9D7DBA0
+[WORKER] Queuing result cx=0 cz=0 gen=1 space=global_chunk built=000001EDC9D7DBA0 results=0/768
+[MEM] cx=0 cz=0 type=GEN WorkingSet=6819.6MB PagefileUsage=6831.5MB jobs=4 results=1
+[WORKER] Processing job cx=-4 cz=-4 gen=2049177 space=global_chunk type=REMESH
+[WORKER] Remeshing cx=-4 cz=-4
+[RESERVE_SLOT] cx=-4 cz=-4 role=1
+[RESERVE_SLOT] Created new slot: cx=-4 cz=-4 role=1 iterations=0
+[ADOPT] Adopting chunk (0,0) gen=1 role=1
+[RESERVE_SLOT] cx=-5 cz=-4 role=3
+[RESERVE_SLOT] cx=0 cz=0 role=1
+[RESERVE_SLOT] Created new slot: cx=-5 cz=-4 role=3 iterations=0
+[RESERVE_SLOT] Created new slot: cx=0 cz=0 role=1 iterations=0
+[RESERVE_SLOT] cx=-3 cz=-4 role=3
+[RESERVE_SLOT] Created new slot: cx=-3 cz=-4 role=3 iterations=0
+[RESERVE_SLOT] cx=-4 cz=-5 role=3
+[RESERVE_SLOT] Created new slot: cx=-4 cz=-5 role=3 iterations=0
+[RESERVE_SLOT] cx=-4 cz=-3 role=3
+[RESERVE_SLOT] Created new slot: cx=-4 cz=-3 role=3 iterations=0
+[RESERVE_SLOT] cx=-5 cz=-5 role=3
+[RESERVE_SLOT] Created new slot: cx=-5 cz=-5 role=3 iterations=0
+[RESERVE_SLOT] cx=-3 cz=-5 role=3
+[RESERVE_SLOT] Created new slot: cx=-3 cz=-5 role=3 iterations=0
+[RESERVE_SLOT] cx=-5 cz=-3 role=3
+[RESERVE_SLOT] Created new slot: cx=-5 cz=-3 role=3 iterations=0
+[ADOPT] SUCCESS chunk (0,0) now resident. loaded_from_persist=0
+[RESERVE_SLOT] cx=-3 cz=-3 role=3
+[RESERVE_SLOT] Created new slot: cx=-3 cz=-3 role=3 iterations=0
+[WORKER] Mesh complete cx=-8 cz=-6 built=000001EDC9D86B70
+[WORKER] Queuing result cx=-8 cz=-6 gen=1 space=global_chunk built=000001EDC9D86B70 results=0/768
+[MEM] cx=-8 cz=-6 type=GEN WorkingSet=6883.2MB PagefileUsage=6895.2MB jobs=4 results=1
+[WORKER] Processing job cx=-5 cz=-4 gen=2050445 space=global_chunk type=REMESH
+[WORKER] Remeshing cx=-5 cz=-4
+[ADOPT] Adopting chunk (-8,-6) gen=1 role=1
+[RESERVE_SLOT] cx=-8 cz=-6 role=1
+[RESERVE_SLOT] Created new slot: cx=-8 cz=-6 role=1 iterations=0
+[RESERVE_SLOT] cx=-5 cz=-4 role=1
+[RESERVE_SLOT] Created new slot: cx=-5 cz=-4 role=1 iterations=0
+[RESERVE_SLOT] cx=-6 cz=-4 role=3
+[RESERVE_SLOT] Created new slot: cx=-6 cz=-4 role=3 iterations=0
+[RESERVE_SLOT] cx=-4 cz=-4 role=3
+[RESERVE_SLOT] Created new slot: cx=-4 cz=-4 role=3 iterations=0
+[RESERVE_SLOT] cx=-5 cz=-5 role=3
+[RESERVE_SLOT] Created new slot: cx=-5 cz=-5 role=3 iterations=0
+[ADOPT] SUCCESS chunk (-8,-6) now resident. loaded_from_persist=0
+[RESERVE_SLOT] cx=-5 cz=-3 role=3
+[RESERVE_SLOT] Created new slot: cx=-5 cz=-3 role=3 iterations=0
+[RESERVE_SLOT] cx=-6 cz=-5 role=3
+[RESERVE_SLOT] Created new slot: cx=-6 cz=-5 role=3 iterations=0
+[RESERVE_SLOT] cx=-4 cz=-5 role=3
+[RESERVE_SLOT] Created new slot: cx=-4 cz=-5 role=3 iterations=0
+[RESERVE_SLOT] cx=-6 cz=-3 role=3
+[RESERVE_SLOT] Created new slot: cx=-6 cz=-3 role=3 iterations=0
+[RESERVE_SLOT] cx=-4 cz=-3 role=3
+[RESERVE_SLOT] Created new slot: cx=-4 cz=-3 role=3 iterations=0
+[WORKER] Mesh complete cx=-6 cz=-7 built=000001EDC2B0B0C0
+[WORKER] Queuing result cx=-6 cz=-7 gen=1 space=global_chunk built=000001EDC2B0B0C0 results=0/768
+[MEM] cx=-6 cz=-7 type=GEN WorkingSet=6959.6MB PagefileUsage=6971.7MB jobs=4 results=1
+[WORKER] Processing job cx=-3 cz=-4 gen=2112710 space=global_chunk type=REMESH
+[WORKER] Remeshing cx=-3 cz=-4
+[RESERVE_SLOT] cx=-3 cz=-4 role=1
+[RESERVE_SLOT] Created new slot: cx=-3 cz=-4 role=1 iterations=0
+[RESERVE_SLOT] cx=-4 cz=-4 role=3
+[RESERVE_SLOT] Created new slot: cx=-4 cz=-4 role=3 iterations=0
+[RESERVE_SLOT] cx=-2 cz=-4 role=3
+[RESERVE_SLOT] Created new slot: cx=-2 cz=-4 role=3 iterations=0
+[RESERVE_SLOT] cx=-3 cz=-5 role=3
+[RESERVE_SLOT] Created new slot: cx=-3 cz=-5 role=3 iterations=0
+[RESERVE_SLOT] cx=-3 cz=-3 role=3
+[RESERVE_SLOT] Created new slot: cx=-3 cz=-3 role=3 iterations=0
+[RESERVE_SLOT] cx=-4 cz=-5 role=3
+[RESERVE_SLOT] Created new slot: cx=-4 cz=-5 role=3 iterations=0
+[RESERVE_SLOT] cx=-2 cz=-5 role=3
+[RESERVE_SLOT] Created new slot: cx=-2 cz=-5 role=3 iterations=0
+[ADOPT] Adopting chunk (-6,-7) gen=1 role=1
+[RESERVE_SLOT] cx=-4 cz=-3 role=3
+[RESERVE_SLOT] Created new slot: cx=-4 cz=-3 role=3 iterations=0
+[RESERVE_SLOT] Created new slot: cx=-6 cz=-7 role=1 iterations=0
+[RESERVE_SLOT] cx=-2 cz=-3 role=3
+[RESERVE_SLOT] Created new slot: cx=-2 cz=-3 role=3 iterations=0
+[ADOPT] SUCCESS chunk (-6,-7) now resident. loaded_from_persist=0
+[WORKER] Mesh complete cx=-8 cz=0 built=000001EDC6867A40
+[WORKER] Queuing result cx=-8 cz=0 gen=1 space=global_chunk built=000001EDC6867A40 results=0/768
+[MEM] cx=-8 cz=0 type=GEN WorkingSet=7027.9MB PagefileUsage=7042.4MB jobs=4 results=1
+[WORKER] Processing job cx=-4 cz=-1 gen=2150739 space=global_chunk type=REMESH
+[WORKER] Remeshing cx=-4 cz=-1
+[RESERVE_SLOT] cx=-4 cz=-1 role=1
+[RESERVE_SLOT] Created new slot: cx=-4 cz=-1 role=1 iterations=0
+[RESERVE_SLOT] cx=-5 cz=-1 role=3
+[RESERVE_SLOT] Created new slot: cx=-5 cz=-1 role=3 iterations=0
+[RESERVE_SLOT] cx=-3 cz=-1 role=3
+[RESERVE_SLOT] Created new slot: cx=-3 cz=-1 role=3 iterations=0
+[RESERVE_SLOT] cx=-4 cz=-2 role=3
+[RESERVE_SLOT] Created new slot: cx=-4 cz=-2 role=3 iterations=0
+[RESERVE_SLOT] cx=-4 cz=0 role=3
+[RESERVE_SLOT] Created new slot: cx=-4 cz=0 role=3 iterations=0
+[RESERVE_SLOT] cx=-5 cz=-2 role=3
+[RESERVE_SLOT] Created new slot: cx=-5 cz=-2 role=3 iterations=0
+[RESERVE_SLOT] cx=-3 cz=-2 role=3
+[RESERVE_SLOT] Created new slot: cx=-3 cz=-2 role=3 iterations=0
+[RESERVE_SLOT] cx=-5 cz=0 role=3
+[RESERVE_SLOT] Created new slot: cx=-5 cz=0 role=3 iterations=0
+[RESERVE_SLOT] cx=-3 cz=0 role=3
+[RESERVE_SLOT] Created new slot: cx=-3 cz=0 role=3 iterations=0
+[ADOPT] Adopting chunk (-8,0) gen=1 role=1
+[RESERVE_SLOT] cx=-8 cz=0 role=1
+[RESERVE_SLOT] Created new slot: cx=-8 cz=0 role=1 iterations=0
+[ADOPT] SUCCESS chunk (-8,0) now resident. loaded_from_persist=0
+[WORKER] Mesh complete cx=0 cz=-6 built=000001EDC686F3F0
+[WORKER] Queuing result cx=0 cz=-6 gen=1 space=global_chunk built=000001EDC686F3F0 results=0/768
+[MEM] cx=0 cz=-6 type=GEN WorkingSet=7107.7MB PagefileUsage=7120.2MB jobs=4 results=1
+[WORKER] Processing job cx=-3 cz=-2 gen=2136957 space=global_chunk type=REMESH
+[WORKER] Remeshing cx=-3 cz=-2
+[RESERVE_SLOT] cx=-3 cz=-2 role=1
+[RESERVE_SLOT] Created new slot: cx=-3 cz=-2 role=1 iterations=0
+[RESERVE_SLOT] cx=-4 cz=-2 role=3
+[RESERVE_SLOT] Created new slot: cx=-4 cz=-2 role=3 iterations=0
+[RESERVE_SLOT] cx=-2 cz=-2 role=3
+[RESERVE_SLOT] Created new slot: cx=-2 cz=-2 role=3 iterations=0
+[RESERVE_SLOT] cx=-3 cz=-3 role=3
+[RESERVE_SLOT] Created new slot: cx=-3 cz=-3 role=3 iterations=0
+[RESERVE_SLOT] cx=-3 cz=-1 role=3
+[RESERVE_SLOT] Created new slot: cx=-3 cz=-1 role=3 iterations=0
+[RESERVE_SLOT] cx=-4 cz=-3 role=3
+[RESERVE_SLOT] Created new slot: cx=-4 cz=-3 role=3 iterations=0
+[RESERVE_SLOT] cx=-2 cz=-3 role=3
+[RESERVE_SLOT] Created new slot: cx=-2 cz=-3 role=3 iterations=0
+[RESERVE_SLOT] cx=-4 cz=-1 role=3
+[ADOPT] Adopting chunk (0,-6) gen=1 role=1
+[RESERVE_SLOT] Created new slot: cx=-4 cz=-1 role=3 iterations=0
+[RESERVE_SLOT] cx=0 cz=-6 role=1
+[RESERVE_SLOT] cx=-2 cz=-1 role=3
+[RESERVE_SLOT] Created new slot: cx=0 cz=-6 role=1 iterations=0
+[RESERVE_SLOT] Created new slot: cx=-2 cz=-1 role=3 iterations=0
+[ADOPT] SUCCESS chunk (0,-6) now resident. loaded_from_persist=0
+[WORKER] Mesh complete cx=-1 cz=1 built=000001EDC9D84A40
+[WORKER] Queuing result cx=-1 cz=1 gen=1 space=global_chunk built=000001EDC9D84A40 results=0/768
+[MEM] cx=-1 cz=1 type=GEN WorkingSet=7190.5MB PagefileUsage=7203.1MB jobs=4 results=1
+[WORKER] Processing job cx=-5 cz=-5 gen=2073955 space=global_chunk type=REMESH
+[WORKER] Remeshing cx=-5 cz=-5
+[RESERVE_SLOT] cx=-5 cz=-5 role=1
+[RESERVE_SLOT] Created new slot: cx=-5 cz=-5 role=1 iterations=0
+[RESERVE_SLOT] cx=-6 cz=-5 role=3
+[RESERVE_SLOT] Created new slot: cx=-6 cz=-5 role=3 iterations=0
+[RESERVE_SLOT] cx=-4 cz=-5 role=3
+[RESERVE_SLOT] Created new slot: cx=-4 cz=-5 role=3 iterations=0
+[RESERVE_SLOT] cx=-5 cz=-6 role=3
+[RESERVE_SLOT] Created new slot: cx=-5 cz=-6 role=3 iterations=0
+[RESERVE_SLOT] cx=-5 cz=-4 role=3
+[RESERVE_SLOT] Created new slot: cx=-5 cz=-4 role=3 iterations=0
+[RESERVE_SLOT] cx=-6 cz=-6 role=3
+[RESERVE_SLOT] Created new slot: cx=-6 cz=-6 role=3 iterations=0
+[RESERVE_SLOT] cx=-4 cz=-6 role=3
+[RESERVE_SLOT] Created new slot: cx=-4 cz=-6 role=3 iterations=0
+[RESERVE_SLOT] cx=-6 cz=-4 role=3
+[RESERVE_SLOT] Created new slot: cx=-6 cz=-4 role=3 iterations=0
+[RESERVE_SLOT] cx=-4 cz=-4 role=3
+[RESERVE_SLOT] Created new slot: cx=-4 cz=-4 role=3 iterations=0
+[ADOPT] Adopting chunk (-1,1) gen=1 role=1
+[RESERVE_SLOT] cx=-1 cz=1 role=1
+[RESERVE_SLOT] Created new slot: cx=-1 cz=1 role=1 iterations=0
+[ADOPT] SUCCESS chunk (-1,1) now resident. loaded_from_persist=0
+[WORKER] Mesh complete cx=-7 cz=1 built=000001EDC2B16490
+[WORKER] Queuing result cx=-7 cz=1 gen=1 space=global_chunk built=000001EDC2B16490 results=0/768
+[MEM] cx=-7 cz=1 type=GEN WorkingSet=7276.3MB PagefileUsage=7293.7MB jobs=4 results=1
+[WORKER] Processing job cx=-4 cz=-5 gen=2058229 space=global_chunk type=REMESH
+[WORKER] Remeshing cx=-4 cz=-5
+[RESERVE_SLOT] cx=-4 cz=-5 role=1
+[RESERVE_SLOT] Created new slot: cx=-4 cz=-5 role=1 iterations=0
+[RESERVE_SLOT] cx=-5 cz=-5 role=3
+[RESERVE_SLOT] Created new slot: cx=-5 cz=-5 role=3 iterations=0
+[RESERVE_SLOT] cx=-3 cz=-5 role=3
+[RESERVE_SLOT] Created new slot: cx=-3 cz=-5 role=3 iterations=0
+[RESERVE_SLOT] cx=-4 cz=-6 role=3
+[RESERVE_SLOT] Created new slot: cx=-4 cz=-6 role=3 iterations=0
+[RESERVE_SLOT] cx=-4 cz=-4 role=3
+[ADOPT] Adopting chunk (-7,1) gen=1 role=1
+[RESERVE_SLOT] Created new slot: cx=-4 cz=-4 role=3 iterations=0
+[RESERVE_SLOT] cx=-7 cz=1 role=1
+[RESERVE_SLOT] cx=-5 cz=-6 role=3
+[RESERVE_SLOT] Created new slot: cx=-7 cz=1 role=1 iterations=0
+[RESERVE_SLOT] Created new slot: cx=-5 cz=-6 role=3 iterations=0
+[RESERVE_SLOT] cx=-3 cz=-6 role=3
+[RESERVE_SLOT] Created new slot: cx=-3 cz=-6 role=3 iterations=0
+[RESERVE_SLOT] cx=-5 cz=-4 role=3
+[RESERVE_SLOT] Created new slot: cx=-5 cz=-4 role=3 iterations=0
+[RESERVE_SLOT] cx=-3 cz=-4 role=3
+[RESERVE_SLOT] Created new slot: cx=-3 cz=-4 role=3 iterations=0
+[ADOPT] SUCCESS chunk (-7,1) now resident. loaded_from_persist=0
+[WORKER] Remesh complete cx=-5 cz=-2 built=000001EDC6865910
+[WORKER] Queuing result cx=-5 cz=-2 gen=2108567 space=global_chunk built=000001EDC6865910 results=0/768
+[MEM] cx=-5 cz=-2 type=REMESH WorkingSet=7353.8MB PagefileUsage=7371.3MB jobs=4 results=1
+[WORKER] Processing job cx=-5 cz=-1 gen=2131863 space=global_chunk type=REMESH
+[WORKER] Remeshing cx=-5 cz=-1
+[RESERVE_SLOT] cx=-5 cz=-1 role=1
+[RESERVE_SLOT] Created new slot: cx=-5 cz=-1 role=1 iterations=0
+[RESERVE_SLOT] cx=-6 cz=-1 role=3
+[RESERVE_SLOT] Created new slot: cx=-6 cz=-1 role=3 iterations=0
+[RESERVE_SLOT] cx=-4 cz=-1 role=3
+[RESERVE_SLOT] Created new slot: cx=-4 cz=-1 role=3 iterations=0
+[RESERVE_SLOT] cx=-5 cz=-2 role=3
+[RESERVE_SLOT] Created new slot: cx=-5 cz=-2 role=3 iterations=0
+[RESERVE_SLOT] cx=-5 cz=0 role=3
+[RESERVE_SLOT] Created new slot: cx=-5 cz=0 role=3 iterations=0
+[RESERVE_SLOT] cx=-6 cz=-2 role=3
+[RESERVE_SLOT] Created new slot: cx=-6 cz=-2 role=3 iterations=0
+[RESERVE_SLOT] cx=-4 cz=-2 role=3
+[RESERVE_SLOT] Created new slot: cx=-4 cz=-2 role=3 iterations=0
+[RESERVE_SLOT] cx=-6 cz=0 role=3
+[RESERVE_SLOT] Created new slot: cx=-6 cz=0 role=3 iterations=0
+[RESERVE_SLOT] cx=-4 cz=0 role=3
+[RESERVE_SLOT] Created new slot: cx=-4 cz=0 role=3 iterations=0
+[WORKER] Remesh complete cx=-5 cz=-3 built=000001EDC686C7B0
+[WORKER] Queuing result cx=-5 cz=-3 gen=2084946 space=global_chunk built=000001EDC686C7B0 results=0/768
+[MEM] cx=-5 cz=-3 type=REMESH WorkingSet=7337.5MB PagefileUsage=7355.0MB jobs=4 results=1
+[WORKER] Processing job cx=-2 cz=-2 gen=2125895 space=global_chunk type=REMESH
+[WORKER] Remeshing cx=-2 cz=-2
+[RESERVE_SLOT] cx=-2 cz=-2 role=1
+[RESERVE_SLOT] Created new slot: cx=-2 cz=-2 role=1 iterations=0
+[RESERVE_SLOT] cx=-3 cz=-2 role=3
+[RESERVE_SLOT] Created new slot: cx=-3 cz=-2 role=3 iterations=0
+[RESERVE_SLOT] cx=-1 cz=-2 role=3
+[RESERVE_SLOT] Created new slot: cx=-1 cz=-2 role=3 iterations=0
+[RESERVE_SLOT] cx=-2 cz=-3 role=3
+[RESERVE_SLOT] Created new slot: cx=-2 cz=-3 role=3 iterations=0
+[RESERVE_SLOT] cx=-2 cz=-1 role=3
+[RESERVE_SLOT] Created new slot: cx=-2 cz=-1 role=3 iterations=0
+[RESERVE_SLOT] cx=-3 cz=-3 role=3
+[RESERVE_SLOT] Created new slot: cx=-3 cz=-3 role=3 iterations=0
+[RESERVE_SLOT] cx=-1 cz=-3 role=3
+[RESERVE_SLOT] Created new slot: cx=-1 cz=-3 role=3 iterations=0
+[RESERVE_SLOT] cx=-3 cz=-1 role=3
+[RESERVE_SLOT] Created new slot: cx=-3 cz=-1 role=3 iterations=0
+[RESERVE_SLOT] cx=-1 cz=-1 role=3
+[RESERVE_SLOT] Created new slot: cx=-1 cz=-1 role=3 iterations=0
+[WORKER] Remesh complete cx=-2 cz=-3 built=000001EDC9D812F0
+[WORKER] Queuing result cx=-2 cz=-3 gen=2108468 space=global_chunk built=000001EDC9D812F0 results=0/768
+[MEM] cx=-2 cz=-3 type=REMESH WorkingSet=7320.8MB PagefileUsage=7338.3MB jobs=4 results=1
+[WORKER] Processing job cx=-6 cz=-5 gen=2042865 space=global_chunk type=REMESH
+[WORKER] Remeshing cx=-6 cz=-5
+[RESERVE_SLOT] cx=-6 cz=-5 role=1
+[RESERVE_SLOT] Created new slot: cx=-6 cz=-5 role=1 iterations=0
+[RESERVE_SLOT] cx=-7 cz=-5 role=3
+[RESERVE_SLOT] Created new slot: cx=-7 cz=-5 role=3 iterations=0
+[RESERVE_SLOT] cx=-5 cz=-5 role=3
+[RESERVE_SLOT] Created new slot: cx=-5 cz=-5 role=3 iterations=0
+[RESERVE_SLOT] cx=-6 cz=-6 role=3
+[RESERVE_SLOT] Created new slot: cx=-6 cz=-6 role=3 iterations=0
+[RESERVE_SLOT] cx=-6 cz=-4 role=3
+[RESERVE_SLOT] Created new slot: cx=-6 cz=-4 role=3 iterations=0
+[RESERVE_SLOT] cx=-7 cz=-6 role=3
+[RESERVE_SLOT] Created new slot: cx=-7 cz=-6 role=3 iterations=0
+[RESERVE_SLOT] cx=-5 cz=-6 role=3
+[RESERVE_SLOT] Created new slot: cx=-5 cz=-6 role=3 iterations=0
+[RESERVE_SLOT] cx=-7 cz=-4 role=3
+[RESERVE_SLOT] Created new slot: cx=-7 cz=-4 role=3 iterations=0
+[RESERVE_SLOT] cx=-5 cz=-4 role=3
+[RESERVE_SLOT] Created new slot: cx=-5 cz=-4 role=3 iterations=0
+[WORKER] Remesh complete cx=-4 cz=-4 built=000001EDC2B0A5B0
+[WORKER] Queuing result cx=-4 cz=-4 gen=2049177 space=global_chunk built=000001EDC2B0A5B0 results=0/768
+[MEM] cx=-4 cz=-4 type=REMESH WorkingSet=7308.9MB PagefileUsage=7326.5MB jobs=4 results=1
+[WORKER] Processing job cx=-1 cz=-3 gen=2110146 space=global_chunk type=REMESH
+[WORKER] Remeshing cx=-1 cz=-3
+[RESERVE_SLOT] cx=-1 cz=-3 role=1
+[RESERVE_SLOT] Created new slot: cx=-1 cz=-3 role=1 iterations=0
+[RESERVE_SLOT] cx=-2 cz=-3 role=3
+[RESERVE_SLOT] Created new slot: cx=-2 cz=-3 role=3 iterations=0
+[RESERVE_SLOT] cx=0 cz=-3 role=3
+[RESERVE_SLOT] Created new slot: cx=0 cz=-3 role=3 iterations=0
+[RESERVE_SLOT] cx=-1 cz=-4 role=3
+[RESERVE_SLOT] Created new slot: cx=-1 cz=-4 role=3 iterations=0
+[RESERVE_SLOT] cx=-1 cz=-2 role=3
+[RESERVE_SLOT] Created new slot: cx=-1 cz=-2 role=3 iterations=0
+[RESERVE_SLOT] cx=-2 cz=-4 role=3
+[RESERVE_SLOT] Created new slot: cx=-2 cz=-4 role=3 iterations=0
+[RESERVE_SLOT] cx=0 cz=-4 role=3
+[RESERVE_SLOT] Created new slot: cx=0 cz=-4 role=3 iterations=0
+[RESERVE_SLOT] cx=-2 cz=-2 role=3
+[RESERVE_SLOT] Created new slot: cx=-2 cz=-2 role=3 iterations=0
+[RESERVE_SLOT] cx=0 cz=-2 role=3
+[RESERVE_SLOT] Created new slot: cx=0 cz=-2 role=3 iterations=0
+[WORKER] Remesh complete cx=-5 cz=-4 built=000001EDA65F91D0
+[WORKER] Queuing result cx=-5 cz=-4 gen=2050445 space=global_chunk built=000001EDA65F91D0 results=0/768
+[MEM] cx=-5 cz=-4 type=REMESH WorkingSet=7280.6MB PagefileUsage=7298.1MB jobs=4 results=1
+[WORKER] Processing job cx=-6 cz=-2 gen=2086695 space=global_chunk type=REMESH
+[WORKER] Remeshing cx=-6 cz=-2
+[RESERVE_SLOT] cx=-6 cz=-2 role=1
+[RESERVE_SLOT] Created new slot: cx=-6 cz=-2 role=1 iterations=0
+[RESERVE_SLOT] cx=-7 cz=-2 role=3
+[RESERVE_SLOT] Created new slot: cx=-7 cz=-2 role=3 iterations=0
+[RESERVE_SLOT] cx=-5 cz=-2 role=3
+[RESERVE_SLOT] Created new slot: cx=-5 cz=-2 role=3 iterations=0
+[RESERVE_SLOT] cx=-6 cz=-3 role=3
+[RESERVE_SLOT] Created new slot: cx=-6 cz=-3 role=3 iterations=0
+[RESERVE_SLOT] cx=-6 cz=-1 role=3
+[RESERVE_SLOT] Created new slot: cx=-6 cz=-1 role=3 iterations=0
+[RESERVE_SLOT] cx=-7 cz=-3 role=3
+[RESERVE_SLOT] Created new slot: cx=-7 cz=-3 role=3 iterations=0
+[RESERVE_SLOT] cx=-5 cz=-3 role=3
+[RESERVE_SLOT] Created new slot: cx=-5 cz=-3 role=3 iterations=0
+[RESERVE_SLOT] cx=-7 cz=-1 role=3
+[RESERVE_SLOT] Created new slot: cx=-7 cz=-1 role=3 iterations=0
+[RESERVE_SLOT] cx=-5 cz=-1 role=3
+[RESERVE_SLOT] Created new slot: cx=-5 cz=-1 role=3 iterations=0
+[WALL] HEALTH W=4/0/0 N=4/0/0 E=4/0/0 S=4/0/0 (desired/resident/ready)
+[WORKER] Remesh complete cx=-3 cz=-4 built=000001EDA66042D0
+[WORKER] Queuing result cx=-3 cz=-4 gen=2112710 space=global_chunk built=000001EDA66042D0 results=0/768
+[MEM] cx=-3 cz=-4 type=REMESH WorkingSet=7259.3MB PagefileUsage=7276.7MB jobs=4 results=1
+[WORKER] Processing job cx=-6 cz=-4 gen=2078482 space=global_chunk type=REMESH
+[WORKER] Remeshing cx=-6 cz=-4
+[RESERVE_SLOT] cx=-6 cz=-4 role=1
+[RESERVE_SLOT] Created new slot: cx=-6 cz=-4 role=1 iterations=0
+[RESERVE_SLOT] cx=-7 cz=-4 role=3
+[RESERVE_SLOT] Created new slot: cx=-7 cz=-4 role=3 iterations=0
+[RESERVE_SLOT] cx=-5 cz=-4 role=3
+[RESERVE_SLOT] Created new slot: cx=-5 cz=-4 role=3 iterations=0
+[RESERVE_SLOT] cx=-6 cz=-5 role=3
+[RESERVE_SLOT] Created new slot: cx=-6 cz=-5 role=3 iterations=0
+[RESERVE_SLOT] cx=-6 cz=-3 role=3
+[RESERVE_SLOT] Created new slot: cx=-6 cz=-3 role=3 iterations=0
+[RESERVE_SLOT] cx=-7 cz=-5 role=3
+[RESERVE_SLOT] Created new slot: cx=-7 cz=-5 role=3 iterations=0
+[RESERVE_SLOT] cx=-5 cz=-5 role=3
+[RESERVE_SLOT] Created new slot: cx=-5 cz=-5 role=3 iterations=0
+[RESERVE_SLOT] cx=-7 cz=-3 role=3
+[RESERVE_SLOT] Created new slot: cx=-7 cz=-3 role=3 iterations=0
+[RESERVE_SLOT] cx=-5 cz=-3 role=3
+[RESERVE_SLOT] Created new slot: cx=-5 cz=-3 role=3 iterations=0
+[WORKER] Remesh complete cx=-4 cz=-1 built=000001EDC68637E0
+[WORKER] Queuing result cx=-4 cz=-1 gen=2150739 space=global_chunk built=000001EDC68637E0 results=0/768
+[MEM] cx=-4 cz=-1 type=REMESH WorkingSet=7236.2MB PagefileUsage=7253.4MB jobs=4 results=1
+[WORKER] Processing job cx=-2 cz=-1 gen=2122073 space=global_chunk type=REMESH
+[WORKER] Remeshing cx=-2 cz=-1
+[RESERVE_SLOT] cx=-2 cz=-1 role=1
+[RESERVE_SLOT] Created new slot: cx=-2 cz=-1 role=1 iterations=0
+[RESERVE_SLOT] cx=-3 cz=-1 role=3
+[RESERVE_SLOT] Created new slot: cx=-3 cz=-1 role=3 iterations=0
+[RESERVE_SLOT] cx=-1 cz=-1 role=3
+[RESERVE_SLOT] Created new slot: cx=-1 cz=-1 role=3 iterations=0
+[RESERVE_SLOT] cx=-2 cz=-2 role=3
+[RESERVE_SLOT] Created new slot: cx=-2 cz=-2 role=3 iterations=0
+[RESERVE_SLOT] cx=-2 cz=0 role=3
+[RESERVE_SLOT] Created new slot: cx=-2 cz=0 role=3 iterations=0
+[RESERVE_SLOT] cx=-3 cz=-2 role=3
+[RESERVE_SLOT] Created new slot: cx=-3 cz=-2 role=3 iterations=0
+[RESERVE_SLOT] cx=-1 cz=-2 role=3
+[RESERVE_SLOT] Created new slot: cx=-1 cz=-2 role=3 iterations=0
+[RESERVE_SLOT] cx=-3 cz=0 role=3
+[RESERVE_SLOT] Created new slot: cx=-3 cz=0 role=3 iterations=0
+[RESERVE_SLOT] cx=-1 cz=0 role=3
+[RESERVE_SLOT] Created new slot: cx=-1 cz=0 role=3 iterations=0
+[WORKER] Meshing cx=-8 cz=1 (persisted=0)
+[RESERVE_SLOT] cx=-8 cz=1 role=1
+[RESERVE_SLOT] Created new slot: cx=-8 cz=1 role=1 iterations=0
+[WORKER] Remesh complete cx=-5 cz=-5 built=000001EDC686BCA0
+[WORKER] Queuing result cx=-5 cz=-5 gen=2073955 space=global_chunk built=000001EDC686BCA0 results=0/768
+[MEM] cx=-5 cz=-5 type=REMESH WorkingSet=7211.6MB PagefileUsage=7228.7MB jobs=4 results=1
+[WORKER] Processing job cx=-3 cz=-5 gen=2067059 space=global_chunk type=REMESH
+[WORKER] Remeshing cx=-3 cz=-5
+[RESERVE_SLOT] cx=-3 cz=-5 role=1
+[RESERVE_SLOT] Created new slot: cx=-3 cz=-5 role=1 iterations=0
+[RESERVE_SLOT] cx=-4 cz=-5 role=3
+[RESERVE_SLOT] Created new slot: cx=-4 cz=-5 role=3 iterations=0
+[RESERVE_SLOT] cx=-2 cz=-5 role=3
+[RESERVE_SLOT] Created new slot: cx=-2 cz=-5 role=3 iterations=0
+[RESERVE_SLOT] cx=-3 cz=-6 role=3
+[RESERVE_SLOT] Created new slot: cx=-3 cz=-6 role=3 iterations=0
+[RESERVE_SLOT] cx=-3 cz=-4 role=3
+[RESERVE_SLOT] Created new slot: cx=-3 cz=-4 role=3 iterations=0
+[RESERVE_SLOT] cx=-4 cz=-6 role=3
+[RESERVE_SLOT] Created new slot: cx=-4 cz=-6 role=3 iterations=0
+[RESERVE_SLOT] cx=-2 cz=-6 role=3
+[RESERVE_SLOT] Created new slot: cx=-2 cz=-6 role=3 iterations=0
+[RESERVE_SLOT] cx=-4 cz=-4 role=3
+[RESERVE_SLOT] Created new slot: cx=-4 cz=-4 role=3 iterations=0
+[RESERVE_SLOT] cx=-2 cz=-4 role=3
+[RESERVE_SLOT] Created new slot: cx=-2 cz=-4 role=3 iterations=0
+[WORKER] Remesh complete cx=-3 cz=-2 built=000001EDC9D82910
+[WORKER] Queuing result cx=-3 cz=-2 gen=2136957 space=global_chunk built=000001EDC9D82910 results=0/768
+[MEM] cx=-3 cz=-2 type=REMESH WorkingSet=7200.3MB PagefileUsage=7217.4MB jobs=4 results=1
+[WORKER] Processing job cx=-6 cz=-3 gen=2091078 space=global_chunk type=REMESH
+[WORKER] Remeshing cx=-6 cz=-3
+[RESERVE_SLOT] cx=-6 cz=-3 role=1
+[RESERVE_SLOT] Created new slot: cx=-6 cz=-3 role=1 iterations=0
+[RESERVE_SLOT] cx=-7 cz=-3 role=3
+[RESERVE_SLOT] Created new slot: cx=-7 cz=-3 role=3 iterations=0
+[RESERVE_SLOT] cx=-5 cz=-3 role=3
+[RESERVE_SLOT] Created new slot: cx=-5 cz=-3 role=3 iterations=0
+[RESERVE_SLOT] cx=-6 cz=-4 role=3
+[RESERVE_SLOT] Created new slot: cx=-6 cz=-4 role=3 iterations=0
+[RESERVE_SLOT] cx=-6 cz=-2 role=3
+[RESERVE_SLOT] Created new slot: cx=-6 cz=-2 role=3 iterations=0
+[RESERVE_SLOT] cx=-7 cz=-4 role=3
+[RESERVE_SLOT] Created new slot: cx=-7 cz=-4 role=3 iterations=0
+[RESERVE_SLOT] cx=-5 cz=-4 role=3
+[RESERVE_SLOT] Created new slot: cx=-5 cz=-4 role=3 iterations=0
+[RESERVE_SLOT] cx=-7 cz=-2 role=3
+[RESERVE_SLOT] Created new slot: cx=-7 cz=-2 role=3 iterations=0
+[RESERVE_SLOT] cx=-5 cz=-2 role=3
+[RESERVE_SLOT] Created new slot: cx=-5 cz=-2 role=3 iterations=0
+[WORKER] Meshing cx=-1 cz=-7 (persisted=0)
+[RESERVE_SLOT] cx=-1 cz=-7 role=1
+[RESERVE_SLOT] Created new slot: cx=-1 cz=-7 role=1 iterations=0
+[WORKER] Remesh complete cx=-4 cz=-5 built=000001EDC9D8B8E0
+[WORKER] Queuing result cx=-4 cz=-5 gen=2058229 space=global_chunk built=000001EDC9D8B8E0 results=0/768
+[MEM] cx=-4 cz=-5 type=REMESH WorkingSet=7187.3MB PagefileUsage=7204.6MB jobs=4 results=1
+[WORKER] Processing job cx=-2 cz=-4 gen=2136047 space=global_chunk type=REMESH
+[WORKER] Remeshing cx=-2 cz=-4
+[RESERVE_SLOT] cx=-2 cz=-4 role=1
+[RESERVE_SLOT] Created new slot: cx=-2 cz=-4 role=1 iterations=0
+[RESERVE_SLOT] cx=-3 cz=-4 role=3
+[RESERVE_SLOT] Created new slot: cx=-3 cz=-4 role=3 iterations=0
+[RESERVE_SLOT] cx=-1 cz=-4 role=3
+[RESERVE_SLOT] Created new slot: cx=-1 cz=-4 role=3 iterations=0
+[RESERVE_SLOT] cx=-2 cz=-5 role=3
+[RESERVE_SLOT] Created new slot: cx=-2 cz=-5 role=3 iterations=0
+[RESERVE_SLOT] cx=-2 cz=-3 role=3
+[RESERVE_SLOT] Created new slot: cx=-2 cz=-3 role=3 iterations=0
+[RESERVE_SLOT] cx=-3 cz=-5 role=3
+[RESERVE_SLOT] Created new slot: cx=-3 cz=-5 role=3 iterations=0
+[RESERVE_SLOT] cx=-1 cz=-5 role=3
+[RESERVE_SLOT] Created new slot: cx=-1 cz=-5 role=3 iterations=0
+[RESERVE_SLOT] cx=-3 cz=-3 role=3
+[RESERVE_SLOT] Created new slot: cx=-3 cz=-3 role=3 iterations=0
+[RESERVE_SLOT] cx=-1 cz=-3 role=3
+[RESERVE_SLOT] Created new slot: cx=-1 cz=-3 role=3 iterations=0
+[WORKER] Meshing cx=-7 cz=-7 (persisted=0)
+[RESERVE_SLOT] cx=-7 cz=-7 role=1
+[RESERVE_SLOT] Created new slot: cx=-7 cz=-7 role=1 iterations=0
+[WORKER] Meshing cx=0 cz=-7 (persisted=0)
+[RESERVE_SLOT] cx=0 cz=-7 role=1
+[RESERVE_SLOT] Created new slot: cx=0 cz=-7 role=1 iterations=0
+[WORKER] Meshing cx=0 cz=1 (persisted=0)
+[RESERVE_SLOT] cx=0 cz=1 role=1
+[RESERVE_SLOT] Created new slot: cx=0 cz=1 role=1 iterations=0
+[WORKER] Meshing cx=-8 cz=-7 (persisted=0)
+[RESERVE_SLOT] cx=-8 cz=-7 role=1
+[RESERVE_SLOT] Created new slot: cx=-8 cz=-7 role=1 iterations=0
+[TRACE] ms=55500 event=wm_close detail=WM_CLOSE frontend=20 session=1 worldgen_active=0 stage=0
+[TRACE] ms=55516 event=wm_destroy detail=WM_DESTROY frontend=20 session=1 worldgen_active=0 stage=0
+[TRACE] ms=55547 event=wm_quit detail=WM_QUIT frontend=20 session=1 worldgen_active=0 stage=0
+[TRACE] ms=55547 event=window_pump_returned_false detail=sdk_window_pump returned false frontend=20 session=1 worldgen_active=0 stage=0
+[NQL SDK] nqlsdk_frame: window_pump returned false
+[TRACE] ms=55547 event=runtime_shutdown_begin detail=nqlsdk_shutdown frontend=20 session=1 worldgen_active=0 stage=0
+[WORKER] Remesh complete cx=-2 cz=-2 built=000001EDA65F9CE0
+[WORKER] Queuing result cx=-2 cz=-2 gen=2125895 space=global_chunk built=000001EDA65F9CE0 results=0/768
+[MEM] cx=-2 cz=-2 type=REMESH WorkingSet=7251.6MB PagefileUsage=7269.0MB jobs=0 results=1
+[WORKER] Remesh complete cx=-5 cz=-1 built=000001EDA65FBE10
+[WORKER] Queuing result cx=-5 cz=-1 gen=2131863 space=global_chunk built=000001EDA65FBE10 results=0/768
+[MEM] cx=-5 cz=-1 type=REMESH WorkingSet=7242.4MB PagefileUsage=7259.7MB jobs=0 results=1
+[WORKER] Remesh complete cx=-6 cz=-5 built=000001EDA65FC920
+[WORKER] Queuing result cx=-6 cz=-5 gen=2042865 space=global_chunk built=000001EDA65FC920 results=0/768
+[MEM] cx=-6 cz=-5 type=REMESH WorkingSet=7252.1MB PagefileUsage=7269.3MB jobs=0 results=1
+[WORKER] Remesh complete cx=-1 cz=-3 built=000001EDA65FA7F0
+[WORKER] Queuing result cx=-1 cz=-3 gen=2110146 space=global_chunk built=000001EDA65FA7F0 results=0/768
+[MEM] cx=-1 cz=-3 type=REMESH WorkingSet=7255.8MB PagefileUsage=7273.0MB jobs=0 results=1
+[WORKER] Remesh complete cx=-6 cz=-2 built=000001EDA65FA7F0
+[WORKER] Queuing result cx=-6 cz=-2 gen=2086695 space=global_chunk built=000001EDA65FA7F0 results=0/768
+[MEM] cx=-6 cz=-2 type=REMESH WorkingSet=7249.2MB PagefileUsage=7266.4MB jobs=0 results=1
+[WORKER] Remesh complete cx=-6 cz=-4 built=000001EDA65FC920
+[WORKER] Queuing result cx=-6 cz=-4 gen=2078482 space=global_chunk built=000001EDA65FC920 results=0/768
+[MEM] cx=-6 cz=-4 type=REMESH WorkingSet=7241.6MB PagefileUsage=7258.8MB jobs=0 results=0
+[WORKER] Remesh complete cx=-2 cz=-1 built=000001EDA65FC920
+[WORKER] Queuing result cx=-2 cz=-1 gen=2122073 space=global_chunk built=000001EDA65FC920 results=0/768
+[MEM] cx=-2 cz=-1 type=REMESH WorkingSet=7235.0MB PagefileUsage=7252.1MB jobs=0 results=0
+[WORKER] Remesh complete cx=-3 cz=-5 built=000001EDA65FA7F0
+[WORKER] Queuing result cx=-3 cz=-5 gen=2067059 space=global_chunk built=000001EDA65FA7F0 results=0/768
+[MEM] cx=-3 cz=-5 type=REMESH WorkingSet=7225.8MB PagefileUsage=7242.9MB jobs=0 results=0
+[WORKER] Remesh complete cx=-6 cz=-3 built=000001EDA65FC920
+[WORKER] Queuing result cx=-6 cz=-3 gen=2091078 space=global_chunk built=000001EDA65FC920 results=0/768
+[MEM] cx=-6 cz=-3 type=REMESH WorkingSet=7216.4MB PagefileUsage=7233.5MB jobs=0 results=0
+[WORKER] Mesh complete cx=-8 cz=1 built=000001EDA65FB300
+[WORKER] Queuing result cx=-8 cz=1 gen=1 space=global_chunk built=000001EDA65FB300 results=0/768
+[MEM] cx=-8 cz=1 type=GEN WorkingSet=7211.7MB PagefileUsage=7228.7MB jobs=0 results=0
+[WORKER] Remesh complete cx=-2 cz=-4 built=000001EDA65FBE10
+[WORKER] Queuing result cx=-2 cz=-4 gen=2136047 space=global_chunk built=000001EDA65FBE10 results=0/768
+[MEM] cx=-2 cz=-4 type=REMESH WorkingSet=7157.2MB PagefileUsage=7168.0MB jobs=0 results=0
+[WORKER] Mesh complete cx=-1 cz=-7 built=000001EDA65FA7F0
+[WORKER] Queuing result cx=-1 cz=-7 gen=1 space=global_chunk built=000001EDA65FA7F0 results=0/768
+[MEM] cx=-1 cz=-7 type=GEN WorkingSet=7154.1MB PagefileUsage=7164.8MB jobs=0 results=0
+[WORKER] Mesh complete cx=0 cz=-7 built=000001EDA65FA7F0
+[WORKER] Mesh complete cx=-7 cz=-7 built=000001EDA65FBE10
+[WORKER] Queuing result cx=0 cz=-7 gen=1 space=global_chunk built=000001EDA65FA7F0 results=0/768
+[WORKER] Queuing result cx=-7 cz=-7 gen=1 space=global_chunk built=000001EDA65FBE10 results=0/768
+[MEM] cx=-7 cz=-7 type=GEN WorkingSet=7081.6MB PagefileUsage=7092.2MB jobs=0 results=0
+[WORKER] Mesh complete cx=0 cz=1 built=000001EDA65F9CE0
+[WORKER] Queuing result cx=0 cz=1 gen=1 space=global_chunk built=000001EDA65F9CE0 results=0/768
+[MEM] cx=0 cz=1 type=GEN WorkingSet=7053.7MB PagefileUsage=7064.3MB jobs=0 results=0
+[STREAM] waiting for worker shutdown elapsed=2000ms active_workers=1 pending_jobs=0 pending_results=0
+[WORKER] Mesh complete cx=-8 cz=-7 built=000001EDA65FB300
+[WORKER] Queuing result cx=-8 cz=-7 gen=1 space=global_chunk built=000001EDA65FB300 results=0/768
+[MEM] cx=-8 cz=-7 type=GEN WorkingSet=7014.5MB PagefileUsage=7025.0MB jobs=0 results=1

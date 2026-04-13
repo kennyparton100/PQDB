@@ -1,0 +1,12 @@
+=== NQL SDK Session Debug Log ===
+started_local=2026-04-13 16:45:19.421
+world_id=world_050
+world_dir=WorldSaves\world_050
+trace_jsonl=DebugRuns\live_world_creation_20260413_164519.jsonl
+---
+[TRACE] ms=0 event=trace_reset detail=world_create_menu_activate frontend=18 session=0 worldgen_active=0 stage=0
+[TRACE] ms=0 event=world_create_enter_pressed detail=world create menu activate frontend=18 session=0 worldgen_active=0 stage=0
+[TRACE] ms=0 event=bind_world frontend=18 session=0 worldgen_active=0 stage=0
+[TRACE] ms=0 event=world_create_meta_written detail=WorldSaves\world_050\meta.txt frontend=18 session=0 worldgen_active=0 stage=0
+[TRACE] ms=0 event=bind_world frontend=18 session=0 worldgen_active=0 stage=0
+[TRACE] ms=0 event=world_create_menu_success detail=world_050 frontend=18 session=0 worldgen_active=0 stage=0

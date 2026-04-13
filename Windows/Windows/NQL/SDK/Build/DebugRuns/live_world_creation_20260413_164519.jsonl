@@ -1,0 +1,6 @@
+{"ms":0,"event":"trace_reset","world_id":"","world_dir":"","detail":"world_create_menu_activate","frontend_view":18,"world_session_active":false,"world_generation_active":false,"world_generation_stage":0}
+{"ms":0,"event":"world_create_enter_pressed","world_id":"","world_dir":"","detail":"world create menu activate","frontend_view":18,"world_session_active":false,"world_generation_active":false,"world_generation_stage":0}
+{"ms":0,"event":"bind_world","world_id":"world_050","world_dir":"WorldSaves\\world_050","frontend_view":18,"world_session_active":false,"world_generation_active":false,"world_generation_stage":0}
+{"ms":0,"event":"world_create_meta_written","world_id":"world_050","world_dir":"WorldSaves\\world_050","detail":"WorldSaves\\world_050\\meta.txt","frontend_view":18,"world_session_active":false,"world_generation_active":false,"world_generation_stage":0}
+{"ms":0,"event":"bind_world","world_id":"world_050","world_dir":"WorldSaves\\world_050","frontend_view":18,"world_session_active":false,"world_generation_active":false,"world_generation_stage":0}
+{"ms":0,"event":"world_create_menu_success","world_id":"world_050","world_dir":"WorldSaves\\world_050","detail":"world_050","frontend_view":18,"world_session_active":false,"world_generation_active":false,"world_generation_stage":0}
